@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@source "../../**/*.php";
+
+@theme {
+    --font-prata: 'Prata', serif;
+    --font-poppins: 'Poppins', sans-serif;
+
+    --color-gold: #b3814e;
+    --color-gold-light: #e3c98f;
+    --color-gold-pale: #f5ecdc;
+    --color-gold-dark: #8f6535;
+
+    --color-ink: #131313;
+    --color-ink-soft: #3d3d3d;
+    --color-ink-muted: #6f6f6f;
+    --color-ink-line: #e7e2d8;
+
+    --color-brand-red: #ed1c24;
+    --color-brand-purple: #302e5a;
+    --color-brand-cream: #faf7f1;
+}
