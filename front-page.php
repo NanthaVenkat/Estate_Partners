@@ -11,50 +11,12 @@ $img_uri = get_template_directory_uri() . '/assets/images';
 
                 <!-- Slide 1 -->
                 <div class="swiper-slide relative">
-                    <img src="<?php echo esc_url($img_uri . '/2_home_i_2.png'); ?>" alt="Couple enjoying sunset view from a high-rise apartment balcony in Coimbatore" class="absolute inset-0 w-full h-full object-cover" />
-                    <div class="hero-overlay absolute inset-0"></div>
-                    <div class="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center">
-                        <div class="max-w-2xl text-white">
-                            <p class="text-gold-light font-semibold tracking-[0.2em] uppercase text-xs sm:text-sm mb-4">Estate Partners &bull; Coimbatore</p>
-                            <h1 class="font-prata text-4xl sm:text-5xl lg:text-6xl leading-[1.12]">Your Trusted Real Estate Partner in Coimbatore</h1>
-                            <p class="mt-5 text-lg sm:text-xl font-medium text-white/95">Find the right property in the right neighbourhood</p>
-                            <p class="mt-3 text-sm sm:text-base text-white/80 leading-relaxed">Explore handpicked apartments, villas and residential plots across Coimbatore — with location, price, configurations, amenities, approvals and possession details to shortlist with confidence.</p>
-                            <div class="mt-8 flex flex-wrap gap-4">
-                                <a href="#projects" class="inline-flex items-center gap-2 bg-gold hover:bg-gold-dark text-white font-semibold px-7 py-3.5 rounded-lg transition-colors">Explore Our Projects <i class="fa-solid fa-arrow-right text-sm"></i></a>
-                                <a href="#find" class="inline-flex items-center gap-2 border-2 border-white/90 text-white font-semibold px-7 py-3 rounded-lg hover:bg-white hover:text-ink transition-colors">Find a Property</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Slide 2 -->
-                <div class="swiper-slide relative">
                     <img src="<?php echo esc_url($img_uri . '/6_2_802.png'); ?>" alt="Premium villa exterior in Coimbatore" class="absolute inset-0 w-full h-full object-cover" />
                     <div class="hero-overlay absolute inset-0"></div>
-                    <div class="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center">
-                        <div class="max-w-2xl text-white">
-                            <p class="text-gold-light font-semibold tracking-[0.2em] uppercase text-xs sm:text-sm mb-4">Villas &bull; Gated Communities</p>
-                            <h2 class="font-prata text-4xl sm:text-5xl lg:text-6xl leading-[1.12]">Villas Designed for Space, Privacy &amp; Premium Living</h2>
-                            <p class="mt-5 text-sm sm:text-base text-white/80 leading-relaxed">Discover independent and gated-community villas designed for families looking for more space and comfort.</p>
-                            <div class="mt-8 flex flex-wrap gap-4">
-                                <a href="#types" class="inline-flex items-center gap-2 bg-gold hover:bg-gold-dark text-white font-semibold px-7 py-3.5 rounded-lg transition-colors">Explore Villas <i class="fa-solid fa-arrow-right text-sm"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Slide 3 -->
-                <div class="swiper-slide relative">
-                    <img src="<?php echo esc_url($img_uri . '/24_2_802.png'); ?>" alt="Modern apartment residences with landscaped pool deck" class="absolute inset-0 w-full h-full object-cover" />
-                    <div class="hero-overlay absolute inset-0"></div>
-                    <div class="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center">
-                        <div class="max-w-2xl text-white">
-                            <p class="text-gold-light font-semibold tracking-[0.2em] uppercase text-xs sm:text-sm mb-4">Apartments &bull; Prime Locations</p>
-                            <h2 class="font-prata text-4xl sm:text-5xl lg:text-6xl leading-[1.12]">Apartments That Fit the Way You Live</h2>
-                            <p class="mt-5 text-sm sm:text-base text-white/80 leading-relaxed">From compact 1 &amp; 2 BHK homes to spacious 3 &amp; 4 BHK residences across prime Coimbatore locations.</p>
-                            <div class="mt-8 flex flex-wrap gap-4">
-                                <a href="#types" class="inline-flex items-center gap-2 bg-gold hover:bg-gold-dark text-white font-semibold px-7 py-3.5 rounded-lg transition-colors">Explore Apartments <i class="fa-solid fa-arrow-right text-sm"></i></a>
-                            </div>
+                    <div class="container relative h-full mx-auto px-4 sm:px-6 lg:px-8 flex items-center">
+                        <div class="max-w-6xl text-white">
+                            <p class="text-white font-semibold text-lg mb-4">Find the Right Property in Coimbatore</p>
+                            <h2 class="font-prata text-4xl sm:text-3xl lg:text-5xl leading-snug">Explore verified residential projects across Coimbatore - from premium apartments and villas to residential plots.</h2>
                         </div>
                     </div>
                 </div>
@@ -66,7 +28,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
         </div>
 
         <!-- Find-property bar -->
-        <div id="find" class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 -mt-16 sm:-mt-20">
+        <!-- <div id="find" class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 -mt-16 sm:-mt-20">
             <div class="bg-white rounded-2xl shadow-[0_20px_60px_rgba(0,0,0,0.15)] border border-ink-line p-5 sm:p-7">
                 <p class="font-prata text-xl sm:text-2xl mb-1">Find a Property That Fits Your Lifestyle</p>
                 <p class="text-sm text-ink-muted mb-5">Search across locations, types and budgets.</p>
@@ -118,12 +80,12 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                     </div>
                 </form>
             </div>
-        </div>
+        </div> -->
     </section>
 
     <!-- ======================= FEATURED PROJECTS ======================= -->
     <section id="projects" class="py-16 sm:py-20 lg:py-24 scroll-mt-24">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-wrap items-end justify-between gap-6 mb-10 reveal">
                 <div class="max-w-2xl">
                     <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">Handpicked For You</p>
@@ -231,7 +193,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
 
     <!-- ======================= PROPERTY TYPES ======================= -->
     <section id="types" class="py-16 sm:py-20 lg:py-24 bg-brand-cream scroll-mt-24">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-12 reveal">
                 <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">Explore Better Projects</p>
                 <h2 class="font-prata text-3xl sm:text-4xl lg:text-5xl leading-tight">Explore Better Projects with Estate Partners</h2>
@@ -280,7 +242,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
 
     <!-- ======================= ABOUT ======================= -->
     <section id="about" class="py-16 sm:py-20 lg:py-24 scroll-mt-24">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div class="reveal relative order-2 lg:order-1">
                 <div class="rounded-2xl overflow-hidden shadow-xl">
                     <img src="<?php echo esc_url($img_uri . '/9_image_262.png'); ?>" alt="Property agreement signing with Estate Partners guidance" class="w-full h-[420px] sm:h-[520px] object-cover" loading="lazy" />
@@ -313,7 +275,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
 
     <!-- ======================= STATUS / TIMELINE ======================= -->
     <section id="status" class="py-16 sm:py-20 lg:py-24 bg-ink text-white scroll-mt-24">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-10 reveal">
                 <p class="text-gold-light font-bold uppercase tracking-[0.18em] text-sm mb-3">Explore Projects by Project Status</p>
                 <h2 class="font-prata text-3xl sm:text-4xl lg:text-5xl leading-tight">Find Projects Based on Your Timeline</h2>
@@ -404,7 +366,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
 
     <!-- ======================= LOCATIONS ======================= -->
     <section id="locations" class="py-16 sm:py-20 lg:py-24 scroll-mt-24">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div class="reveal relative">
                 <div class="rounded-2xl overflow-hidden shadow-xl">
                     <img src="<?php echo esc_url($img_uri . '/19_pexels_curtis_adams_7027791.png'); ?>" alt="Hands holding a model home — finding the right neighbourhood" class="w-full h-[380px] sm:h-[480px] object-cover" loading="lazy" />
@@ -438,7 +400,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
 
     <!-- ======================= TIMELINE / MOVE-IN ======================= -->
     <section class="pb-16 sm:pb-20 lg:pb-24">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <article class="reveal location-card group relative rounded-2xl overflow-hidden h-96">
                     <img src="<?php echo esc_url($img_uri . '/21_pexels_curtis_adams_7027791.png'); ?>" alt="Ready-to-move living room interior" class="absolute inset-0 w-full h-full object-cover" loading="lazy" />
@@ -494,7 +456,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
 
     <!-- ======================= GUIDANCE / ENQUIRE ======================= -->
     <section id="enquire" class="py-16 sm:py-20 lg:py-24 bg-white scroll-mt-24">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch">
             <div class="reveal relative rounded-2xl overflow-hidden min-h-[420px]">
                 <img src="<?php echo esc_url($img_uri . '/4_image_259.png'); ?>" alt="Handshake over a model home — expert buyer guidance" class="absolute inset-0 w-full h-full object-cover" loading="lazy" />
                 <div class="absolute inset-0 bg-gradient-to-t from-ink/90 via-ink/35 to-transparent"></div>
@@ -509,7 +471,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
             <div class="reveal bg-brand-cream border border-ink-line rounded-2xl p-7 sm:p-10">
                 <h3 class="font-prata text-2xl sm:text-3xl leading-snug">Our property expert will get in touch with you</h3>
                 <p class="mt-2 text-sm text-ink-muted">Share your details and preferences — we will call you back shortly.</p>
-                <form id="enquiry-form" class="mt-7 space-y-4" novalidate>
+                <!-- <form id="enquiry-form" class="mt-7 space-y-4" novalidate>
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <label class="block">
                             <span class="text-xs font-semibold uppercase tracking-wider text-ink-muted">Full Name</span>
@@ -549,14 +511,14 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                     <p id="enquiry-msg" class="hidden text-sm font-medium"></p>
                     <button type="submit" class="w-full inline-flex items-center justify-center gap-2 bg-brand-purple hover:bg-ink text-white font-semibold px-7 py-4 rounded-lg transition-colors">Enquire Now <i class="fa-solid fa-arrow-right text-sm"></i></button>
                     <p class="text-xs text-ink-muted text-center">By submitting, you agree to our Privacy Policy.</p>
-                </form>
+                </form> -->
             </div>
         </div>
     </section>
 
     <!-- ======================= TESTIMONIALS ======================= -->
     <section id="testimonials" class="py-16 sm:py-20 lg:py-24 bg-brand-cream scroll-mt-24">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-12 reveal">
                 <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">Testimonials</p>
                 <h2 class="font-prata text-3xl sm:text-4xl lg:text-5xl leading-tight">What Our Customers Say</h2>
@@ -589,7 +551,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
 
     <!-- ======================= INSIGHTS ======================= -->
     <section id="insights" class="py-16 sm:py-20 lg:py-24 scroll-mt-24">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-wrap items-end justify-between gap-6 mb-10 reveal">
                 <div class="max-w-2xl">
                     <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">Real Estate Insights</p>
@@ -659,18 +621,18 @@ $img_uri = get_template_directory_uri() . '/assets/images';
 
     <!-- ======================= CTA BAND ======================= -->
     <section class="bg-brand-purple text-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-16 flex flex-col lg:flex-row lg:items-center gap-8">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-16 flex flex-col lg:flex-row lg:items-center gap-8">
             <div class="flex-1 reveal">
                 <h2 class="font-prata text-3xl sm:text-4xl leading-tight">Let's help you find a space that truly feels home</h2>
                 <p class="mt-3 text-white/75 text-sm sm:text-base">Register for exclusive offers on handpicked Coimbatore projects.</p>
             </div>
-            <form id="newsletter-form" class="reveal w-full lg:max-w-md" onsubmit="return false;">
+            <!-- <form id="newsletter-form" class="reveal w-full lg:max-w-md" onsubmit="return false;">
                 <div class="flex flex-col sm:flex-row gap-3">
                     <input type="email" required placeholder="Your email address" aria-label="Email address" class="flex-1 rounded-lg px-5 py-3.5 text-sm text-ink focus:outline-none focus:ring-2 focus:ring-gold" />
                     <button type="submit" class="inline-flex items-center justify-center gap-2 bg-gold hover:bg-gold-dark text-white font-semibold px-7 py-3.5 rounded-lg text-sm transition-colors whitespace-nowrap">Register Now</button>
                 </div>
                 <p id="newsletter-note" class="hidden mt-3 text-sm text-gold-light"></p>
-            </form>
+            </form> -->
         </div>
     </section>
 </main>

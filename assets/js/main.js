@@ -3,15 +3,19 @@
   'use strict';
 
   function init() {
+    var gsap = window.gsap;
+    var ScrollTrigger = window.ScrollTrigger;
+    if (gsap && ScrollTrigger) gsap.registerPlugin(ScrollTrigger);
+
     /* ---------- Sticky header shadow ---------- */
     var header = document.getElementById('site-header');
-    function onScrollHeader() {
-      if (!header) return;
-      if (window.scrollY > 8) header.classList.add('scrolled');
-      else header.classList.remove('scrolled');
+    if (header && gsap && ScrollTrigger) {
+      ScrollTrigger.create({
+        start: 8,
+        onEnter: function () { header.classList.add('scrolled'); },
+        onLeaveBack: function () { header.classList.remove('scrolled'); }
+      });
     }
-    window.addEventListener('scroll', onScrollHeader, { passive: true });
-    onScrollHeader();
 
     /* ---------- Mobile menu ---------- */
     var menuBtn = document.getElementById('menu-btn');
@@ -128,60 +132,25 @@
       });
     });
 
-    /* ---------- Enquiry form (demo) ---------- */
-    var form = document.getElementById('enquiry-form');
-    if (form) {
-      form.addEventListener('submit', function (e) {
-        e.preventDefault();
-        var phone = document.getElementById('enquiry-phone');
-        var msg = document.getElementById('enquiry-msg');
-        var digits = phone ? phone.value.replace(/\D/g, '') : '';
-        if (digits.length < 10) {
-          if (msg) {
-            msg.textContent = 'Please enter a valid 10-digit phone number.';
-            msg.classList.remove('hidden', 'text-green-700');
-            msg.classList.add('text-red-600');
-          }
-          if (phone) phone.focus();
-          return;
-        }
-        if (msg) {
-          msg.textContent = 'Thank you! Our property expert will get in touch with you shortly.';
-          msg.classList.remove('hidden', 'text-red-600');
-          msg.classList.add('text-green-700');
-        }
-        form.reset();
-      });
-    }
-
-    /* ---------- Newsletter (demo) ---------- */
-    var newsForm = document.getElementById('newsletter-form');
-    if (newsForm) {
-      newsForm.addEventListener('submit', function (e) {
-        e.preventDefault();
-        var note = document.getElementById('newsletter-note');
-        if (note) {
-          note.textContent = 'Registered! You will now receive exclusive offers.';
-          note.classList.remove('hidden');
-        }
-        newsForm.reset();
-      });
-    }
-
     /* ---------- Reveal on scroll ---------- */
     var revealEls = document.querySelectorAll('.reveal');
-    if ('IntersectionObserver' in window && revealEls.length) {
-      var observer = new IntersectionObserver(function (entries) {
-        entries.forEach(function (entry) {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
-            observer.unobserve(entry.target);
+    if (gsap && ScrollTrigger && revealEls.length && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      gsap.utils.toArray(revealEls).forEach(function (el) {
+        gsap.fromTo(el, {
+          autoAlpha: 0,
+          y: 28
+        }, {
+          autoAlpha: 1,
+          y: 0,
+          duration: 0.7,
+          ease: 'power2.out',
+          scrollTrigger: {
+            trigger: el,
+            start: 'top 88%',
+            once: true
           }
         });
-      }, { threshold: 0.12 });
-      revealEls.forEach(function (el) { observer.observe(el); });
-    } else {
-      revealEls.forEach(function (el) { el.classList.add('visible'); });
+      });
     }
 
     /* ---------- Footer year ---------- */

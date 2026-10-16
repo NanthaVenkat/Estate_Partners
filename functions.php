@@ -81,21 +81,12 @@ function vnktheme_enqueue_assets()
         '11'
     );
 
-    // Compiled Tailwind CSS generated from assets/src/input.css.
-    $tailwind_css = '/assets/css/tailwind.css';
-    wp_enqueue_style(
-        'vnktheme-tailwind',
-        $theme_uri . $tailwind_css,
-        array('vnktheme-fonts'),
-        filemtime($theme_dir . $tailwind_css)
-    );
-
     // Main theme stylesheet (style.css in the theme root): your own custom CSS
     // (.nav-link, .social-btn, .footer-link, etc.). Loads last so it can override the rest.
     wp_enqueue_style(
         'vnktheme-style',
         get_stylesheet_uri(),
-        array('vnktheme-tailwind', 'vnktheme-fontawesome', 'swiper'),
+        array('vnktheme-fontawesome', 'swiper'),
         filemtime(get_stylesheet_directory() . '/style.css')
     );
 
@@ -107,6 +98,15 @@ function vnktheme_enqueue_assets()
     // (Do not load jQuery from a CDN; it can break plugins.)
     wp_enqueue_script('jquery');
 
+    // Tailwind CSS v4 browser CDN.
+    wp_enqueue_script(
+        'vnktheme-tailwind',
+        'https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4',
+        array(),
+        null,
+        false
+    );
+
     // Swiper JS (footer).
     wp_enqueue_script(
         'swiper',
@@ -116,13 +116,29 @@ function vnktheme_enqueue_assets()
         true
     );
 
-    // Your custom scripts, loaded in the footer, after jQuery and Swiper.
+    // GSAP and ScrollTrigger power scroll-based animations.
+    wp_enqueue_script(
+        'gsap',
+        'https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js',
+        array(),
+        '3.12.5',
+        true
+    );
+    wp_enqueue_script(
+        'gsap-scrolltrigger',
+        'https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js',
+        array('gsap'),
+        '3.12.5',
+        true
+    );
+
+    // Your custom scripts, loaded in the footer, after their dependencies.
     $main_js = '/assets/js/main.js';
     if (file_exists($theme_dir . $main_js)) {
         wp_enqueue_script(
             'vnktheme-main',
             $theme_uri . $main_js,
-            array('jquery', 'swiper'),
+            array('jquery', 'swiper', 'gsap-scrolltrigger'),
             filemtime($theme_dir . $main_js),
             true // true = load in footer.
         );
