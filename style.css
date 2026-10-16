@@ -152,3 +152,9 @@ Text Domain: estatepartners
 #mobile-menu {
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
+
+button[type=submit].wpforms-submit {
+    width: 100%;
+    background-color: #302F5A !important;
+    border-radius: 8px;
+}
