@@ -70,12 +70,12 @@ $home    = home_url('/');
 
                 <!-- Actions -->
                 <div class="flex items-center gap-4 sm:gap-3">
-                    <a href="<?php echo esc_url($home . '#contact'); ?>" aria-label="Favourite projects" class="relative hidden sm:inline-flex text-3xl items-center justify-center text-brand-red transition-colors">
+                    <a href="<?php echo esc_url($home . '#contact'); ?>" aria-label="Favourite projects" class="relative hidden sm:inline-flex text-2xl items-center justify-center text-brand-red transition-colors mr-2">
                         <i class="fa-regular fa-heart"></i>
                         <!-- <span class="absolute -top-2 -right-2 w-5 h-5 rounded-full bg-brand-red text-white text-[11px] font-semibold inline-flex items-center justify-center">3</span> -->
                     </a>
                     <!-- COntact number -->
-                     <a href="tel:+917092958830" class="text-[#302F5A] font-semibold">+91 70929 58830</a>
+                    <a href="tel:+917092958830" class="text-[#302F5A] font-semibold"><i class="fa-solid fa-phone mr-2"></i>+91 70929 58830</a>
                     <a href="<?php echo esc_url($home . '#enquire'); ?>" class="hidden md:inline-flex items-center gap-2 bg-[#B3814E] text-white font-medium text-sm px-6 py-3 rounded-lg hover:bg-gold transition-colors">
                         Enquire Now <i class="fa-solid fa-arrow-right text-xs"></i>
                     </a>

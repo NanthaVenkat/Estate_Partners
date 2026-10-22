@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 get_header();
 $img_uri = get_template_directory_uri() . '/assets/images';
 ?>
@@ -124,40 +124,41 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                 <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">Why choose</p>
                 <h2 class="font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight">Why Choose Estate Partners?</h2>
                 <div class="grid sm:grid-cols-2 rounded-2xl overflow-hidden bg-white mt-6">
-                    <div class="space-y-4 p-5">
+                    <div class="space-y-4 p-5 order-1">
                         <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/LocalExpertise.svg" alt="Local Expertise" class="w-16 h-16">
                         <h4 class="font-semibold text-[#302F5A] text-lg">Local Expertise</h4>
                         <p class="text-[#6B6B6B]">Focused on the Coimbatore market, with insights into neighbourhoods, connectivity, development and property opportunities.</p>
                     </div>
 
-                    <div class="space-y-4 p-5 text-white bg-gold">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/LocalExpertise.svg" alt="Local Expertise" class="w-16 h-16">
-                        <h4 class="font-semibold text-lg">Local Expertise</h4>
-                        <p class="">Focused on the Coimbatore market, with insights into neighbourhoods, connectivity, development and property opportunities.</p>
+                    <div class="space-y-4 p-5 text-white bg-gold order-2">
+                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/LocalExpertise.svg" alt="Curated Projects" class="w-16 h-16">
+                        <h4 class="font-semibold text-lg">Curated Projects</h4>
+                        <p class="">Only 16 villas across 1.42 acres — a rare, small-scale development, not a mass housing project.
+                        </p>
                     </div>
 
-                    <div class="space-y-4 p-5 text-white bg-gold">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/LocalExpertise.svg" alt="Local Expertise" class="w-16 h-16">
-                        <h4 class="font-semibold text-lg">Local Expertise</h4>
-                        <p class="">Focused on the Coimbatore market, with insights into neighbourhoods, connectivity, development and property opportunities.</p>
+                    <div class="space-y-4 p-5 text-white bg-gold order-4 sm:order-3">
+                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/LocalExpertise.svg" alt="Clear Project Information" class="w-16 h-16">
+                        <h4 class="font-semibold text-lg">Clear Project Information</h4>
+                        <p class="">Get important details about location, configurations, pricing, amenities, approvals and project status in one place.</p>
                     </div>
 
-                    <div class="space-y-4 p-5">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/LocalExpertise.svg" alt="Local Expertise" class="w-16 h-16">
-                        <h4 class="font-semibold text-[#302F5A] text-lg">Local Expertise</h4>
-                        <p class="text-[#6B6B6B]">Focused on the Coimbatore market, with insights into neighbourhoods, connectivity, development and property opportunities.</p>
+                    <div class="space-y-4 p-5 order-3 sm:order-4">
+                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/LocalExpertise.svg" alt="Compare Before You Decide" class="w-16 h-16">
+                        <h4 class="font-semibold text-[#302F5A] text-lg">Compare Before You Decide</h4>
+                        <p class="text-[#6B6B6B]">Shortlist and compare projects based on your budget, requirements, location and investment goals.</p>
                     </div>
 
-                    <div class="space-y-4 p-5">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/LocalExpertise.svg" alt="Local Expertise" class="w-16 h-16">
-                        <h4 class="font-semibold text-[#302F5A] text-lg">Local Expertise</h4>
-                        <p class="text-[#6B6B6B]">Focused on the Coimbatore market, with insights into neighbourhoods, connectivity, development and property opportunities.</p>
+                    <div class="space-y-4 p-5 order-5">
+                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/LocalExpertise.svg" alt="Personalised Guidance" class="w-16 h-16">
+                        <h4 class="font-semibold text-[#302F5A] text-lg">Personalised Guidance</h4>
+                        <p class="text-[#6B6B6B]">Not sure what to buy? Our property advisors can help you identify options that match your needs.</p>
                     </div>
 
-                    <div class="space-y-4 p-5 text-white bg-gold">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/LocalExpertise.svg" alt="Local Expertise" class="w-16 h-16">
-                        <h4 class="font-semibold text-lg">Local Expertise</h4>
-                        <p class="">Focused on the Coimbatore market, with insights into neighbourhoods, connectivity, development and property opportunities.</p>
+                    <div class="space-y-4 p-5 text-white bg-gold order-6">
+                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/LocalExpertise.svg" alt="End-to-End Support" class="w-16 h-16">
+                        <h4 class="font-semibold text-lg">End-to-End Support</h4>
+                        <p class="">From your first enquiry and site visit to booking and the next steps, our team stays available to assist you.</p>
                     </div>
                 </div>
             </div>
@@ -220,7 +221,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
     <!-- ======================= PROPERTY TYPES ======================= -->
     <section id="types" class="py-16 sm:py-20 lg:py-24 bg-white scroll-mt-24">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto mb-12 reveal">
+            <div class="text-center max-w-4xl mx-auto mb-12 reveal">
                 <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">Our promises</p>
                 <h2 class="font-prata text-3xl sm:text-4xl leading-tight">Explore Better Projects with Estate Partners</h2>
                 <!-- <p class="mt-4 text-[#302F5A]-muted leading-relaxed">Whether you are looking for a ready home, planning to build your own, or investing for the future, explore properties by type.</p> -->
@@ -270,7 +271,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
             <div class="text-center mb-12 reveal">
                 <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">Explore Properties by Location</p>
                 <h2 class="font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight">Find the right property in the right neighbourhood</h2>
-                <p class="mt-4 max-w-3xl mx-auto text-[#302F5A]-muted leading-relaxed">Explore residential projects across some of Coimbatore's most sought-after and fast-developing locations.</p>
+                <p class="mt-4 max-w-4xl mx-auto text-[#302F5A]-muted leading-relaxed">Explore residential projects across some of Coimbatore's most sought-after and fast-developing locations.</p>
             </div>
 
             <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-10 text-gold text-xl">
@@ -282,25 +283,67 @@ $img_uri = get_template_directory_uri() . '/assets/images';
 
                 <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
                     <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-14 h-14">
-                    <span class="font-medium">Kalapatti</span>
+                    <span class="font-medium">Saravanampatti</span>
                     <i class="fa-solid fa-arrow-right ml-auto"></i>
                 </a>
 
                 <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
                     <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-14 h-14">
-                    <span class="font-medium">Kalapatti</span>
+                    <span class="font-medium">Ramanadhapuram</span>
                     <i class="fa-solid fa-arrow-right ml-auto"></i>
                 </a>
 
                 <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
                     <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-14 h-14">
-                    <span class="font-medium">Kalapatti</span>
+                    <span class="font-medium">Vellalore</span>
                     <i class="fa-solid fa-arrow-right ml-auto"></i>
                 </a>
 
                 <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
                     <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-14 h-14">
-                    <span class="font-medium">Kalapatti</span>
+                    <span class="font-medium">Idikarai</span>
+                    <i class="fa-solid fa-arrow-right ml-auto"></i>
+                </a>
+
+                <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-14 h-14">
+                    <span class="font-medium">Ganapathy</span>
+                    <i class="fa-solid fa-arrow-right ml-auto"></i>
+                </a>
+
+                <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-14 h-14">
+                    <span class="font-medium">Thudiyalur</span>
+                    <i class="fa-solid fa-arrow-right ml-auto"></i>
+                </a>
+
+                <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-14 h-14">
+                    <span class="font-medium">Sulur</span>
+                    <i class="fa-solid fa-arrow-right ml-auto"></i>
+                </a>
+
+                <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-14 h-14">
+                    <span class="font-medium">Vadavalli</span>
+                    <i class="fa-solid fa-arrow-right ml-auto"></i>
+                </a>
+
+                <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-14 h-14">
+                    <span class="font-medium">Vedapatti</span>
+                    <i class="fa-solid fa-arrow-right ml-auto"></i>
+                </a>
+
+                <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-14 h-14">
+                    <span class="font-medium">Peelamedu</span>
+                    <i class="fa-solid fa-arrow-right ml-auto"></i>
+                </a>
+
+                <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-14 h-14">
+                    <span class="font-medium">Mettupalyam</span>
                     <i class="fa-solid fa-arrow-right ml-auto"></i>
                 </a>
             </div>
@@ -313,7 +356,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
             <div class="text-center mb-6">
                 <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">Find A PROPERTY</p>
                 <h2 class="font-prata text-3xl text-[#302F5A] sm:text-4xl leading-tight">Find a Property That Fits Your Lifestyle</h2>
-                <p class="mt-4 max-w-3xl mx-auto text-[#444444] leading-relaxed">Whether you are looking for a ready home, planning to build your own, or investing for the future, explore properties by type.</p>
+                <p class="mt-4 max-w-4xl mx-auto text-[#444444] leading-relaxed">Whether you are looking for a ready home, planning to build your own, or investing for the future, explore properties by type.</p>
             </div>
 
             <div class="swiper projects-swiper reveal">
@@ -377,7 +420,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                 </div>
 
                 <!-- Pagination & Arrows -->
-                <div class="flex flex-wrap items-end justify-between gap-6 mb-10 reveal">
+                <div class="flex flex-wrap items-end justify-between gap-6 mb-10 reveal mt-4">
                     <div class="swiper-pagination"></div>
                     <div class="flex items-center gap-3">
                         <button class="projects-prev w-12 h-12 rounded-full border border-ink-line inline-flex items-center justify-center hover:bg-ink hover:text-white hover:border-ink transition-colors" aria-label="Previous projects"><i class="fa-solid fa-arrow-left"></i></button>
@@ -389,304 +432,307 @@ $img_uri = get_template_directory_uri() . '/assets/images';
         </div>
     </section>
 
-    <!-- <section id="projects" class="py-16 sm:py-20 lg:py-24 scroll-mt-24">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-wrap items-end justify-between gap-6 mb-10 reveal">
-                <div class="text-center">
-                    <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">Find A PROPERTY</p>
-                    <h2 class="font-prata text-3xl text-[#302F5A] sm:text-4xl leading-tight">Find a Property That Fits Your Lifestyle</h2>
-                    <p class="mt-4 max-w-3xl mx-auto text-[#444444] leading-relaxed">Whether you are looking for a ready home, planning to build your own, or investing for the future, explore properties by type.</p>
-                </div>
-                <div class="flex items-center gap-3">
-                    <button class="projects-prev w-12 h-12 rounded-full border border-ink-line inline-flex items-center justify-center hover:bg-ink hover:text-white hover:border-ink transition-colors" aria-label="Previous projects"><i class="fa-solid fa-arrow-left"></i></button>
-                    <button class="projects-next w-12 h-12 rounded-full border border-ink-line inline-flex items-center justify-center hover:bg-ink hover:text-white hover:border-ink transition-colors" aria-label="Next projects"><i class="fa-solid fa-arrow-right"></i></button>
-                </div>
-            </div>
-
-            <div class="swiper projects-swiper reveal">
-                <div class="swiper-wrapper pb-14">
-
-                    <article class="swiper-slide project-card group bg-white rounded-2xl overflow-hidden border border-ink-line shadow-sm hover:shadow-xl transition-shadow h-auto">
-                        <div class="relative overflow-hidden h-60">
-                            <img src="<?php echo esc_url($img_uri . '/5_2_802.png'); ?>" alt="Infinium Onelife apartment residences" class="w-full h-full object-cover" loading="lazy" />
-                            <span class="absolute top-4 left-4 bg-ink/90 text-white text-xs font-semibold px-3 py-1.5 rounded-full">Ongoing</span>
-                            <button aria-label="Save Infinium Onelife to favourites" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-white/95 inline-flex items-center justify-center text-[#302F5A] hover:text-brand-red transition-colors"><i class="fa-regular fa-heart"></i></button>
-                        </div>
-                        <div class="p-6">
-                            <h3 class="font-prata text-2xl">Infinium Onelife</h3>
-                            <p class="mt-1 text-sm text-[#302F5A]-muted"><i class="fa-solid fa-location-dot text-gold mr-1.5"></i>Saravanampatti, Coimbatore</p>
-                            <div class="mt-4 flex flex-wrap gap-2 text-xs font-medium">
-                                <span class="bg-brand-cream border border-ink-line rounded-full px-3 py-1.5">2, 3, 3.5 &amp; 4 BHK</span>
-                                <span class="bg-brand-cream border border-ink-line rounded-full px-3 py-1.5">Apartments</span>
-                            </div>
-                            <a href="#enquire" class="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-[#302F5A] hover:text-gold transition-colors">View Details <i class="fa-solid fa-arrow-right text-xs"></i></a>
-                        </div>
-                    </article>
-
-                    <article class="swiper-slide project-card group bg-white rounded-2xl overflow-hidden border border-ink-line shadow-sm hover:shadow-xl transition-shadow h-auto">
-                        <div class="relative overflow-hidden h-60">
-                            <img src="<?php echo esc_url($img_uri . '/24_2_802.png'); ?>" alt="Infinium Central 16 apartment towers with pool deck" class="w-full h-full object-cover" loading="lazy" />
-                            <span class="absolute top-4 left-4 bg-ink/90 text-white text-xs font-semibold px-3 py-1.5 rounded-full">Ongoing</span>
-                            <button aria-label="Save Infinium Central 16 to favourites" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-white/95 inline-flex items-center justify-center text-[#302F5A] hover:text-brand-red transition-colors"><i class="fa-regular fa-heart"></i></button>
-                        </div>
-                        <div class="p-6">
-                            <h3 class="font-prata text-2xl">Infinium Central 16</h3>
-                            <p class="mt-1 text-sm text-[#302F5A]-muted"><i class="fa-solid fa-location-dot text-gold mr-1.5"></i>Peelamedu, Coimbatore</p>
-                            <div class="mt-4 flex flex-wrap gap-2 text-xs font-medium">
-                                <span class="bg-brand-cream border border-ink-line rounded-full px-3 py-1.5">3 &amp; 4 BHK</span>
-                                <span class="bg-brand-cream border border-ink-line rounded-full px-3 py-1.5">Apartments</span>
-                            </div>
-                            <a href="#enquire" class="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-[#302F5A] hover:text-gold transition-colors">View Details <i class="fa-solid fa-arrow-right text-xs"></i></a>
-                        </div>
-                    </article>
-
-                    <article class="swiper-slide project-card group bg-white rounded-2xl overflow-hidden border border-ink-line shadow-sm hover:shadow-xl transition-shadow h-auto">
-                        <div class="relative overflow-hidden h-60">
-                            <img src="<?php echo esc_url($img_uri . '/7_2_802.png'); ?>" alt="Infinium Altitude premium residences" class="w-full h-full object-cover" loading="lazy" />
-                            <span class="absolute top-4 left-4 bg-gold text-white text-xs font-semibold px-3 py-1.5 rounded-full">Upcoming</span>
-                            <button aria-label="Save Infinium Altitude to favourites" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-white/95 inline-flex items-center justify-center text-[#302F5A] hover:text-brand-red transition-colors"><i class="fa-regular fa-heart"></i></button>
-                        </div>
-                        <div class="p-6">
-                            <h3 class="font-prata text-2xl">Infinium Altitude</h3>
-                            <p class="mt-1 text-sm text-[#302F5A]-muted"><i class="fa-solid fa-location-dot text-gold mr-1.5"></i>Kalapatti, Coimbatore</p>
-                            <div class="mt-4 flex flex-wrap gap-2 text-xs font-medium">
-                                <span class="bg-brand-cream border border-ink-line rounded-full px-3 py-1.5">4 &amp; 5 BHK</span>
-                                <span class="bg-brand-cream border border-ink-line rounded-full px-3 py-1.5">Apartments</span>
-                            </div>
-                            <a href="#enquire" class="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-[#302F5A] hover:text-gold transition-colors">View Details <i class="fa-solid fa-arrow-right text-xs"></i></a>
-                        </div>
-                    </article>
-
-                    <article class="swiper-slide project-card group bg-white rounded-2xl overflow-hidden border border-ink-line shadow-sm hover:shadow-xl transition-shadow h-auto">
-                        <div class="relative overflow-hidden h-60">
-                            <img src="<?php echo esc_url($img_uri . '/23_2_802.png'); ?>" alt="Aara Enclave plotted community residences" class="w-full h-full object-cover" loading="lazy" />
-                            <span class="absolute top-4 left-4 bg-ink/90 text-white text-xs font-semibold px-3 py-1.5 rounded-full">Ongoing</span>
-                            <button aria-label="Save Aara Enclave to favourites" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-white/95 inline-flex items-center justify-center text-[#302F5A] hover:text-brand-red transition-colors"><i class="fa-regular fa-heart"></i></button>
-                        </div>
-                        <div class="p-6">
-                            <h3 class="font-prata text-2xl">Aara Enclave</h3>
-                            <p class="mt-1 text-sm text-[#302F5A]-muted"><i class="fa-solid fa-location-dot text-gold mr-1.5"></i>Kalapatti, Coimbatore</p>
-                            <div class="mt-4 flex flex-wrap gap-2 text-xs font-medium">
-                                <span class="bg-brand-cream border border-ink-line rounded-full px-3 py-1.5">51 Plots</span>
-                                <span class="bg-brand-cream border border-ink-line rounded-full px-3 py-1.5">2.27 Acres</span>
-                            </div>
-                            <a href="#enquire" class="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-[#302F5A] hover:text-gold transition-colors">View Details <i class="fa-solid fa-arrow-right text-xs"></i></a>
-                        </div>
-                    </article>
-
-                    <article class="swiper-slide project-card group bg-white rounded-2xl overflow-hidden border border-ink-line shadow-sm hover:shadow-xl transition-shadow h-auto">
-                        <div class="relative overflow-hidden h-60">
-                            <img src="<?php echo esc_url($img_uri . '/26_2_802.png'); ?>" alt="Wellington Village residential project" class="w-full h-full object-cover" loading="lazy" />
-                            <span class="absolute top-4 left-4 bg-gold text-white text-xs font-semibold px-3 py-1.5 rounded-full">Upcoming</span>
-                            <button aria-label="Save Wellington Village to favourites" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-white/95 inline-flex items-center justify-center text-[#302F5A] hover:text-brand-red transition-colors"><i class="fa-regular fa-heart"></i></button>
-                        </div>
-                        <div class="p-6">
-                            <h3 class="font-prata text-2xl">Wellington Village</h3>
-                            <p class="mt-1 text-sm text-[#302F5A]-muted"><i class="fa-solid fa-location-dot text-gold mr-1.5"></i>Coimbatore</p>
-                            <div class="mt-4 flex flex-wrap gap-2 text-xs font-medium">
-                                <span class="bg-brand-cream border border-ink-line rounded-full px-3 py-1.5">Residential Community</span>
-                            </div>
-                            <a href="#enquire" class="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-[#302F5A] hover:text-gold transition-colors">View Details <i class="fa-solid fa-arrow-right text-xs"></i></a>
-                        </div>
-                    </article>
-
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
+    <!-- ======================= Need Guidence ======================= -->
+    <section id="about" class="py-16 sm:py-20 lg:py-24 scroll-mt-24">
+        <div class="container mx-auto text-center mb-6">
+            <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">NEED GUIDANCE</p>
+            <h2 class="font-prata text-3xl text-[#302F5A] sm:text-4xl leading-tight">Not Sure Which Property Is Right for You?</h2>
+            <p class="mt-4 max-w-4xl mx-auto text-[#444444] leading-relaxed">Buying property is a major decision. You don't have to figure it out alone. Tell us what you are looking for — your preferred location,
+                property type, budget and purpose — and our team can help you shortlist suitable projects in Coimbatore.</p>
         </div>
-    </section> -->
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+            <div class="flex gap-5 flex-col">
+                <div class="w-full rounded-2xl shadow-lg flex gap-6 items-center p-4">
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/need-guidence-2.svg" alt="Looking for a Home?" class="w-16">
+
+                    <div class="space-y-2">
+                        <h3 class="font-semibold text-gold text-lg">Looking for a Home?</h3>
+                        <p class="text-[#4D5461]">Find properties that fit your family's lifestyle and budget.</p>
+                    </div>
+                </div>
+
+                <div class="w-full rounded-2xl shadow-lg flex gap-6 items-center p-4">
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/need-guidence-1.svg" alt="Looking to Invest?" class="w-16">
+
+                    <div class="space-y-2">
+                        <h3 class="font-semibold text-gold text-lg">Looking to Invest?</h3>
+                        <p class="text-[#4D5461]">Explore locations and projects with potential for
+                            long-term value.</p>
+                    </div>
+                </div>
+
+                <div class="w-full rounded-2xl shadow-lg flex gap-6 items-center p-4">
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/need-guidence-4.svg" alt="Planning for the Future?" class="w-16">
+
+                    <div class="space-y-2">
+                        <h3 class="font-semibold text-gold text-lg">Planning for the Future?</h3>
+                        <p class="text-[#4D5461]">Find plots and properties that can become your future
+                            home or investment.</p>
+                    </div>
+                </div>
+
+                <div class="w-full rounded-2xl shadow-lg flex gap-6 items-center p-4">
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/need-guidence-3.svg" alt="NRI Buyer?" class="w-16">
+
+                    <div class="space-y-2">
+                        <h3 class="font-semibold text-gold text-lg">NRI Buyer?</h3>
+                        <p class="text-[#4D5461]">Get local assistance in exploring and evaluating
+                            Coimbatore properties remotely.</p>
+                    </div>
+                </div>
+
+                <a href="" class="font-semibold text-white bg-gold rounded-xl flex gap-4 items-center justify-center p-4 text-lg mt-8"><i class="fa-solid fa-phone mr-2"></i>Talk to our Experts For Guidance<i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            <div class="reveal relative">
+                <div class="rounded-2xl overflow-hidden">
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/4_image_259.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[420px] object-cover" loading="lazy" />
+                </div>
+                <!-- <div class="absolute -bottom-6 left-5 sm:left-8 bg-ink text-white rounded-2xl px-6 py-5 shadow-xl flex items-center gap-4">
+                    <span class="w-12 h-12 rounded-full bg-gold inline-flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-headset"></i></span>
+                    <span>
+                        <span class="block font-prata text-2xl leading-none">24/7</span>
+                        <span class="block text-xs text-white/70 mt-1 tracking-wide">Buyer support, always</span>
+                    </span>
+                </div> -->
+            </div>
+
+        </div>
+    </section>
 
     <!-- ======================= STATUS / TIMELINE ======================= -->
-    <section id="status" class="py-16 sm:py-20 lg:py-24 bg-ink text-white scroll-mt-24">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto mb-10 reveal">
-                <p class="text-gold-light font-bold uppercase tracking-[0.18em] text-sm mb-3">Explore Projects by Project Status</p>
-                <h2 class="font-prata text-3xl sm:text-4xl leading-tight">Find Projects Based on Your Timeline</h2>
-                <p class="mt-4 text-white/70 leading-relaxed">Whether you want to move soon or plan ahead, explore projects based on their current development stage.</p>
+    <section id="status" class="py-16 sm:py-20 lg:py-24 bg-[#FCF7F3] scroll-mt-24">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
+            <div class="text-center max-w-4xl mx-auto reveal">
+                <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">explore our projects</p>
+                <h2 class="font-prata text-3xl sm:text-4xl leading-tight text-[#302F5A]">Featured Residential Projects in Coimbatore</h2>
+                <p class="mt-4 text-[#444444] leading-relaxed">Explore handpicked apartments, villas and residential plots across Coimbatore. Each project gives you the information you need to shortlist with
+                    confidence — including location, price, configurations, amenities, approvals, floor plans, availability and possession details</p>
             </div>
 
-            <div class="flex justify-center gap-3 mb-10 reveal" role="tablist" aria-label="Project status">
-                <button class="status-tab active border border-white/30 rounded-full px-8 py-3 text-sm font-semibold tracking-wider" data-target="panel-ongoing" role="tab">Ongoing Projects</button>
-                <button class="status-tab border border-white/30 rounded-full px-8 py-3 text-sm font-semibold tracking-wider" data-target="panel-upcoming" role="tab">Upcoming Projects</button>
+            <div class="flex flex-wrap justify-center gap-3 reveal" role="tablist" aria-label="Project status">
+                <button class="status-tab active border border-white/30 rounded-full px-8 py-2 text-sm font-semibold tracking-wider" data-target="panel-all" role="tab">All Projects</button>
+                <button class="status-tab border border-gold/30 bg-white rounded-full px-8 py-2 text-sm font-semibold tracking-wider" data-target="panel-apartments" role="tab">Apartments</button>
+                <button class="status-tab border border-gold/30 bg-white rounded-full px-8 py-2 text-sm font-semibold tracking-wider" data-target="panel-vills" role="tab">Vills</button>
+                <button class="status-tab border border-gold/30 bg-white rounded-full px-8 py-2 text-sm font-semibold tracking-wider" data-target="panel-plots" role="tab">Plots</button>
             </div>
 
             <!-- Ongoing -->
-            <div id="panel-ongoing" class="status-panel grid grid-cols-1 md:grid-cols-3 gap-6">
-                <article class="bg-white/[0.06] border border-white/15 rounded-2xl overflow-hidden hover:border-gold/60 transition-colors">
+            <div id="panel-apartments" class="status-panel grid grid-cols-1 grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
+                <article class="bg-white rounded-2xl overflow-hidden hover:border-gold/60 transition-colors">
+                    <div class="relative h-52 overflow-hidden">
+                        <!-- image -->
+                        <img src="<?php echo esc_url($img_uri . '/23_2_802.png'); ?>" alt="Aara Enclave" class="w-full h-full object-cover" loading="lazy" />
+                        <!-- verified badge -->
+                        <span class="absolute top-4 left-4 bg-green-600 text-white font-medium p-1.5 rounded-full text-[0.7rem]"><i class="fa-solid fa-check text-green-600 bg-white rounded-full p-1"></i> Verified</span>
+                        <!-- floating action buttons -->
+                        <div class="flex flex-col gap-4 absolute top-4 right-4 leading-none text-black">
+                            <button class="rounded-md p-1.5 bg-white"><i class="fa-regular fa-heart"></i></button>
+                            <button class="rounded-md p-1.5 bg-white"><i class="fa-regular fa-share-from-square"></i></button>
+                            <button class="rounded-md p-1.5 bg-white"><i class="fa-solid fa-code-compare"></i></button>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-gold">Infinium Altitude</h3>
+                        <p class="text-[#302F5A] mt-1"><i class="fa-solid fa-location-dot mr-1.5"></i>Ganapathy</p>
+                        <ul class="mt-4 grid grid-cols-2 gap-4 text-xs font-medium text-[#302F5A]">
+                            <li class="flex items-center gap-2">
+                                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-1.svg" alt="">
+                                <div>
+                                    <h6 class="font-semibold">Total Area</h6>
+                                    <p class='text-[#404042]'>100,000 sq.ft</p>
+                                </div>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-4.svg" alt="">
+                                <div>
+                                    <h6 class="font-semibold">Total No. Of Plots</h6>
+                                    <p class='text-[#404042]'>51 Plots</p>
+                                </div>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-3.svg" alt="">
+                                <div>
+                                    <h6 class="font-semibold">Total Area in Acres</h6>
+                                    <p class='text-[#404042]'>2.27 Acres</p>
+                                </div>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-2.svg" alt="">
+                                <div>
+                                    <h6 class="font-semibold">24/7</h6>
+                                    <p class='text-[#404042]'>CCTV Provided</p>
+                                </div>
+                            </li>
+
+                            <li class="col-span-2">
+                                <a href="" class="w-full inline-block text-base px-4 py-2 rounded-lg gap-3 font-medium text-center text-white bg-[#302F5A]"><span class="font-bold">4 BHK</span> | Rs 2.83 Crs Onwards</a>
+                            </li>
+
+                            <a href="" class="border border-[#302F5A] text-[#302F5A] text-center rounded-lg py-2 px-3">Call Us <i class="fa-solid fa-arrow-right text-xs ml-2"></i></a>
+                            <a href="" class="border border-[#302F5A] text-[#302F5A] text-center rounded-lg py-2 px-3">Know More <i class="fa-solid fa-arrow-right text-xs ml-2"></i></a>
+                        </ul>
+                    </div>
+                </article>
+                <article class="bg-white rounded-2xl overflow-hidden hover:border-gold/60 transition-colors">
                     <div class="h-52 overflow-hidden"><img src="<?php echo esc_url($img_uri . '/23_2_802.png'); ?>" alt="Aara Enclave" class="w-full h-full object-cover" loading="lazy" /></div>
                     <div class="p-6">
-                        <h3 class="font-prata text-2xl">Aara Enclave</h3>
-                        <p class="text-sm text-white/60 mt-1"><i class="fa-solid fa-location-dot text-gold mr-1.5"></i>Kalapatti, Coimbatore</p>
-                        <p class="text-sm text-white/75 mt-3 leading-relaxed">A landmark plotted community in Kalapatti, delivering spacious layouts, strong connectivity and a well-established residential environment.</p>
-                        <div class="mt-4 flex flex-wrap gap-2 text-xs font-medium">
-                            <span class="border border-white/20 rounded-full px-3 py-1.5">51 Plots</span>
-                            <span class="border border-white/20 rounded-full px-3 py-1.5">2.27 Acres</span>
-                            <span class="border border-white/20 rounded-full px-3 py-1.5">DTCP &amp; RERA Approved</span>
-                            <span class="border border-white/20 rounded-full px-3 py-1.5">CCTV Provided</span>
-                        </div>
+                        <h3 class="text-2xl font-semibold text-gold">Infinium Altitude</h3>
+                        <p class="text-[#302F5A] mt-1"><i class="fa-solid fa-location-dot mr-1.5"></i>Ganapathy</p>
+                        <ul class="mt-4 grid grid-cols-2 gap-4 text-xs font-medium text-[#302F5A]">
+                            <li class="flex items-center gap-2">
+                                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-1.svg" alt="">
+                                <div>
+                                    <h6 class="font-semibold">Total Area</h6>
+                                    <p class='text-[#404042]'>100,000 sq.ft</p>
+                                </div>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-4.svg" alt="">
+                                <div>
+                                    <h6 class="font-semibold">Total No. Of Plots</h6>
+                                    <p class='text-[#404042]'>51 Plots</p>
+                                </div>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-3.svg" alt="">
+                                <div>
+                                    <h6 class="font-semibold">Total Area in Acres</h6>
+                                    <p class='text-[#404042]'>2.27 Acres</p>
+                                </div>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-2.svg" alt="">
+                                <div>
+                                    <h6 class="font-semibold">24/7</h6>
+                                    <p class='text-[#404042]'>CCTV Provided</p>
+                                </div>
+                            </li>
+
+                            <li class="col-span-2">
+                                <a href="" class="w-full inline-block text-base px-4 py-2 rounded-lg gap-3 font-medium text-center text-white bg-[#302F5A]"><span class="font-bold">4 BHK</span> | Rs 2.83 Crs Onwards</a>
+                            </li>
+
+                            <a href="" class="border border-[#302F5A] text-[#302F5A] text-center rounded-lg py-2 px-3">Call Us <i class="fa-solid fa-arrow-right text-xs ml-2"></i></a>
+                            <a href="" class="border border-[#302F5A] text-[#302F5A] text-center rounded-lg py-2 px-3">Know More <i class="fa-solid fa-arrow-right text-xs ml-2"></i></a>
+                        </ul>
                     </div>
                 </article>
-                <article class="bg-white/[0.06] border border-white/15 rounded-2xl overflow-hidden hover:border-gold/60 transition-colors">
-                    <div class="h-52 overflow-hidden"><img src="<?php echo esc_url($img_uri . '/5_2_802.png'); ?>" alt="Infinium Onelife" class="w-full h-full object-cover" loading="lazy" /></div>
+
+            </div>
+
+            <!-- Upcoming -->
+            <div id="panel-vills" class="status-panel hidden grid grid-cols-1 grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
+                <article class="bg-white rounded-2xl overflow-hidden hover:border-gold/60 transition-colors">
+                    <div class="h-52 overflow-hidden"><img src="<?php echo esc_url($img_uri . '/23_2_802.png'); ?>" alt="Aara Enclave" class="w-full h-full object-cover" loading="lazy" /></div>
                     <div class="p-6">
-                        <h3 class="font-prata text-2xl">Infinium Onelife</h3>
-                        <p class="text-sm text-white/60 mt-1"><i class="fa-solid fa-location-dot text-gold mr-1.5"></i>Saravanampatti, Coimbatore</p>
-                        <p class="text-sm text-white/75 mt-3 leading-relaxed">Be among the early buyers and explore newly launched residential projects in emerging Coimbatore locations.</p>
-                        <div class="mt-4 flex flex-wrap gap-2 text-xs font-medium">
-                            <span class="border border-white/20 rounded-full px-3 py-1.5">2, 3, 3.5 &amp; 4 BHK</span>
-                            <span class="border border-white/20 rounded-full px-3 py-1.5">Apartments</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="bg-white/[0.06] border border-white/15 rounded-2xl overflow-hidden hover:border-gold/60 transition-colors">
-                    <div class="h-52 overflow-hidden"><img src="<?php echo esc_url($img_uri . '/24_2_802.png'); ?>" alt="Infinium Central 16" class="w-full h-full object-cover" loading="lazy" /></div>
-                    <div class="p-6">
-                        <h3 class="font-prata text-2xl">Infinium Central 16</h3>
-                        <p class="text-sm text-white/60 mt-1"><i class="fa-solid fa-location-dot text-gold mr-1.5"></i>Peelamedu, Coimbatore</p>
-                        <p class="text-sm text-white/75 mt-3 leading-relaxed">Thoughtfully designed layouts, modern amenities and secure surroundings where life truly thrives.</p>
-                        <div class="mt-4 flex flex-wrap gap-2 text-xs font-medium">
-                            <span class="border border-white/20 rounded-full px-3 py-1.5">3 &amp; 4 BHK</span>
-                            <span class="border border-white/20 rounded-full px-3 py-1.5">Apartments</span>
-                        </div>
+                        <h3 class="text-2xl font-semibold text-gold">Infinium Altitude</h3>
+                        <p class="text-[#302F5A] mt-1"><i class="fa-solid fa-location-dot mr-1.5"></i>Ganapathy</p>
+                        <ul class="mt-4 grid grid-cols-2 gap-4 text-xs font-medium text-[#302F5A]">
+                            <li class="flex items-center gap-2">
+                                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-1.svg" alt="">
+                                <div>
+                                    <h6 class="font-semibold">Total Area</h6>
+                                    <p class='text-[#404042]'>100,000 sq.ft</p>
+                                </div>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-4.svg" alt="">
+                                <div>
+                                    <h6 class="font-semibold">Total No. Of Plots</h6>
+                                    <p class='text-[#404042]'>51 Plots</p>
+                                </div>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-3.svg" alt="">
+                                <div>
+                                    <h6 class="font-semibold">Total Area in Acres</h6>
+                                    <p class='text-[#404042]'>2.27 Acres</p>
+                                </div>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-2.svg" alt="">
+                                <div>
+                                    <h6 class="font-semibold">24/7</h6>
+                                    <p class='text-[#404042]'>CCTV Provided</p>
+                                </div>
+                            </li>
+
+                            <li class="col-span-2">
+                                <a href="" class="w-full inline-block text-base px-4 py-2 rounded-lg gap-3 font-medium text-center text-white bg-[#302F5A]"><span class="font-bold">4 BHK</span> | Rs 2.83 Crs Onwards</a>
+                            </li>
+
+                            <a href="" class="border border-[#302F5A] text-[#302F5A] text-center rounded-lg py-2 px-3">Call Us <i class="fa-solid fa-arrow-right text-xs ml-2"></i></a>
+                            <a href="" class="border border-[#302F5A] text-[#302F5A] text-center rounded-lg py-2 px-3">Know More <i class="fa-solid fa-arrow-right text-xs ml-2"></i></a>
+                        </ul>
                     </div>
                 </article>
             </div>
 
             <!-- Upcoming -->
-            <div id="panel-upcoming" class="status-panel hidden grid grid-cols-1 md:grid-cols-3 gap-6">
-                <article class="bg-white/[0.06] border border-white/15 rounded-2xl overflow-hidden hover:border-gold/60 transition-colors">
-                    <div class="h-52 overflow-hidden"><img src="<?php echo esc_url($img_uri . '/7_2_802.png'); ?>" alt="Infinium Altitude" class="w-full h-full object-cover" loading="lazy" /></div>
+            <div id="panel-plots" class="status-panel hidden grid grid-cols-1 grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
+                <article class="bg-white rounded-2xl overflow-hidden hover:border-gold/60 transition-colors">
+                    <div class="h-52 overflow-hidden"><img src="<?php echo esc_url($img_uri . '/23_2_802.png'); ?>" alt="Aara Enclave" class="w-full h-full object-cover" loading="lazy" /></div>
                     <div class="p-6">
-                        <h3 class="font-prata text-2xl">Infinium Altitude</h3>
-                        <p class="text-sm text-white/60 mt-1"><i class="fa-solid fa-location-dot text-gold mr-1.5"></i>Kalapatti, Coimbatore</p>
-                        <p class="text-sm text-white/75 mt-3 leading-relaxed">Plan ahead with an upcoming address in one of Coimbatore's fastest-developing neighbourhoods.</p>
-                        <div class="mt-4 flex flex-wrap gap-2 text-xs font-medium">
-                            <span class="border border-white/20 rounded-full px-3 py-1.5">4 &amp; 5 BHK</span>
-                            <span class="border border-white/20 rounded-full px-3 py-1.5">Apartments</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="bg-white/[0.06] border border-white/15 rounded-2xl overflow-hidden hover:border-gold/60 transition-colors">
-                    <div class="h-52 overflow-hidden"><img src="<?php echo esc_url($img_uri . '/26_2_802.png'); ?>" alt="Wellington Village" class="w-full h-full object-cover" loading="lazy" /></div>
-                    <div class="p-6">
-                        <h3 class="font-prata text-2xl">Wellington Village</h3>
-                        <p class="text-sm text-white/60 mt-1"><i class="fa-solid fa-location-dot text-gold mr-1.5"></i>Coimbatore</p>
-                        <p class="text-sm text-white/75 mt-3 leading-relaxed">A forthcoming residential community crafted for long-term comfort and value.</p>
-                        <div class="mt-4 flex flex-wrap gap-2 text-xs font-medium">
-                            <span class="border border-white/20 rounded-full px-3 py-1.5">Residential Community</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="bg-white/[0.06] border border-gold/50 rounded-2xl p-6 flex flex-col justify-center">
-                    <div class="w-12 h-12 rounded-xl bg-gold/15 text-gold-light inline-flex items-center justify-center text-xl mb-4"><i class="fa-solid fa-bell"></i></div>
-                    <h3 class="font-prata text-2xl">Looking to Invest?</h3>
-                    <p class="text-sm text-white/75 mt-3 leading-relaxed">Explore locations and projects with potential for long-term value — and get notified first.</p>
-                    <a href="#enquire" class="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-gold-light hover:text-white transition-colors">Notify Me <i class="fa-solid fa-arrow-right text-xs"></i></a>
-                </article>
-            </div>
-        </div>
-    </section>
+                        <h3 class="text-2xl font-semibold text-gold">Infinium Altitude</h3>
+                        <p class="text-[#302F5A] mt-1"><i class="fa-solid fa-location-dot mr-1.5"></i>Ganapathy</p>
+                        <ul class="mt-4 grid grid-cols-2 gap-4 text-xs font-medium text-[#302F5A]">
+                            <li class="flex items-center gap-2">
+                                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-1.svg" alt="">
+                                <div>
+                                    <h6 class="font-semibold">Total Area</h6>
+                                    <p class='text-[#404042]'>100,000 sq.ft</p>
+                                </div>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-4.svg" alt="">
+                                <div>
+                                    <h6 class="font-semibold">Total No. Of Plots</h6>
+                                    <p class='text-[#404042]'>51 Plots</p>
+                                </div>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-3.svg" alt="">
+                                <div>
+                                    <h6 class="font-semibold">Total Area in Acres</h6>
+                                    <p class='text-[#404042]'>2.27 Acres</p>
+                                </div>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-2.svg" alt="">
+                                <div>
+                                    <h6 class="font-semibold">24/7</h6>
+                                    <p class='text-[#404042]'>CCTV Provided</p>
+                                </div>
+                            </li>
 
-    <!-- ======================= LOCATIONS ======================= -->
-    <section id="locations" class="py-16 sm:py-20 lg:py-24 scroll-mt-24">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div class="reveal relative">
-                <div class="rounded-2xl overflow-hidden shadow-xl">
-                    <img src="<?php echo esc_url($img_uri . '/19_pexels_curtis_adams_7027791.png'); ?>" alt="Hands holding a model home — finding the right neighbourhood" class="w-full h-[380px] sm:h-[480px] object-cover" loading="lazy" />
-                </div>
-                <div class="absolute top-5 left-5 bg-white/95 backdrop-blur rounded-xl px-5 py-3 shadow-lg">
-                    <p class="font-prata text-lg leading-tight">Coimbatore Property Market</p>
-                    <p class="text-xs text-[#302F5A]-muted mt-0.5">Sought-after &amp; fast-developing locations</p>
-                </div>
-            </div>
-            <div class="reveal">
-                <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">Neighbourhoods</p>
-                <h2 class="font-prata text-3xl sm:text-4xl leading-tight">Explore Properties by Location</h2>
-                <p class="mt-4 text-[#302F5A]-muted leading-relaxed">Explore residential projects across some of Coimbatore's most sought-after and fast-developing locations. Explore areas such as Kalapatti, Saravanampatti, Vadavalli, Thudiyalur and other growing neighbourhoods.</p>
-                <div class="mt-7 flex flex-wrap gap-2.5">
-                    <a href="#projects" class="location-pill border border-ink-line rounded-full px-5 py-2.5 text-sm font-medium">Kalapatti</a>
-                    <a href="#projects" class="location-pill border border-ink-line rounded-full px-5 py-2.5 text-sm font-medium">Saravanampatti</a>
-                    <a href="#projects" class="location-pill border border-ink-line rounded-full px-5 py-2.5 text-sm font-medium">Vadavalli</a>
-                    <a href="#projects" class="location-pill border border-ink-line rounded-full px-5 py-2.5 text-sm font-medium">Thudiyalur</a>
-                    <a href="#projects" class="location-pill border border-ink-line rounded-full px-5 py-2.5 text-sm font-medium">Peelamedu</a>
-                    <a href="#projects" class="location-pill border border-ink-line rounded-full px-5 py-2.5 text-sm font-medium">Ganapathy</a>
-                    <a href="#projects" class="location-pill border border-ink-line rounded-full px-5 py-2.5 text-sm font-medium">Sulur</a>
-                    <a href="#projects" class="location-pill border border-ink-line rounded-full px-5 py-2.5 text-sm font-medium">Vedapatti</a>
-                    <a href="#projects" class="location-pill border border-ink-line rounded-full px-5 py-2.5 text-sm font-medium">Vellalore</a>
-                    <a href="#projects" class="location-pill border border-ink-line rounded-full px-5 py-2.5 text-sm font-medium">Ramanathapuram</a>
-                    <a href="#projects" class="location-pill border border-ink-line rounded-full px-5 py-2.5 text-sm font-medium">Idikarai</a>
-                    <a href="#projects" class="location-pill border border-ink-line rounded-full px-5 py-2.5 text-sm font-medium">Mettupalayam</a>
-                </div>
-            </div>
-        </div>
-    </section>
+                            <li class="col-span-2">
+                                <a href="" class="w-full inline-block text-base px-4 py-2 rounded-lg gap-3 font-medium text-center text-white bg-[#302F5A]"><span class="font-bold">4 BHK</span> | Rs 2.83 Crs Onwards</a>
+                            </li>
 
-    <!-- ======================= TIMELINE / MOVE-IN ======================= -->
-    <section class="pb-16 sm:pb-20 lg:pb-24">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <article class="reveal location-card group relative rounded-2xl overflow-hidden h-96">
-                    <img src="<?php echo esc_url($img_uri . '/21_pexels_curtis_adams_7027791.png'); ?>" alt="Ready-to-move living room interior" class="absolute inset-0 w-full h-full object-cover" loading="lazy" />
-                    <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/40 to-transparent"></div>
-                    <div class="relative h-full flex flex-col justify-end p-7 text-white">
-                        <h3 class="font-prata text-2xl">Move In Soon</h3>
-                        <p class="mt-2 text-sm text-white/80">Ready and nearing-completion homes for families that want to move without the wait.</p>
+                            <a href="" class="border border-[#302F5A] text-[#302F5A] text-center rounded-lg py-2 px-3">Call Us <i class="fa-solid fa-arrow-right text-xs ml-2"></i></a>
+                            <a href="" class="border border-[#302F5A] text-[#302F5A] text-center rounded-lg py-2 px-3">Know More <i class="fa-solid fa-arrow-right text-xs ml-2"></i></a>
+                        </ul>
                     </div>
                 </article>
-                <article class="reveal location-card group relative rounded-2xl overflow-hidden h-96">
-                    <img src="<?php echo esc_url($img_uri . '/6_2_802.png'); ?>" alt="Villa being built your way" class="absolute inset-0 w-full h-full object-cover" loading="lazy" />
-                    <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/40 to-transparent"></div>
-                    <div class="relative h-full flex flex-col justify-end p-7 text-white">
-                        <h3 class="font-prata text-2xl">Build Your Way</h3>
-                        <p class="mt-2 text-sm text-white/80">Choose a plot today and build your home your way — designed around your family.</p>
-                    </div>
-                </article>
-                <article class="reveal location-card group relative rounded-2xl overflow-hidden h-96">
-                    <img src="<?php echo esc_url($img_uri . '/16_image_123.png'); ?>" alt="Property price growth and investment" class="absolute inset-0 w-full h-full object-cover" loading="lazy" />
-                    <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/40 to-transparent"></div>
-                    <div class="relative h-full flex flex-col justify-end p-7 text-white">
-                        <h3 class="font-prata text-2xl">Invest for Tomorrow</h3>
-                        <p class="mt-2 text-sm text-white/80">Explore locations and projects with potential for long-term value.</p>
-                    </div>
-                </article>
-            </div>
-
-            <!-- Promises -->
-            <div class="mt-14 bg-brand-cream border border-ink-line rounded-2xl p-7 sm:p-10 reveal">
-                <div class="flex flex-col lg:flex-row lg:items-center gap-8">
-                    <div class="lg:max-w-xs shrink-0">
-                        <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-2">Our Promises</p>
-                        <h2 class="font-prata text-3xl leading-tight">Buying With Confidence</h2>
-                    </div>
-                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 flex-1">
-                        <div class="flex gap-4">
-                            <span class="w-12 h-12 shrink-0 rounded-xl bg-ink text-gold-light inline-flex items-center justify-center text-lg"><i class="fa-solid fa-circle-check"></i></span>
-                            <span><span class="block font-semibold">Verified</span><span class="block text-sm text-[#302F5A]-muted mt-1">Approvals, layouts and project details checked for you.</span></span>
-                        </div>
-                        <div class="flex gap-4">
-                            <span class="w-12 h-12 shrink-0 rounded-xl bg-ink text-gold-light inline-flex items-center justify-center text-lg"><i class="fa-solid fa-tag"></i></span>
-                            <span><span class="block font-semibold">Lowest Price Guaranteed</span><span class="block text-sm text-[#302F5A]-muted mt-1">Find a lower price anywhere, tell us and we will match it.</span></span>
-                        </div>
-                        <div class="flex gap-4">
-                            <span class="w-12 h-12 shrink-0 rounded-xl bg-ink text-gold-light inline-flex items-center justify-center text-lg"><i class="fa-solid fa-headset"></i></span>
-                            <span><span class="block font-semibold">24/7 Support</span><span class="block text-sm text-[#302F5A]-muted mt-1">Guidance from first enquiry to final handover.</span></span>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
 
     <!-- ======================= TESTIMONIALS ======================= -->
-    <section id="testimonials" class="py-16 sm:py-20 lg:py-24 bg-brand-cream scroll-mt-24">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto mb-12 reveal">
-                <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">Testimonials</p>
-                <h2 class="font-prata text-3xl sm:text-4xl leading-tight">What Our Customers Say</h2>
-                <p class="mt-4 text-[#302F5A]-muted">Real experiences from people who trusted Estate Partners.</p>
+    <section id="testimonials" class="py-16 sm:py-20 lg:py-24 bg-[#302F5A] scroll-mt-24">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-[30%_70%]">
+            <div class="text-white max-w-4xl mx-auto mb-12 reveal">
+                <p class="ont-bold uppercase tracking-[0.18em] text-sm mb-3">What Our Customers Say</p>
+                <h2 class="font-prata text-3xl sm:text-4xl leading-tight">Real experiences from people who trusted Estate Partners.</h2>
+                <!-- <p class="mt-4 text-[#302F5A]-muted">Real experiences from people who trusted Estate Partners.</p> -->
+                <div class="flex gap-10 items-center mt-4">
+                    <div class="swiper-button-prev !relative !left-0 !mt-0 hidden md:flex"></div>
+                    <div class="swiper-button-next !relative !right-0 !mt-0 hidden md:flex"></div>
+                </div>
             </div>
 
-            <div class="swiper testimonials-swiper reveal">
+            <div class="swiper testimonials-swiper reveal w-full">
                 <div class="swiper-wrapper pb-14">
                     <figure class="swiper-slide h-auto bg-white rounded-2xl border border-ink-line p-7 sm:p-8 shadow-sm flex flex-col">
                         <div class="text-gold text-xl mb-4"><i class="fa-solid fa-quote-left"></i></div>
@@ -704,98 +750,72 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                             <span><span class="block font-semibold">Kavi Priya</span><span class="block text-xs text-[#302F5A]-muted">Home Buyer, Coimbatore</span></span>
                         </figcaption>
                     </figure>
+                    <figure class="swiper-slide h-auto bg-white rounded-2xl border border-ink-line p-7 sm:p-8 shadow-sm flex flex-col">
+                        <div class="text-gold text-xl mb-4"><i class="fa-solid fa-quote-left"></i></div>
+                        <blockquote class="text-[#302F5A]-soft leading-relaxed flex-1">The team understood exactly what we were looking for and helped us shortlist properties based on our budget and preferred location.</blockquote>
+                        <figcaption class="mt-6 flex items-center gap-4">
+                            <img src="<?php echo esc_url($img_uri . '/17_ellipse_15.png'); ?>" alt="Vigneshwaran" class="w-12 h-12 rounded-full object-cover" loading="lazy" />
+                            <span><span class="block font-semibold">Vigneshwaran</span><span class="block text-xs text-[#302F5A]-muted">Home Buyer, Coimbatore</span></span>
+                        </figcaption>
+                    </figure>
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
         </div>
     </section>
 
-    <!-- ======================= INSIGHTS ======================= -->
+    <!-- ======================= Calculator ======================= -->
     <section id="insights" class="py-16 sm:py-20 lg:py-24 scroll-mt-24">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-wrap items-end justify-between gap-6 mb-10 reveal">
-                <div class="max-w-2xl">
-                    <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">Real Estate Insights</p>
-                    <h2 class="font-prata text-3xl sm:text-4xl leading-tight">News and Articles</h2>
-                    <p class="mt-4 text-[#302F5A]-muted leading-relaxed">Stay informed with practical guides, property insights and local market information to help you make smarter real estate decisions.</p>
-                </div>
-                <div class="flex items-center gap-3">
-                    <button class="insights-prev w-12 h-12 rounded-full border border-ink-line inline-flex items-center justify-center hover:bg-ink hover:text-white hover:border-ink transition-colors" aria-label="Previous articles"><i class="fa-solid fa-arrow-left"></i></button>
-                    <button class="insights-next w-12 h-12 rounded-full border border-ink-line inline-flex items-center justify-center hover:bg-ink hover:text-white hover:border-ink transition-colors" aria-label="Next articles"><i class="fa-solid fa-arrow-right"></i></button>
-                </div>
+
+            <div class="max-w-2xl mb-6 mx-auto">
+                <h2 class="font-prata text-center text-3xl sm:text-4xl leading-tight">Helpful Tools</h2>
             </div>
 
-            <div class="swiper insights-swiper reveal">
-                <div class="swiper-wrapper pb-14">
-                    <article class="swiper-slide insight-card group bg-white rounded-2xl overflow-hidden border border-ink-line shadow-sm hover:shadow-xl transition-shadow h-auto">
-                        <div class="overflow-hidden h-56"><img src="<?php echo esc_url($img_uri . '/28_rectangle_10323.png'); ?>" alt="Reviewing property documents before buying" class="w-full h-full object-cover" loading="lazy" /></div>
-                        <div class="p-6">
-                            <p class="text-xs font-bold uppercase tracking-wider text-gold">Buying Guides</p>
-                            <h3 class="mt-2 font-prata text-xl leading-snug">What to Check Before Buying Your Home</h3>
-                            <p class="mt-2 text-sm text-[#302F5A]-muted leading-relaxed">Learn what to check before buying an apartment, villa or residential plot.</p>
-                            <span class="mt-4 inline-flex items-center gap-2 text-sm font-semibold group-hover:text-gold transition-colors">Read More <i class="fa-solid fa-arrow-right text-xs"></i></span>
-                        </div>
-                    </article>
-                    <article class="swiper-slide insight-card group bg-white rounded-2xl overflow-hidden border border-ink-line shadow-sm hover:shadow-xl transition-shadow h-auto">
-                        <div class="overflow-hidden h-56"><img src="<?php echo esc_url($img_uri . '/29_rectangle_10323.png'); ?>" alt="Comparing apartment and villa models" class="w-full h-full object-cover" loading="lazy" /></div>
-                        <div class="p-6">
-                            <p class="text-xs font-bold uppercase tracking-wider text-gold">Buying Guides</p>
-                            <h3 class="mt-2 font-prata text-xl leading-snug">Apartments vs Villas: Finding Your Fit</h3>
-                            <p class="mt-2 text-sm text-[#302F5A]-muted leading-relaxed">Space, privacy, budget and lifestyle — how to choose with confidence.</p>
-                            <span class="mt-4 inline-flex items-center gap-2 text-sm font-semibold group-hover:text-gold transition-colors">Read More <i class="fa-solid fa-arrow-right text-xs"></i></span>
-                        </div>
-                    </article>
-                    <article class="swiper-slide insight-card group bg-white rounded-2xl overflow-hidden border border-ink-line shadow-sm hover:shadow-xl transition-shadow h-auto">
-                        <div class="overflow-hidden h-56"><img src="<?php echo esc_url($img_uri . '/30_rectangle_10323.png'); ?>" alt="Analysing locations for real estate investment" class="w-full h-full object-cover" loading="lazy" /></div>
-                        <div class="p-6">
-                            <p class="text-xs font-bold uppercase tracking-wider text-gold">Locality Guides</p>
-                            <h3 class="mt-2 font-prata text-xl leading-snug">Coimbatore Growth Corridors to Watch</h3>
-                            <p class="mt-2 text-sm text-[#302F5A]-muted leading-relaxed">Explore locations and projects with potential for long-term value.</p>
-                            <span class="mt-4 inline-flex items-center gap-2 text-sm font-semibold group-hover:text-gold transition-colors">Read More <i class="fa-solid fa-arrow-right text-xs"></i></span>
-                        </div>
-                    </article>
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
+            <div class="grid gap-6 grid-cols-2 lg:grid-cols-4">
+                <div class="flex flex-col md:flex-row lg:flex-col 2xl:flex-row rounded-lg gap-4 border border-gold/70 bg-gold/20 p-4">
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/emi-calculators.png" alt="" class="w-28 h-28 object-cover rounded-lg">
 
-            <!-- Buyer guides -->
-            <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 reveal">
-                <a href="#insights" class="flex items-center gap-4 bg-brand-cream border border-ink-line rounded-xl px-5 py-4 hover:border-gold hover:-translate-y-0.5 transition-all">
-                    <span class="w-11 h-11 shrink-0 rounded-lg bg-ink text-gold-light inline-flex items-center justify-center"><i class="fa-solid fa-book-open"></i></span>
-                    <span><span class="block font-semibold text-sm">New Buyers Guide</span><span class="block text-xs text-[#302F5A]-muted">Start here</span></span>
-                </a>
-                <a href="#insights" class="flex items-center gap-4 bg-brand-cream border border-ink-line rounded-xl px-5 py-4 hover:border-gold hover:-translate-y-0.5 transition-all">
-                    <span class="w-11 h-11 shrink-0 rounded-lg bg-ink text-gold-light inline-flex items-center justify-center"><i class="fa-solid fa-plane"></i></span>
-                    <span><span class="block font-semibold text-sm">NRI Guide</span><span class="block text-xs text-[#302F5A]-muted">Buy from abroad</span></span>
-                </a>
-                <a href="#insights" class="flex items-center gap-4 bg-brand-cream border border-ink-line rounded-xl px-5 py-4 hover:border-gold hover:-translate-y-0.5 transition-all">
-                    <span class="w-11 h-11 shrink-0 rounded-lg bg-ink text-gold-light inline-flex items-center justify-center"><i class="fa-solid fa-key"></i></span>
-                    <span><span class="block font-semibold text-sm">Buying Guides</span><span class="block text-xs text-[#302F5A]-muted">Step-by-step help</span></span>
-                </a>
-                <a href="#locations" class="flex items-center gap-4 bg-brand-cream border border-ink-line rounded-xl px-5 py-4 hover:border-gold hover:-translate-y-0.5 transition-all">
-                    <span class="w-11 h-11 shrink-0 rounded-lg bg-ink text-gold-light inline-flex items-center justify-center"><i class="fa-solid fa-map"></i></span>
-                    <span><span class="block font-semibold text-sm">Locality Guides</span><span class="block text-xs text-[#302F5A]-muted">Know your area</span></span>
-                </a>
+                    <div class=" space-y-2">
+                        <h2 class="text-gold font-semibold text-xl">EMI Calculator</h2>
+                        <p class="text-[#4D5461]">EMI starts at ₹ 11.27 K</p>
+                        <a href="" class="text-white font-semibold text-sm rounded-lg px-6 py-3 bg-[#302F5A] inline-block">Calculate now <i class="fa-solid fa-arrow-right ml-2"></i></a>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row lg:flex-col 2xl:flex-row rounded-lg gap-4 border border-gold/70 bg-gold/20 p-4">
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/emi-calculators.png" alt="" class="w-28 h-28 object-cover rounded-lg">
+
+                    <div class=" space-y-2">
+                        <h2 class="text-gold font-semibold text-xl">Stamp Duty Calculator</h2>
+                        <p class="text-[#4D5461]">Find your home loan limit</p>
+                        <a href="" class="text-white font-semibold text-sm rounded-lg px-6 py-3 bg-[#302F5A] inline-block">Calculate now <i class="fa-solid fa-arrow-right ml-2"></i></a>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row lg:flex-col 2xl:flex-row rounded-lg gap-4 border border-gold/70 bg-gold/20 p-4">
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/emi-calculators.png" alt="" class="w-28 h-28 object-cover rounded-lg">
+
+                    <div class=" space-y-2">
+                        <h2 class="text-gold font-semibold text-xl">Price Calculator</h2>
+                        <p class="text-[#4D5461]">Check the price of your property</p>
+                        <a href="" class="text-white font-semibold text-sm rounded-lg px-6 py-3 bg-[#302F5A] inline-block">Calculate now <i class="fa-solid fa-arrow-right ml-2"></i></a>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row lg:flex-col 2xl:flex-row rounded-lg gap-4 border border-gold/70 bg-gold/20 p-4">
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/emi-calculators.png" alt="" class="w-28 h-28 object-cover rounded-lg">
+
+                    <div class=" space-y-2">
+                        <h2 class="text-gold font-semibold text-xl">Tax Calculator</h2>
+                        <p class="text-[#4D5461]">EMI starts at ₹ 11.27 K</p>
+                        <a href="" class="text-white font-semibold text-sm rounded-lg px-6 py-3 bg-[#302F5A] inline-block">Calculate now <i class="fa-solid fa-arrow-right ml-2"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- ======================= CTA BAND ======================= -->
-    <section class="bg-brand-purple text-white">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-16 flex flex-col lg:flex-row lg:items-center gap-8">
-            <div class="flex-1 reveal">
-                <h2 class="font-prata text-3xl sm:text-4xl leading-tight">Let's help you find a space that truly feels home</h2>
-                <p class="mt-3 text-white/75 text-sm sm:text-base">Register for exclusive offers on handpicked Coimbatore projects.</p>
-            </div>
-            <!-- <form id="newsletter-form" class="reveal w-full lg:max-w-md" onsubmit="return false;">
-                <div class="flex flex-col sm:flex-row gap-3">
-                    <input type="email" required placeholder="Your email address" aria-label="Email address" class="flex-1 rounded-lg px-5 py-3.5 text-sm text-[#302F5A] focus:outline-none focus:ring-2 focus:ring-gold" />
-                    <button type="submit" class="inline-flex items-center justify-center gap-2 bg-gold hover:bg-gold-dark text-white font-semibold px-7 py-3.5 rounded-lg text-sm transition-colors whitespace-nowrap">Register Now</button>
-                </div>
-                <p id="newsletter-note" class="hidden mt-3 text-sm text-gold-light"></p>
-            </form> -->
-        </div>
-    </section>
 </main>
 
 <?php get_footer(); ?>
