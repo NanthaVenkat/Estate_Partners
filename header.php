@@ -60,12 +60,12 @@ $home    = home_url('/');
                 <!-- Desktop nav -->
                 <nav class="hidden lg:flex items-center gap-8 text-[15px] font-medium" aria-label="Primary">
                     <a href="<?php echo esc_url($home . '#home'); ?>" class="nav-link active hover:text-gold transition-colors">Home</a>
-                    <a href="<?php echo esc_url($home . '#about'); ?>" class="nav-link hover:text-gold transition-colors">About Us</a>
-                    <a href="<?php echo esc_url($home . '#projects'); ?>" class="nav-link hover:text-gold transition-colors">Projects</a>
-                    <a href="<?php echo esc_url($home . '#types'); ?>" class="nav-link hover:text-gold transition-colors">Apartments</a>
-                    <a href="<?php echo esc_url($home . '#types'); ?>" class="nav-link hover:text-gold transition-colors">Villas</a>
-                    <a href="<?php echo esc_url($home . '#locations'); ?>" class="nav-link hover:text-gold transition-colors">Locations</a>
-                    <a href="<?php echo esc_url($home . '#insights'); ?>" class="nav-link hover:text-gold transition-colors">Blog</a>
+                    <a href="<?php echo esc_url($home . '/about-us/'); ?>" class="nav-link hover:text-gold transition-colors">About Us</a>
+                    <!-- <a href="<?php echo esc_url($home . '#projects'); ?>" class="nav-link hover:text-gold transition-colors">Projects</a> -->
+                    <!-- <a href="<?php echo esc_url($home . '#types'); ?>" class="nav-link hover:text-gold transition-colors">Apartments</a> -->
+                    <!-- <a href="<?php echo esc_url($home . '#types'); ?>" class="nav-link hover:text-gold transition-colors">Villas</a> -->
+                    <a href="<?php echo esc_url($home . '/contact-us/'); ?>" class="nav-link hover:text-gold transition-colors">Contact</a>
+                    <!-- <a href="<?php echo esc_url($home . '#insights'); ?>" class="nav-link hover:text-gold transition-colors">Blog</a> -->
                 </nav>
 
                 <!-- Actions -->
@@ -91,14 +91,14 @@ $home    = home_url('/');
         <!-- Mobile menu -->
         <div id="mobile-menu" class="hidden lg:hidden border-t border-ink-line bg-white">
             <nav class="px-4 sm:px-6 py-4 flex flex-col text-base font-medium divide-y divide-ink-line/70" aria-label="Mobile">
-                <a href="<?php echo esc_url($home . '#home'); ?>" class="py-3 hover:text-gold">Home</a>
-                <a href="<?php echo esc_url($home . '#about'); ?>" class="py-3 hover:text-gold">About Us</a>
-                <a href="<?php echo esc_url($home . '#projects'); ?>" class="py-3 hover:text-gold">Projects</a>
-                <a href="<?php echo esc_url($home . '#types'); ?>" class="py-3 hover:text-gold">Apartments</a>
-                <a href="<?php echo esc_url($home . '#types'); ?>" class="py-3 hover:text-gold">Villas</a>
-                <a href="<?php echo esc_url($home . '#locations'); ?>" class="py-3 hover:text-gold">Locations</a>
-                <a href="<?php echo esc_url($home . '#insights'); ?>" class="py-3 hover:text-gold">Blog</a>
-                <a href="<?php echo esc_url($home . '#contact'); ?>" class="py-3 hover:text-gold">Contact Us</a>
+                <a href="<?php echo esc_url($home . ''); ?>" class="py-3 hover:text-gold">Home</a>
+                <a href="<?php echo esc_url($home . '/about-us/'); ?>" class="py-3 hover:text-gold">About Us</a>
+                <!-- <a href="<?php echo esc_url($home . '#projects'); ?>" class="py-3 hover:text-gold">Projects</a> -->
+                <!-- <a href="<?php echo esc_url($home . '#types'); ?>" class="py-3 hover:text-gold">Apartments</a> -->
+                <!-- <a href="<?php echo esc_url($home . '#types'); ?>" class="py-3 hover:text-gold">Villas</a> -->
+                <!-- <a href="<?php echo esc_url($home . '#locations'); ?>" class="py-3 hover:text-gold">Locations</a> -->
+                <!-- <a href="<?php echo esc_url($home . '#insights'); ?>" class="py-3 hover:text-gold">Blog</a> -->
+                <a href="<?php echo esc_url($home . '/contact-us/'); ?>" class="py-3 hover:text-gold">Contact Us</a>
                 <a href="<?php echo esc_url($home . '#enquire'); ?>" class="my-3 inline-flex items-center justify-center gap-2 bg-ink text-white font-medium text-sm px-6 py-3 rounded-lg">
                     Enquire Now <i class="fa-solid fa-arrow-right text-xs"></i>
                 </a>

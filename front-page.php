@@ -131,32 +131,32 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                     </div>
 
                     <div class="space-y-4 p-5 text-white bg-gold order-2">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/LocalExpertise.svg" alt="Curated Projects" class="w-16 h-16">
+                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/CuratedProjects.svg" alt="Curated Projects" class="w-16 h-16">
                         <h4 class="font-semibold text-lg">Curated Projects</h4>
                         <p class="">Only 16 villas across 1.42 acres — a rare, small-scale development, not a mass housing project.
                         </p>
                     </div>
 
                     <div class="space-y-4 p-5 text-white bg-gold order-4 sm:order-3">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/LocalExpertise.svg" alt="Clear Project Information" class="w-16 h-16">
+                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/ClearProjectInformation.svg" alt="Clear Project Information" class="w-16 h-16">
                         <h4 class="font-semibold text-lg">Clear Project Information</h4>
                         <p class="">Get important details about location, configurations, pricing, amenities, approvals and project status in one place.</p>
                     </div>
 
                     <div class="space-y-4 p-5 order-3 sm:order-4">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/LocalExpertise.svg" alt="Compare Before You Decide" class="w-16 h-16">
+                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/CompareBeforeYouDecide.svg" alt="Compare Before You Decide" class="w-16 h-16">
                         <h4 class="font-semibold text-[#302F5A] text-lg">Compare Before You Decide</h4>
                         <p class="text-[#6B6B6B]">Shortlist and compare projects based on your budget, requirements, location and investment goals.</p>
                     </div>
 
                     <div class="space-y-4 p-5 order-5">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/LocalExpertise.svg" alt="Personalised Guidance" class="w-16 h-16">
+                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/PersonalisedGuidance.svg" alt="Personalised Guidance" class="w-16 h-16">
                         <h4 class="font-semibold text-[#302F5A] text-lg">Personalised Guidance</h4>
                         <p class="text-[#6B6B6B]">Not sure what to buy? Our property advisors can help you identify options that match your needs.</p>
                     </div>
 
                     <div class="space-y-4 p-5 text-white bg-gold order-6">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/LocalExpertise.svg" alt="End-to-End Support" class="w-16 h-16">
+                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/EndtoEndSupport.svg" alt="End-to-End Support" class="w-16 h-16">
                         <h4 class="font-semibold text-lg">End-to-End Support</h4>
                         <p class="">From your first enquiry and site visit to booking and the next steps, our team stays available to assist you.</p>
                     </div>
@@ -422,7 +422,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                 <!-- Pagination & Arrows -->
                 <div class="flex flex-wrap items-end justify-between gap-6 mb-10 reveal mt-4">
                     <div class="swiper-pagination"></div>
-                    <div class="flex items-center gap-3">
+                    <div class="flex items-center gap-3 z-50">
                         <button class="projects-prev w-12 h-12 rounded-full border border-ink-line inline-flex items-center justify-center hover:bg-ink hover:text-white hover:border-ink transition-colors" aria-label="Previous projects"><i class="fa-solid fa-arrow-left"></i></button>
                         <button class="projects-next w-12 h-12 rounded-full border border-ink-line inline-flex items-center justify-center hover:bg-ink hover:text-white hover:border-ink transition-colors" aria-label="Next projects"><i class="fa-solid fa-arrow-right"></i></button>
                     </div>
@@ -510,16 +510,16 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                     confidence — including location, price, configurations, amenities, approvals, floor plans, availability and possession details</p>
             </div>
 
-            <div class="flex flex-wrap justify-center gap-3 reveal" role="tablist" aria-label="Project status">
-                <button class="status-tab active border border-white/30 rounded-full px-8 py-2 text-sm font-semibold tracking-wider" data-target="panel-all" role="tab">All Projects</button>
-                <button class="status-tab border border-gold/30 bg-white rounded-full px-8 py-2 text-sm font-semibold tracking-wider" data-target="panel-apartments" role="tab">Apartments</button>
-                <button class="status-tab border border-gold/30 bg-white rounded-full px-8 py-2 text-sm font-semibold tracking-wider" data-target="panel-vills" role="tab">Vills</button>
-                <button class="status-tab border border-gold/30 bg-white rounded-full px-8 py-2 text-sm font-semibold tracking-wider" data-target="panel-plots" role="tab">Plots</button>
+            <div class="project-tab-wrr flex flex-wrap justify-center gap-3 reveal" role="tablist" aria-label="Project category">
+                <button type="button" class="project-tab active border border-white/30 rounded-full px-8 py-2 text-sm font-semibold tracking-wider" data-target="panel-all" role="tab" aria-selected="true">All Projects</button>
+                <button type="button" class="project-tab border border-gold/30 bg-white rounded-full px-8 py-2 text-sm font-semibold tracking-wider" data-target="apartments" role="tab" aria-selected="false">Apartments</button>
+                <button type="button" class="project-tab border border-gold/30 bg-white rounded-full px-8 py-2 text-sm font-semibold tracking-wider" data-target="villas" role="tab" aria-selected="false">Villas</button>
+                <button type="button" class="project-tab border border-gold/30 bg-white rounded-full px-8 py-2 text-sm font-semibold tracking-wider" data-target="plots" role="tab" aria-selected="false">Plots</button>
             </div>
 
             <!-- Ongoing -->
-            <div id="panel-apartments" class="status-panel grid grid-cols-1 grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
-                <article class="bg-white rounded-2xl overflow-hidden hover:border-gold/60 transition-colors">
+            <div class="project-pannel-wrr grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                <article class="project-pannel bg-white rounded-2xl overflow-hidden hover:border-gold/60 transition-colors" data-target="apartments">
                     <div class="relative h-52 overflow-hidden">
                         <!-- image -->
                         <img src="<?php echo esc_url($img_uri . '/23_2_802.png'); ?>" alt="Aara Enclave" class="w-full h-full object-cover" loading="lazy" />
@@ -574,8 +574,20 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                         </ul>
                     </div>
                 </article>
-                <article class="bg-white rounded-2xl overflow-hidden hover:border-gold/60 transition-colors">
-                    <div class="h-52 overflow-hidden"><img src="<?php echo esc_url($img_uri . '/23_2_802.png'); ?>" alt="Aara Enclave" class="w-full h-full object-cover" loading="lazy" /></div>
+
+                <article class="project-pannel bg-white rounded-2xl overflow-hidden hover:border-gold/60 transition-colors" data-target="apartments">
+                    <div class="relative h-52 overflow-hidden">
+                        <!-- image -->
+                        <img src="<?php echo esc_url($img_uri . '/23_2_802.png'); ?>" alt="Aara Enclave" class="w-full h-full object-cover" loading="lazy" />
+                        <!-- verified badge -->
+                        <span class="absolute top-4 left-4 bg-green-600 text-white font-medium p-1.5 rounded-full text-[0.7rem]"><i class="fa-solid fa-check text-green-600 bg-white rounded-full p-1"></i> Verified</span>
+                        <!-- floating action buttons -->
+                        <div class="flex flex-col gap-4 absolute top-4 right-4 leading-none text-black">
+                            <button class="rounded-md p-1.5 bg-white"><i class="fa-regular fa-heart"></i></button>
+                            <button class="rounded-md p-1.5 bg-white"><i class="fa-regular fa-share-from-square"></i></button>
+                            <button class="rounded-md p-1.5 bg-white"><i class="fa-solid fa-code-compare"></i></button>
+                        </div>
+                    </div>
                     <div class="p-6">
                         <h3 class="text-2xl font-semibold text-gold">Infinium Altitude</h3>
                         <p class="text-[#302F5A] mt-1"><i class="fa-solid fa-location-dot mr-1.5"></i>Ganapathy</p>
@@ -619,12 +631,75 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                     </div>
                 </article>
 
-            </div>
+                <article class="project-pannel bg-white rounded-2xl overflow-hidden hover:border-gold/60 transition-colors" data-target="plots">
+                    <div class="relative h-52 overflow-hidden">
+                        <!-- image -->
+                        <img src="<?php echo esc_url($img_uri . '/23_2_802.png'); ?>" alt="Aara Enclave" class="w-full h-full object-cover" loading="lazy" />
+                        <!-- verified badge -->
+                        <span class="absolute top-4 left-4 bg-green-600 text-white font-medium p-1.5 rounded-full text-[0.7rem]"><i class="fa-solid fa-check text-green-600 bg-white rounded-full p-1"></i> Verified</span>
+                        <!-- floating action buttons -->
+                        <div class="flex flex-col gap-4 absolute top-4 right-4 leading-none text-black">
+                            <button class="rounded-md p-1.5 bg-white"><i class="fa-regular fa-heart"></i></button>
+                            <button class="rounded-md p-1.5 bg-white"><i class="fa-regular fa-share-from-square"></i></button>
+                            <button class="rounded-md p-1.5 bg-white"><i class="fa-solid fa-code-compare"></i></button>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-gold">Infinium Altitude</h3>
+                        <p class="text-[#302F5A] mt-1"><i class="fa-solid fa-location-dot mr-1.5"></i>Ganapathy</p>
+                        <ul class="mt-4 grid grid-cols-2 gap-4 text-xs font-medium text-[#302F5A]">
+                            <li class="flex items-center gap-2">
+                                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-1.svg" alt="">
+                                <div>
+                                    <h6 class="font-semibold">Total Area</h6>
+                                    <p class='text-[#404042]'>100,000 sq.ft</p>
+                                </div>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-4.svg" alt="">
+                                <div>
+                                    <h6 class="font-semibold">Total No. Of Plots</h6>
+                                    <p class='text-[#404042]'>51 Plots</p>
+                                </div>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-3.svg" alt="">
+                                <div>
+                                    <h6 class="font-semibold">Total Area in Acres</h6>
+                                    <p class='text-[#404042]'>2.27 Acres</p>
+                                </div>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-2.svg" alt="">
+                                <div>
+                                    <h6 class="font-semibold">24/7</h6>
+                                    <p class='text-[#404042]'>CCTV Provided</p>
+                                </div>
+                            </li>
 
-            <!-- Upcoming -->
-            <div id="panel-vills" class="status-panel hidden grid grid-cols-1 grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
-                <article class="bg-white rounded-2xl overflow-hidden hover:border-gold/60 transition-colors">
-                    <div class="h-52 overflow-hidden"><img src="<?php echo esc_url($img_uri . '/23_2_802.png'); ?>" alt="Aara Enclave" class="w-full h-full object-cover" loading="lazy" /></div>
+                            <li class="col-span-2">
+                                <a href="" class="w-full inline-block text-base px-4 py-2 rounded-lg gap-3 font-medium text-center text-white bg-[#302F5A]"><span class="font-bold">4 BHK</span> | Rs 2.83 Crs Onwards</a>
+                            </li>
+
+                            <a href="" class="border border-[#302F5A] text-[#302F5A] text-center rounded-lg py-2 px-3">Call Us <i class="fa-solid fa-arrow-right text-xs ml-2"></i></a>
+                            <a href="" class="border border-[#302F5A] text-[#302F5A] text-center rounded-lg py-2 px-3">Know More <i class="fa-solid fa-arrow-right text-xs ml-2"></i></a>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="project-pannel bg-white rounded-2xl overflow-hidden hover:border-gold/60 transition-colors" data-target="villas">
+                    <div class="relative h-52 overflow-hidden">
+                        <!-- image -->
+                        <img src="<?php echo esc_url($img_uri . '/23_2_802.png'); ?>" alt="Aara Enclave" class="w-full h-full object-cover" loading="lazy" />
+                        <!-- verified badge -->
+                        <span class="absolute top-4 left-4 bg-green-600 text-white font-medium p-1.5 rounded-full text-[0.7rem]"><i class="fa-solid fa-check text-green-600 bg-white rounded-full p-1"></i> Verified</span>
+                        <!-- floating action buttons -->
+                        <div class="flex flex-col gap-4 absolute top-4 right-4 leading-none text-black">
+                            <button class="rounded-md p-1.5 bg-white"><i class="fa-regular fa-heart"></i></button>
+                            <button class="rounded-md p-1.5 bg-white"><i class="fa-regular fa-share-from-square"></i></button>
+                            <button class="rounded-md p-1.5 bg-white"><i class="fa-solid fa-code-compare"></i></button>
+                        </div>
+                    </div>
                     <div class="p-6">
                         <h3 class="text-2xl font-semibold text-gold">Infinium Altitude</h3>
                         <p class="text-[#302F5A] mt-1"><i class="fa-solid fa-location-dot mr-1.5"></i>Ganapathy</p>
@@ -669,53 +744,6 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                 </article>
             </div>
 
-            <!-- Upcoming -->
-            <div id="panel-plots" class="status-panel hidden grid grid-cols-1 grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
-                <article class="bg-white rounded-2xl overflow-hidden hover:border-gold/60 transition-colors">
-                    <div class="h-52 overflow-hidden"><img src="<?php echo esc_url($img_uri . '/23_2_802.png'); ?>" alt="Aara Enclave" class="w-full h-full object-cover" loading="lazy" /></div>
-                    <div class="p-6">
-                        <h3 class="text-2xl font-semibold text-gold">Infinium Altitude</h3>
-                        <p class="text-[#302F5A] mt-1"><i class="fa-solid fa-location-dot mr-1.5"></i>Ganapathy</p>
-                        <ul class="mt-4 grid grid-cols-2 gap-4 text-xs font-medium text-[#302F5A]">
-                            <li class="flex items-center gap-2">
-                                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-1.svg" alt="">
-                                <div>
-                                    <h6 class="font-semibold">Total Area</h6>
-                                    <p class='text-[#404042]'>100,000 sq.ft</p>
-                                </div>
-                            </li>
-                            <li class="flex items-center gap-2">
-                                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-4.svg" alt="">
-                                <div>
-                                    <h6 class="font-semibold">Total No. Of Plots</h6>
-                                    <p class='text-[#404042]'>51 Plots</p>
-                                </div>
-                            </li>
-                            <li class="flex items-center gap-2">
-                                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-3.svg" alt="">
-                                <div>
-                                    <h6 class="font-semibold">Total Area in Acres</h6>
-                                    <p class='text-[#404042]'>2.27 Acres</p>
-                                </div>
-                            </li>
-                            <li class="flex items-center gap-2">
-                                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-2.svg" alt="">
-                                <div>
-                                    <h6 class="font-semibold">24/7</h6>
-                                    <p class='text-[#404042]'>CCTV Provided</p>
-                                </div>
-                            </li>
-
-                            <li class="col-span-2">
-                                <a href="" class="w-full inline-block text-base px-4 py-2 rounded-lg gap-3 font-medium text-center text-white bg-[#302F5A]"><span class="font-bold">4 BHK</span> | Rs 2.83 Crs Onwards</a>
-                            </li>
-
-                            <a href="" class="border border-[#302F5A] text-[#302F5A] text-center rounded-lg py-2 px-3">Call Us <i class="fa-solid fa-arrow-right text-xs ml-2"></i></a>
-                            <a href="" class="border border-[#302F5A] text-[#302F5A] text-center rounded-lg py-2 px-3">Know More <i class="fa-solid fa-arrow-right text-xs ml-2"></i></a>
-                        </ul>
-                    </div>
-                </article>
-            </div>
         </div>
     </section>
 
@@ -726,15 +754,11 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                 <p class="ont-bold uppercase tracking-[0.18em] text-sm mb-3">What Our Customers Say</p>
                 <h2 class="font-prata text-3xl sm:text-4xl leading-tight">Real experiences from people who trusted Estate Partners.</h2>
                 <!-- <p class="mt-4 text-[#302F5A]-muted">Real experiences from people who trusted Estate Partners.</p> -->
-                <div class="flex gap-10 items-center mt-4">
-                    <div class="swiper-button-prev !relative !left-0 !mt-0 hidden md:flex"></div>
-                    <div class="swiper-button-next !relative !right-0 !mt-0 hidden md:flex"></div>
-                </div>
             </div>
 
-            <div class="swiper testimonials-swiper reveal w-full">
+            <div class="swiper testimonials-swiper reveal w-full h-max">
                 <div class="swiper-wrapper pb-14">
-                    <figure class="swiper-slide h-auto bg-white rounded-2xl border border-ink-line p-7 sm:p-8 shadow-sm flex flex-col">
+                    <figure class="swiper-slide bg-white rounded-2xl border border-ink-line p-7 sm:p-8 shadow-sm flex flex-col">
                         <div class="text-gold text-xl mb-4"><i class="fa-solid fa-quote-left"></i></div>
                         <blockquote class="text-[#302F5A]-soft leading-relaxed flex-1">The team understood exactly what we were looking for and helped us shortlist properties based on our budget and preferred location.</blockquote>
                         <figcaption class="mt-6 flex items-center gap-4">
@@ -742,7 +766,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                             <span><span class="block font-semibold">Vigneshwaran</span><span class="block text-xs text-[#302F5A]-muted">Home Buyer, Coimbatore</span></span>
                         </figcaption>
                     </figure>
-                    <figure class="swiper-slide h-auto bg-white rounded-2xl border border-ink-line p-7 sm:p-8 shadow-sm flex flex-col">
+                    <figure class="swiper-slide bg-white rounded-2xl border border-ink-line p-7 sm:p-8 shadow-sm flex flex-col">
                         <div class="text-gold text-xl mb-4"><i class="fa-solid fa-quote-left"></i></div>
                         <blockquote class="text-[#302F5A]-soft leading-relaxed flex-1">The project information and site-visit support made the entire property search much easier.</blockquote>
                         <figcaption class="mt-6 flex items-center gap-4">
@@ -750,7 +774,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                             <span><span class="block font-semibold">Kavi Priya</span><span class="block text-xs text-[#302F5A]-muted">Home Buyer, Coimbatore</span></span>
                         </figcaption>
                     </figure>
-                    <figure class="swiper-slide h-auto bg-white rounded-2xl border border-ink-line p-7 sm:p-8 shadow-sm flex flex-col">
+                    <figure class="swiper-slide bg-white rounded-2xl border border-ink-line p-7 sm:p-8 shadow-sm flex flex-col">
                         <div class="text-gold text-xl mb-4"><i class="fa-solid fa-quote-left"></i></div>
                         <blockquote class="text-[#302F5A]-soft leading-relaxed flex-1">The team understood exactly what we were looking for and helped us shortlist properties based on our budget and preferred location.</blockquote>
                         <figcaption class="mt-6 flex items-center gap-4">
@@ -760,6 +784,10 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                     </figure>
                 </div>
                 <div class="swiper-pagination"></div>
+                <div class="flex gap-6">
+                    <div class="swiper-button-prev !relative !left-0 !mt-0 hidden md:flex"></div>
+                    <div class="swiper-button-next !relative !right-0 !mt-0 hidden md:flex"></div>
+                </div>
             </div>
         </div>
     </section>
@@ -774,42 +802,42 @@ $img_uri = get_template_directory_uri() . '/assets/images';
 
             <div class="grid gap-6 grid-cols-2 lg:grid-cols-4">
                 <div class="flex flex-col md:flex-row lg:flex-col 2xl:flex-row rounded-lg gap-4 border border-gold/70 bg-gold/20 p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/emi-calculators.png" alt="" class="w-28 h-28 object-cover rounded-lg">
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/calculator-2-scaled.png" alt="" class="w-24 h-24 object-cover rounded-lg">
 
                     <div class=" space-y-2">
-                        <h2 class="text-gold font-semibold text-xl">EMI Calculator</h2>
-                        <p class="text-[#4D5461]">EMI starts at ₹ 11.27 K</p>
-                        <a href="" class="text-white font-semibold text-sm rounded-lg px-6 py-3 bg-[#302F5A] inline-block">Calculate now <i class="fa-solid fa-arrow-right ml-2"></i></a>
+                        <h2 class="text-gold font-semibold">EMI Calculator</h2>
+                        <p class="text-[#4D5461] text-sm">EMI starts at ₹ 11.27 K</p>
+                        <a href="http://localhost/estate_partners/home-lone-calculator/" class="text-white font-semibold text-sm rounded-lg px-6 py-3 bg-[#302F5A] inline-block">Calculate now <i class="fa-solid fa-arrow-right ml-2"></i></a>
                     </div>
                 </div>
 
                 <div class="flex flex-col md:flex-row lg:flex-col 2xl:flex-row rounded-lg gap-4 border border-gold/70 bg-gold/20 p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/emi-calculators.png" alt="" class="w-28 h-28 object-cover rounded-lg">
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/calculator-1.png" alt="" class="w-24 h-24 object-cover rounded-lg">
 
                     <div class=" space-y-2">
-                        <h2 class="text-gold font-semibold text-xl">Stamp Duty Calculator</h2>
-                        <p class="text-[#4D5461]">Find your home loan limit</p>
-                        <a href="" class="text-white font-semibold text-sm rounded-lg px-6 py-3 bg-[#302F5A] inline-block">Calculate now <i class="fa-solid fa-arrow-right ml-2"></i></a>
+                        <h2 class="text-gold font-semibold">Stamp Duty Calculator</h2>
+                        <p class="text-[#4D5461] text-sm">Find your home loan limit</p>
+                        <a href="http://localhost/estate_partners/stamp-duty-calculator/" class="text-white font-semibold text-sm rounded-lg px-6 py-3 bg-[#302F5A] inline-block">Calculate now <i class="fa-solid fa-arrow-right ml-2"></i></a>
                     </div>
                 </div>
 
                 <div class="flex flex-col md:flex-row lg:flex-col 2xl:flex-row rounded-lg gap-4 border border-gold/70 bg-gold/20 p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/emi-calculators.png" alt="" class="w-28 h-28 object-cover rounded-lg">
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/calculator-3.png" alt="" class="w-24 h-24 object-cover rounded-lg">
 
                     <div class=" space-y-2">
-                        <h2 class="text-gold font-semibold text-xl">Price Calculator</h2>
-                        <p class="text-[#4D5461]">Check the price of your property</p>
-                        <a href="" class="text-white font-semibold text-sm rounded-lg px-6 py-3 bg-[#302F5A] inline-block">Calculate now <i class="fa-solid fa-arrow-right ml-2"></i></a>
+                        <h2 class="text-gold font-semibold">Price Calculator</h2>
+                        <p class="text-[#4D5461] text-sm">Check the price of your property</p>
+                        <a href="http://localhost/estate_partners/plot-price-calculator/" class="text-white font-semibold text-sm rounded-lg px-6 py-3 bg-[#302F5A] inline-block">Calculate now <i class="fa-solid fa-arrow-right ml-2"></i></a>
                     </div>
                 </div>
 
                 <div class="flex flex-col md:flex-row lg:flex-col 2xl:flex-row rounded-lg gap-4 border border-gold/70 bg-gold/20 p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/emi-calculators.png" alt="" class="w-28 h-28 object-cover rounded-lg">
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/calculator-4.png" alt="" class="w-24 h-24 object-cover rounded-lg">
 
                     <div class=" space-y-2">
-                        <h2 class="text-gold font-semibold text-xl">Tax Calculator</h2>
-                        <p class="text-[#4D5461]">EMI starts at ₹ 11.27 K</p>
-                        <a href="" class="text-white font-semibold text-sm rounded-lg px-6 py-3 bg-[#302F5A] inline-block">Calculate now <i class="fa-solid fa-arrow-right ml-2"></i></a>
+                        <h2 class="text-gold font-semibold">Tax Benifit Calculator</h2>
+                        <p class="text-[#4D5461] text-sm">Check the price of your property</p>
+                        <a href="http://localhost/estate_partners/home-loan-tax-calculator/" class="text-white font-semibold text-sm rounded-lg px-6 py-3 bg-[#302F5A] inline-block">Calculate now <i class="fa-solid fa-arrow-right ml-2"></i></a>
                     </div>
                 </div>
             </div>

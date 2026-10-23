@@ -82,6 +82,11 @@ Text Domain: estatepartners
 }
 
 /* ---------- Swiper generic ---------- */
+/* .testimonials-swiper .swiper-wrapper,
+.testimonials-swiper .swiper-slide {
+  height: auto;
+} */
+
 .swiper-button-next,
 .swiper-button-prev {
   width: 48px;
@@ -124,6 +129,16 @@ Text Domain: estatepartners
 }
 
 /* ---------- Status tabs ---------- */
+.project-tab {
+  transition: all 0.3s ease;
+}
+
+.project-tab.active {
+  background: #302f5a;
+  color: #ffffff;
+  border-color: #302f5a;
+}
+
 .status-tab {
   transition: all 0.3s ease;
 }

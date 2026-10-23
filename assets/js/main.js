@@ -101,19 +101,19 @@
         new Swiper(".testimonials-swiper", {
           slidesPerView: 1,
           spaceBetween: 24,
-          loop: testSlides >= 3,
-          speed: 600,
-          autoplay:
-            testSlides >= 3
-              ? { delay: 5500, disableOnInteraction: false }
-              : false,
+          // loop: testSlides >= 3,
+          // speed: 600,
+          // autoplay:
+          //   testSlides >= 3
+          //     ? { delay: 5500, disableOnInteraction: false }
+          //     : false,
           pagination: {
             el: ".testimonials-swiper .swiper-pagination",
             clickable: true,
           },
           navigation: {
-            nextEl: ".testimonials-swipers .swiper-button-next",
-            prevEl: ".testimonials-swipers .swiper-button-prev",
+            nextEl: ".testimonials-swiper .swiper-button-next",
+            prevEl: ".testimonials-swiper .swiper-button-prev",
           },
           breakpoints: {
             768: { slidesPerView: 2 },
@@ -181,6 +181,34 @@
       });
     });
 
+    /* ---------- Project category tabs ---------- */
+    var projectTabs = document.querySelectorAll(
+      ".project-tab-wrr .project-tab",
+    );
+    var projectPanels = document.querySelectorAll(
+      ".project-pannel-wrr > article",
+    );
+
+    projectTabs.forEach(function (tab) {
+      tab.addEventListener("click", function () {
+        var target = tab.getAttribute("data-target");
+
+        projectTabs.forEach(function (item) {
+          var isActive = item === tab;
+          item.classList.toggle("active", isActive);
+          item.setAttribute("aria-selected", isActive ? "true" : "false");
+        });
+
+        projectPanels.forEach(function (panel) {
+          var category = panel.getAttribute("data-target");
+          panel.classList.toggle(
+            "hidden",
+            target !== "panel-all" && category !== target,
+          );
+        });
+      });
+    });
+
     /* ---------- Reveal on scroll ---------- */
     var revealEls = document.querySelectorAll(".reveal");
     if (
@@ -226,7 +254,8 @@
         var submitBtn = contactForm.querySelector('button[type="submit"]');
         var originalBtnText = submitBtn.innerHTML;
         submitBtn.disabled = true;
-        submitBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin mr-2"></i>Sending...';
+        submitBtn.innerHTML =
+          '<i class="fa-solid fa-spinner fa-spin mr-2"></i>Sending...';
 
         var formData = new FormData(contactForm);
         formData.append("action", "vnktheme_contact_form");
@@ -246,13 +275,15 @@
               formMessage.className = "text-green-600";
               contactForm.reset();
             } else {
-              formMessage.textContent = data.data.message || "Something went wrong. Please try again.";
+              formMessage.textContent =
+                data.data.message || "Something went wrong. Please try again.";
               formMessage.className = "text-brand-red";
             }
             formMessage.classList.remove("hidden");
           })
           .catch(function () {
-            formMessage.textContent = "Network error. Please check your connection and try again.";
+            formMessage.textContent =
+              "Network error. Please check your connection and try again.";
             formMessage.className = "text-brand-red";
             formMessage.classList.remove("hidden");
           })
