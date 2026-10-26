@@ -16,11 +16,8 @@
 get_header();
 
 $td   = 'vnktheme-textdomain';
-$a    = get_template_directory_uri() . '/assets/images/about/';
 $logo = get_template_directory_uri() . '/assets/images/logo.png';
 $home = home_url('/');
-
-$hero_img = has_post_thumbnail() ? get_the_post_thumbnail_url(null, 'full') : $a . 'hero.jpg';
 
 /* Shared class strings (same typography/spacing as the About section on the home page). */
 $container = 'container mx-auto px-4 sm:px-6 lg:px-8';
@@ -35,10 +32,10 @@ $btn_gold  = 'inline-flex items-center gap-2 bg-gold hover:bg-gold-dark text-whi
  * ------------------------------------------------------------------ */
 
 $hero_stats = array(
-    array('icon' => 'fa-award',        'num' => '12 +',      'label' => 'Years of Experience'),
-    array('icon' => 'fa-users',        'num' => '1200 +',    'label' => 'Happy Customers'),
-    array('icon' => 'fa-file-lines',   'num' => '1000 +',    'label' => 'Properties Listed'),
-    array('icon' => 'fa-indian-rupee-sign', 'num' => '₹500 Cr+', 'label' => 'In Transactions Facilitated'),
+    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-1.svg',        'num' => '12 +',      'label' => 'Years of Experience'),
+    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-29.svg',        'num' => '1200 +',    'label' => 'Happy Customers'),
+    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-28.svg',   'num' => '1000 +',    'label' => 'Properties Listed'),
+    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-27.svg', 'num' => '₹500 Cr+', 'label' => 'In Transactions Facilitated'),
 );
 
 $vmo = array(
@@ -60,17 +57,17 @@ $vmo = array(
 );
 
 $apart = array(
-    array('icon' => 'fa-award',      'title' => 'Strong Industry Expertise',      'text' => 'Years of hands-on experience navigating Coimbatore’s property market, developers, and approval pathways.'),
-    array('icon' => 'fa-chart-line', 'title' => 'Ideal Investment Opportunities', 'text' => 'Curated access to plots, villas, and apartments in locations with genuine long-term growth potential.'),
-    array('icon' => 'fa-bullseye',   'title' => 'Goal-Driven Commitment',         'text' => 'Every recommendation is guided by your specific budget, timeline, and property goals — not a generic pitch.'),
-    array('icon' => 'fa-eye',        'title' => 'Committed to Transparency',      'text' => 'Clear communication on pricing, approvals, and project status, with no hidden surprises along the way.'),
+    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-25.svg',      'title' => 'Strong Industry Expertise',      'text' => 'Years of hands-on experience navigating Coimbatore’s property market, developers, and approval pathways.'),
+    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-24.svg', 'title' => 'Ideal Investment Opportunities', 'text' => 'Curated access to plots, villas, and apartments in locations with genuine long-term growth potential.'),
+    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-22.svg',   'title' => 'Goal-Driven Commitment',         'text' => 'Every recommendation is guided by your specific budget, timeline, and property goals — not a generic pitch.'),
+    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-23.svg',        'title' => 'Committed to Transparency',      'text' => 'Clear communication on pricing, approvals, and project status, with no hidden surprises along the way.'),
 );
 
 $values = array(
-    array('icon' => 'fa-gem',       'title' => 'Transparency',        'text' => 'We share clear, accurate information about every project: approvals, pricing, and documentation — so you always know exactly where things stand.'),
-    array('icon' => 'fa-users',     'title' => 'Customer Centricity', 'text' => 'Every recommendation we make is built around your needs, budget, and goals — not a one-size-fits-all approach to property buying.'),
-    array('icon' => 'fa-trophy',    'title' => 'Excellence',          'text' => 'We hold ourselves to high standards in how we verify projects, communicate with clients, and follow through on every commitment we make.'),
-    array('icon' => 'fa-handshake', 'title' => 'Team Work',           'text' => 'Our consultants, legal advisors, and support staff work together closely, so you get consistent, well-coordinated guidance throughout your journey.'),
+    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-21.svg',       'title' => 'Transparency',        'text' => 'We share clear, accurate information about every project: approvals, pricing, and documentation — so you always know exactly where things stand.'),
+    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-18.svg',     'title' => 'Customer Centricity', 'text' => 'Every recommendation we make is built around your needs, budget, and goals — not a one-size-fits-all approach to property buying.'),
+    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-1.svg',    'title' => 'Excellence',          'text' => 'We hold ourselves to high standards in how we verify projects, communicate with clients, and follow through on every commitment we make.'),
+    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-19.svg', 'title' => 'Team Work',           'text' => 'Our consultants, legal advisors, and support staff work together closely, so you get consistent, well-coordinated guidance throughout your journey.'),
 );
 
 $journey = array(
@@ -80,34 +77,34 @@ $journey = array(
 );
 
 $projects = array(
-    array('img' => 'project-plots.jpg',      'title' => 'Residential Plots',   'url' => $home . '#projects'),
-    array('img' => 'project-villas.jpg',     'title' => 'Premium Villas',      'url' => $home . '#projects'),
-    array('img' => 'project-apartments.jpg', 'title' => 'Premium Apartments',  'url' => $home . '#projects'),
+    array('img' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/23_2_802.png',      'title' => 'Residential Plots',   'url' => $home . '#projects'),
+    array('img' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/26_2_802.png',     'title' => 'Premium Villas',      'url' => $home . '#projects'),
+    array('img' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/5_2_802.png', 'title' => 'Premium Apartments',  'url' => $home . '#projects'),
 );
 
 $why = array(
-    array('icon' => 'fa-user-shield',  'title' => 'Customer First Transparency',      'text' => 'At Estate Partners, our clients are at the center of everything we do. We ensure complete transparency by presenting only verified properties with clear legal documentation, approved layouts, and accurate project details. This approach helps every homebuyer make decisions with confidence and peace of mind.'),
-    array('icon' => 'fa-award',        'title' => 'Expertise That Delivers Real Value', 'text' => 'With strong knowledge of the Coimbatore real estate market, we guide you toward apartments, villas, and residential plots that match your requirements. Our expertise allows us to identify properties that offer not just quality living but also long-term appreciation and reliable investment potential.'),
-    array('icon' => 'fa-location-dot', 'title' => 'Prime Locations For Smart Living', 'text' => 'We promote properties located in Coimbatore’s most promising and fast-developing areas. These locations offer excellent connectivity, access to schools, hospitals, IT hubs, and daily conveniences — ensuring both comfortable living and strong future growth.'),
-    array('icon' => 'fa-building',     'title' => 'Quality Projects with Lasting Value', 'text' => 'We collaborate with reputed builders and developers to bring you premium apartments, luxury villas, and gated community plots that meet high standards of planning and execution. Each project is selected for its design quality, functionality, and long-term value — making it a secure and rewarding investment.'),
+    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-17.svg',  'title' => 'Customer First Transparency',      'text' => 'At Estate Partners, our clients are at the center of everything we do. We ensure complete transparency by presenting only verified properties with clear legal documentation, approved layouts, and accurate project details. This approach helps every homebuyer make decisions with confidence and peace of mind.'),
+    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-16.svg',        'title' => 'Expertise That Delivers Real Value', 'text' => 'With strong knowledge of the Coimbatore real estate market, we guide you toward apartments, villas, and residential plots that match your requirements. Our expertise allows us to identify properties that offer not just quality living but also long-term appreciation and reliable investment potential.'),
+    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/icon-1.svg', 'title' => 'Prime Locations For Smart Living', 'text' => 'We promote properties located in Coimbatore’s most promising and fast-developing areas. These locations offer excellent connectivity, access to schools, hospitals, IT hubs, and daily conveniences — ensuring both comfortable living and strong future growth.'),
+    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-15.svg',     'title' => 'Quality Projects with Lasting Value', 'text' => 'We collaborate with reputed builders and developers to bring you premium apartments, luxury villas, and gated community plots that meet high standards of planning and execution. Each project is selected for its design quality, functionality, and long-term value — making it a secure and rewarding investment.'),
 );
 
 $steps = array(
-    array('icon' => 'fa-comments',          'title' => 'Get to Know Your Requirements',      'text' => 'We begin by understanding your preferences, aspirations, budget, and expectations to make your property search easy.'),
-    array('icon' => 'fa-house-circle-check', 'title' => 'Present Relevant Opportunities',    'text' => 'Based on your requirements, we thoughtfully curate suitable projects and share the details that matter most to you.'),
-    array('icon' => 'fa-route',             'title' => 'Arrange a Personalized Site Visit',  'text' => 'We coordinate a convenient visit, giving you the opportunity to experience the property, its surroundings, amenities, and possibilities firsthand.'),
-    array('icon' => 'fa-headset',           'title' => 'Be There for Your Questions',        'text' => 'We take the time to understand your thoughts, answer your queries, and coordinate with the relevant teams to provide the information you need.'),
-    array('icon' => 'fa-file-signature',    'title' => 'Make the Next Steps Simple',         'text' => 'When you are ready to proceed, we assist you with the booking process, documentation, and coordination with the project team.'),
-    array('icon' => 'fa-flag-checkered',    'title' => 'Support You Through Completion',     'text' => 'Our relationship continues beyond the booking, with ongoing assistance and coordination through registration, documentation, and handover.'),
+    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-13.svg',          'title' => 'Get to Know Your Requirements',      'text' => 'We begin by understanding your preferences, aspirations, budget, and expectations to make your property search easy.'),
+    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-12.svg', 'title' => 'Present Relevant Opportunities',    'text' => 'Based on your requirements, we thoughtfully curate suitable projects and share the details that matter most to you.'),
+    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-11.svg',             'title' => 'Arrange a Personalized Site Visit',  'text' => 'We coordinate a convenient visit, giving you the opportunity to experience the property, its surroundings, amenities, and possibilities firsthand.'),
+    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-10.svg',           'title' => 'Be There for Your Questions',        'text' => 'We take the time to understand your thoughts, answer your queries, and coordinate with the relevant teams to provide the information you need.'),
+    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-9.svg',    'title' => 'Make the Next Steps Simple',         'text' => 'When you are ready to proceed, we assist you with the booking process, documentation, and coordination with the project team.'),
+    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-8.svg',    'title' => 'Support You Through Completion',     'text' => 'Our relationship continues beyond the booking, with ongoing assistance and coordination through registration, documentation, and handover.'),
 );
 
 $verify = array(
-    array('icon' => 'fa-clipboard-check', 'title' => '1. RERA & Approval Check',         'text' => 'We verify available RERA registration and relevant project approvals provided by the developer.'),
-    array('icon' => 'fa-building',        'title' => '2. Developer & Project Details',   'text' => 'We review the developer’s information, specifications, location, configurations, pricing, and availability.'),
-    array('icon' => 'fa-file-lines',      'title' => '3. Documentation Review',          'text' => 'We request and review relevant project documents as the information shown to customers is properly supported.'),
-    array('icon' => 'fa-map-location-dot', 'title' => '4. Site Verification',           'text' => 'Where applicable, our team visits the site to check location, development status, surroundings, and progress.'),
-    array('icon' => 'fa-calendar-check',  'title' => '5. Availability',                  'text' => 'We coordinate with the developer’s sales team to keep availability and pricing information as current as possible.'),
-    array('icon' => 'fa-arrows-rotate',   'title' => '6. Information Updates',           'text' => 'Project information changes over time, so we work with our partners to keep pricing and status details updated.'),
+    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-7.svg', 'title' => '1. RERA & Approval Check',         'text' => 'We verify available RERA registration and relevant project approvals provided by the developer.'),
+    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-6.svg',        'title' => '2. Developer & Project Details',   'text' => 'We review the developer’s information, specifications, location, configurations, pricing, and availability.'),
+    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-5.svg',      'title' => '3. Documentation Review',          'text' => 'We request and review relevant project documents as the information shown to customers is properly supported.'),
+    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-2.svg', 'title' => '4. Site Verification',           'text' => 'Where applicable, our team visits the site to check location, development status, surroundings, and progress.'),
+    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-3.svg',  'title' => '5. Availability',                  'text' => 'We coordinate with the developer’s sales team to keep availability and pricing information as current as possible.'),
+    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-4.svg',   'title' => '6. Information Updates',           'text' => 'Project information changes over time, so we work with our partners to keep pricing and status details updated.'),
 );
 
 $faqs = array(
@@ -142,7 +139,7 @@ $faqs = array(
 
     <!-- ======================= HERO ======================= -->
     <section class="relative isolate overflow-hidden">
-        <img src="<?php echo esc_url($hero_img); ?>" alt="" class="absolute inset-0 w-full h-full object-cover object-right -z-20" />
+        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/about-us-3.jpg" alt="" class="absolute inset-0 w-full h-full object-cover object-right -z-20" />
         <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/35 to-transparent -z-10"></div>
 
         <div class="<?php echo esc_attr($container); ?> pt-16 pb-28 sm:pt-24 sm:pb-36 lg:pt-28 lg:pb-44">
@@ -164,7 +161,7 @@ $faqs = array(
             <div class="reveal max-w-5xl mx-auto bg-white border border-ink-line shadow-xl rounded-2xl lg:rounded-full px-6 py-6 lg:py-7 grid grid-cols-2 lg:grid-cols-4 gap-y-6 lg:gap-0 lg:divide-x lg:divide-ink-line">
                 <?php foreach ($hero_stats as $stat) : ?>
                     <div class="flex items-center justify-center gap-3 lg:px-4">
-                        <i class="fa-solid <?php echo esc_attr($stat['icon']); ?> text-gold text-3xl shrink-0" aria-hidden="true"></i>
+                        <img src="<?php echo esc_attr($stat['icon']); ?>" alt="<?php echo esc_html($stat['label']); ?>" class="w-12 h-12">
                         <div>
                             <p class="text-xl sm:text-2xl font-semibold text-[#302F5A] leading-none"><?php echo esc_html($stat['num']); ?></p>
                             <p class="mt-1 text-xs text-[#444444]"><?php echo esc_html($stat['label']); ?></p>
@@ -179,7 +176,7 @@ $faqs = array(
     <section class="<?php echo esc_attr($section); ?>">
         <div class="<?php echo esc_attr($container); ?> grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div class="reveal rounded-2xl overflow-hidden shadow-xl">
-                <img src="<?php echo esc_url($a . 'who-we-are.jpg'); ?>" alt="<?php esc_attr_e('Estate Partners helping buyers make confident property decisions', $td); ?>" class="w-full h-[360px] sm:h-[460px] object-cover" loading="lazy" />
+                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/about-us-2.png" alt="<?php esc_attr_e('Estate Partners helping buyers make confident property decisions', $td); ?>" class="w-full h-[360px] sm:h-[460px] object-cover" loading="lazy" />
             </div>
             <div class="reveal <?php echo esc_attr($body); ?>">
                 <p class="<?php echo esc_attr($eyebrow); ?>"><?php esc_html_e('Who We Are', $td); ?></p>
@@ -207,9 +204,9 @@ $faqs = array(
                 </svg>
 
                 <!-- Nodes -->
-                <span class="absolute left-[15%] top-[35.8%] -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-full bg-[#302F5A] text-gold-light inline-flex items-center justify-center text-2xl shadow-lg"><i class="fa-solid <?php echo esc_attr($vmo['vision']['icon']); ?>"></i></span>
-                <span class="absolute left-1/2 top-[58.75%] -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-full bg-[#302F5A] text-gold-light inline-flex items-center justify-center text-2xl shadow-lg"><i class="fa-solid <?php echo esc_attr($vmo['mission']['icon']); ?>"></i></span>
-                <span class="absolute left-[85%] top-[35.8%] -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-full bg-[#302F5A] text-gold-light inline-flex items-center justify-center text-2xl shadow-lg"><i class="fa-solid <?php echo esc_attr($vmo['objective']['icon']); ?>"></i></span>
+                <span class="absolute left-[15%] top-[35.8%] -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-full bg-[#302F5A] text-white inline-flex items-center justify-center text-2xl shadow-lg"><i class="fa-solid <?php echo esc_attr($vmo['vision']['icon']); ?>"></i></span>
+                <span class="absolute left-1/2 top-[58.75%] -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-full bg-[#302F5A] text-white inline-flex items-center justify-center text-2xl shadow-lg"><i class="fa-solid <?php echo esc_attr($vmo['mission']['icon']); ?>"></i></span>
+                <span class="absolute left-[85%] top-[35.8%] -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-full bg-[#302F5A] text-white inline-flex items-center justify-center text-2xl shadow-lg"><i class="fa-solid <?php echo esc_attr($vmo['objective']['icon']); ?>"></i></span>
 
                 <!-- Texts -->
                 <div class="absolute left-0 top-[42%] w-[32%] <?php echo esc_attr($body); ?>">
@@ -253,16 +250,18 @@ $faqs = array(
     <section class="<?php echo esc_attr($section); ?>">
         <div class="<?php echo esc_attr($container); ?> grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div class="reveal rounded-2xl overflow-hidden shadow-xl">
-                <img src="<?php echo esc_url($a . 'apart.jpg'); ?>" alt="<?php esc_attr_e('Handing over the keys to a new home', $td); ?>" class="w-full h-[360px] sm:h-[520px] object-cover" loading="lazy" />
+                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/about-us-1.png" alt="<?php esc_attr_e('Handing over the keys to a new home', $td); ?>" class="w-full h-[360px] sm:h-[520px] object-cover" loading="lazy" />
             </div>
             <div class="reveal">
                 <p class="<?php echo esc_attr($eyebrow); ?>"><?php esc_html_e('Estate Partners', $td); ?></p>
                 <h2 class="<?php echo esc_attr($h2); ?>"><?php esc_html_e('What Sets Estate Partners Apart', $td); ?></h2>
                 <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-8 text-[#444444]">
                     <?php foreach ($apart as $item) : ?>
-                        <div>
-                            <span class="w-12 h-12 rounded-xl bg-gold-pale text-gold inline-flex items-center justify-center text-xl"><i class="fa-solid <?php echo esc_attr($item['icon']); ?>"></i></span>
-                            <h3 class="mt-4 text-lg font-semibold text-[#302F5A]"><?php echo esc_html($item['title']); ?></h3>
+                        <div class="border-b pb-4 border-gold">
+                            <span class="w-12 h-12 inline-flex items-center justify-center text-xl">
+                                <img src="<?php echo esc_attr($item['icon']); ?>" alt="<?php echo esc_html($item['title']); ?>" class="w-full h-full">
+                            </span>
+                            <h3 class="mt-4 text-lg font-semibold text-gold"><?php echo esc_html($item['title']); ?></h3>
                             <p class="mt-2 text-sm sm:text-base leading-relaxed"><?php echo esc_html($item['text']); ?></p>
                         </div>
                     <?php endforeach; ?>
@@ -279,8 +278,8 @@ $faqs = array(
                 <?php foreach ($values as $item) : ?>
                     <div class="reveal bg-white rounded-xl shadow-lg p-7 sm:p-8 text-[#444444]">
                         <div class="flex items-center gap-4">
-                            <i class="fa-solid <?php echo esc_attr($item['icon']); ?> text-gold text-3xl" aria-hidden="true"></i>
-                            <h3 class="font-prata text-[#302F5A] text-2xl"><?php echo esc_html($item['title']); ?></h3>
+                            <img src="<?php echo esc_attr($item['icon']); ?>" alt="<?php echo esc_html($item['title']); ?>" class="w-10 h-10">
+                            <h3 class="text-[#302F5A] font-semibold text-2xl"><?php echo esc_html($item['title']); ?></h3>
                         </div>
                         <p class="mt-4 leading-relaxed"><?php echo esc_html($item['text']); ?></p>
                     </div>
@@ -291,8 +290,8 @@ $faqs = array(
 
     <!-- ======================= OUR JOURNEY SO FAR ======================= -->
     <section class="relative isolate overflow-hidden <?php echo esc_attr($section); ?>">
-        <img src="<?php echo esc_url($a . 'journey-bg.jpg'); ?>" alt="" class="absolute inset-0 w-full h-full object-cover -z-20" loading="lazy" />
-        <div class="absolute inset-0 bg-[#1b1a3a]/80 -z-10"></div>
+        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/about-us-2.jpg" alt="" class="absolute inset-0 w-full h-full object-cover -z-20" loading="lazy" />
+        <div class="absolute inset-0 bg-[#131318]/80 -z-10"></div>
         <div class="<?php echo esc_attr($container); ?> text-center text-white">
             <h2 class="reveal font-prata text-3xl sm:text-4xl leading-tight"><?php esc_html_e('Our Journey So Far', $td); ?></h2>
             <p class="reveal mt-3 max-w-xl mx-auto text-sm text-white/80"><?php esc_html_e('Estate Partners continues to expand its footprint by delivering well-planned developments designed for modern lifestyles.', $td); ?></p>
@@ -317,7 +316,7 @@ $faqs = array(
                     <?php foreach ($projects as $project) : ?>
                         <div class="swiper-slide !h-auto">
                             <a href="<?php echo esc_url($project['url']); ?>" class="group relative block rounded-lg overflow-hidden h-[260px] sm:h-[300px]">
-                                <img src="<?php echo esc_url($a . $project['img']); ?>" alt="<?php echo esc_attr($project['title']); ?>" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
+                                <img src="<?php echo esc_url($project['img']); ?>" alt="<?php echo esc_attr($project['title']); ?>" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
                                 <span class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent"></span>
                                 <span class="absolute left-5 bottom-5 text-white font-semibold text-base sm:text-lg"><?php echo esc_html($project['title']); ?></span>
                             </a>
@@ -339,9 +338,11 @@ $faqs = array(
                 <div class="swiper-wrapper">
                     <?php foreach ($why as $i => $item) : ?>
                         <div class="swiper-slide !h-auto">
-                            <article data-active="<?php echo 1 === $i ? 'true' : 'false'; ?>" class="why-card group h-full rounded-2xl border border-ink-line bg-white p-7 text-[#444444] shadow-sm transition-colors duration-300 data-[active=true]:bg-gold data-[active=true]:border-gold data-[active=true]:text-white data-[active=true]:shadow-xl">
-                                <span class="w-12 h-12 rounded-full bg-gold-pale text-gold inline-flex items-center justify-center text-lg transition-colors group-data-[active=true]:bg-white/20 group-data-[active=true]:text-white"><i class="fa-solid <?php echo esc_attr($item['icon']); ?>"></i></span>
-                                <h3 class="mt-5 text-lg font-semibold text-[#302F5A] transition-colors group-data-[active=true]:text-white"><?php echo esc_html($item['title']); ?></h3>
+                            <article class="why-card group h-full rounded-2xl border border-ink-line bg-white p-7 text-[#444444] shadow-sm transition-colors duration-300 hover:bg-gold hover:border-gold hover:text-white hover:shadow-xl">
+                                <span class="w-12 h-12 rounded-full bg-gold-pale text-gold inline-flex items-center justify-center text-lg transition-colors group-hover:bg-white/20 group-hover:text-white">
+                                    <img src="<?php echo esc_url($item['icon']); ?>" alt="<?php echo esc_attr($item['title']); ?>" class="w-12 h-12" loading="lazy" />
+                                </span>
+                                <h3 class="mt-5 text-lg font-semibold text-[#302F5A] transition-colors group-hover:text-white"><?php echo esc_html($item['title']); ?></h3>
                                 <p class="mt-3 text-sm leading-relaxed"><?php echo esc_html($item['text']); ?></p>
                             </article>
                         </div>
@@ -364,11 +365,15 @@ $faqs = array(
             <div class="swiper process-swiper mt-10 sm:mt-14" style="--swiper-theme-color:#b3814e;">
                 <div class="swiper-wrapper">
                     <?php foreach ($steps as $i => $step) : ?>
-                        <div class="swiper-slide !h-auto border-r border-ink-line last:border-r-0 px-5 text-[#444444]">
-                            <p class="text-xs font-bold tracking-[0.18em] text-gold"><?php echo esc_html(sprintf('STEP %d', $i + 1)); ?></p>
-                            <i class="fa-solid <?php echo esc_attr($step['icon']); ?> mt-5 text-2xl text-gold" aria-hidden="true"></i>
+                        <div class="swiper-slide !flex flex-col text-center !h-auto shadow-sm last:border-r-0 px-5 text-[#444444]">
+                            <p class="text-xs font-bold tracking-[0.18em] text-[#302F5A] "><?php echo esc_html(sprintf('STEP %d', $i + 1)); ?></p>
+                            <span class="rounded-full inline-flex item-center justify-center p-3 bg-white shadow-sm w-14 h-14 mx-auto mt-4">
+                                <img src="<?php echo esc_url($step['icon']); ?>" alt="<?php echo esc_attr($step['title']); ?>" class="w-full h-full" loading="lazy" />
+                            </span>
                             <h3 class="mt-4 text-sm font-bold uppercase tracking-wide text-[#302F5A]"><?php echo esc_html($step['title']); ?></h3>
-                            <p class="mt-3 text-sm leading-relaxed"><?php echo esc_html($step['text']); ?></p>
+                            <p class="mt-3 text-sm leading-relaxed pb-3"><?php echo esc_html($step['text']); ?></p>
+
+                            <div class="mt-auto border-b-2 border-[#302F5A] h-2"></div>
                         </div>
                     <?php endforeach; ?>
                 </div>
@@ -388,7 +393,7 @@ $faqs = array(
             <div class="mt-10 sm:mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <?php foreach ($verify as $item) : ?>
                     <div class="reveal bg-white rounded-xl p-7 shadow-lg text-[#444444]">
-                        <span class="w-11 h-11 rounded-lg bg-gold-pale text-gold inline-flex items-center justify-center text-lg"><i class="fa-solid <?php echo esc_attr($item['icon']); ?>"></i></span>
+                        <span class="inline-flex items-center justify-center text-lg"><img src="<?php echo esc_url($item['icon']); ?>" alt="<?php echo esc_attr($item['title']); ?>" class="w-14 h-14" loading="lazy" /></span>
                         <h3 class="mt-4 text-lg font-semibold text-[#302F5A]"><?php echo esc_html($item['title']); ?></h3>
                         <p class="mt-2 text-sm sm:text-base leading-relaxed"><?php echo esc_html($item['text']); ?></p>
                     </div>
@@ -399,7 +404,7 @@ $faqs = array(
 
     <!-- ======================= FAQ ======================= -->
     <section class="relative isolate overflow-hidden bg-brand-cream">
-        <img src="<?php echo esc_url($a . 'faq-bg.jpg'); ?>" alt="" class="absolute inset-0 w-full h-full object-cover opacity-40 -z-10" loading="lazy" />
+        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/about-us-1.jpg" alt="" class="absolute inset-0 w-full h-full object-cover -z-10" loading="lazy" />
 
         <div class="<?php echo esc_attr($container); ?> grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-6 items-end">
             <div class="reveal pt-16 sm:pt-20 lg:py-24">
@@ -483,17 +488,17 @@ $faqs = array(
         });
 
         // Highlight the card the visitor hovers over / taps (default: the 2nd card).
-        var cards = document.querySelectorAll('.why-card');
-        cards.forEach(function(card) {
-            function activate() {
-                cards.forEach(function(c) {
-                    c.setAttribute('data-active', 'false');
-                });
-                card.setAttribute('data-active', 'true');
-            }
-            card.addEventListener('mouseenter', activate);
-            card.addEventListener('click', activate);
-        });
+        // var cards = document.querySelectorAll('.why-card');
+        // cards.forEach(function(card) {
+        //     function activate() {
+        //         cards.forEach(function(c) {
+        //             c.setAttribute('data-active', 'false');
+        //         });
+        //         card.setAttribute('data-active', 'true');
+        //     }
+        //     card.addEventListener('mouseenter', activate);
+        //     card.addEventListener('click', activate);
+        // });
 
         // Your Journey With Estate Partner
         new Swiper('.process-swiper', {

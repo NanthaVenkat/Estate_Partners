@@ -40,7 +40,7 @@ $field = 'w-full bg-transparent border-0 border-b border-[#cfcfcf] focus:border-
 
     <!-- ======================= HERO ======================= -->
     <section class="relative isolate overflow-hidden">
-        <img src="<?php echo esc_url($hero_img); ?>" alt="" class="absolute inset-0 w-full h-full object-cover -z-20" />
+        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/contact-page.png" alt="" class="absolute inset-0 w-full h-full object-cover -z-20" />
         <div class="absolute inset-0 bg-black/50 -z-10"></div>
 
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-40 sm:pt-28 sm:pb-52 lg:pt-32 lg:pb-64 text-center">
