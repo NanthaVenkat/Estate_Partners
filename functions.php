@@ -161,3 +161,51 @@ function vnktheme_enqueue_assets()
     }
 }
 add_action('wp_enqueue_scripts', 'vnktheme_enqueue_assets');
+
+// 1. Register Projects Custom Post Type
+function register_projects_cpt() {
+    register_post_type('project', array(
+        'labels' => array(
+            'name'          => 'Projects',
+            'singular_name' => 'Project',
+            'add_new_item'  => 'Add New Project',
+            'edit_item'     => 'Edit Project',
+            'all_items'     => 'All Projects',
+        ),
+        'public'       => true,
+        'has_archive'  => true,
+        'menu_icon'    => 'dashicons-building',
+        'supports'     => array(
+            'title',
+            'editor',
+            'thumbnail',
+        ),
+        'show_in_rest' => true,
+        'rewrite'      => array(
+            'slug' => 'projects',
+        ),
+    ));
+}
+add_action('init', 'register_projects_cpt');
+
+
+// 2. Register Property Type Taxonomy
+function register_property_type_taxonomy() {
+    register_taxonomy('property_type', array('project'), array(
+        'labels' => array(
+            'name'          => 'Property Types',
+            'singular_name' => 'Property Type',
+            'all_items'     => 'All Property Types',
+            'edit_item'     => 'Edit Property Type',
+            'add_new_item'  => 'Add New Property Type',
+        ),
+        'public'            => true,
+        'hierarchical'      => true,
+        'show_admin_column' => true,
+        'show_in_rest'      => true,
+        'rewrite'           => array(
+            'slug' => 'property-type',
+        ),
+    ));
+}
+add_action('init', 'register_property_type_taxonomy');

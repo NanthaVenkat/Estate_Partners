@@ -800,13 +800,13 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                 <h2 class="font-prata text-center text-3xl sm:text-4xl leading-tight">Helpful Tools</h2>
             </div>
 
-            <div class="grid gap-6 grid-cols-2 lg:grid-cols-4">
-                <div class="flex flex-col md:flex-row lg:flex-col 2xl:flex-row rounded-lg gap-4 border border-gold/70 bg-gold/20 p-4">
+            <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                <div class="flex flex-row sm:flex-col 2xl:flex-row rounded-lg gap-4 border border-gold/70 bg-gold/20 p-4">
                     <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/calculator-2-scaled.png" alt="" class="w-24 h-24 object-cover rounded-lg">
 
                     <div class=" space-y-2">
-                        <h2 class="text-gold font-semibold">EMI Calculator</h2>
-                        <p class="text-[#4D5461] text-sm">EMI starts at ₹ 11.27 K</p>
+                        <h2 class="text-gold font-semibold text-">EMI Calculator</h2>
+                        <p class="text-[#4D5461] text-base">EMI starts at ₹ 11.27 K</p>
                         <a href="http://localhost/estate_partners/home-lone-calculator/" class="text-white font-semibold text-sm rounded-lg px-6 py-3 bg-[#302F5A] inline-block">Calculate now <i class="fa-solid fa-arrow-right ml-2"></i></a>
                     </div>
                 </div>
@@ -815,8 +815,8 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                     <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/calculator-1.png" alt="" class="w-24 h-24 object-cover rounded-lg">
 
                     <div class=" space-y-2">
-                        <h2 class="text-gold font-semibold">Stamp Duty Calculator</h2>
-                        <p class="text-[#4D5461] text-sm">Find your home loan limit</p>
+                        <h2 class="text-gold font-semibold text-">Stamp Duty Calculator</h2>
+                        <p class="text-[#4D5461] text-base">Find your home loan limit</p>
                         <a href="http://localhost/estate_partners/stamp-duty-calculator/" class="text-white font-semibold text-sm rounded-lg px-6 py-3 bg-[#302F5A] inline-block">Calculate now <i class="fa-solid fa-arrow-right ml-2"></i></a>
                     </div>
                 </div>
@@ -825,8 +825,8 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                     <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/calculator-3.png" alt="" class="w-24 h-24 object-cover rounded-lg">
 
                     <div class=" space-y-2">
-                        <h2 class="text-gold font-semibold">Price Calculator</h2>
-                        <p class="text-[#4D5461] text-sm">Check the price of your property</p>
+                        <h2 class="text-gold font-semibold text-">Price Calculator</h2>
+                        <p class="text-[#4D5461] text-base">Check the price of your property</p>
                         <a href="http://localhost/estate_partners/plot-price-calculator/" class="text-white font-semibold text-sm rounded-lg px-6 py-3 bg-[#302F5A] inline-block">Calculate now <i class="fa-solid fa-arrow-right ml-2"></i></a>
                     </div>
                 </div>
@@ -835,8 +835,8 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                     <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/calculator-4.png" alt="" class="w-24 h-24 object-cover rounded-lg">
 
                     <div class=" space-y-2">
-                        <h2 class="text-gold font-semibold">Tax Benifit Calculator</h2>
-                        <p class="text-[#4D5461] text-sm">Check the price of your property</p>
+                        <h2 class="text-gold font-semibold text-">Tax Benifit Calculator</h2>
+                        <p class="text-[#4D5461] text-base">Check the price of your property</p>
                         <a href="http://localhost/estate_partners/home-loan-tax-calculator/" class="text-white font-semibold text-sm rounded-lg px-6 py-3 bg-[#302F5A] inline-block">Calculate now <i class="fa-solid fa-arrow-right ml-2"></i></a>
                     </div>
                 </div>
