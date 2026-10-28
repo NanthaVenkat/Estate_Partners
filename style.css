@@ -203,3 +203,19 @@ details[open] > summary .faq-plus {
 details[open] > summary .faq-minus {
   display: inline;
 }
+
+/* Custom utility smooth transition styles */
+.modal-backdrop {
+  transition:
+    opacity 0.3s ease,
+    visibility 0.3s ease;
+}
+.modal-content {
+  transition:
+    transform 0.3s ease,
+    opacity 0.3s ease;
+}
+
+.js-open-enquiry-modal {
+  cursor: pointer;
+}

@@ -16,7 +16,7 @@ $img_uri  = get_template_directory_uri() . '/assets/images';
 $hero_img = has_post_thumbnail() ? get_the_post_thumbnail_url(null, 'full') : $img_uri . '/contact-hero.jpg';
 
 $address = 'Villankurichi Rd, B.R. Puram Industrial Estate, Coimbatore, Tamil Nadu 641014';
-$phone   = '0422 297 0022';
+$phone   = '+91 70929 58830';
 $email   = 'info@estatepartners.in';
 $cta_tel = '+91 70929 58830';
 
@@ -111,42 +111,7 @@ $field = 'w-full bg-transparent border-0 border-b border-[#cfcfcf] focus:border-
                         </div>
                     <?php endif; ?>
 
-                    <form action="<?php echo esc_url(admin_url('admin-post.php')); ?>" method="post" novalidate class="space-y-3">
-                        <input type="hidden" name="action" value="yourtheme_contact" />
-                        <?php wp_nonce_field('yourtheme_contact', 'yourtheme_contact_nonce'); ?>
-
-                        <!-- Honeypot: hidden from people, bots fill it in -->
-                        <div class="hidden" aria-hidden="true">
-                            <label for="website">Website</label>
-                            <input type="text" id="website" name="website" tabindex="-1" autocomplete="off" />
-                        </div>
-
-                        <div>
-                            <label for="contact-name" class="sr-only"><?php esc_html_e('Your Name', 'vnktheme-textdomain'); ?></label>
-                            <input type="text" id="contact-name" name="contact_name" required autocomplete="name" placeholder="<?php esc_attr_e('Your Name', 'vnktheme-textdomain'); ?>" class="<?php echo esc_attr($field); ?>" />
-                        </div>
-
-                        <div>
-                            <label for="contact-email" class="sr-only"><?php esc_html_e('Email', 'vnktheme-textdomain'); ?></label>
-                            <input type="email" id="contact-email" name="contact_email" required autocomplete="email" placeholder="<?php esc_attr_e('Email', 'vnktheme-textdomain'); ?>" class="<?php echo esc_attr($field); ?>" />
-                        </div>
-
-                        <div>
-                            <label for="contact-phone" class="sr-only"><?php esc_html_e('Mobile Number', 'vnktheme-textdomain'); ?></label>
-                            <input type="tel" id="contact-phone" name="contact_phone" required autocomplete="tel" inputmode="tel" pattern="[0-9+\-\s]{10,15}" placeholder="<?php esc_attr_e('Mobile Number', 'vnktheme-textdomain'); ?>" class="<?php echo esc_attr($field); ?>" />
-                        </div>
-
-                        <div>
-                            <label for="contact-message" class="sr-only"><?php esc_html_e('Message', 'vnktheme-textdomain'); ?></label>
-                            <textarea id="contact-message" name="contact_message" rows="3" required placeholder="<?php esc_attr_e('Message', 'vnktheme-textdomain'); ?>" class="<?php echo esc_attr($field); ?> resize-none"></textarea>
-                        </div>
-
-                        <div class="pt-6">
-                            <button type="submit" class="inline-flex items-center gap-2 bg-gold hover:bg-gold-dark text-white font-semibold uppercase tracking-wide px-7 py-3.5 rounded-lg transition-colors">
-                                <?php esc_html_e('Submit', 'vnktheme-textdomain'); ?>
-                            </button>
-                        </div>
-                    </form>
+                    <?php echo do_shortcode('[wpforms id="41"]'); ?>
                 </div>
 
             </div>
