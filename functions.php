@@ -162,6 +162,70 @@ function vnktheme_enqueue_assets()
 }
 add_action('wp_enqueue_scripts', 'vnktheme_enqueue_assets');
 
+/**
+ * Register the dedicated blog URL and its pagination routes.
+ */
+function estatepartners_register_blog_routes()
+{
+    add_rewrite_rule('^blog/page/([0-9]+)/?$', 'index.php?estatepartners_blog=1&paged=$matches[1]', 'top');
+    add_rewrite_rule('^blog/?$', 'index.php?estatepartners_blog=1', 'top');
+
+    if ('1' !== get_option('estatepartners_blog_routes_flushed')) {
+        flush_rewrite_rules(false);
+        update_option('estatepartners_blog_routes_flushed', '1');
+    }
+}
+add_action('init', 'estatepartners_register_blog_routes');
+
+/**
+ * Allow WordPress to recognize the dedicated blog route query variable.
+ *
+ * @param array $query_vars Public query variables.
+ * @return array
+ */
+function estatepartners_blog_query_vars($query_vars)
+{
+    $query_vars[] = 'estatepartners_blog';
+
+    return $query_vars;
+}
+add_filter('query_vars', 'estatepartners_blog_query_vars');
+
+/**
+ * Load published posts for the dedicated blog route.
+ *
+ * @param WP_Query $query The main query.
+ */
+function estatepartners_prepare_blog_route($query)
+{
+    if (is_admin() || ! $query->is_main_query() || ! $query->get('estatepartners_blog')) {
+        return;
+    }
+
+    $query->set('post_type', 'post');
+    $query->set('post_status', 'publish');
+    $query->set('posts_per_page', (int) get_option('posts_per_page', 10));
+    $query->is_home = true;
+    $query->is_404  = false;
+}
+add_action('pre_get_posts', 'estatepartners_prepare_blog_route');
+
+/**
+ * Use the blog listing template for the dedicated blog route.
+ *
+ * @param string $template Current template path.
+ * @return string
+ */
+function estatepartners_blog_route_template($template)
+{
+    if (get_query_var('estatepartners_blog')) {
+        return get_template_directory() . '/page-blog.php';
+    }
+
+    return $template;
+}
+add_filter('template_include', 'estatepartners_blog_route_template');
+
 // 1. Register Projects Custom Post Type
 function register_projects_cpt() {
     register_post_type('project', array(
