@@ -7,7 +7,7 @@
  * Name / location / price / phone are pulled from the project's ACF fields when filled.
  * Images go in /assets/images/apartment/ (file names used below are placeholders).
  *
- * @package YourThemeName
+ * @package EstatePartners
  */
 
 if (! defined('ABSPATH')) {

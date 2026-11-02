@@ -15,11 +15,17 @@ Text Domain: estatepartners
   );
 }
 
+.hero-title {
+  max-width: 100%;
+  font-size: clamp(1.5rem, calc(1.25rem + 1.8vw), 3rem);
+  overflow-wrap: break-word;
+}
+
 .nav-link {
   position: relative;
 }
 
-.nav-link::after {
+/* .nav-link::after {
   position: absolute;
   right: 0;
   bottom: -0.5rem;
@@ -35,6 +41,11 @@ Text Domain: estatepartners
 .nav-link:hover::after,
 .nav-link.active::after {
   transform: scaleX(1);
+} */
+
+.nav-link.active {
+  color: #b3814e;
+  font-weight: 600;
 }
 
 .social-btn,
@@ -110,7 +121,7 @@ Text Domain: estatepartners
   color: #ffffff;
 }
 
-.testimonials-swiper .swiper-pagination-bullet,
+.swiper-pagination-bullet,
 .insights-swiper .swiper-pagination-bullet,
 .projects-swiper .swiper-pagination-bullet {
   width: 9px;
@@ -120,7 +131,7 @@ Text Domain: estatepartners
   transition: all 0.3s ease;
 }
 
-.testimonials-swiper .swiper-pagination-bullet-active,
+.swiper-pagination-bullet-active,
 .insights-swiper .swiper-pagination-bullet-active,
 .projects-swiper .swiper-pagination-bullet-active {
   width: 30px;
@@ -210,6 +221,17 @@ details[open] > summary .faq-minus {
     opacity 0.3s ease,
     visibility 0.3s ease;
 }
+
+#modalBackdrop[aria-hidden="true"] {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#modalBackdrop[aria-hidden="false"] {
+  opacity: 1;
+  pointer-events: auto;
+}
+
 .modal-content {
   transition:
     transform 0.3s ease,

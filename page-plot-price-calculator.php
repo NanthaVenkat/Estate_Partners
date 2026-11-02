@@ -9,7 +9,7 @@
  * Applies automatically to a page with the slug "plot-price-calculator",
  * or choose "Plot Price Calculator" in Page Attributes > Template.
  *
- * @package YourThemeName
+ * @package EstatePartners
  */
 
 get_header();

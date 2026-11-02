@@ -7,7 +7,7 @@
  * Applies automatically to a page with the slug "contact", or choose
  * "Contact" in Page Attributes > Template.
  *
- * @package YourThemeName
+ * @package EstatePartners
  */
 
 get_header();
@@ -24,12 +24,12 @@ $cta_tel = '+91 70929 58830';
 $status = isset($_GET['contact']) ? sanitize_key(wp_unslash($_GET['contact'])) : '';
 
 $socials = array(
-    array('label' => 'Threads',   'icon' => 'fa-threads',      'url' => '#'),
-    array('label' => 'Pinterest', 'icon' => 'fa-pinterest-p',  'url' => '#'),
-    array('label' => 'X',         'icon' => 'fa-x-twitter',    'url' => '#'),
-    array('label' => 'Instagram', 'icon' => 'fa-instagram',    'url' => '#'),
-    array('label' => 'YouTube',   'icon' => 'fa-youtube',      'url' => '#'),
-    array('label' => 'LinkedIn',  'icon' => 'fa-linkedin-in',  'url' => '#'),
+    array('label' => 'Threads',   'icon' => 'fa-threads',      'url' => 'https://www.threads.com/@estatepartners_'),
+    array('label' => 'Pinterest', 'icon' => 'fa-pinterest-p',  'url' => 'https://in.pinterest.com/estate_partners/'),
+    array('label' => 'X',         'icon' => 'fa-x-twitter',    'url' => 'https://x.com/EstatePartners_'),
+    array('label' => 'Instagram', 'icon' => 'fa-instagram',    'url' => 'https://www.instagram.com/estatepartners_/'),
+    array('label' => 'YouTube',   'icon' => 'fa-youtube',      'url' => 'https://www.youtube.com/@Estate_partners'),
+    array('label' => 'LinkedIn',  'icon' => 'fa-linkedin-in',  'url' => 'https://www.linkedin.com/in/estate-partners-9950a1448/'),
     array('label' => 'Facebook',  'icon' => 'fa-facebook-f',   'url' => '#'),
 );
 
@@ -111,7 +111,7 @@ $field = 'w-full bg-transparent border-0 border-b border-[#cfcfcf] focus:border-
                         </div>
                     <?php endif; ?>
 
-                    <?php echo do_shortcode('[wpforms id="41"]'); ?>
+                    <?php echo do_shortcode('[wpforms id="240"]'); ?>
                 </div>
 
             </div>

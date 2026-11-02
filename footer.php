@@ -5,7 +5,7 @@
  *
  * Outputs the site footer and closes <body> and <html>.
  *
- * @package YourThemeName
+ * @package EstatePartners
  */
 
 if (! defined('ABSPATH')) {
@@ -14,6 +14,17 @@ if (! defined('ABSPATH')) {
 
 $img_uri = get_template_directory_uri() . '/assets/images';
 $home    = home_url('/');
+
+// Social media
+$socials = array(
+    array('label' => 'Threads',   'icon' => 'fa-threads',      'url' => 'https://www.threads.com/@estatepartners_'),
+    array('label' => 'Pinterest', 'icon' => 'fa-pinterest-p',  'url' => 'https://in.pinterest.com/estate_partners/'),
+    array('label' => 'X',         'icon' => 'fa-x-twitter',    'url' => 'https://x.com/EstatePartners_'),
+    array('label' => 'Instagram', 'icon' => 'fa-instagram',    'url' => 'https://www.instagram.com/estatepartners_/'),
+    array('label' => 'YouTube',   'icon' => 'fa-youtube',      'url' => 'https://www.youtube.com/@Estate_partners'),
+    array('label' => 'LinkedIn',  'icon' => 'fa-linkedin-in',  'url' => 'https://www.linkedin.com/in/estate-partners-9950a1448/'),
+    array('label' => 'Facebook',  'icon' => 'fa-facebook-f',   'url' => '#'),
+);
 ?>
 
 <!-- ======================= CTA STRIP ======================= -->
@@ -65,13 +76,14 @@ $home    = home_url('/');
         </nav>
 
         <!-- Contact -->
-        <div>
-            <p class="mt-5 text-sm font-semibold tracking-wide">Follow us on</p>
-            <div class="mt-3 flex items-center gap-3">
-                <a href="#" aria-label="Facebook" class="social-btn w-10 h-10 rounded-full border border-white/25 inline-flex items-center justify-center"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#" aria-label="Instagram" class="social-btn w-10 h-10 rounded-full border border-white/25 inline-flex items-center justify-center"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#" aria-label="LinkedIn" class="social-btn w-10 h-10 rounded-full border border-white/25 inline-flex items-center justify-center"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="#" aria-label="YouTube" class="social-btn w-10 h-10 rounded-full border border-white/25 inline-flex items-center justify-center"><i class="fa-brands fa-youtube"></i></a>
+        <div class="mt-3 lg:mt-auto pt-2">
+            <p class="text-sm font-semibold tracking-wide"><?php esc_html_e('Follow us on', 'vnktheme-textdomain'); ?></p>
+            <div class="mt-3 flex flex-wrap items-center gap-3">
+                <?php foreach ($socials as $social) : ?>
+                    <a href="<?php echo esc_url($social['url']); ?>" aria-label="<?php echo esc_attr($social['label']); ?>" class="w-9 h-9 rounded-full border border-white/70 inline-flex items-center justify-center text-sm hover:bg-gold hover:border-gold transition-colors">
+                        <i class="fa-brands <?php echo esc_attr($social['icon']); ?>"></i>
+                    </a>
+                <?php endforeach; ?>
             </div>
         </div>
 

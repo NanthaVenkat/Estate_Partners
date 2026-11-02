@@ -6,7 +6,7 @@
  * Outputs everything from <!DOCTYPE> down to the end of the site header.
  * footer.php closes <body> and <html>.
  *
- * @package YourThemeName
+ * @package EstatePartners
  */
 
 if (! defined('ABSPATH')) {
@@ -65,8 +65,6 @@ $home    = home_url('/');
             function openModal(trigger) {
                 lastModalTrigger = trigger;
                 previousBodyOverflow = document.body.style.overflow;
-                modalBackdrop.classList.remove('opacity-0', 'invisible');
-                modalBackdrop.classList.add('opacity-100', 'visible');
                 modalBackdrop.setAttribute('aria-hidden', 'false');
 
                 modalCard.classList.remove('scale-95', 'opacity-0');
@@ -77,8 +75,6 @@ $home    = home_url('/');
             }
 
             function closeModal() {
-                modalBackdrop.classList.remove('opacity-100', 'visible');
-                modalBackdrop.classList.add('opacity-0', 'invisible');
                 modalBackdrop.setAttribute('aria-hidden', 'true');
 
                 modalCard.classList.remove('scale-100', 'opacity-100');
@@ -106,7 +102,7 @@ $home    = home_url('/');
             });
 
             document.addEventListener('keydown', (event) => {
-                if (event.key === 'Escape' && modalBackdrop.classList.contains('opacity-100')) {
+                if (event.key === 'Escape' && modalBackdrop.getAttribute('aria-hidden') === 'false') {
                     closeModal();
                 }
             });
@@ -119,18 +115,18 @@ $home    = home_url('/');
             <div class="flex items-center justify-between h-20 gap-4">
                 <!-- Logo -->
                 <a href="<?php echo esc_url($home); ?>" class="flex items-center gap-3 shrink-0" aria-label="<?php echo esc_attr(get_bloginfo('name')); ?> home">
-                    <img src="<?php echo esc_url($img_uri . '/logo.png'); ?>" alt="<?php echo esc_attr(get_bloginfo('name')); ?> logo" class="h-10 sm:h-12 w-auto object-contain" />
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/logo.svg" alt="<?php echo esc_attr(get_bloginfo('name')); ?> logo" class="h-10 sm:h-12 w-auto object-contain" />
                 </a>
 
                 <!-- Desktop nav -->
                 <nav class="hidden lg:flex items-center gap-8 text-[15px] font-medium" aria-label="Primary">
-                    <a href="<?php echo esc_url($home . ''); ?>" class="nav-link active hover:text-gold transition-colors">Home</a>
-                    <a href="<?php echo esc_url($home . '/about-us/'); ?>" class="nav-link hover:text-gold transition-colors">About Us</a>
+                    <a href="<?php echo esc_url($home); ?>" class="nav-link <?php echo is_front_page() ? 'active' : ''; ?> hover:text-gold transition-colors" <?php echo is_front_page() ? 'aria-current="page"' : ''; ?>>Home</a>
+                    <a href="<?php echo esc_url($home . 'about-us/'); ?>" class="nav-link <?php echo is_page('about-us') ? 'active' : ''; ?> hover:text-gold transition-colors" <?php echo is_page('about-us') ? 'aria-current="page"' : ''; ?>>About Us</a>
                     <!-- <a href="<?php echo esc_url($home . '#projects'); ?>" class="nav-link hover:text-gold transition-colors">Projects</a> -->
                     <!-- <a href="<?php echo esc_url($home . '#types'); ?>" class="nav-link hover:text-gold transition-colors">Apartments</a> -->
                     <!-- <a href="<?php echo esc_url($home . '#types'); ?>" class="nav-link hover:text-gold transition-colors">Villas</a> -->
-                    <a href="<?php echo esc_url($home . '/contact-us/'); ?>" class="nav-link hover:text-gold transition-colors">Contact</a>
-                    <!-- <a href="<?php echo esc_url($home . '#insights'); ?>" class="nav-link hover:text-gold transition-colors">Blog</a> -->
+                    <a href="<?php echo esc_url($home . 'contact-us/'); ?>" class="nav-link <?php echo is_page('contact-us') ? 'active' : ''; ?> hover:text-gold transition-colors" <?php echo is_page('contact-us') ? 'aria-current="page"' : ''; ?>>Contact</a>
+                    <a href="<?php echo esc_url($home . 'blog/'); ?>" class="nav-link <?php echo is_page('blog') ? 'active' : ''; ?> hover:text-gold transition-colors">Blog</a>
                 </nav>
 
                 <!-- Actions -->
@@ -164,14 +160,14 @@ $home    = home_url('/');
         <!-- Mobile menu -->
         <div id="mobile-menu" class="hidden lg:hidden border-t border-ink-line bg-white">
             <nav class="px-4 sm:px-6 py-4 flex flex-col text-base font-medium divide-y divide-ink-line/70" aria-label="Mobile">
-                <a href="<?php echo esc_url($home . ''); ?>" class="py-3 hover:text-gold">Home</a>
-                <a href="<?php echo esc_url($home . '/about-us/'); ?>" class="py-3 hover:text-gold">About Us</a>
+                <a href="<?php echo esc_url($home . ''); ?>" class="py-3 <?php echo is_front_page() ? 'active' : ''; ?> hover:text-gold">Home</a>
+                <a href="<?php echo esc_url($home . 'about-us/'); ?>" class="py-3 <?php echo is_page('about-us') ? 'active' : ''; ?> hover:text-gold">About Us</a>
                 <!-- <a href="<?php echo esc_url($home . '#projects'); ?>" class="py-3 hover:text-gold">Projects</a> -->
                 <!-- <a href="<?php echo esc_url($home . '#types'); ?>" class="py-3 hover:text-gold">Apartments</a> -->
                 <!-- <a href="<?php echo esc_url($home . '#types'); ?>" class="py-3 hover:text-gold">Villas</a> -->
                 <!-- <a href="<?php echo esc_url($home . '#locations'); ?>" class="py-3 hover:text-gold">Locations</a> -->
-                <!-- <a href="<?php echo esc_url($home . '#insights'); ?>" class="py-3 hover:text-gold">Blog</a> -->
-                <a href="<?php echo esc_url($home . '/contact-us/'); ?>" class="py-3 hover:text-gold">Contact Us</a>
+                <a href="<?php echo esc_url($home . 'blog/'); ?>" class="py-3 <?php echo is_page('blog') ? 'active' : ''; ?> hover:text-gold">Blog</a>
+                <a href="<?php echo esc_url($home . 'contact-us/'); ?>" class="py-3 <?php echo is_page('contact-us') ? 'active' : ''; ?> hover:text-gold">Contact Us</a>
                 <a href="<?php echo esc_url($home . '#enquire'); ?>" class="my-3 inline-flex items-center justify-center gap-2 bg-gold text-white font-medium text-sm px-6 py-3 rounded-lg">
                     Enquire Now <i class="fa-solid fa-arrow-right text-xs"></i>
                 </a>
@@ -189,7 +185,7 @@ $home    = home_url('/');
     <!-- Modal Overlay Container -->
     <div
         id="modalBackdrop"
-        class="modal-backdrop fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 opacity-0 invisible"
+        class="modal-backdrop fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4"
         aria-hidden="true"
         role="dialog"
         aria-modal="true"

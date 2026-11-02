@@ -10,6 +10,10 @@ $verified    = get_field('verified_button');
 $page_link   = get_field('property_page');
 
 // Get subfields from group
+$total_units_title = $details['units_title'] ?? 'Units';
+$total_size_title = $details['size_title'] ?? 'Size';
+$area_acres_title = $details['areas_title'] ?? 'Areas';
+$amenities_title  = $details['amenities_title'] ?? 'Amenities';
 $total_units = $details['units'] ?? '__';
 $total_size = $details['size'] ?? '__';
 $area_acres = $details['areas'] ?? '__';
@@ -82,7 +86,7 @@ if ($terms && !is_wp_Error($terms)) {
                 <li class="flex items-center gap-2">
                     <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-1.svg" alt="">
                     <div>
-                        <h6 class="font-semibold">Units</h6>
+                        <h6 class="font-semibold"><?php echo esc_html($total_size_title); ?></h6>
                         <p class="text-[#404042]"><?php echo esc_html($total_size); ?></p>
                     </div>
                 </li>
@@ -92,7 +96,7 @@ if ($terms && !is_wp_Error($terms)) {
                 <li class="flex items-center gap-2">
                     <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-4.svg" alt="">
                     <div>
-                        <h6 class="font-semibold">Areas</h6>
+                        <h6 class="font-semibold"><?php echo esc_html($area_acres_title); ?></h6>
                         <p class="text-[#404042]"><?php echo esc_html($area_acres); ?></p>
                     </div>
                 </li>
@@ -102,8 +106,8 @@ if ($terms && !is_wp_Error($terms)) {
                 <li class="flex items-center gap-2">
                     <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-3.svg" alt="">
                     <div>
-                        <h6 class="font-semibold">Size</h6>
-                        <p class="text-[#404042]"><?php echo esc_html($total_size); ?></p>
+                        <h6 class="font-semibold"><?php echo esc_html($total_units_title); ?></h6>
+                        <p class="text-[#404042]"><?php echo esc_html($total_units); ?></p>
                     </div>
                 </li>
             <?php endif; ?>
@@ -112,7 +116,7 @@ if ($terms && !is_wp_Error($terms)) {
                 <li class="flex items-center gap-2">
                     <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-2.svg" alt="">
                     <div>
-                        <h6 class="font-semibold">Amenities</h6>
+                        <h6 class="font-semibold"><?php echo $amenities_title; ?></h6>
                         <p class='text-[#404042]'><?php echo $amenities; ?></p>
                     </div>
                 </li>

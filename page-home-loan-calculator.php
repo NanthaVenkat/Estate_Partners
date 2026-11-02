@@ -9,7 +9,7 @@
  * Applies automatically to a page with the slug "home-loan-calculator",
  * or choose "Home Loan EMI Calculator" in Page Attributes > Template.
  *
- * @package YourThemeName
+ * @package EstatePartners
  */
 
 get_header();

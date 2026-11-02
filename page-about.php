@@ -10,7 +10,7 @@
  * Applies automatically to a page with the slug "about", or choose "About"
  * in Page Attributes > Template.
  *
- * @package YourThemeName
+ * @package EstatePartners
  */
 
 get_header();
@@ -32,10 +32,10 @@ $btn_gold  = 'inline-flex items-center gap-2 bg-gold hover:bg-gold-dark text-whi
  * ------------------------------------------------------------------ */
 
 $hero_stats = array(
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-1.svg',        'num' => '12 +',      'label' => 'Years of Experience'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-29.svg',        'num' => '1200 +',    'label' => 'Happy Customers'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-28.svg',   'num' => '1000 +',    'label' => 'Properties Listed'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-27.svg', 'num' => '₹500 Cr+', 'label' => 'In Transactions Facilitated'),
+    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-1.svg',        'num' => '2 +',      'label' => 'Years of Experience'),
+    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-29.svg',        'num' => '100 +',    'label' => 'Happy Customers'),
+    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-28.svg',   'num' => '20 +',    'label' => 'Properties Listed'),
+    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-27.svg', 'num' => '₹50 Cr+', 'label' => 'In Transactions Facilitated'),
 );
 
 $vmo = array(
@@ -71,8 +71,8 @@ $values = array(
 );
 
 $journey = array(
-    array('num' => '14 +',  'label' => 'Years in Business'),
-    array('num' => '100 +', 'label' => 'Projects Featured'),
+    array('num' => '2 +',  'label' => 'Years in Business'),
+    array('num' => '20 +', 'label' => 'Projects Featured'),
     array('num' => '100%',  'label' => 'Client-Focused Service'),
 );
 
@@ -144,8 +144,8 @@ $faqs = array(
 
         <div class="<?php echo esc_attr($container); ?> pt-16 pb-28 sm:pt-24 sm:pb-36 lg:pt-28 lg:pb-44">
             <div class="reveal max-w-xl text-white">
-                <p class="text-gold-light font-bold uppercase tracking-[0.18em] text-sm mb-3"><?php esc_html_e('Our Story', $td); ?></p>
-                <h1 class="font-prata text-4xl sm:text-5xl lg:text-6xl leading-tight"><?php esc_html_e('Building Trust, One Home at a Time', $td); ?></h1>
+                <p class="text-gold-light font-bold uppercase tracking-[0.18em] text-sm mb-3"><?php esc_html_e('Estate Partners', $td); ?></p>
+                <h1 class="font-prata text-4xl sm:text-5xl lg:text-6xl leading-tight"><?php esc_html_e('A Better Way to Find the Right Property.', $td); ?></h1>
                 <p class="mt-5 sm:text-lg leading-relaxed text-white/90"><?php esc_html_e('For over a decade, Estate Partners has helped families and investors find verified, well-located properties across Coimbatore.', $td); ?></p>
                 <div class="mt-8 flex flex-wrap gap-4">
                     <a href="<?php echo esc_url($home . '#projects'); ?>" class="<?php echo esc_attr($btn_gold); ?>"><?php esc_html_e('Explore Our Properties', $td); ?> <i class="fa-solid fa-arrow-right text-sm"></i></a>

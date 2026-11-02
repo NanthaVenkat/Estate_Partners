@@ -16,7 +16,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                     <div class="container relative h-full mx-auto px-4 sm:px-6 lg:px-8 flex items-center">
                         <div class="max-w-6xl text-white">
                             <p class="text-white font-semibold text-lg mb-4">Find the Right Property in Coimbatore</p>
-                            <h2 class="font-prata text-4xl sm:text-3xl lg:text-5xl leading-snug">Explore verified residential projects across Coimbatore - from premium apartments and villas to residential plots.</h2>
+                            <h2 class="hero-title font-prata leading-snug">Explore verified residential projects across Coimbatore - from premium apartments and villas to residential plots.</h2>
                         </div>
                     </div>
                 </div>
@@ -119,7 +119,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
 
     <!-- ======================= GUIDANCE / ENQUIRE ======================= -->
     <section id="enquire" class="py-16 sm:py-20 lg:py-24 bg-[#FCF7F3] scroll-mt-24">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-[60%_40%] gap-12 items-stretch">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-[60%_40%] gap-8 items-stretch">
             <div class="reveal relative">
                 <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">Why choose</p>
                 <h2 class="font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight">Why Choose Estate Partners?</h2>
@@ -274,76 +274,76 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                 <p class="mt-4 max-w-4xl mx-auto text-[#302F5A]-muted leading-relaxed">Explore residential projects across some of Coimbatore's most sought-after and fast-developing locations.</p>
             </div>
 
-            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-10 text-gold text-xl">
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 sm:gap-10 text-gold text-lg">
                 <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-14 h-14">
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
                     <span class="font-medium">Kalapatti</span>
                     <i class="fa-solid fa-arrow-right ml-auto"></i>
                 </a>
 
                 <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-14 h-14">
-                    <span class="font-medium">Saravanampatti</span>
-                    <i class="fa-solid fa-arrow-right ml-auto"></i>
-                </a>
-
-                <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-14 h-14">
-                    <span class="font-medium">Ramanadhapuram</span>
-                    <i class="fa-solid fa-arrow-right ml-auto"></i>
-                </a>
-
-                <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-14 h-14">
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
                     <span class="font-medium">Vellalore</span>
                     <i class="fa-solid fa-arrow-right ml-auto"></i>
                 </a>
 
                 <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-14 h-14">
-                    <span class="font-medium">Idikarai</span>
-                    <i class="fa-solid fa-arrow-right ml-auto"></i>
-                </a>
-
-                <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-14 h-14">
-                    <span class="font-medium">Ganapathy</span>
-                    <i class="fa-solid fa-arrow-right ml-auto"></i>
-                </a>
-
-                <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-14 h-14">
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
                     <span class="font-medium">Thudiyalur</span>
                     <i class="fa-solid fa-arrow-right ml-auto"></i>
                 </a>
 
                 <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-14 h-14">
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
+                    <span class="font-medium">Idikarai</span>
+                    <i class="fa-solid fa-arrow-right ml-auto"></i>
+                </a>
+
+                <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
                     <span class="font-medium">Sulur</span>
                     <i class="fa-solid fa-arrow-right ml-auto"></i>
                 </a>
 
                 <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-14 h-14">
-                    <span class="font-medium">Vadavalli</span>
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
+                    <span class="font-medium">Ganapathy</span>
                     <i class="fa-solid fa-arrow-right ml-auto"></i>
                 </a>
 
                 <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-14 h-14">
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
+                    <span class="font-medium">Ramanathapuram</span>
+                    <i class="fa-solid fa-arrow-right ml-auto"></i>
+                </a>
+
+                <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
                     <span class="font-medium">Vedapatti</span>
                     <i class="fa-solid fa-arrow-right ml-auto"></i>
                 </a>
 
                 <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-14 h-14">
-                    <span class="font-medium">Peelamedu</span>
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
+                    <span class="font-medium">Vadavalli</span>
                     <i class="fa-solid fa-arrow-right ml-auto"></i>
                 </a>
 
                 <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-14 h-14">
-                    <span class="font-medium">Mettupalyam</span>
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
+                    <span class="font-medium">Saravanampatti</span>
+                    <i class="fa-solid fa-arrow-right ml-auto"></i>
+                </a>
+
+                <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
+                    <span class="font-medium">Hopes</span>
+                    <i class="fa-solid fa-arrow-right ml-auto"></i>
+                </a>
+
+                <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
+                    <span class="font-medium">Perur</span>
                     <i class="fa-solid fa-arrow-right ml-auto"></i>
                 </a>
             </div>
@@ -498,7 +498,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                     </div>
                 </div>
 
-                <a href="" class="font-semibold text-white bg-gold rounded-xl flex gap-4 items-center justify-center p-4 text-lg mt-8"><i class="fa-solid fa-phone mr-2"></i>Talk to our Experts For Guidance<i class="fa-solid fa-arrow-right"></i></a>
+                <a href="tel:7092958830" class="font-semibold text-white bg-gold rounded-xl flex gap-4 items-center justify-center p-4 text-lg mt-8"><i class="fa-solid fa-phone mr-2"></i>Talk to our Experts For Guidance<i class="fa-solid fa-arrow-right"></i></a>
             </div>
 
             <div class="reveal relative">
@@ -556,101 +556,10 @@ $img_uri = get_template_directory_uri() . '/assets/images';
     </section>
 
     <!-- ======================= TESTIMONIALS ======================= -->
-    <section id="testimonials" class="py-16 sm:py-20 lg:py-24 bg-[#302F5A] scroll-mt-24">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-[30%_70%]">
-            <div class="text-white max-w-4xl mx-auto mb-12 reveal">
-                <p class="ont-bold uppercase tracking-[0.18em] text-sm mb-3">What Our Customers Say</p>
-                <h2 class="font-prata text-3xl sm:text-4xl leading-tight">Real experiences from people who trusted Estate Partners.</h2>
-                <!-- <p class="mt-4 text-[#302F5A]-muted">Real experiences from people who trusted Estate Partners.</p> -->
-            </div>
+    <?php get_template_part('template-parts/template-testimonials'); ?>
 
-            <div class="swiper testimonials-swiper reveal w-full h-max">
-                <div class="swiper-wrapper pb-14">
-                    <figure class="swiper-slide bg-white rounded-2xl border border-ink-line p-7 sm:p-8 shadow-sm flex flex-col">
-                        <div class="text-gold text-6xl text-gold/50 mb-4"><i class="fa-solid fa-quote-left"></i></div>
-                        <blockquote class="text-[#302F5A]-soft leading-relaxed flex-1">The team understood exactly what we were looking for and helped us shortlist properties based on our budget and preferred location.</blockquote>
-                        <figcaption class="mt-6 flex items-center gap-4">
-                            <img src="<?php echo esc_url($img_uri . '/17_ellipse_15.png'); ?>" alt="Vigneshwaran" class="w-12 h-12 rounded-full object-cover" loading="lazy" />
-                            <span><span class="block font-semibold">Vigneshwaran</span><span class="block text-xs text-[#302F5A]-muted">Home Buyer, Coimbatore</span></span>
-                        </figcaption>
-                    </figure>
-                    <figure class="swiper-slide bg-white rounded-2xl border border-ink-line p-7 sm:p-8 shadow-sm flex flex-col">
-                        <div class="text-gold text-6xl text-gold/50 mb-4"><i class="fa-solid fa-quote-left"></i></div>
-                        <blockquote class="text-[#302F5A]-soft leading-relaxed flex-1">The project information and site-visit support made the entire property search much easier.</blockquote>
-                        <figcaption class="mt-6 flex items-center gap-4">
-                            <img src="<?php echo esc_url($img_uri . '/18_ellipse_15.png'); ?>" alt="Kavi Priya" class="w-12 h-12 rounded-full object-cover" loading="lazy" />
-                            <span><span class="block font-semibold">Kavi Priya</span><span class="block text-xs text-[#302F5A]-muted">Home Buyer, Coimbatore</span></span>
-                        </figcaption>
-                    </figure>
-                    <figure class="swiper-slide bg-white rounded-2xl border border-ink-line p-7 sm:p-8 shadow-sm flex flex-col">
-                        <div class="text-gold text-6xl text-gold/50 mb-4"><i class="fa-solid fa-quote-left"></i></div>
-                        <blockquote class="text-[#302F5A]-soft leading-relaxed flex-1">The team understood exactly what we were looking for and helped us shortlist properties based on our budget and preferred location.</blockquote>
-                        <figcaption class="mt-6 flex items-center gap-4">
-                            <img src="<?php echo esc_url($img_uri . '/17_ellipse_15.png'); ?>" alt="Vigneshwaran" class="w-12 h-12 rounded-full object-cover" loading="lazy" />
-                            <span><span class="block font-semibold">Vigneshwaran</span><span class="block text-xs text-[#302F5A]-muted">Home Buyer, Coimbatore</span></span>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="swiper-pagination"></div>
-                <div class="flex gap-6">
-                    <div class="swiper-button-prev !relative !left-0 !mt-0 hidden md:flex"></div>
-                    <div class="swiper-button-next !relative !right-0 !mt-0 hidden md:flex"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ======================= Calculator ======================= -->
-    <section id="insights" class="py-16 sm:py-20 lg:py-24 scroll-mt-24">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-
-            <div class="max-w-2xl mb-6 mx-auto">
-                <h2 class="font-prata text-center text-3xl sm:text-4xl leading-tight">Helpful Tools</h2>
-            </div>
-
-            <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                <div class="flex flex-row sm:flex-col 2xl:flex-row rounded-lg gap-4 border border-gold/70 bg-gold/20 p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/calculator-2-scaled.png" alt="" class="w-24 h-24 object-cover rounded-lg">
-
-                    <div class=" space-y-2">
-                        <h2 class="text-gold font-semibold text-xl">EMI Calculator</h2>
-                        <p class="text-[#4D5461] text-base">EMI starts at ₹ 11.27 K</p>
-                        <a href="http://localhost/estate_partners/home-lone-calculator/" class="text-white font-semibold text-sm rounded-lg px-6 py-3 bg-[#302F5A] inline-block">Calculate now <i class="fa-solid fa-arrow-right ml-2"></i></a>
-                    </div>
-                </div>
-
-                <div class="flex flex-row sm:flex-col 2xl:flex-row rounded-lg gap-4 border border-gold/70 bg-gold/20 p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/calculator-1.png" alt="" class="w-24 h-24 object-cover rounded-lg">
-
-                    <div class=" space-y-2">
-                        <h2 class="text-gold font-semibold text-xl">Stamp Duty Calculator</h2>
-                        <p class="text-[#4D5461] text-base">Find your home loan limit</p>
-                        <a href="http://localhost/estate_partners/stamp-duty-calculator/" class="text-white font-semibold text-sm rounded-lg px-6 py-3 bg-[#302F5A] inline-block">Calculate now <i class="fa-solid fa-arrow-right ml-2"></i></a>
-                    </div>
-                </div>
-
-                <div class="flex flex-row sm:flex-col 2xl:flex-row rounded-lg gap-4 border border-gold/70 bg-gold/20 p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/calculator-3.png" alt="" class="w-24 h-24 object-cover rounded-lg">
-
-                    <div class=" space-y-2">
-                        <h2 class="text-gold font-semibold text-xl">Price Calculator</h2>
-                        <p class="text-[#4D5461] text-base">Check the price of your property</p>
-                        <a href="http://localhost/estate_partners/plot-price-calculator/" class="text-white font-semibold text-sm rounded-lg px-6 py-3 bg-[#302F5A] inline-block">Calculate now <i class="fa-solid fa-arrow-right ml-2"></i></a>
-                    </div>
-                </div>
-
-                <div class="flex flex-row sm:flex-col 2xl:flex-row rounded-lg gap-4 border border-gold/70 bg-gold/20 p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/calculator-4.png" alt="" class="w-24 h-24 object-cover rounded-lg">
-
-                    <div class=" space-y-2">
-                        <h2 class="text-gold font-semibold text-xl">Tax Benifit Calculator</h2>
-                        <p class="text-[#4D5461] text-base">Check the price of your property</p>
-                        <a href="http://localhost/estate_partners/home-loan-tax-calculator/" class="text-white font-semibold text-sm rounded-lg px-6 py-3 bg-[#302F5A] inline-block">Calculate now <i class="fa-solid fa-arrow-right ml-2"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- Calculator Section -->
+    <?php get_template_part('template-parts/calculators'); ?>
 
 </main>
 

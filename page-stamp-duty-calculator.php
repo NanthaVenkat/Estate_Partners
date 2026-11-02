@@ -9,7 +9,7 @@
  * Applies automatically to a page with the slug "stamp-duty-calculator",
  * or choose "Stamp Duty Calculator" in Page Attributes > Template.
  *
- * @package YourThemeName
+ * @package EstatePartners
  */
 
 get_header();

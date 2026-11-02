@@ -10,7 +10,7 @@
  * Applies automatically to a page with the slug "home-loan-tax-benefit-calculator",
  * or choose "Home Loan Tax Benefit Calculator" in Page Attributes > Template.
  *
- * @package YourThemeName
+ * @package EstatePartners
  */
 
 get_header();
