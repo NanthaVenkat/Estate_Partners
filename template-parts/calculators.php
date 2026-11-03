@@ -94,11 +94,15 @@
                     prevEl: '.tools-prev',
                 },
                 breakpoints: {
+                    0: { // sm
+                        slidesPerView: 1,
+                        spaceBetween: 20,
+                    },
                     640: { // sm
                         slidesPerView: 2,
                         spaceBetween: 20,
                     },
-                    1024: { // lg
+                    1440: { // lg
                         slidesPerView: 3,
                         spaceBetween: 24,
                     }

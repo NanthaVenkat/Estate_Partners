@@ -554,6 +554,23 @@ $img_uri = get_template_directory_uri() . '/assets/images';
 
         </div>
     </section>
+    
+        <!-- ======================= GUIDENCE ======================= -->
+    <section id="status" class="py-16 sm:py-20 lg:py-24 bg-[#FCF7F3] scroll-mt-24">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
+            <div class="rounded-2xl p-5 border flex items-center ga-6 justify-center">
+                <div class="flex items-center gap-5">
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/GUIDANCE.svg" alt="">
+
+                    <div class="text-[#3A391B]">
+                        <p>GUIDANCE</p>
+                        <p class="font-semibold">Your Complete Guide to Buy Property</p>
+                        <p>A guide covering everything you need to know before buying the right property.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- ======================= TESTIMONIALS ======================= -->
     <?php get_template_part('template-parts/template-testimonials'); ?>

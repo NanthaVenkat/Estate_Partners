@@ -10,14 +10,14 @@ $verified    = get_field('verified_button');
 $page_link   = get_field('property_page');
 
 // Get subfields from group
-$total_units_title = $details['units_title'] ?? 'Units';
-$total_size_title = $details['size_title'] ?? 'Size';
-$area_acres_title = $details['areas_title'] ?? 'Areas';
-$amenities_title  = $details['amenities_title'] ?? 'Amenities';
-$total_units = $details['units'] ?? '__';
-$total_size = $details['size'] ?? '__';
-$area_acres = $details['areas'] ?? '__';
-$amenities  = $details['amenities'] ?? '__';
+$total_units_title = !empty($details['units_title']) ? $details['units_title'] : 'Units';
+$total_size_title = !empty($details['size_title']) ? $details['size_title'] : 'Size';
+$area_acres_title = !empty($details['areas_title']) ? $details['areas_title'] : 'Areas';
+$amenities_title  = !empty($details['amenities_title']) ? $details['amenities_title'] : 'Amenities';
+$total_units = !empty($details['units']) ? $details['units'] : '__';
+$total_size = !empty($details['size']) ? $details['size'] : '__';
+$area_acres = !empty($details['areas']) ? $details['areas'] : '__';
+$amenities  = !empty($details['amenities']) ? $details['amenities'] : '__';
 
 // taxonomy vterms for data target
 $terms = get_the_terms(get_the_id(), 'property_type');

@@ -199,21 +199,23 @@ $faqs = array(
                 </div>
 
                 <!-- Curve -->
-                <svg class="absolute left-0 top-[22%] w-full" viewBox="0 0 1000 340" fill="none" aria-hidden="true">
+                <!-- <svg class="absolute left-0 top-[22%] w-full" viewBox="0 0 1000 340" fill="none" aria-hidden="true">
                     <path d="M150 100 C 300 320, 700 320, 850 100" stroke="#302F5A" stroke-width="1.5" stroke-dasharray="2 6" stroke-linecap="round" />
-                </svg>
+                </svg> -->
+
+                <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/about-beam.svg" alt="" class="absolute left-0 -top-12 h-[360px] w-full">
 
                 <!-- Nodes -->
-                <span class="absolute left-[15%] top-[35.8%] -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-full bg-[#302F5A] text-white inline-flex items-center justify-center text-2xl shadow-lg"><i class="fa-solid <?php echo esc_attr($vmo['vision']['icon']); ?>"></i></span>
-                <span class="absolute left-1/2 top-[58.75%] -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-full bg-[#302F5A] text-white inline-flex items-center justify-center text-2xl shadow-lg"><i class="fa-solid <?php echo esc_attr($vmo['mission']['icon']); ?>"></i></span>
-                <span class="absolute left-[85%] top-[35.8%] -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-full bg-[#302F5A] text-white inline-flex items-center justify-center text-2xl shadow-lg"><i class="fa-solid <?php echo esc_attr($vmo['objective']['icon']); ?>"></i></span>
+                <span class="absolute left-[30%] top-[35.8%] -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-full bg-[#302F5A] text-white inline-flex items-center justify-center text-2xl shadow-lg"><i class="fa-solid <?php echo esc_attr($vmo['vision']['icon']); ?>"></i></span>
+                <span class="absolute left-1/2 top-[50%] -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-full bg-[#302F5A] text-white inline-flex items-center justify-center text-2xl shadow-lg"><i class="fa-solid <?php echo esc_attr($vmo['mission']['icon']); ?>"></i></span>
+                <span class="absolute left-[70%] top-[35.8%] -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-full bg-[#302F5A] text-white inline-flex items-center justify-center text-2xl shadow-lg"><i class="fa-solid <?php echo esc_attr($vmo['objective']['icon']); ?>"></i></span>
 
                 <!-- Texts -->
-                <div class="absolute left-0 top-[42%] w-[32%] <?php echo esc_attr($body); ?>">
+                <div class="absolute left-0 top-[42%] w-[32%] text-center <?php echo esc_attr($body); ?>">
                     <h3 class="font-prata text-[#302F5A] text-3xl"><?php echo esc_html($vmo['vision']['title']); ?></h3>
                     <p class="mt-3 text-base leading-relaxed"><?php echo esc_html($vmo['vision']['text']); ?></p>
                 </div>
-                <div class="absolute right-0 top-[42%] w-[32%] <?php echo esc_attr($body); ?>">
+                <div class="absolute right-0 top-[42%] w-[32%] text-center <?php echo esc_attr($body); ?>">
                     <h3 class="font-prata text-[#302F5A] text-3xl"><?php echo esc_html($vmo['objective']['title']); ?></h3>
                     <p class="mt-3 text-base leading-relaxed"><?php echo esc_html($vmo['objective']['text']); ?></p>
                 </div>
@@ -318,7 +320,7 @@ $faqs = array(
                             <a href="<?php echo esc_url($project['url']); ?>" class="group relative block rounded-lg overflow-hidden h-[260px] sm:h-[300px]">
                                 <img src="<?php echo esc_url($project['img']); ?>" alt="<?php echo esc_attr($project['title']); ?>" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
                                 <span class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent"></span>
-                                <span class="absolute left-5 bottom-5 text-white font-semibold text-base sm:text-lg"><?php echo esc_html($project['title']); ?></span>
+                                <span class="absolute left-5 bottom-5 text-white font-semibold text-base sm:text-lg"><?php echo esc_html($project['title']); ?><i class="fa-solid fa-arrow-right text-sm ml-3"></i></span>
                             </a>
                         </div>
                     <?php endforeach; ?>

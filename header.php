@@ -15,6 +15,7 @@ if (! defined('ABSPATH')) {
 
 $img_uri = get_template_directory_uri() . '/assets/images';
 $home    = home_url('/');
+$is_blog_section = is_home() || is_page('blog') || is_singular('post') || is_category() || is_tag() || is_date() || is_author();
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -121,20 +122,20 @@ $home    = home_url('/');
                 <!-- Desktop nav -->
                 <nav class="hidden lg:flex items-center gap-8 text-[15px] font-medium" aria-label="Primary">
                     <a href="<?php echo esc_url($home); ?>" class="nav-link <?php echo is_front_page() ? 'active' : ''; ?> hover:text-gold transition-colors" <?php echo is_front_page() ? 'aria-current="page"' : ''; ?>>Home</a>
-                    <a href="<?php echo esc_url($home . 'about-us/'); ?>" class="nav-link <?php echo is_page('about-us') ? 'active' : ''; ?> hover:text-gold transition-colors" <?php echo is_page('about-us') ? 'aria-current="page"' : ''; ?>>About Us</a>
+                    <a href="<?php echo esc_url($home . 'about-us/'); ?>" class="nav-link <?php echo is_page('about-us') ? 'active' : ''; ?> hover:text-gold transition-colors" <?php echo is_page('about-us') ? 'aria-current="page"' : ''; ?>>About</a>
                     <!-- <a href="<?php echo esc_url($home . '#projects'); ?>" class="nav-link hover:text-gold transition-colors">Projects</a> -->
                     <!-- <a href="<?php echo esc_url($home . '#types'); ?>" class="nav-link hover:text-gold transition-colors">Apartments</a> -->
                     <!-- <a href="<?php echo esc_url($home . '#types'); ?>" class="nav-link hover:text-gold transition-colors">Villas</a> -->
                     <a href="<?php echo esc_url($home . 'contact-us/'); ?>" class="nav-link <?php echo is_page('contact-us') ? 'active' : ''; ?> hover:text-gold transition-colors" <?php echo is_page('contact-us') ? 'aria-current="page"' : ''; ?>>Contact</a>
-                    <a href="<?php echo esc_url($home . 'blog/'); ?>" class="nav-link <?php echo is_page('blog') ? 'active' : ''; ?> hover:text-gold transition-colors">Blog</a>
+                    <a href="<?php echo esc_url($home . 'blog/'); ?>" class="nav-link <?php echo $is_blog_section ? 'active' : ''; ?> hover:text-gold transition-colors" <?php echo $is_blog_section ? 'aria-current="page"' : ''; ?>>Blog</a>
                 </nav>
 
                 <!-- Actions -->
                 <div class="flex items-center gap-4 sm:gap-3">
-                    <a href="<?php echo esc_url($home . '#contact'); ?>" aria-label="Favourite projects" class="hidden relative hidden sm:inline-flex text-2xl items-center justify-center text-brand-red transition-colors mr-2">
+                    <!-- <a href="<`?php echo esc_url($home . '#contact'); ?>" aria-label="Favourite projects" class="hidden relative hidden sm:inline-flex text-2xl items-center justify-center text-brand-red transition-colors mr-2">
                         <i class="fa-regular fa-heart"></i>
-                        <!-- <span class="absolute -top-2 -right-2 w-5 h-5 rounded-full bg-brand-red text-white text-[11px] font-semibold inline-flex items-center justify-center">3</span> -->
-                    </a>
+                        <span class="absolute -top-2 -right-2 w-5 h-5 rounded-full bg-brand-red text-white text-[11px] font-semibold inline-flex items-center justify-center">3</span>
+                    </a> -->
                     <!-- COntact number -->
                     <a href="tel:+917092958830" class="text-[#302F5A] font-semibold"><i class="fa-solid fa-phone mr-2"></i>+91 70929 58830</a>
                     <!-- <a href="<`?php echo esc_url($home . '#enquire'); ?>" class="hidden md:inline-flex items-center gap-2 bg-[#B3814E] text-white font-medium text-sm px-6 py-3 rounded-lg hover:bg-gold transition-colors">
@@ -161,12 +162,12 @@ $home    = home_url('/');
         <div id="mobile-menu" class="hidden lg:hidden border-t border-ink-line bg-white">
             <nav class="px-4 sm:px-6 py-4 flex flex-col text-base font-medium divide-y divide-ink-line/70" aria-label="Mobile">
                 <a href="<?php echo esc_url($home . ''); ?>" class="py-3 <?php echo is_front_page() ? 'active' : ''; ?> hover:text-gold">Home</a>
-                <a href="<?php echo esc_url($home . 'about-us/'); ?>" class="py-3 <?php echo is_page('about-us') ? 'active' : ''; ?> hover:text-gold">About Us</a>
+                <a href="<?php echo esc_url($home . 'about-us/'); ?>" class="py-3 <?php echo is_page('about-us') ? 'active' : ''; ?> hover:text-gold">About</a>
                 <!-- <a href="<?php echo esc_url($home . '#projects'); ?>" class="py-3 hover:text-gold">Projects</a> -->
                 <!-- <a href="<?php echo esc_url($home . '#types'); ?>" class="py-3 hover:text-gold">Apartments</a> -->
                 <!-- <a href="<?php echo esc_url($home . '#types'); ?>" class="py-3 hover:text-gold">Villas</a> -->
                 <!-- <a href="<?php echo esc_url($home . '#locations'); ?>" class="py-3 hover:text-gold">Locations</a> -->
-                <a href="<?php echo esc_url($home . 'blog/'); ?>" class="py-3 <?php echo is_page('blog') ? 'active' : ''; ?> hover:text-gold">Blog</a>
+                <a href="<?php echo esc_url($home . 'blog/'); ?>" class="py-3 <?php echo $is_blog_section ? 'active' : ''; ?> hover:text-gold" <?php echo $is_blog_section ? 'aria-current="page"' : ''; ?>>Blog</a>
                 <a href="<?php echo esc_url($home . 'contact-us/'); ?>" class="py-3 <?php echo is_page('contact-us') ? 'active' : ''; ?> hover:text-gold">Contact Us</a>
                 <a href="<?php echo esc_url($home . '#enquire'); ?>" class="my-3 inline-flex items-center justify-center gap-2 bg-gold text-white font-medium text-sm px-6 py-3 rounded-lg">
                     Enquire Now <i class="fa-solid fa-arrow-right text-xs"></i>

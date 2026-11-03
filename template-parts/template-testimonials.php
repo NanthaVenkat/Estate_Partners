@@ -6,7 +6,7 @@
         </div>
 
         <div class="swiper testimonials-swiper reveal w-full h-max">
-            <div class="swiper-wrapper pb-14">
+            <div class="swiper-wrapper">
 
                 <?php if (have_rows('testimonials')) : ?>
                     <?php while (have_rows('testimonials')) : the_row(); ?>
@@ -26,9 +26,14 @@
                             <blockquote class="text-[#302F5A]-soft leading-relaxed flex-1">
                                 <?php echo esc_html($review_content); ?>
                             </blockquote>
-                            <figcaption class="mt-6 flex items-center gap-4">
+                            <figcaption class="mt-6 flex items-center gap-4 border-t border-[#D4D4D4] pt-6">
                                 <?php if ($profile_picture) : ?>
                                     <img src="<?php echo esc_url($profile_picture['url']); ?>"
+                                        alt="<?php echo esc_attr($reviewer_name); ?>"
+                                        class="w-12 h-12 rounded-full object-cover"
+                                        loading="lazy" />
+                                <?php else: ?>
+                                <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/avatar.webp"
                                         alt="<?php echo esc_attr($reviewer_name); ?>"
                                         class="w-12 h-12 rounded-full object-cover"
                                         loading="lazy" />
