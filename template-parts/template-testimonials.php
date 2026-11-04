@@ -1,8 +1,12 @@
+<?php 
+$testimonialTitle = get_field('testimonials_title');
+$testimonialHeading = get_field('testimonials_heading');
+?>
 <section id="testimonials" class="py-16 sm:py-20 lg:py-24 bg-[#302F5A] scroll-mt-24">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-[30%_70%]">
         <div class="text-white max-w-4xl mx-auto mb-12 reveal">
-            <p class="font-bold uppercase tracking-[0.18em] text-sm mb-3">What Our Customers Say</p>
-            <h2 class="font-prata text-3xl sm:text-4xl leading-tight">Real experiences from people who trusted Estate Partners.</h2>
+            <p class="font-bold uppercase tracking-[0.18em] text-sm mb-3"><?php echo $testimonialTitle; ?></p>
+            <h2 class="font-prata text-3xl sm:text-4xl leading-tight"><?php echo $testimonialHeading; ?></h2>
         </div>
 
         <div class="swiper testimonials-swiper reveal w-full h-max">

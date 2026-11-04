@@ -32,11 +32,15 @@ if ($terms && !is_wp_Error($terms)) {
 <article class="project-pannel relative bg-white rounded-2xl hover:border-gold/60 transition-colors shadow-lg" data-target="<?php echo esc_attr($target_class); ?>">
 
     <!-- Prime Location -->
-    <!-- <div class="-left-4 absolute top-45 z-10">
+    <?php 
+    if(is_page_template('page-apartment.php')):
+        ?>
+    <div class="-left-4 absolute top-45 z-10">
         <p class="rounded-e-lg rounded-tl-lg py-2 px-4 bg-[#302F5A] text-white font-semibold">Prime location</p>
         <div class="-top-0.5 left-0.5 relative w-0 h-0 border-l-[10px] border-l-transparent border-t-[10px] border-t-[#1B1B32] border-r-[10px] border-r-transparent -rotate-135">
         </div>
-    </div> -->
+    </div>
+<?php endif; ?>
 
     <div class="relative h-52 overflow-hidden rounded-t-2xl">
         <?php if ($image) : ?>
@@ -75,12 +79,25 @@ if ($terms && !is_wp_Error($terms)) {
     </div>
 
     <div class="p-6">
+<div class="flex items-center justify-between gap-6">
+<div>
+    <h3 class="text-2xl font-semibold text-gold"><?php echo esc_html($name); ?></h3>
+    <p class="text-[#302F5A] mt-1">
+        <i class="fa-solid fa-location-dot mr-1.5"></i><?php echo esc_html($location); ?>
+    </p>
+</div>
 
-        <h3 class="text-2xl font-semibold text-gold"><?php echo esc_html($name); ?></h3>
-        <p class="text-[#302F5A] mt-1">
-            <i class="fa-solid fa-location-dot mr-1.5"></i><?php echo esc_html($location); ?>
-        </p>
-
+<?php
+if(is_page_template('page-apartment.php')):
+    ?>
+<a href="<?php echo esc_url($page_link); ?>" class="p-4 rounded-full bg-[#302F5A] text-white leading-1"><i class="fa-solid fa-arrow-right"></i></a>
+    <?php
+endif;
+?>
+</div>
+<?php
+if(!is_page_template('page-apartment.php')):
+    ?>
         <ul class="mt-4 grid grid-cols-2 gap-4 text-xs font-medium text-[#302F5A]">
             <?php if ($total_size) : ?>
                 <li class="flex items-center gap-2">
@@ -142,5 +159,9 @@ if ($terms && !is_wp_Error($terms)) {
                 </button>
             <?php endif; ?>
         </div>
+
+            <?php
+endif;
+?>
     </div>
 </article>

@@ -109,31 +109,15 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
             </div>
 
             <!-- Hero form -->
-            <div id="enquire" class="bg-white rounded-xl shadow-xl p-6 sm:p-8 scroll-mt-28">
+            <div id="enquire" class="bg-[#F0F6FB] rounded-xl shadow-xl p-6 sm:p-8 scroll-mt-28">
                 <h2 class="font-prata text-2xl text-[#302F5A] text-center">Get Lowest Price &amp; Availability</h2>
                 <p class="text-sm text-center mt-1 mb-5">Our property expert will get in touch with you</p>
-                <form method="post" action="#" class="space-y-3">
-                    <input type="text" name="name" required placeholder="Name*" class="w-full rounded-md border border-gold/40 bg-white px-4 py-3 text-sm text-[#444444] placeholder:text-[#444444]/60 focus:outline-none focus:border-gold" />
-                    <input type="email" name="email" placeholder="Email" class="w-full rounded-md border border-gold/40 bg-white px-4 py-3 text-sm text-[#444444] placeholder:text-[#444444]/60 focus:outline-none focus:border-gold" />
-                    <div class="flex items-stretch rounded-md border border-gold/40 bg-white overflow-hidden">
-                        <span class="px-3 inline-flex items-center gap-1 text-sm text-[#444444] border-r border-gold/30">🇮🇳 +91</span>
-                        <input type="tel" name="phone" required pattern="[0-9+\- ]{10,15}" placeholder="Phone Number*" class="flex-1 px-3 py-3 text-sm focus:outline-none min-w-0" />
-                        <button type="button" data-send-otp class="bg-gold text-white text-xs font-semibold px-4">Send OTP</button>
-                    </div>
-                    <select name="interest" class="w-full rounded-md border border-gold/40 bg-white px-4 py-3 text-sm text-[#444444] focus:outline-none focus:border-gold">
-                        <option value="">I'm interested in</option>
-                        <option>2 BHK</option>
-                        <option>3 BHK</option>
-                        <option>3.5 BHK</option>
-                        <option>4 BHK</option>
-                    </select>
-                    <button type="submit" class="w-full bg-[#302F5A] text-white font-medium rounded-md py-3 hover:bg-gold transition-colors">Get Price Now <i class="fa-solid fa-arrow-right text-xs ml-1"></i></button>
-                </form>
+                <?php echo do_shortcode('[wpforms id="41"]'); ?>
                 <p class="mt-4 text-xs text-center text-[#444444]">100% Secure | Expert Assistance | Quick Response</p>
                 <div class="mt-4 grid grid-cols-3 gap-2 text-xs">
-                    <a href="#site-visit" class="border border-gold/40 rounded-md py-2 px-1 text-center hover:border-gold"><i class="fa-regular fa-calendar-check text-gold block mb-1"></i>Book Site Visit</a>
-                    <a href="#enquire-cta" class="border border-gold/40 rounded-md py-2 px-1 text-center hover:border-gold"><i class="fa-solid fa-download text-gold block mb-1"></i>Download Brochure</a>
-                    <a href="https://wa.me/917092958830" class="border border-gold/40 rounded-md py-2 px-1 text-center hover:border-gold"><i class="fa-brands fa-whatsapp text-gold block mb-1"></i>Whatsapp Us</a>
+                    <a href="#site-visit" class="rounded-md py-2 px-2 bg-white shadow-2xl flex items-center gap-3"><i class="fa-regular fa-calendar-check bg-[#302F5A] rounded-full p-3 text-white"></i>Book Site Visit</a>
+                    <a href="#enquire-cta" class="rounded-md py-2 px-2 bg-white shadow-2xl flex items-center gap-3"><i class="fa-solid fa-download bg-[#302F5A] rounded-full p-3 text-white"></i>Download Brochure</a>
+                    <a href="https://wa.me/917092958830" class="rounded-md py-2 px-2 bg-white shadow-2xl flex items-center gap-3"><i class="fa-brands fa-whatsapp bg-[#302F5A] rounded-full p-3 text-white"></i>Whatsapp Us</a>
                 </div>
             </div>
         </div>
@@ -142,12 +126,12 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
     <!-- Feature strip -->
     <section class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 xl:-mt-14 py-12 xl:py-0">
         <ul class="bg-white rounded-xl xl:rounded-full shadow-lg border border-ink-line grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 p-5 text-center text-base">
-            <li class="flex flex-col items-center gap-2 border-r-1 px-3"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-28.svg" alt="">Clear Legal Documentation</li>
-            <li class="flex flex-col items-center gap-2 md:border-r-1 px-3"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-16.svg" alt="">Premium Apartments</li>
-            <li class="flex flex-col items-center gap-2 border-r-1 md:border-r-0 lg:border-r-1 px-3"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-15.svg" alt="">Coimbatore Corporation Approved</li>
-            <li class="flex flex-col items-center gap-2 border-r-0 md:border-r-1 px-3"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-14.svg" alt="">Gated Community</li>
-            <li class="flex flex-col items-center gap-2 border-r-1 px-3"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-13.svg" alt="">50+ Lifestyle Amenities</li>
-            <li class="flex flex-col items-center gap-2"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-12.svg" alt="">Established Location</li>
+            <li class="flex flex-col items-center gap-2 border-[#19124B] border-r-1 px-3"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-28.svg" alt="" class="w-14 h-14">Clear Legal Documentation</li>
+            <li class="flex flex-col items-center gap-2 border-[#19124B] md:border-r-1 px-3"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-16.svg" alt="" class="w-14 h-14">Premium Apartments</li>
+            <li class="flex flex-col items-center gap-2 border-[#19124B] border-r-1 md:border-r-0 lg:border-r-1 px-3"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-15.svg" alt="" class="w-14 h-14">Coimbatore Corporation Approved</li>
+            <li class="flex flex-col items-center gap-2 border-[#19124B] border-r-0 md:border-r-1 px-3"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-14.svg" alt="" class="w-14 h-14">Gated Community</li>
+            <li class="flex flex-col items-center gap-2 border-[#19124B] border-r-1 px-3"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-13.svg" alt="" class="w-14 h-14">50+ Lifestyle Amenities</li>
+            <li class="flex flex-col items-center gap-2 border-[#19124B]"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-12.svg" alt="" class="w-14 h-14">Established Location</li>
         </ul>
     </section>
 
@@ -246,46 +230,74 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
         </div>
     </section>
 
+<!-- ============ SECTION START ============ -->
+<section id="invest" class="bg-brand-cream pt-16 sm:pt-20 overflow-hidden">
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8">
 
-    <!-- ======================= WHY INVEST ======================= -->
-    <section id="invest" class="bg-brand-cream py-16 sm:py-20 scroll-mt-28">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto">
-                <p class="text-gold font-semibold uppercase tracking-wide text-sm">Location Advantage</p>
-                <h2 class="font-prata text-3xl sm:text-4xl text-[#302F5A] mt-2">Why Invest in Ganapathy?</h2>
-            </div>
-            <div class="mt-10 grid md:grid-cols-2 gap-8">
-                <div class="space-y-5">
-                    <div class="bg-white rounded-2xl p-5 shadow-sm">
-                        <h3 class="font-prata text-lg text-gold">Education</h3>
-                        <p class="text-sm mt-2">Home to schools like Camford International and CSI Matriculation, with Kumaraguru College, KCT and PSG Tech nearby.</p>
-                    </div>
-                    <div class="bg-white rounded-2xl p-5 shadow-sm">
-                        <h3 class="font-prata text-lg text-gold">Employment</h3>
-                        <p class="text-sm mt-2">Close to CHIL SEZ, KGISL, KCT Tech Park and Adithya Tech Park, all within roughly 5 km.</p>
-                    </div>
-                    <div class="bg-white rounded-2xl p-5 shadow-sm">
-                        <h3 class="font-prata text-lg text-gold">Healthcare</h3>
-                        <p class="text-sm mt-2">Hospitals including KG Speciality Centre, Sri Ramakrishna Hospital and Surya Hospital nearby.</p>
-                    </div>
-                </div>
-                <div class="space-y-5">
-                    <div class="bg-white rounded-2xl p-5 shadow-sm">
-                        <h3 class="font-prata text-lg text-gold">Connectivity</h3>
-                        <p class="text-sm mt-2">Well-linked to central Coimbatore via Sathy Road (NH 544), with frequent bus services.</p>
-                    </div>
-                    <div class="bg-white rounded-2xl p-5 shadow-sm">
-                        <h3 class="font-prata text-lg text-gold">Shopping</h3>
-                        <p class="text-sm mt-2">Prozone Mall is approximately 500 metres away.</p>
-                    </div>
-                    <div class="bg-white rounded-2xl p-5 shadow-sm">
-                        <h3 class="font-prata text-lg text-gold">Residential Growth</h3>
-                        <p class="text-sm mt-2">A long-established and steadily developing residential corridor with a mix of new and existing apartment projects.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- Heading -->
+    <div class="text-center max-w-3xl mx-auto">
+      <h2 class="font-prata text-3xl sm:text-4xl text-[#302F5A]">Why Invest in Kalapatti?</h2>
+      <p class="mt-4 text-sm sm:text-base leading-relaxed text-[#676767]">
+        Kalapatti combines established residential character with proximity to IT parks, educational institutions, healthcare, and shopping destinations. For families, it offers convenient everyday access to essentials. For investors, its continued residential demand along the Sathy Road corridor makes it a location worth serious consideration.
+      </p>
+    </div>
+
+    <!-- Woman in the middle, three points each side -->
+    <div class="mt-10 lg:mt-12 grid lg:grid-cols-[1fr_auto_1fr] gap-x-10 gap-y-8 items-end">
+
+      <!-- Woman (first on mobile, centre on desktop) -->
+      <div class="order-first lg:order-none lg:col-start-2 lg:row-start-1 flex justify-center self-end">
+        <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/apartment-page-8.png" alt="Smiling home buyer" class="max-w-[520px] h-auto object-contain block" loading="lazy" />
+      </div>
+
+      <!-- LEFT column: text right-aligned, gold bar on the right.
+           The lg:mr-* values create the curved/staggered look. -->
+      <ul class="lg:col-start-1 lg:row-start-1 grid sm:grid-cols-2 lg:grid-cols-1 gap-8 lg:gap-0 lg:self-stretch lg:flex lg:flex-col lg:justify-between lg:pt-2 space-y-6 pb-16 sm:pb-20">
+        <li class="lg:self-end lg:mr-0">
+          <div class="lg:text-right border-l-4 lg:border-l-0 lg:border-r-4 border-gold pl-4 lg:pl-0 lg:pr-4 max-w-xs lg:ml-auto">
+            <h3 class="font-semibold text-lg text-[#302F5A]">Education</h3>
+            <p class="mt-2 text-xs leading-5 text-[#676767]">Home to schools like Camford International and CMS Matriculation, with Kumaraguru College (KCT) and PSG Tech nearby.</p>
+          </div>
+        </li>
+        <li class="lg:self-end lg:mr-9">
+          <div class="lg:text-right border-l-4 lg:border-l-0 lg:border-r-4 border-gold pl-4 lg:pl-0 lg:pr-4 max-w-xs lg:ml-auto">
+            <h3 class="font-semibold text-lg text-[#302F5A]">Employment</h3>
+            <p class="mt-2 text-xs leading-5 text-[#676767]">Close to CHIL SEZ (KGISL), KCT Tech Park, and Adithya Tech Park, all within roughly 5 km.</p>
+          </div>
+        </li>
+        <li class="lg:self-end lg:mr-12">
+          <div class="lg:text-right border-l-4 lg:border-l-0 lg:border-r-4 border-gold pl-4 lg:pl-0 lg:pr-4 max-w-xs lg:ml-auto">
+            <h3 class="font-semibold text-lg text-[#302F5A]">Healthcare</h3>
+            <p class="mt-2 text-xs leading-5 text-[#676767]">Hospitals including KG Speciality Centre, Sri Ramakrishna Hospital, and Surya Hospital nearby.</p>
+          </div>
+        </li>
+      </ul>
+
+      <!-- RIGHT column: text left-aligned, gold bar on the left -->
+      <ul class="lg:col-start-3 lg:row-start-1 grid sm:grid-cols-2 lg:grid-cols-1 gap-8 lg:gap-0 lg:self-stretch lg:flex lg:flex-col lg:justify-between lg:pt-2 space-y-6 pb-16 sm:pb-20">
+        <li class="lg:self-start lg:ml-0">
+          <div class="border-l-4 border-gold pl-4 max-w-xs">
+            <h3 class="font-semibold text-lg text-[#302F5A]">Connectivity</h3>
+            <p class="mt-2 text-xs leading-5 text-[#676767]">Well-linked to central Coimbatore via Sathy Road (NH 544), with frequent bus services.</p>
+          </div>
+        </li>
+        <li class="lg:self-start lg:ml-6">
+          <div class="border-l-4 border-gold pl-4 max-w-xs">
+            <h3 class="font-semibold text-lg text-[#302F5A]">Shopping</h3>
+            <p class="mt-2 text-xs leading-5 text-[#676767]">Prozone Mall is approximately 500 metres away.</p>
+          </div>
+        </li>
+        <li class="lg:self-start lg:ml-8">
+          <div class="border-l-4 border-gold pl-4 max-w-xs">
+            <h3 class="font-semibold text-lg text-[#302F5A]">Residential Growth</h3>
+            <p class="mt-2 text-xs leading-5 text-[#676767]">A long-established and steadily developing residential corridor with a mix of new and existing apartment projects.</p>
+          </div>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</section>
 
     <!-- ======================= Need Guidence ======================= -->
     <section id="about" class="py-16 sm:py-20 lg:py-24 scroll-mt-24">
@@ -1135,6 +1147,22 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
                 </div>
                 <p class="text-xs leading-relaxed">Infinium Realty focuses on developing premium residential properties in Coimbatore, with projects designed around location, planning and long-term usability. Infinium Altitude reflects this approach, combining modern architecture with a comprehensive amenity offering across a well-connected Sathy Road location.</p>
             </div>
+
+            <div class="grid sm:grid-cols-2 xl:grid-cols-3 gap-12 mt-12">
+                <?php
+                $properties = new WP_Query(array(
+                    'post_type' => 'project',
+                    'posts_per_page' => 2,
+                ));
+
+                if ($properties->have_posts()) :
+                    while ($properties->have_posts()) : $properties->the_post();
+                        get_template_part('template-parts/template-properties-card');
+                    endwhile;
+                    wp_reset_postdata();
+                endif;
+                ?>
+            </div>
         </div>
     </section>
 
@@ -1199,16 +1227,6 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
                     <p class="mt-3 text-sm pl-5">Yes. The project is supported by leading banks and housing finance companies. Our team can help with eligibility and documentation.</p>
                 </details>
             </div>
-        </div>
-    </section>
-
-    <!-- CTA strip -->
-    <section class="bg-gold">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col md:flex-row items-center justify-between gap-5">
-            <p class="text-white font-semibold text-xl sm:text-2xl text-center md:text-left">Let's help you find a space that truly feels home</p>
-            <a href="tel:+917092958830" class="inline-flex items-center gap-3 bg-[#302F5A] text-white font-semibold text-xl px-6 py-3 rounded-md">
-                <i class="fa-solid fa-phone"></i>+91 70929 58830
-            </a>
         </div>
     </section>
 
@@ -1382,6 +1400,10 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
                 accordionHeader.setAttribute('aria-expanded', 'false');
             }
         });
+        
+                    const SubmitText = document.getElementById('wpforms-submit-41');
+                SubmitText.innerText = 'Get Lowest Price';
+                console.log(SubmitText.innerText);
     });
 </script>
 
