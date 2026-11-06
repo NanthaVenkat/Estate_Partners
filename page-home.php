@@ -30,7 +30,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                             <form role="search" method="get" action="<?php echo esc_url(home_url('/')); ?>" class="mt-8 flex w-full max-w-2xl flex-col gap-3 rounded-xl bg-white p-3 shadow-lg sm:flex-row">
                                 <label for="home-search" class="sr-only"><?php esc_html_e('Search properties and articles', 'vnktheme-textdomain'); ?></label>
                                 <input id="home-search" type="search" name="s" value="<?php echo esc_attr(get_search_query()); ?>" placeholder="<?php esc_attr_e('Search properties, locations, and articles', 'vnktheme-textdomain'); ?>" class="min-w-0 flex-1 rounded-lg border border-ink-line px-4 py-3 text-sm text-[#302F5A] placeholder:text-[#6B6B6B] focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/30" />
-                                <button type="submit" class="inline-flex items-center justify-center gap-2 rounded-lg bg-ink px-6 py-3 font-semibold text-white transition-colors hover:bg-gold">
+                                <button type="submit" class="inline-flex items-center justify-center gap-2 rounded-lg bg-[#302F5A] px-6 py-3 font-semibold text-white transition-colors hover:bg-gold">
                                     <i class="fa-solid fa-magnifying-glass text-sm" aria-hidden="true"></i>
                                     <?php esc_html_e('Search', 'vnktheme-textdomain'); ?>
                                 </button>
