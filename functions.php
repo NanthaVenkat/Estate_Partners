@@ -226,6 +226,22 @@ function estatepartners_blog_route_template($template)
 }
 add_filter('template_include', 'estatepartners_blog_route_template');
 
+/**
+ * Include published posts and pages in front-end search results.
+ *
+ * @param WP_Query $query The main query.
+ */
+function estatepartners_search_posts_and_pages($query)
+{
+    if (is_admin() || ! $query->is_main_query() || ! $query->is_search()) {
+        return;
+    }
+
+    $query->set('post_type', array('post', 'page'));
+    $query->set('post_status', 'publish');
+}
+add_action('pre_get_posts', 'estatepartners_search_posts_and_pages');
+
 // 1. Register Projects Custom Post Type
 function register_projects_cpt() {
     register_post_type('project', array(

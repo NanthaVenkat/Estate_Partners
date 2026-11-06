@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Blog and category listing.
  *
@@ -9,10 +10,17 @@ if (! defined('ABSPATH')) {
     exit;
 }
 
-$current_category = is_category() ? get_queried_object() : get_category_by_slug('city-guide');
+$current_category = is_category() ? get_queried_object() : null;
 $category_id      = $current_category instanceof WP_Term && 'category' === $current_category->taxonomy
     ? (int) $current_category->term_id
     : 0;
+$categories = get_categories(
+    array(
+        'hide_empty' => true,
+        'orderby'    => 'name',
+        'order'      => 'ASC',
+    )
+);
 $paged = max(1, (int) get_query_var('paged'), (int) get_query_var('page'));
 
 $hot_topics = new WP_Query(
@@ -74,6 +82,24 @@ $articles = new WP_Query($article_args);
 
     <section id="city-guide" class="py-16 sm:pb-20">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-6 border-b border-ink-line">
+                <h2 class="inline-block border-b-2 border-gold px-2 pb-3 font-prata text-xl text-[#302F5A]">Hot Topics</h2>
+            </div>
+            <nav class="mb-8 flex flex-wrap gap-3" aria-label="<?php esc_attr_e('Filter blog posts by category', 'estatepartners'); ?>">
+                <a href="<?php echo esc_url(home_url('/blog/')); ?>"
+                    class="inline-flex items-center rounded-full border px-4 py-2 text-sm font-medium transition-colors <?php echo ! $category_id ? 'border-[#302F5A] bg-[#302F5A] text-white' : 'border-ink-line bg-white text-[#302F5A] hover:border-gold hover:bg-gold hover:text-white'; ?>"
+                    <?php echo ! $category_id ? 'aria-current="page"' : ''; ?>>
+                    <?php esc_html_e('All Posts', 'estatepartners'); ?>
+                </a>
+                <?php foreach ($categories as $category) : ?>
+                    <a href="<?php echo esc_url(get_category_link($category->term_id)); ?>"
+                        class="inline-flex items-center rounded-full border px-4 py-2 text-sm font-medium transition-colors <?php echo $category_id === (int) $category->term_id ? 'border-[#302F5A] bg-[#302F5A] text-white' : 'border-ink-line bg-white text-[#302F5A] hover:border-gold hover:bg-gold hover:text-white'; ?>"
+                        <?php echo $category_id === (int) $category->term_id ? 'aria-current="page"' : ''; ?>>
+                        <?php echo esc_html($category->name); ?>
+                    </a>
+                <?php endforeach; ?>
+            </nav>
+
             <div class="mb-6 border-b border-ink-line">
                 <h2 class="inline-block border-b-2 border-gold px-2 pb-3 font-prata text-xl text-[#302F5A]">
                     <?php
@@ -137,7 +163,7 @@ $articles = new WP_Query($article_args);
                     )
                 );
                 if ($pagination) :
-                    ?>
+                ?>
                     <nav class="mt-10 flex justify-center text-sm text-[#302F5A]" aria-label="<?php esc_attr_e('Blog pagination', 'estatepartners'); ?>">
                         <?php echo wp_kses_post($pagination); ?>
                     </nav>
