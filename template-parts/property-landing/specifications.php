@@ -240,7 +240,7 @@
                                     <td class="px-4 py-3">2 BHK </td>
                                     <td class="px-4 py-3">Apartment</td>
                                     <td class="px-4 py-3">1,377 sq.ft</td>
-                                    <td class="px-4 py-3">Rs.1.01 Crs Onwards*</td>
+                                    <td class="px-4 py-3">Rs.1.07 Crs Onwards*</td>
                                 </tr>
                                 <tr class="border-t border-ink-line bg-brand-cream">
                                     <td class="px-4 py-3">3 BHK</td>

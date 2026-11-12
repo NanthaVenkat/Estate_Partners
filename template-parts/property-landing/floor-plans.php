@@ -66,35 +66,35 @@
 
                 <div role="tabpanel" id="bhk-2-1" aria-labelledby="tab-bhk-2-1"
                     class="relative mt-5 bg-white p-3 sm:p-6">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/2bhk.png"
+                    <img src="https://www.coimbatoredevelopers.com/wp-content/uploads/2026/05/Gallery-1-copy-11-100.webp"
                         alt="Executive Tower 2 BHK floor plan, 2537 sq.ft" class="mx-auto w-full max-w-4xl h-auto"
                         loading="lazy" />
                 </div>
 
                 <div role="tabpanel" id="bhk-2-2" aria-labelledby="tab-bhk-2-2" hidden
                     class="relative mt-5 bg-white p-3 sm:p-6">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/2bhk.png"
+                    <img src="https://www.coimbatoredevelopers.com/wp-content/uploads/2026/05/Gallery-1-copy-12-100.webp"
                         alt="Executive Tower 2 BHK floor plan, 3764 sq.ft" class="mx-auto w-full max-w-4xl h-auto"
                         loading="lazy" />
                 </div>
 
                 <div role="tabpanel" id="bhk-2-3" aria-labelledby="tab-bhk-2-3" hidden
                     class="relative mt-5 bg-white p-3 sm:p-6">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/2bhk.png"
+                    <img src="https://www.coimbatoredevelopers.com/wp-content/uploads/2026/05/Gallery-1-copy-15-100.webp"
                         alt="Executive Tower 2 BHK floor plan, 2964 sq.ft" class="mx-auto w-full max-w-4xl h-auto"
                         loading="lazy" />
                 </div>
 
                 <div role="tabpanel" id="bhk-2-4" aria-labelledby="tab-bhk-2-4" hidden
                     class="relative mt-5 bg-white p-3 sm:p-6">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/2bhk.png"
+                    <img src="https://www.coimbatoredevelopers.com/wp-content/uploads/2026/05/Gallery-1-copy-13-100.webp"
                         alt="Executive Tower 2 BHK floor plan, 3850 sq.ft" class="mx-auto w-full max-w-4xl h-auto"
                         loading="lazy" />
                 </div>
 
                 <div role="tabpanel" id="bhk-2-5" aria-labelledby="tab-bhk-2-5" hidden
                     class="relative mt-5 bg-white p-3 sm:p-6">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/2bhk.png"
+                    <img src="https://www.coimbatoredevelopers.com/wp-content/uploads/2026/05/Gallery-1-copy-16-100.webp"
                         alt="Executive Tower 2 BHK floor plan, 3961 sq.ft" class="mx-auto w-full max-w-4xl h-auto"
                         loading="lazy" />
                 </div>
@@ -114,14 +114,14 @@
 
                 <div role="tabpanel" id="bhk-3-1" aria-labelledby="tab-bhk-3-1"
                     class="relative mt-5 bg-white p-3 sm:p-6">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/2bhk.png"
+                    <img src="https://www.coimbatoredevelopers.com/wp-content/uploads/2026/05/Gallery-1-copy-17-100.webp"
                         alt="Executive Tower 3 BHK floor plan, 2137 sq.ft" class="mx-auto w-full max-w-4xl h-auto"
                         loading="lazy" />
                 </div>
 
                 <div role="tabpanel" id="bhk-3-2" aria-labelledby="tab-bhk-3-2" hidden
                     class="relative mt-5 bg-white p-3 sm:p-6">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/2bhk.png"
+                    <img src="https://www.coimbatoredevelopers.com/wp-content/uploads/2026/05/Gallery-1-copy-18-100.webp"
                         alt="Executive Tower 3 BHK floor plan, 2250 sq.ft" class="mx-auto w-full max-w-4xl h-auto"
                         loading="lazy" />
                 </div>
@@ -141,14 +141,14 @@
 
                 <div role="tabpanel" id="bhk-35-1" aria-labelledby="tab-bhk-35-1"
                     class="relative mt-5 bg-white p-3 sm:p-6">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/2bhk.png"
+                    <img src="https://www.coimbatoredevelopers.com/wp-content/uploads/2026/05/Gallery-1-copy-19-100.webp"
                         alt="Signature Tower 3.5 BHK floor plan, 2537 sq.ft" class="mx-auto w-full max-w-4xl h-auto"
                         loading="lazy" />
                 </div>
 
                 <div role="tabpanel" id="bhk-35-2" aria-labelledby="tab-bhk-35-2" hidden
                     class="relative mt-5 bg-white p-3 sm:p-6">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/2bhk.png"
+                    <img src="https://www.coimbatoredevelopers.com/wp-content/uploads/2026/05/Gallery-1-copy-19-100.webp"
                         alt="Signature Tower 3.5 BHK floor plan, 2600 sq.ft" class="mx-auto w-full max-w-4xl h-auto"
                         loading="lazy" />
                 </div>
@@ -165,7 +165,7 @@
 
                 <div role="tabpanel" id="bhk-4-1" aria-labelledby="tab-bhk-4-1"
                     class="relative mt-5 bg-white p-3 sm:p-6">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/2bhk.png"
+                    <img src="https://www.coimbatoredevelopers.com/wp-content/uploads/2026/05/Gallery-1-copy-9-100.webp"
                         alt="Signature Tower 4 BHK floor plan, 3332 sq.ft" class="mx-auto w-full max-w-4xl h-auto"
                         loading="lazy" />
                 </div>

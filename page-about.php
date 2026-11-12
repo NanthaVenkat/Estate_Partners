@@ -23,7 +23,7 @@ $home = home_url('/');
 $container = 'container mx-auto px-4 sm:px-6 lg:px-8';
 $section   = 'py-16 sm:py-20 lg:py-24';
 $eyebrow   = 'text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3';
-$h2        = 'font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight';
+$h2        = 'font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight';
 $body      = 'sm:text-lg text-[#444444]';
 $btn_gold  = 'inline-flex items-center gap-2 bg-gold hover:bg-gold-dark text-white font-semibold px-7 py-3.5 rounded-lg transition-colors';
 
@@ -77,9 +77,9 @@ $journey = array(
 );
 
 $projects = array(
-    array('img' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/23_2_802.png',      'title' => 'Residential Plots',   'url' => $home . '#projects'),
-    array('img' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/26_2_802.png',     'title' => 'Premium Villas',      'url' => $home . '#projects'),
-    array('img' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/5_2_802.png', 'title' => 'Premium Apartments',  'url' => $home . '#projects'),
+    array('img' => 'http://localhost/estate_partners/wp-content/uploads/2026/11/projects-we-offer-1.png',      'title' => 'Residential Plots',   'url' => $home . '#projects'),
+    array('img' => 'http://localhost/estate_partners/wp-content/uploads/2026/11/projects-we-offer-1.jpg',     'title' => 'Premium Villas',      'url' => $home . '#projects'),
+    array('img' => 'http://localhost/estate_partners/wp-content/uploads/2026/11/projects-we-offer-2.png', 'title' => 'Premium Apartments',  'url' => $home . '#projects'),
 );
 
 $why = array(
@@ -110,7 +110,7 @@ $verify = array(
 $faqs = array(
     array(
         'q' => 'Who is Estate Partners?',
-        'a' => 'Estate Partners is a Coimbatore-based real estate company specializing in premium residential developments. The company focuses on creating well-planned communities with strategic locations, robust infrastructure, and long-term value.'
+        'a' => 'Estate Partners is a real estate property discovery platform in Coimbatore that helps buyers find the right residential property without brokerage. We help customers explore and compare apartments, villas and residential plots across Coimbatore, providing property information, pricing details and personalised assistance to make informed property decisions.'
     ),
     array(
         'q' => 'What types of real estate projects does Estate Partners offer?',
@@ -125,8 +125,8 @@ $faqs = array(
         'a' => 'We check RERA registration and the relevant approvals for every project before it is listed, and we share these details with you on request.'
     ),
     array(
-        'q' => 'Does Estate Partners undertake community and social responsibility initiatives?',
-        'a' => 'Please contact our team to learn about our community initiatives and the programs we support.'
+        'q' => 'How can I contact Estate Partners?',
+        'a' => 'You can contact Estate Partners through our website enquiry form, call us directly at +91 70929 58830, or connect with us through WhatsApp. Our team will be happy to understand your requirements, share suitable property options and assist you with your property search.'
     ),
     array(
         'q' => 'Why should I choose Estate Partners for residential plots in Coimbatore?',
@@ -144,12 +144,17 @@ $faqs = array(
 
         <div class="<?php echo esc_attr($container); ?> pt-16 pb-28 sm:pt-24 sm:pb-36 lg:pt-28 lg:pb-44">
             <div class="reveal max-w-xl text-white">
-                <p class="text-gold-light font-bold uppercase tracking-[0.18em] text-sm mb-3"><?php esc_html_e('Estate Partners', $td); ?></p>
-                <h1 class="font-prata text-4xl sm:text-5xl lg:text-6xl leading-tight"><?php esc_html_e('A Better Way to Find the Right Property.', $td); ?></h1>
+                <p class="text-gold-light font-bold uppercase tracking-[0.18em] text-sm mb-3"><?php esc_html_e('Our story', $td); ?></p>
+                <h1 class="font-prata text-4xl sm:text-5xl lg:text-6xl leading-tight"><?php esc_html_e('Building Trust, One Home at a Time', $td); ?></h1>
                 <p class="mt-5 sm:text-lg leading-relaxed text-white/90"><?php esc_html_e('For over a decade, Estate Partners has helped families and investors find verified, well-located properties across Coimbatore.', $td); ?></p>
                 <div class="mt-8 flex flex-wrap gap-4">
-                    <a href="<?php echo esc_url($home . '#projects'); ?>" class="<?php echo esc_attr($btn_gold); ?>"><?php esc_html_e('Explore Our Properties', $td); ?> <i class="fa-solid fa-arrow-right text-sm"></i></a>
-                    <a href="<?php echo esc_url(home_url('/contact/')); ?>" class="inline-flex items-center gap-2 bg-[#302F5A] hover:bg-ink text-white font-semibold px-7 py-3.5 rounded-lg transition-colors"><?php esc_html_e('Talk to Our Experts', $td); ?> <i class="fa-solid fa-arrow-right text-sm"></i></a>
+                    <a href="http://localhost/estate_partners/all-projects/" class="<?php echo esc_attr($btn_gold); ?>"><?php esc_html_e('Explore Our Properties', $td); ?> <i class="fa-solid fa-arrow-right text-sm"></i></a>
+                    <button type="button" class="js-open-enquiry-modal inline-flex items-center gap-2 border border-white hover:bg-white hover:text-[#302F5A] text-white font-semibold px-7 py-3.5 rounded-lg transition-colors"><?php esc_html_e('Talk to Our Experts', $td); ?> <i class="fa-solid fa-arrow-right text-sm"></i></button>
+                    <!-- <button type="button"
+                        class="js-open-enquiry-modal hidden md:inline-flex items-center gap-2 bg-[#B3814E] text-white font-medium text-sm px-6 py-3 rounded-lg hover:bg-gold-dark transition-colors whitespace-nowrap">
+                        <i class="fa-regular fa-paper-plane text-sm" aria-hidden="true"></i>
+                        <span>Enquire Now</span>
+                    </button> -->
                 </div>
             </div>
         </div>
@@ -188,7 +193,7 @@ $faqs = array(
     </section>
 
     <!-- ======================= VISION / MISSION / OBJECTIVE ======================= -->
-    <section class="bg-brand-cream <?php echo esc_attr($section); ?>">
+    <section class="bg-brand-cream <?php echo esc_attr($section); ?> xl:pb-0">
         <div class="<?php echo esc_attr($container); ?>">
 
             <!-- Desktop diagram -->

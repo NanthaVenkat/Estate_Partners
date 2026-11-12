@@ -19,7 +19,7 @@ get_header();
 $td   = 'vnktheme-textdomain';
 $container = 'container mx-auto px-4 sm:px-6 lg:px-8';
 $section   = 'py-16 sm:py-20 lg:py-24';
-$h2        = 'font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight';
+$h2        = 'font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight';
 $address = 'Villankurichi Rd, B.R. Puram Industrial Estate, Coimbatore, Tamil Nadu 641014';
 
 $why = array(
@@ -79,39 +79,39 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
         </div>
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-14 lg:py-20 grid lg:grid-cols-[1.2fr_0.8fr] gap-10 items-center">
             <div class="text-[#302F5A]">
-                <p class="font-prata text-3xl tracking-[0.3em] uppercase"><img src="http://localhost/estate_partners/wp-content/uploads/2026/11/aaraspace-logo.svg" alt="" class="h-14"></p>
-                <h1 class="font-prata text-3xl sm:text-4xl lg:text-5xl leading-tight mt-5">Premium Residential Plots
+                <p class="font-prata text-3xl tracking-[0.3em] uppercase"><img src="http://localhost/estate_partners/wp-content/uploads/2026/11/Aara_Enclave_Logo.png" alt="" class="h-14"></p>
+                <h1 class="font-prata text-3xl xl:text-4xl lg:text-5xl leading-tight mt-5">Premium Residential Plots
                     <span class="text-gold">in Kalapatti, Coimbatore</span>
                 </h1>
-                <p class="mt-4 text-sm sm:text-base tracking-wide text-[#302F5A]">DTCP & RERA APPROVED | VAASTU COMPLAINT </p>
-                <dl class="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-4 text-[#302F5A]">
-                    <div class="border-r-2 border-[#302F5A] px-2 text-center">
+                <p class="mt-4 text-sm sm:text-base font-medium tracking-wide text-[#302F5A]">DTCP & RERA APPROVED | VAASTU COMPLAINT </p>
+                <dl class="mt-8 flex flex-wrap gap-4 text-[#302F5A]">
+                    <div class="border-r-2 border-[#302F5A] px-4 text-center">
                         <dt class="font-prata text-3xl sm:text-4xl">5.27</dt>
-                        <dd class="text-xs">Acres</dd>
+                        <dd class="text-xs font-medium text-[#292929]">Acres</dd>
                     </div>
-                    <div class="border-r-2 border-[#302F5A] px-2 text-center">
+                    <div class="border-r-2 border-[#302F5A] px-4 text-center">
                         <dt class="font-prata text-3xl sm:text-4xl">56</dt>
-                        <dd class="text-xs">Premium Plots</dd>
+                        <dd class="text-xs font-medium text-[#292929]">Premium Plots</dd>
                     </div>
-                    <div class="border-r-2 border-[#302F5A] px-2 text-center">
+                    <div class="border-r-2 border-[#302F5A] px-4 text-center">
                         <dt class="font-prata text-3xl sm:text-4xl">3 - 6</dt>
-                        <dd class="text-xs">Premium Plots</dd>
+                        <dd class="text-xs font-medium text-[#292929]">Premium Plots</dd>
                     </div>
                     <div class="px-2 text-center">
                         <dt class="font-prata text-3xl sm:text-4xl">₹ 26 Lakhs</dt>
-                        <dd class="text-xs">Onwards</dd>
+                        <dd class="text-xs font-medium text-[#292929]">Onwards</dd>
                     </div>
                 </dl>
 
                 <button
                     type="button"
-                    class="js-open-enquiry-modal mt-8 inline-block bg-gold text-white text-base font-medium px-5 py-2 rounded-xl">
-                    <span>Limited Apartments Available</span>
+                    class="js-open-enquiry-modal mt-8 inline-block bg-gold text-white text-base font-medium px-5 py-2 rounded-lg">
+                    <span>Limited Plots Available</span>
                 </button>
             </div>
 
             <!-- Hero form -->
-            <div id="enquire" class="bg-[#F0F6FB] rounded-xl shadow-xl p-6 sm:p-8 scroll-mt-28">
+            <div id="enquire" class="bg-[#F0F6FB] rounded-xl shadow-xl p-6 sm:p-8 scroll-mt-28 max-w-lg mx-auto">
                 <h2 class="font-prata text-2xl text-[#302F5A] text-center">Get Lowest Price &amp; Availability</h2>
                 <p class="text-sm text-center mt-1 mb-5">Our property expert will get in touch with you</p>
                 <?php echo do_shortcode('[wpforms id="41"]'); ?>
@@ -129,10 +129,10 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
     <section class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 xl:-mt-14 py-12 xl:py-0">
         <ul class="bg-white rounded-xl xl:rounded-full shadow-lg border border-ink-line grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 p-5 text-center text-base">
             <li class="flex flex-col items-center gap-2 border-[#19124B] border-r-1 px-3"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-28.svg" alt="" class="w-14 h-14">Clear Legal Documentation</li>
-            <li class="flex flex-col items-center gap-2 border-[#19124B] md:border-r-1 px-3"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-16.svg" alt="" class="w-14 h-14">Premium Apartments</li>
-            <li class="flex flex-col items-center gap-2 border-[#19124B] border-r-1 md:border-r-0 lg:border-r-1 px-3"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-15.svg" alt="" class="w-14 h-14">Coimbatore Corporation Approved</li>
+            <li class="flex flex-col items-center gap-2 border-[#19124B] md:border-r-1 px-3"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-16.svg" alt="" class="w-14 h-14">Premium Residential Plots</li>
+            <li class="flex flex-col items-center gap-2 border-[#19124B] border-r-1 md:border-r-0 lg:border-r-1 px-3"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-15.svg" alt="" class="w-14 h-14">Coimbatore Corporation</li>
             <li class="flex flex-col items-center gap-2 border-[#19124B] border-r-0 md:border-r-1 px-3"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-14.svg" alt="" class="w-14 h-14">Gated Community</li>
-            <li class="flex flex-col items-center gap-2 border-[#19124B] border-r-1 px-3"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-13.svg" alt="" class="w-14 h-14">50+ Lifestyle Amenities</li>
+            <li class="flex flex-col items-center gap-2 border-[#19124B] border-r-1 px-3"><img src="http://localhost/estate_partners/wp-content/uploads/2026/11/ready-to-contruct.svg" alt="" class="w-14 h-14">Ready to Construct</li>
             <li class="flex flex-col items-center gap-2 border-[#19124B]"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-12.svg" alt="" class="w-14 h-14">Established Location</li>
         </ul>
     </section>
@@ -155,8 +155,8 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
     <section id="overview" class="py-16 sm:py-20 scroll-mt-28">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto">
-                <h2 class="font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight">Aara Enclave - Project Overview</h2>
-                <p class="mt-4 max-w-4xl mx-auto text-[#302F5A]-muted leading-relaxed">Everything You Need to Start Building Right, Well-planned plots in prime locations, giving you the perfect foundation to build your dream home and a <b>brighter future</b></p>
+                <h2 class="font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight">Aara Enclave - Project Overview</h2>
+                <p class="mt-4 max-w-4xl mx-auto text-[#676767] leading-relaxed">Everything You Need to Start Building Right, Well-planned plots in prime locations, giving you the perfect foundation to build your dream home and a <b>brighter future</b></p>
             </div>
             <div class="mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5 text-base text-[#6B6B6B] text-center">
                 <div class="bg-brand-cream border border-gold/30 rounded-2xl p-5">
@@ -209,9 +209,9 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                 </div> -->
             </div>
 
-            <div class="reveal order-1 lg:order-2 sm:text-lg text-[#444444]">
+            <div class="reveal order-1 lg:order-2 text-[#444444] sm:text-lg">
                 <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">Your Dream Home</p>
-                <h2 class="font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight">Begins with the Right Foundation</h2>
+                <h2 class="font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight">Begins with the Right Foundation</h2>
                 <p class="mt-5 leading-relaxed">Aara Enclave by Aara Spaces offers premium residential plots in Kalapatti, Coimbatore, created for families looking to build a home in a well-connected and rapidly developing part of the city.</p>
                 <p class="mt-4 leading-relaxed">Spread across 5.27 acres with 56 plots, the development offers plot options ranging from 3 to 6 cents, with 100% Vaastu-compliant planning and RERA & DTCP approvals.</p>
                 <p class="mt-4 leading-relaxed">With essential infrastructure, security features and access to major educational, healthcare, employment and transport destinations, Aara Enclave brings together the essentials for both homebuyers and long-term investors.</p>
@@ -397,10 +397,10 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
     <section id="about" class="py-16 sm:py-20 lg:py-24 scroll-mt-24">
 
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            <div class="flex gap-5 flex-col">
+            <div class="flex gap-6 flex-col">
                 <div class="container mx-auto mb-6">
                     <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">aara enclave for</p>
-                    <h2 class="font-prata text-3xl text-[#302F5A] sm:text-4xl leading-tight">Who Is Aara Enclave For?</h2>
+                    <h2 class="font-prata text-3xl text-[#302F5A] xl:text-4xl leading-tight">Who Is Aara Enclave For?</h2>
                 </div>
                 <div class="w-full rounded-2xl shadow-lg flex gap-6 items-center p-4">
                     <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/lp-icon-3.svg" alt="Looking to Build?" class="w-16">
@@ -435,7 +435,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
 
             <div class="reveal relative">
                 <div class="rounded-2xl overflow-hidden">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/infinium-central-1.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[420px] object-cover" loading="lazy" />
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-7.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[420px] object-cover" loading="lazy" />
                 </div>
                 <!-- <div class="absolute -bottom-6 left-5 sm:left-8 bg-ink text-white rounded-2xl px-6 py-5 shadow-xl flex items-center gap-4">
                     <span class="w-12 h-12 rounded-full bg-gold inline-flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-headset"></i></span>
@@ -453,7 +453,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
     <section class="bg-brand-cream <?php echo esc_attr($section); ?>">
         <div class="<?php echo esc_attr($container); ?>">
             <p class="text-gold font-bold uppercase tracking-[0.18em] text-center text-sm mb-3">Why Us</p>
-            <h2 class="reveal <?php echo esc_attr($h2); ?> text-center">Why Infinium Central 16</h2>
+            <h2 class="reveal <?php echo esc_attr($h2); ?> text-center">why Aara Enclave</h2>
             <p class="reveal mt-3 text-center text-sm text-[#444444]">Well-planned plots in prime locations, giving you the perfect foundation to build your dream home and a <b>brighter future</b></p>
 
             <div class="mt-10 sm:mt-12 !py-2" style="--swiper-theme-color:#b3814e;">
@@ -597,12 +597,14 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
     <section id="about" class="py-16 sm:py-20  bg-[#FCF7F3] lg:py-24 scroll-mt-24">
         <div class="container mx-auto text-center">
             <h2 class="font-prata text-3xl sm:text-4xl text-[#302F5A] mt-2 mb-6">Aara Enclave Phase 1</h2>
-            <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-4.png" alt="" class="mx-auto">
+            <img src="https://www.coimbatoredevelopers.com/wp-content/uploads/2026/06/Aara_Enclave_Web.webp" alt="" class="mx-auto hidded sm:block">
+            <img src="https://www.coimbatoredevelopers.com/wp-content/uploads/2026/06/Aara_Enclave_Mob-scaled-1.webp" alt="" class="mx-auto block sm:hidden">
         </div>
 
         <div class="container mx-auto text-center">
             <h2 class="font-prata text-3xl sm:text-4xl text-[#302F5A] mt-2 mb-6">Aara Enclave Phase 3</h2>
-            <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-phase-3.png" alt="" class="mx-auto">
+            <img src="https://www.coimbatoredevelopers.com/wp-content/uploads/2026/10/Aara_Enclave_Phase_3_Web-optimized.webp" alt="" class="mx-auto hidded sm:block">
+            <img src="https://www.coimbatoredevelopers.com/wp-content/uploads/2026/10/Aara_Enclave_Phase_3_Mobile_view-optimized.webp" alt="" class="mx-auto block sm:hidden">
         </div>
     </section>
 
@@ -662,7 +664,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                                 <tr class="border-t border-ink-line bg-brand-cream">
                                     <td class="px-4 py-3">Phase - 1</td>
                                     <td class="px-4 py-3">1 Cent</td>
-                                    <td class="px-4 py-3">Rs.19L Onwards*</td>
+                                    <td class="px-4 py-3">Rs.26L Onwards*</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -675,16 +677,10 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
     <section class="text-center">
         <div class="<?php echo esc_attr($container); ?> max-w-5xl">
             <h2 class="reveal <?php echo esc_attr($h2); ?> text-center">Location Benefits</h2>
-            <p class="reveal mt-3 text-center text-sm text-[#444444]">Infinium Altitude is strategically situated on Sathy Road, Ganapathy, one of Coimbatore's established residential corridors. Its proximity to major IT parks, educational institutions, and healthcare facilities makes it an ideal choice for both homeowners and investors.</p>
+            <p class="reveal mt-3 text-center text-sm text-[#444444]">Aara Enclave is strategically situated in Kalapatti, one of Coimbatore’s rapidly developing residential and commercial hubs. Its proximity to major IT parks, educational institutions, and healthcare facilities makes it an ideal choice for both homeowners and investors.</p>
         </div>
 
-        <iframe
-            title="<?php esc_attr_e('Estate Partners location map', 'vnktheme-textdomain'); ?>"
-            src="<?php echo esc_url('https://maps.google.com/maps?q=' . rawurlencode($address) . '&t=&z=16&ie=UTF8&iwloc=&output=embed'); ?>"
-            class="block w-full h-[320px] sm:h-[420px] lg:h-[520px] border-0 mt-6"
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d4644.755859975757!2d77.02221!3d11.063585!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTHCsDAzJzQ5LjQiTiA3N8KwMDEnMjkuMyJF!5e1!3m2!1sen!2sin!4v1794394948275!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" class="block w-full h-[320px] sm:h-[420px] lg:h-[520px] border-0 mt-6"></iframe>
     </section>
 
     <!-- ======================= PROCESS (Swiper) ======================= -->
@@ -864,14 +860,14 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
     <section id="about" class="py-16 sm:py-20 lg:py-24 scroll-mt-24">
         <div class="container mx-auto text-center mb-6">
             <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">LATEST VILLA PRICE</p>
-            <h2 class="font-prata text-3xl text-[#302F5A] sm:text-4xl leading-tight">Get the Latest Infinium Central 16 Price</h2>
-            <!-- <p class="mt-4 max-w-4xl mx-auto text-[#444444] leading-relaxed">Buying property is a major decision. You don't have to figure it out alone. Tell us what you are looking for — your preferred location,
+            <h2 class="font-prata text-3xl text-[#302F5A] xl:text-4xl leading-tight">Get the Latest Aara Enclave Price</h2>
+            <!-- <p class="mt-4 max-w-4xl mx-auto text-[#444444] leading-relaxed text-sm xl:text-base">Buying property is a major decision. You don't have to figure it out alone. Tell us what you are looking for — your preferred location,
                 property type, budget and purpose — and our team can help you shortlist suitable projects in Coimbatore.</p> -->
         </div>
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
             <div class="grid grid-cols-2 sm:grid-cols-3 bg-[#FCF7F3] p-5 sm:p-8 rounded-2xl border border-[#B3814E80] gap-6">
-                <h2 class="text-gold font-prata text-xl font-semibold text-center col-span-2 sm:col-span-3">Plot prices can vary based on:</h2>
+                <h2 class="text-gold font-prata text-xl lg:text-2xl font-semibold text-center col-span-2 md:col-span-3">Plot prices can vary based on:</h2>
 
                 <div class="rounded-2xl border border-[#B3814E80] bg-white flex text-center flex-col gap-4 items-center text-[#302F5A] p-4">
                     <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-4.svg" alt="" class="w-14 h-14">
@@ -915,41 +911,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
     </section>
 
     <!-- ======================= TESTIMONIALS ======================= -->
-    <section id="testimonials" class="py-16 sm:py-20 lg:py-24 bg-[#302F5A] scroll-mt-24">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-[30%_70%]">
-            <div class="text-white max-w-4xl mx-auto mb-12 reveal">
-                <p class="ont-bold uppercase tracking-[0.18em] text-sm mb-3">Client's Testimonial</p>
-                <h2 class="font-prata text-3xl sm:text-4xl leading-tight">See What's Our Client Says About Us</h2>
-                <!-- <p class="mt-4 text-[#302F5A]-muted">Real experiences from people who trusted Estate Partners.</p> -->
-            </div>
-
-            <div class="swiper testimonials-swiper reveal w-full h-max">
-                <div class="swiper-wrapper pb-14">
-                    <figure class="swiper-slide bg-white rounded-2xl border border-ink-line p-7 sm:p-8 shadow-sm flex flex-col">
-                        <div class="text-gold text-6xl text-gold/50 mb-4"><i class="fa-solid fa-quote-left"></i></div>
-                        <blockquote class="text-[#302F5A]-soft leading-relaxed flex-1">We were looking to invest in a plot for a couple of months and we came across Aara Spaces. It felt perfect for us from the locality to amenities. It was also within our budget. We got the registration within a day's time and the whole process was very swift without any hassle.</blockquote>
-                        <figcaption class="mt-6 flex items-center gap-4">
-                            <img src="<?php echo esc_url($img_uri . '/17_ellipse_15.png'); ?>" alt="Vigneshwaran" class="w-12 h-12 rounded-full object-cover" loading="lazy" />
-                            <span><span class="block font-semibold">Kavi Priya</span><span class="block text-xs text-[#302F5A]-muted">Coimbatore</span></span>
-                        </figcaption>
-                    </figure>
-                    <figure class="swiper-slide bg-white rounded-2xl border border-ink-line p-7 sm:p-8 shadow-sm flex flex-col">
-                        <div class="text-gold text-6xl text-gold/50 mb-4"><i class="fa-solid fa-quote-left"></i></div>
-                        <blockquote class="text-[#302F5A]-soft leading-relaxed flex-1">I came across Aara Spaces while looking for a plot in the Kalapatti area. I would say they are the best in what they offer. We got the best deal for our plot and the team ensured proper paperwork before handover. I am glad I chose Aara Spaces for my future home.</blockquote>
-                        <figcaption class="mt-6 flex items-center gap-4">
-                            <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/avatar.webp" alt="Kavi Priya" class="w-12 h-12 rounded-full object-cover" loading="lazy" />
-                            <span><span class="block font-semibold">Vigneshwaran</span><span class="block text-xs text-[#302F5A]-muted">Coimbatore</span></span>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="swiper-pagination"></div>
-                <div class="flex gap-6">
-                    <div class="swiper-button-prev !relative !left-0 !mt-0 hidden md:flex"></div>
-                    <div class="swiper-button-next !relative !right-0 !mt-0 hidden md:flex"></div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php get_template_part('template-parts/template-testimonials'); ?>
 
     <!-- Site Visit -->
     <section id="about" class="pt-16 sm:pt-20 lg:pt-24 scroll-mt-24">
@@ -960,12 +922,12 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
             <div class="relative grid lg:grid-cols-2 gap-6 z-10">
                 <div class="text-gold">
                     <p class="font-bold uppercase tracking-[0.18em] text-sm mb-3">site visit</p>
-                    <h2 class="font-prata text-3xl sm:text-4xl leading-tight"><span class="text-[#302F5A]">See It. Walk It. </span><br class="hidden sm:inline-block">Infinium Central 16</h2>
+                    <h2 class="font-prata text-3xl sm:text-4xl leading-tight"><span class="text-[#302F5A]">See It. Walk It. </span><br class="hidden sm:inline-block">Imagine Your Home.</h2>
                 </div>
 
                 <div id="enquire" class="bg-white rounded-xl shadow-xl p-6 sm:p-8 scroll-mt-28 max-w-lg lg:ml-auto">
                     <p class="font-bold text-gold uppercase tracking-[0.18em] text-sm mb-3 text-center">SCHEDULE A</p>
-                    <h2 class="font-prata text-2xl text-[#302F5A] text-center">Free Site Visit to Infinium Altitude</h2>
+                    <h2 class="font-prata text-2xl text-[#302F5A] text-center">Free Site Visit to Aara Enclave</h2>
                     <?php echo do_shortcode('[wpforms id="300"]'); ?>
                     <p class="flex items-center gap-6 p-4 rounded-xl border border-[#B3814E80] bg-[#FCF7F3] text-[#404042]"><i class="fa-solid fa-taxi text-gold text-3xl"></i> Free cab assistance available — subject to availability.</p>
                 </div>
@@ -978,9 +940,9 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
     <section id="about" class="py-16 sm:py-20 lg:py-24 scroll-mt-24">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
-            <div class="reveal sm:text-lg text-[#444444]">
+            <div class="reveal text-base text-[#444444]">
                 <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">assistance</p>
-                <h2 class="font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight">NRI Assistance</h2>
+                <h2 class="font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight">NRI Assistance</h2>
                 <p class="mt-5 leading-relaxed">For NRIs looking to invest back home, Adissia offers a seamless and structured land buying experience. From remote assistance to verified legal documentation and guided processes, every detail is handled with care.</p>
                 <p class="mt-4 leading-relaxed">This ensures your investment in Coimbatore is secure, transparent,
                     and easy to manage, no matter where you are.</p>
@@ -1011,14 +973,14 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
     <section id="about" class="py-16 sm:py-20 lg:py-24 scroll-mt-24">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
-            <div class="reveal relative">
-                <div class="rounded-3xl overflow-hidden">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-5.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[420px] object-cover" loading="lazy" />
+            <div class="reveal relative h-full">
+                <div class="reveal relative rounded-2xl overflow-hidden h-full min-h-[420px] bg-cover bg-center" style="background-image: url('http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-5.png');">
+                    <!-- <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-5.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[420px] object-cover" loading="lazy" /> -->
                 </div>
             </div>
 
             <div class="grid lg:grid-cols-3 bg-[#FCF7F3] p-6 sm:p-12 rounded-3xl border border-[#B3814E80] gap-6">
-                <h2 class="text-gold font-prata text-xl font-semibold text-center col-span-3">Ready to Find Your Villa?</h2>
+                <h2 class="text-gold font-prata text-xl lg:text-3xl font-semibold text-center col-span-3">Ready to Find Your Villa?</h2>
                 <p class="max-w-4xl mx-auto text-[#444444] leading-relaxed col-span-3">Get the Latest Price, Availability & Project Details</p>
 
                 <div class="col-span-3">
@@ -1049,16 +1011,16 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid md:grid-cols-[auto_1fr_1.3fr] gap-6 items-center pb-8 border-b border-ink-line">
                 <span class="w-20 h-20 rounded-full bg-white shadow inline-flex items-center justify-center overflow-hidden">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/image-254.png" alt="Infinium Realty" class="w-14" loading="lazy" />
+                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/Aara_Enclave_Logo.png" alt="Aara Spaces" class="w-14" loading="lazy" />
                 </span>
                 <div>
-                    <p class="text-gold font-semibold uppercase text-xs tracking-wide">Developer</p>
-                    <h2 class="font-prata text-3xl text-[#302F5A]">Infinium Realty</h2>
+                    <p class="text-gold font-semibold uppercase text-xs tracking-wide mb-3">Developer</p>
+                    <h2 class="font-prata text-3xl text-[#302F5A]">Aara Spaces</h2>
                 </div>
-                <p class="text-xs leading-relaxed">Infinium Realty focuses on developing premium residential properties in Coimbatore, with projects designed around location, planning, and long-term usability. Infinium Altitude reflects this approach, combining modern architecture with a comprehensive amenity offering across a well-connected Sathy Road location.</p>
+                <p class="text-xs leading-relaxed">Aara Spaces focuses on developing residential and commercial properties in Coimbatore, with projects designed around location, planning and long-term usability.</p>
             </div>
 
-            <div class="grid sm:grid-cols-2 xl:grid-cols-3 gap-12 mt-12">
+            <div class="grid sm:grid-cols-2 xl:grid-cols-3 gap-12 lg:gap-18 mt-12">
                 <h2 class="font-semibold text-center sm:col-span-2 xl:col-span-3 text-3xl text-[#302F5A]">OTHER PROJECTS</h2>
                 <?php
                 $properties = new WP_Query(array(
@@ -1069,6 +1031,32 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                 if ($properties->have_posts()) :
                     while ($properties->have_posts()) : $properties->the_post();
                         get_template_part('template-parts/template-properties-card');
+                    endwhile;
+                    wp_reset_postdata();
+                endif;
+                ?>
+            </div>
+        </div>
+    </section>
+
+    <!-- Developer -->
+    <section class="bg-white py-16 sm:py-20">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">for you</p>
+                <h2 class="font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight">Similar Projects</h2>
+            </div>
+
+            <div class="grid sm:grid-cols-2 gap-12 lg:gap-18 mt-12">
+                <?php
+                $properties = new WP_Query(array(
+                    'post_type' => 'project',
+                    'posts_per_page' => 3,
+                ));
+
+                if ($properties->have_posts()) :
+                    while ($properties->have_posts()) : $properties->the_post();
+                        get_template_part('template-parts/template-similar-properties-card');
                     endwhile;
                     wp_reset_postdata();
                 endif;
@@ -1098,7 +1086,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                     </header>
                     <ul class="m-4 sm:m-5 rounded-lg bg-white border border-gold/30 divide-y divide-gray-200">
                         <li>
-                            <a href="#plots"
+                            <a href="javascript:void(0)"
                                 class="group flex items-center justify-between gap-4 px-4 py-3 hover:bg-[#fbf6f1] transition-colors">
                                 <span>
                                     <span class="block text-base font-semibold text-gold">15 New Plots</span>
@@ -1110,7 +1098,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                             </a>
                         </li>
                         <li>
-                            <a href="#apartments"
+                            <a href="javascript:void(0)"
                                 class="group flex items-center justify-between gap-4 px-4 py-3 hover:bg-[#fbf6f1] transition-colors">
                                 <span>
                                     <span class="block text-base font-semibold text-gold">2 Apartments for Sale</span>
@@ -1122,7 +1110,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                             </a>
                         </li>
                         <li>
-                            <a href="#villas"
+                            <a href="javascript:void(0)"
                                 class="group flex items-center justify-between gap-4 px-4 py-3 hover:bg-[#fbf6f1] transition-colors">
                                 <span>
                                     <span class="block text-base font-semibold text-gold">2 Villas for Sale</span>
@@ -1146,7 +1134,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                     </header>
                     <ul class="m-4 sm:m-5 rounded-lg bg-white border border-gold/30 divide-y divide-gray-200">
                         <li>
-                            <a href="#plots"
+                            <a href="javascript:void(0)"
                                 class="group flex items-center justify-between gap-4 px-4 py-3 hover:bg-[#fbf6f1] transition-colors">
                                 <span>
                                     <span class="block text-base font-semibold text-gold">15 New Plots</span>
@@ -1158,7 +1146,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                             </a>
                         </li>
                         <li>
-                            <a href="#apartments"
+                            <a href="javascript:void(0)"
                                 class="group flex items-center justify-between gap-4 px-4 py-3 hover:bg-[#fbf6f1] transition-colors">
                                 <span>
                                     <span class="block text-base font-semibold text-gold">2 Apartments for Sale</span>
@@ -1170,7 +1158,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                             </a>
                         </li>
                         <li>
-                            <a href="#villas"
+                            <a href="javascript:void(0)"
                                 class="group flex items-center justify-between gap-4 px-4 py-3 hover:bg-[#fbf6f1] transition-colors">
                                 <span>
                                     <span class="block text-base font-semibold text-gold">2 Villas for Sale</span>
@@ -1194,7 +1182,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                     </header>
                     <ul class="m-4 sm:m-5 rounded-lg bg-white border border-gold/30 divide-y divide-gray-200">
                         <li>
-                            <a href="#plots"
+                            <a href="javascript:void(0)"
                                 class="group flex items-center justify-between gap-4 px-4 py-3 hover:bg-[#fbf6f1] transition-colors">
                                 <span>
                                     <span class="block text-base font-semibold text-gold">15 New Plots</span>
@@ -1206,7 +1194,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                             </a>
                         </li>
                         <li>
-                            <a href="#apartments"
+                            <a href="javascript:void(0)"
                                 class="group flex items-center justify-between gap-4 px-4 py-3 hover:bg-[#fbf6f1] transition-colors">
                                 <span>
                                     <span class="block text-base font-semibold text-gold">2 Apartments for Sale</span>
@@ -1218,7 +1206,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                             </a>
                         </li>
                         <li>
-                            <a href="#villas"
+                            <a href="javascript:void(0)"
                                 class="group flex items-center justify-between gap-4 px-4 py-3 hover:bg-[#fbf6f1] transition-colors">
                                 <span>
                                     <span class="block text-base font-semibold text-gold">2 Villas for Sale</span>
@@ -1237,125 +1225,15 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
     </section>
 
     <!-- ======================= Calculator ======================= -->
-    <section id="insights" class="pt-16 sm:pt-20 lg:pt-24 scroll-mt-24">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Calculator Section -->
+    <?php get_template_part('template-parts/calculators'); ?>
 
-            <div class="max-w-2xl mb-6 mx-auto">
-                <h2 class="font-prata text-[#302F5A] text-center text-3xl sm:text-4xl leading-tight">Helpful Tools</h2>
-            </div>
-
-            <!-- Swiper -->
-            <div class="swiper tools-swiper">
-                <div class="swiper-wrapper">
-
-                    <!-- Slide 1 -->
-                    <div class="swiper-slide">
-                        <div class="flex rounded-lg gap-4 border border-gold/70 bg-gold/20 p-4 h-full">
-                            <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/calculator-2-scaled.png" alt="" class="w-24 h-24 object-cover rounded-lg shrink-0">
-                            <div class="space-y-2">
-                                <h2 class="text-gold font-semibold text-xl">EMI Calculator</h2>
-                                <p class="text-[#4D5461] text-base">EMI starts at ₹ 11.27 K</p>
-                                <a href="http://localhost/estate_partners/home-lone-calculator/" class="text-white font-semibold text-sm rounded-lg px-6 py-3 bg-[#302F5A] inline-block">
-                                    Calculate now <i class="fa-solid fa-arrow-right ml-2"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Slide 2 -->
-                    <div class="swiper-slide">
-                        <div class="flex rounded-lg gap-4 border border-gold/70 bg-gold/20 p-4 h-full">
-                            <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/calculator-1.png" alt="" class="w-24 h-24 object-cover rounded-lg shrink-0">
-                            <div class="space-y-2">
-                                <h2 class="text-gold font-semibold text-xl">Stamp Duty Calculator</h2>
-                                <p class="text-[#4D5461] text-base">Find your home loan limit</p>
-                                <a href="http://localhost/estate_partners/stamp-duty-calculator/" class="text-white font-semibold text-sm rounded-lg px-6 py-3 bg-[#302F5A] inline-block">
-                                    Calculate now <i class="fa-solid fa-arrow-right ml-2"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Slide 3 -->
-                    <div class="swiper-slide">
-                        <div class="flex rounded-lg gap-4 border border-gold/70 bg-gold/20 p-4 h-full">
-                            <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/calculator-3.png" alt="" class="w-24 h-24 object-cover rounded-lg shrink-0">
-                            <div class="space-y-2">
-                                <h2 class="text-gold font-semibold text-xl">Price Calculator</h2>
-                                <p class="text-[#4D5461] text-base">Check the price of your property</p>
-                                <a href="http://localhost/estate_partners/plot-price-calculator/" class="text-white font-semibold text-sm rounded-lg px-6 py-3 bg-[#302F5A] inline-block">
-                                    Calculate now <i class="fa-solid fa-arrow-right ml-2"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Slide 4 -->
-                    <div class="swiper-slide">
-                        <div class="flex rounded-lg gap-4 border border-gold/70 bg-gold/20 p-4 h-full">
-                            <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/calculator-4.png" alt="" class="w-24 h-24 object-cover rounded-lg shrink-0">
-                            <div class="space-y-2">
-                                <h2 class="text-gold font-semibold text-xl">Tax Benefit Calculator</h2>
-                                <p class="text-[#4D5461] text-base">Check the price of your property</p>
-                                <a href="http://localhost/estate_partners/home-loan-tax-calculator/" class="text-white font-semibold text-sm rounded-lg px-6 py-3 bg-[#302F5A] inline-block">
-                                    Calculate now <i class="fa-solid fa-arrow-right ml-2"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <!-- Navigation arrows (optional) -->
-                <div class="swiper-button-prev tools-prev"></div>
-                <div class="swiper-button-next tools-next"></div>
-
-                <!-- Pagination (optional) -->
-                <div class="swiper-pagination tools-pagination mt-6"></div>
-            </div>
-        </div>
-    </section>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            if (window.Swiper) {
-                new Swiper('.tools-swiper', {
-                    slidesPerView: 1,
-                    spaceBetween: 20,
-                    loop: false,
-                    pagination: {
-                        el: '.tools-pagination',
-                        clickable: true,
-                    },
-                    navigation: {
-                        nextEl: '.tools-next',
-                        prevEl: '.tools-prev',
-                    },
-                    breakpoints: {
-                        0: { // sm
-                            slidesPerView: 1,
-                            spaceBetween: 20,
-                        },
-                        640: { // sm
-                            slidesPerView: 2,
-                            spaceBetween: 20,
-                        },
-                        1440: { // lg
-                            slidesPerView: 3,
-                            spaceBetween: 24,
-                        }
-                    }
-                });
-            }
-        });
-    </script>
-
-    <section id="about" class="py-16 sm:py-20 lg:py-24 scroll-mt-24">
+    <section id="about" class="pb-16 sm:pb-20 lg:pb-24 scroll-mt-24">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 ">
 
             <div class="reveal text-center mb-6 sm:text-lg text-[#444444]">
                 <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">finanace</p>
-                <h2 class="font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight">Supported By</h2>
+                <h2 class="font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight">Supported By</h2>
             </div>
 
             <div class="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-6 gap-6">

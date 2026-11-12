@@ -3,7 +3,7 @@
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="reveal text-center">
                 <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">Process</p>
-                <h2 class="font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight">Buyers journey</h2>
+                <h2 class="font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight">Buyers journey</h2>
                 <p class="mt-3 max-w-2xl mx-auto text-sm sm:text-base text-[#444444]">
                     A simple, transparent approach designed to make your home-buying journey smooth and hassle-free.
                 </p>

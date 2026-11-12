@@ -2,9 +2,9 @@
     <section id="overview" class="py-16 sm:py-20 scroll-mt-28">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto">
-                <h2 class="font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight">Infinium Altitude - Project
+                <h2 class="font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight">Infinium Altitude - Project
                     Overview</h2>
-                <p class="mt-4 max-w-4xl mx-auto text-[#302F5A]-muted leading-relaxed"> Elevated living designed for
+                <p class="mt-4 max-w-4xl mx-auto text-[#302F5A] leading-relaxed"> Elevated living designed for
                     everyday comfort. Two thoughtfully planned towers offering 2, 3, 3.5 & 4 BHK homes in one of
                     Coimbatore's fastest-growing residential corridors.</p>
             </div>

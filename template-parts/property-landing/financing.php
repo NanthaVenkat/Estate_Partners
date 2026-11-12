@@ -3,9 +3,9 @@
         <div
             class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
-            <div class="reveal sm:text-lg text-[#444444]">
+            <div class="reveal text-base text-[#444444]">
                 <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">assistance</p>
-                <h2 class="font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight">NRI Assistance</h2>
+                <h2 class="font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight">NRI Assistance</h2>
                 <p class="mt-5 leading-relaxed">For NRIs looking to invest back home, we offer a seamless and structured
                     apartment-buying experience. From remote assistance to verified legal documentation and guided
                     processes, every detail is handled with care </p>

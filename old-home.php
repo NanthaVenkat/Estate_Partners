@@ -31,10 +31,10 @@ $img_uri = get_template_directory_uri() . '/assets/images';
         <!-- <div id="find" class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 -mt-16 sm:-mt-20">
             <div class="bg-white rounded-2xl shadow-[0_20px_60px_rgba(0,0,0,0.15)] border border-ink-line p-5 sm:p-7">
                 <p class="font-prata text-xl sm:text-2xl mb-1">Find a Property That Fits Your Lifestyle</p>
-                <p class="text-sm text-[#302F5A]-muted mb-5">Search across locations, types and budgets.</p>
+                <p class="text-sm text-[#302F5A] mb-5">Search across locations, types and budgets.</p>
                 <form class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3" onsubmit="return false;">
                     <label class="block">
-                        <span class="text-xs font-semibold uppercase tracking-wider text-[#302F5A]-muted">Location</span>
+                        <span class="text-xs font-semibold uppercase tracking-wider text-[#302F5A]">Location</span>
                         <select class="mt-1 w-full border border-ink-line rounded-lg px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-gold/60 focus:border-gold">
                             <option>All Coimbatore</option>
                             <option>Kalapatti</option>
@@ -47,7 +47,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                         </select>
                     </label>
                     <label class="block">
-                        <span class="text-xs font-semibold uppercase tracking-wider text-[#302F5A]-muted">Property Type</span>
+                        <span class="text-xs font-semibold uppercase tracking-wider text-[#302F5A]">Property Type</span>
                         <select class="mt-1 w-full border border-ink-line rounded-lg px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-gold/60 focus:border-gold">
                             <option>Apartments</option>
                             <option>Villas</option>
@@ -55,7 +55,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                         </select>
                     </label>
                     <label class="block">
-                        <span class="text-xs font-semibold uppercase tracking-wider text-[#302F5A]-muted">Configuration</span>
+                        <span class="text-xs font-semibold uppercase tracking-wider text-[#302F5A]">Configuration</span>
                         <select class="mt-1 w-full border border-ink-line rounded-lg px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-gold/60 focus:border-gold">
                             <option>Any</option>
                             <option>1, 2 &amp; 3 BHK</option>
@@ -66,7 +66,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                         </select>
                     </label>
                     <label class="block">
-                        <span class="text-xs font-semibold uppercase tracking-wider text-[#302F5A]-muted">Status</span>
+                        <span class="text-xs font-semibold uppercase tracking-wider text-[#302F5A]">Status</span>
                         <select class="mt-1 w-full border border-ink-line rounded-lg px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-gold/60 focus:border-gold">
                             <option>Ongoing + Upcoming</option>
                             <option>Ongoing Projects</option>
@@ -99,9 +99,9 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                 </div> -->
             </div>
 
-            <div class="reveal order-1 lg:order-2 sm:text-lg text-[#444444]">
+            <div class="reveal order-1 lg:order-2 text-[#444444] sm:text-lg">
                 <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">About Us</p>
-                <h2 class="font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight">Your Trusted Real Estate Partner
+                <h2 class="font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight">Your Trusted Real Estate Partner
                     in Coimbatore</h2>
                 <p class="mt-5 leading-relaxed">Estate Partners helps you discover, compare and choose residential properties across Coimbatore with greater clarity and confidence.</p>
                 <p class="mt-4 leading-relaxed">From emerging neighbourhoods to established residential destinations, we bring together apartments, villas and residential plots in one platform — with detailed project information, location insights, pricing guidance and buyer-focused support. </p>
@@ -122,7 +122,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-[60%_40%] gap-8 items-stretch">
             <div class="reveal relative">
                 <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">Why choose</p>
-                <h2 class="font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight">Why Choose Estate Partners?</h2>
+                <h2 class="font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight">Why Choose Estate Partners?</h2>
                 <div class="grid sm:grid-cols-2 rounded-2xl overflow-hidden bg-white mt-6">
                     <div class="space-y-4 p-5 order-1">
                         <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/LocalExpertise.svg" alt="Local Expertise" class="w-16 h-16">
@@ -166,26 +166,26 @@ $img_uri = get_template_directory_uri() . '/assets/images';
             <div class="p-8 rounded-2xl bg-white border border-[#B3814E50] h-max lg:sticky lg:top-20 lg:mt-24">
                 <div class="mb-6 text-center">
                     <h3 class="font-prata text-2xl sm:text-3xl leading-snug text-[#302F5A]">Register For Exclusive Offers</h3>
-                    <p class="mt-2 text-sm text-[#444444]-muted">Our property expert will get in touch with you</p>
+                    <p class="mt-2 text-sm text-[#444444]">Our property expert will get in touch with you</p>
                 </div>
 
                 <div class="reveal bg-[#FCF7F3] border border-[#B3814E50] rounded-2xl px-6 p-4 text-center">
                     <?php echo do_shortcode('[wpforms id="41"]'); ?>
-                    <p class="text-[#444444]-muted text-center">By submitting, you agree to our Privacy Policy.</p>
+                    <p class="text-[#444444] text-center">By submitting, you agree to our Privacy Policy.</p>
                     <!-- <form id="enquiry-form" class="mt-7 space-y-4" novalidate>
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                             <label class="block">
-                                <span class="text-xs font-semibold uppercase tracking-wider text-[#302F5A]-muted">Full Name</span>
+                                <span class="text-xs font-semibold uppercase tracking-wider text-[#302F5A]">Full Name</span>
                                 <input type="text" required placeholder="Your name" class="mt-1 w-full border border-ink-line rounded-lg px-4 py-3 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-gold/60 focus:border-gold" />
                             </label>
                             <label class="block">
-                                <span class="text-xs font-semibold uppercase tracking-wider text-[#302F5A]-muted">Phone Number*</span>
+                                <span class="text-xs font-semibold uppercase tracking-wider text-[#302F5A]">Phone Number*</span>
                                 <input id="enquiry-phone" type="tel" required placeholder="+91 XXXXX XXXXX" class="mt-1 w-full border border-ink-line rounded-lg px-4 py-3 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-gold/60 focus:border-gold" />
                             </label>
                         </div>
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                             <label class="block">
-                                <span class="text-xs font-semibold uppercase tracking-wider text-[#302F5A]-muted">I am looking for</span>
+                                <span class="text-xs font-semibold uppercase tracking-wider text-[#302F5A]">I am looking for</span>
                                 <select class="mt-1 w-full border border-ink-line rounded-lg px-4 py-3 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-gold/60 focus:border-gold">
                                     <option>Apartment</option>
                                     <option>Villa</option>
@@ -194,7 +194,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                                 </select>
                             </label>
                             <label class="block">
-                                <span class="text-xs font-semibold uppercase tracking-wider text-[#302F5A]-muted">Preferred Location</span>
+                                <span class="text-xs font-semibold uppercase tracking-wider text-[#302F5A]">Preferred Location</span>
                                 <select class="mt-1 w-full border border-ink-line rounded-lg px-4 py-3 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-gold/60 focus:border-gold">
                                     <option>Anywhere in Coimbatore</option>
                                     <option>Kalapatti</option>
@@ -206,12 +206,12 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                             </label>
                         </div>
                         <label class="block">
-                            <span class="text-xs font-semibold uppercase tracking-wider text-[#302F5A]-muted">Message (optional)</span>
+                            <span class="text-xs font-semibold uppercase tracking-wider text-[#302F5A]">Message (optional)</span>
                             <textarea rows="3" placeholder="Budget, purpose, timeline…" class="mt-1 w-full border border-ink-line rounded-lg px-4 py-3 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-gold/60 focus:border-gold"></textarea>
                         </label>
                         <p id="enquiry-msg" class="hidden text-sm font-medium"></p>
                         <button type="submit" class="w-full inline-flex items-center justify-center gap-2 bg-brand-purple hover:bg-ink text-white font-semibold px-7 py-4 rounded-lg transition-colors">Enquire Now <i class="fa-solid fa-arrow-right text-sm"></i></button>
-                        <p class="text-xs text-[#302F5A]-muted text-center">By submitting, you agree to our Privacy Policy.</p>
+                        <p class="text-xs text-[#302F5A] text-center">By submitting, you agree to our Privacy Policy.</p>
                     </form> -->
                 </div>
             </div>
@@ -224,7 +224,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
             <div class="text-center max-w-4xl mx-auto mb-12 reveal">
                 <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">Our promises</p>
                 <h2 class="font-prata text-3xl sm:text-4xl leading-tight">Explore Better Projects with Estate Partners</h2>
-                <!-- <p class="mt-4 text-[#302F5A]-muted leading-relaxed">Whether you are looking for a ready home, planning to build your own, or investing for the future, explore properties by type.</p> -->
+                <!-- <p class="mt-4 text-[#302F5A] leading-relaxed">Whether you are looking for a ready home, planning to build your own, or investing for the future, explore properties by type.</p> -->
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-8">
@@ -235,7 +235,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                     <div class="p-7">
                         <div class="w-14 h-14 inline-flex items-center justify-center text-xl mb-4"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/ZeroBrokerage.svg" alt=""></div>
                         <h3 class="text-2xl font-semibold text-[#302F5A]">Zero Brokerage</h3>
-                        <p class="mt-3 text-sm text-[#6B6B6B]-muted leading-relaxed">100% Service, 0% Brokerage</p>
+                        <p class="mt-3 text-sm text-[#6B6B6B] leading-relaxed">100% Service, 0% Brokerage</p>
                     </div>
                 </div>
 
@@ -246,7 +246,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                     <div class="p-7">
                         <div class="w-14 h-14 inline-flex items-center justify-center text-xl mb-4"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/LowestpriceGuaranteed.svg" alt=""></div>
                         <h3 class="text-2xl font-semibold text-[#302F5A]">Lowest price Guaranteed</h3>
-                        <p class="mt-3 text-sm text-[#6B6B6B]-muted leading-relaxed">Highly unlikely, but if you find a lower price anywhere, tell us and we will match it</p>
+                        <p class="mt-3 text-sm text-[#6B6B6B] leading-relaxed">Highly unlikely, but if you find a lower price anywhere, tell us and we will match it</p>
                     </div>
                 </div>
 
@@ -257,7 +257,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                     <div class="p-7">
                         <div class="w-14 h-14 inline-flex items-center justify-center text-xl mb-4"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/FullServiceSupport.svg" alt=""></div>
                         <h3 class="text-2xl font-semibold text-[#302F5A]">Full Service Support</h3>
-                        <p class="mt-3 text-sm text-[#6B6B6B]-muted leading-relaxed">Our sales personnel are accountable for every step</p>
+                        <p class="mt-3 text-sm text-[#6B6B6B] leading-relaxed">Our sales personnel are accountable for every step</p>
                     </div>
                 </div>
             </div>
@@ -270,8 +270,8 @@ $img_uri = get_template_directory_uri() . '/assets/images';
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12 reveal">
                 <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">Explore Properties by Location</p>
-                <h2 class="font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight">Find the right property in the right neighbourhood</h2>
-                <p class="mt-4 max-w-4xl mx-auto text-[#302F5A]-muted leading-relaxed">Explore residential projects across some of Coimbatore's most sought-after and fast-developing locations.</p>
+                <h2 class="font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight">Find the right property in the right neighbourhood</h2>
+                <p class="mt-4 max-w-4xl mx-auto text-[#302F5A] leading-relaxed">Explore residential projects across some of Coimbatore's most sought-after and fast-developing locations.</p>
             </div>
 
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 sm:gap-10 text-gold text-lg">
@@ -355,8 +355,8 @@ $img_uri = get_template_directory_uri() . '/assets/images';
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-6">
                 <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">Find A PROPERTY</p>
-                <h2 class="font-prata text-3xl text-[#302F5A] sm:text-4xl leading-tight">Find a Property That Fits Your Lifestyle</h2>
-                <p class="mt-4 max-w-4xl mx-auto text-[#444444] leading-relaxed">Whether you are looking for a ready home, planning to build your own, or investing for the future, explore properties by type.</p>
+                <h2 class="font-prata text-3xl text-[#302F5A] xl:text-4xl leading-tight">Find a Property That Fits Your Lifestyle</h2>
+                <p class="mt-4 max-w-4xl mx-auto text-[#444444] leading-relaxed text-sm xl:text-base">Whether you are looking for a ready home, planning to build your own, or investing for the future, explore properties by type.</p>
             </div>
 
             <div class="swiper projects-swiper reveal">
@@ -453,8 +453,8 @@ $img_uri = get_template_directory_uri() . '/assets/images';
     <section id="about" class="py-16 sm:py-20 lg:py-24 scroll-mt-24">
         <div class="container mx-auto text-center mb-6">
             <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">NEED GUIDANCE</p>
-            <h2 class="font-prata text-3xl text-[#302F5A] sm:text-4xl leading-tight">Not Sure Which Property Is Right for You?</h2>
-            <p class="mt-4 max-w-4xl mx-auto text-[#444444] leading-relaxed">Buying property is a major decision. You don't have to figure it out alone. Tell us what you are looking for — your preferred location,
+            <h2 class="font-prata text-3xl text-[#302F5A] xl:text-4xl leading-tight">Not Sure Which Property Is Right for You?</h2>
+            <p class="mt-4 max-w-4xl mx-auto text-[#444444] leading-relaxed text-sm xl:text-base">Buying property is a major decision. You don't have to figure it out alone. Tell us what you are looking for — your preferred location,
                 property type, budget and purpose — and our team can help you shortlist suitable projects in Coimbatore.</p>
         </div>
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">

@@ -3,12 +3,10 @@
 
             <!-- Heading -->
             <div class="text-center max-w-3xl mx-auto">
-                <h2 class="font-prata text-3xl sm:text-4xl text-[#302F5A]">Why Invest in Kalapatti?</h2>
+                <h2 class="font-prata text-3xl sm:text-4xl text-[#302F5A]">Why Invest in Ganapathy?</h2>
                 <p class="mt-4 text-sm sm:text-base leading-relaxed text-[#676767]">
-                    Kalapatti combines established residential character with proximity to IT parks, educational
-                    institutions, healthcare, and shopping destinations. For families, it offers convenient everyday
-                    access to essentials. For investors, its continued residential demand along the Sathy Road corridor
-                    makes it a location worth serious consideration.
+                     Ganapathy combines established residential character with proximity to IT parks, educational institutions, healthcare, and shopping destinations. For families, it offers convenient everyday access to essentials. For investors, its continued residential demand along 
+the Sathy Road corridor makes it a location worth serious consideration.
                 </p>
             </div>
 

@@ -6,7 +6,7 @@
 
             <div class="reveal text-center mb-6 sm:text-lg text-[#444444]">
                 <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">finanace</p>
-                <h2 class="font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight">Supported By</h2>
+                <h2 class="font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight">Supported By</h2>
             </div>
 
             <div class="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-6 gap-6">

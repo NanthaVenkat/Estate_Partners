@@ -130,7 +130,7 @@ $field = 'w-full h-12 rounded-md bg-white text-[#444444] text-sm pl-10 pr-5 outl
     <!-- ======================= PAGE TITLE ======================= -->
     <section class="pt-10 sm:pt-12">
         <div class="<?php echo esc_attr($container); ?>">
-            <h1 class="font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight"><?php echo esc_html(get_the_title() ? get_the_title() : __('Home Loan Tax Benefit Calculator', $td)); ?></h1>
+            <h1 class="font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight"><?php echo esc_html(get_the_title() ? get_the_title() : __('Home Loan Tax Benefit Calculator', $td)); ?></h1>
             <span class="mt-3 block h-[3px] w-14 rounded bg-gold"></span>
         </div>
     </section>
@@ -295,7 +295,7 @@ $field = 'w-full h-12 rounded-md bg-white text-[#444444] text-sm pl-10 pr-5 outl
     <!-- ======================= FAQ ======================= -->
     <section class="bg-brand-cream py-16 sm:py-20">
         <div class="<?php echo esc_attr($container); ?>">
-            <h2 class="reveal font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight text-center"><?php esc_html_e('FAQs', $td); ?></h2>
+            <h2 class="reveal font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight text-center"><?php esc_html_e('FAQs', $td); ?></h2>
 
             <div class="reveal mt-10 max-w-3xl mx-auto">
                 <?php foreach ($faqs as $i => $faq) : ?>

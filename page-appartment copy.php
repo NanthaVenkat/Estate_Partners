@@ -19,7 +19,7 @@ get_header();
 $td   = 'vnktheme-textdomain';
 $container = 'container mx-auto px-4 sm:px-6 lg:px-8';
 $section   = 'py-16 sm:py-20 lg:py-24';
-$h2        = 'font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight';
+$h2        = 'font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight';
 $address = 'Villankurichi Rd, B.R. Puram Industrial Estate, Coimbatore, Tamil Nadu 641014';
 
 $why = array(
@@ -80,7 +80,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-14 lg:py-20 grid lg:grid-cols-[1.2fr_0.8fr] gap-10 items-center">
             <div class="text-white">
                 <p class="font-prata text-3xl tracking-[0.3em] uppercase"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-11.png" alt="" class="h-14"></p>
-                <h1 class="font-prata text-3xl sm:text-4xl lg:text-5xl leading-tight mt-5">Premium 2, 3, 3.5 &amp; 4 BHK Apartments in Ganapathy, Coimbatore</h1>
+                <h1 class="font-prata text-3xl xl:text-4xl lg:text-5xl leading-tight mt-5">Premium 2, 3, 3.5 &amp; 4 BHK Apartments in Ganapathy, Coimbatore</h1>
                 <p class="mt-4 text-sm sm:text-base tracking-wide text-white/90">DTCP &amp; RERA APPROVED | 100% VAASTU COMPLIANT</p>
                 <dl class="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-4">
                     <div class="border-r-2 border-white px-2 text-center">
@@ -153,8 +153,8 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
     <section id="overview" class="py-16 sm:py-20 scroll-mt-28">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto">
-                <h2 class="font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight">Infinium Altitude - Project Overview</h2>
-                <p class="mt-4 max-w-4xl mx-auto text-[#302F5A]-muted leading-relaxed"> Elevated living designed for everyday comfort. Two thoughtfully planned towers offering 2, 3, 3.5 & 4 BHK homes in one of Coimbatore's fastest-growing residential corridors.</p>
+                <h2 class="font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight">Infinium Altitude - Project Overview</h2>
+                <p class="mt-4 max-w-4xl mx-auto text-[#302F5A] leading-relaxed"> Elevated living designed for everyday comfort. Two thoughtfully planned towers offering 2, 3, 3.5 & 4 BHK homes in one of Coimbatore's fastest-growing residential corridors.</p>
             </div>
             <div class="mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5 text-base text-[#6B6B6B] text-center">
                 <div class="bg-brand-cream border border-gold/30 rounded-2xl p-5">
@@ -207,9 +207,9 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
                 </div> -->
             </div>
 
-            <div class="reveal order-1 lg:order-2 sm:text-lg text-[#444444]">
+            <div class="reveal order-1 lg:order-2 text-[#444444] sm:text-lg">
                 <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">Your Dream Home</p>
-                <h2 class="font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight">Elevated Living
+                <h2 class="font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight">Elevated Living
                     Begins Here</h2>
                 <p class="mt-5 leading-relaxed"> Infinium Altitude by Infinium Developers offers premium 2, 3, 3.5 & 4 BHK apartments in Ganapathy, Coimbatore, on the Sathy Road corridor — created for families and professionals looking for a well-connected, amenity-rich place to call home.</p>
                 <p class="mt-4 leading-relaxed">Spread across 4.13 acres with 232 units in two towers — the Executive Tower (2 & 3 BHK) and the Signature Tower (3.5 & 4 BHK) — the development offers 50+ lifestyle amenities, 100% Vaastu-compliant planning, and RERA & DTCP approvals.</p>
@@ -393,7 +393,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
             <div class="flex gap-5 flex-col">
                 <div class="container mx-auto mb-6">
                     <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">infinium altitude for</p>
-                    <h2 class="font-prata text-3xl text-[#302F5A] sm:text-4xl leading-tight"> Who Is Infinium Altitude For?</h2>
+                    <h2 class="font-prata text-3xl text-[#302F5A] xl:text-4xl leading-tight"> Who Is Infinium Altitude For?</h2>
                 </div>
                 <div class="w-full rounded-2xl shadow-lg flex gap-6 items-center p-4">
                     <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/lp-icon-3.svg" alt="Looking for a Ready Home?" class="w-16">
@@ -1230,14 +1230,14 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
     <section id="about" class="py-16 sm:py-20 lg:py-24 scroll-mt-24">
         <div class="container mx-auto text-center mb-6">
             <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">LATEST apartment PRICE</p>
-            <h2 class="font-prata text-3xl text-[#302F5A] sm:text-4xl leading-tight">Get the Latest Infinium Altitude Price</h2>
-            <p class="mt-4 max-w-4xl mx-auto text-[#444444] leading-relaxed">Buying property is a major decision. You don't have to figure it out alone. Tell us what you are looking for — your preferred location,
+            <h2 class="font-prata text-3xl text-[#302F5A] xl:text-4xl leading-tight">Get the Latest Infinium Altitude Price</h2>
+            <p class="mt-4 max-w-4xl mx-auto text-[#444444] leading-relaxed text-sm xl:text-base">Buying property is a major decision. You don't have to figure it out alone. Tell us what you are looking for — your preferred location,
                 property type, budget and purpose — and our team can help you shortlist suitable projects in Coimbatore.</p>
         </div>
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
             <div class="grid grid-cols-2 bg-[#FCF7F3] p-5 rounded-2xl border border-[#B3814E80] gap-6">
-                <h2 class="text-gold font-prata text-xl font-semibold text-center col-span-2"> Apartment prices can vary based on:</h2>
+                <h2 class="text-gold font-prata text-xl lg:text-2xl font-semibold text-center col-span-2"> Apartment prices can vary based on:</h2>
 
                 <div class="rounded-2xl border border-[#B3814E80] bg-white flex text-center flex-col gap-4 items-center text-[#302F5A] p-4">
                     <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-4.svg" alt="" class="w-14 h-14">
@@ -1278,7 +1278,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
             <div class="text-white max-w-4xl mx-auto mb-12 reveal">
                 <p class="ont-bold uppercase tracking-[0.18em] text-sm mb-3">What Our Customers Say</p>
                 <h2 class="font-prata text-3xl sm:text-4xl leading-tight">Real experiences from people who trusted Estate Partners.</h2>
-                <!-- <p class="mt-4 text-[#302F5A]-muted">Real experiences from people who trusted Estate Partners.</p> -->
+                <!-- <p class="mt-4 text-[#302F5A]">Real experiences from people who trusted Estate Partners.</p> -->
             </div>
 
             <div class="swiper testimonials-swiper reveal w-full h-max">
@@ -1288,7 +1288,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
                         <blockquote class="text-[#302F5A]-soft leading-relaxed flex-1">The team understood exactly what we were looking for and helped us shortlist properties based on our budget and preferred location.</blockquote>
                         <figcaption class="mt-6 flex items-center gap-4">
                             <img src="<?php echo esc_url($img_uri . '/17_ellipse_15.png'); ?>" alt="Vigneshwaran" class="w-12 h-12 rounded-full object-cover" loading="lazy" />
-                            <span><span class="block font-semibold">Vigneshwaran</span><span class="block text-xs text-[#302F5A]-muted">Home Buyer, Coimbatore</span></span>
+                            <span><span class="block font-semibold">Vigneshwaran</span><span class="block text-xs text-[#302F5A]">Home Buyer, Coimbatore</span></span>
                         </figcaption>
                     </figure>
                     <figure class="swiper-slide bg-white rounded-2xl border border-ink-line p-7 sm:p-8 shadow-sm flex flex-col">
@@ -1296,7 +1296,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
                         <blockquote class="text-[#302F5A]-soft leading-relaxed flex-1">The project information and site-visit support made the entire property search much easier.</blockquote>
                         <figcaption class="mt-6 flex items-center gap-4">
                             <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/avatar.webp" alt="Kavi Priya" class="w-12 h-12 rounded-full object-cover" loading="lazy" />
-                            <span><span class="block font-semibold">Kavi Priya</span><span class="block text-xs text-[#302F5A]-muted">Home Buyer, Coimbatore</span></span>
+                            <span><span class="block font-semibold">Kavi Priya</span><span class="block text-xs text-[#302F5A]">Home Buyer, Coimbatore</span></span>
                         </figcaption>
                     </figure>
                     <figure class="swiper-slide bg-white rounded-2xl border border-ink-line p-7 sm:p-8 shadow-sm flex flex-col">
@@ -1304,7 +1304,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
                         <blockquote class="text-[#302F5A]-soft leading-relaxed flex-1">The team understood exactly what we were looking for and helped us shortlist properties based on our budget and preferred location.</blockquote>
                         <figcaption class="mt-6 flex items-center gap-4">
                             <img src="<?php echo esc_url($img_uri . '/17_ellipse_15.png'); ?>" alt="Vigneshwaran" class="w-12 h-12 rounded-full object-cover" loading="lazy" />
-                            <span><span class="block font-semibold">Vigneshwaran</span><span class="block text-xs text-[#302F5A]-muted">Home Buyer, Coimbatore</span></span>
+                            <span><span class="block font-semibold">Vigneshwaran</span><span class="block text-xs text-[#302F5A]">Home Buyer, Coimbatore</span></span>
                         </figcaption>
                     </figure>
                 </div>
@@ -1321,9 +1321,9 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
     <section id="about" class="py-16 sm:py-20 lg:py-24 scroll-mt-24">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
-            <div class="reveal sm:text-lg text-[#444444]">
+            <div class="reveal text-base text-[#444444]">
                 <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">assistance</p>
-                <h2 class="font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight">NRI Assistance</h2>
+                <h2 class="font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight">NRI Assistance</h2>
                 <p class="mt-5 leading-relaxed">For NRIs looking to invest back home, we offer a seamless and structured apartment-buying experience. From remote assistance to verified legal documentation and guided processes, every detail is handled with care </p>
                 <p class="mt-4 leading-relaxed">So your investment in Coimbatore is secure, transparent, and easy to manage, no matter where you are.</p>
                 <button
@@ -1360,7 +1360,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
             </div>
 
             <div class="grid lg:grid-cols-3 bg-[#FCF7F3] p-6 sm:p-12 rounded-3xl border border-[#B3814E80] gap-6">
-                <h2 class="text-gold font-prata text-xl font-semibold text-center col-span-3">Ready to Find Your Villa?</h2>
+                <h2 class="text-gold font-prata text-xl lg:text-3xl font-semibold text-center col-span-3">Ready to Find Your Villa?</h2>
                 <p class="max-w-4xl mx-auto text-[#444444] leading-relaxed col-span-3">Get the Latest Price, Availability & Project Details</p>
 
                 <div class="col-span-3">
@@ -1424,7 +1424,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
 
             <div class="reveal text-center mb-6 sm:text-lg text-[#444444]">
                 <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">finanace</p>
-                <h2 class="font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight">Supported By</h2>
+                <h2 class="font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight">Supported By</h2>
             </div>
 
             <div class="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-6 gap-6">

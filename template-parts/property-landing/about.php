@@ -17,9 +17,9 @@
                 </div> -->
             </div>
 
-            <div class="reveal order-1 lg:order-2 sm:text-lg text-[#444444]">
+            <div class="reveal order-1 lg:order-2 text-[#444444] sm:text-lg">
                 <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">Your Dream Home</p>
-                <h2 class="font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight">Elevated Living
+                <h2 class="font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight">Elevated Living
                     Begins Here</h2>
                 <p class="mt-5 leading-relaxed"> Infinium Altitude by Infinium Developers offers premium 2, 3, 3.5 & 4
                     BHK apartments in Ganapathy, Coimbatore, on the Sathy Road corridor — created for families and

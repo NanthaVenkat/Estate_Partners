@@ -21,33 +21,6 @@
       });
     }
 
-    /* ---------- Mobile menu ---------- */
-    var menuBtn = document.getElementById("menu-btn");
-    var mobileMenu = document.getElementById("mobile-menu");
-    var menuOpenIcon = document.getElementById("menu-open-icon");
-    var menuCloseIcon = document.getElementById("menu-close-icon");
-
-    function setMenu(open) {
-      if (!mobileMenu) return;
-      mobileMenu.classList.toggle("hidden", !open);
-      document.body.style.overflow = open ? "hidden" : "";
-      if (menuOpenIcon) menuOpenIcon.classList.toggle("hidden", open);
-      if (menuCloseIcon) menuCloseIcon.classList.toggle("hidden", !open);
-    }
-
-    if (menuBtn) {
-      menuBtn.addEventListener("click", function () {
-        setMenu(mobileMenu.classList.contains("hidden"));
-      });
-    }
-    if (mobileMenu) {
-      mobileMenu.querySelectorAll("a").forEach(function (link) {
-        link.addEventListener("click", function () {
-          setMenu(false);
-        });
-      });
-    }
-
     /* ---------- Swiper sliders ---------- */
     if (window.Swiper) {
       // Hero
@@ -114,6 +87,35 @@
           navigation: {
             nextEl: ".testimonials-swiper .swiper-button-next",
             prevEl: ".testimonials-swiper .swiper-button-prev",
+          },
+          breakpoints: {
+            768: { slidesPerView: 2 },
+            1280: { slidesPerView: 2 },
+          },
+        });
+      }
+
+      // Testimonials
+      if (document.querySelector(".testimonials-video-swiper")) {
+        var testSlides = document.querySelectorAll(
+          ".testimonials-video-swiper .swiper-slide",
+        ).length;
+        new Swiper(".testimonials-video-swiper", {
+          slidesPerView: 1,
+          spaceBetween: 24,
+          // loop: testSlides >= 3,
+          // speed: 600,
+          // autoplay:
+          //   testSlides >= 3
+          //     ? { delay: 5500, disableOnInteraction: false }
+          //     : false,
+          pagination: {
+            el: ".testimonials-video-swiper .swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".testimonials-video-swiper .swiper-button-next",
+            prevEl: ".testimonials-video-swiper .swiper-button-prev",
           },
           breakpoints: {
             768: { slidesPerView: 2 },

@@ -21,6 +21,40 @@ $categories = get_categories(
         'order'      => 'ASC',
     )
 );
+$all_posts_background_ids = get_posts(
+    array(
+        'post_type'           => 'post',
+        'post_status'         => 'publish',
+        'numberposts'         => 1,
+        'meta_key'            => '_thumbnail_id',
+        'orderby'             => 'date',
+        'order'               => 'DESC',
+        'fields'              => 'ids',
+        'ignore_sticky_posts' => true,
+    )
+);
+$all_posts_background = $all_posts_background_ids
+    ? get_the_post_thumbnail_url($all_posts_background_ids[0], 'medium_large')
+    : '';
+$category_backgrounds = array();
+foreach ($categories as $category) {
+    $category_background_ids = get_posts(
+        array(
+            'post_type'           => 'post',
+            'post_status'         => 'publish',
+            'numberposts'         => 1,
+            'cat'                 => (int) $category->term_id,
+            'meta_key'            => '_thumbnail_id',
+            'orderby'             => 'date',
+            'order'               => 'DESC',
+            'fields'              => 'ids',
+            'ignore_sticky_posts' => true,
+        )
+    );
+    $category_backgrounds[$category->term_id] = $category_background_ids
+        ? get_the_post_thumbnail_url($category_background_ids[0], 'medium_large')
+        : '';
+}
 $paged = max(1, (int) get_query_var('paged'), (int) get_query_var('page'));
 
 $hot_topics = new WP_Query(
@@ -31,6 +65,12 @@ $hot_topics = new WP_Query(
         'ignore_sticky_posts' => true,
         'no_found_rows'       => true,
     )
+);
+
+// Custom background images for blog category filters
+$category_backgrounds = array(
+    'all'          => 'http://localhost/estate_partners/wp-content/uploads/2026/11/all-blogs.png',
+    'uncategorized' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-5.png',
 );
 
 $article_args = array(
@@ -53,55 +93,62 @@ $articles = new WP_Query($article_args);
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <header class="mb-4 border-b border-ink-line pb-3">
                 <h1 class="font-prata text-xl sm:text-2xl text-[#302F5A]">
-                    <?php esc_html_e('Hot Topics', 'estatepartners'); ?>
+                    <1?php esc_html_e('Hot Topics', 'estatepartners'); ?>
                 </h1>
             </header>
 
-            <?php if ($hot_topics->have_posts()) : ?>
-                <div class="-mx-4 overflow-x-auto px-4 pb-4 sm:mx-0 sm:px-0" aria-label="<?php esc_attr_e('Hot topics', 'estatepartners'); ?>">
+            <1?php if ($hot_topics->have_posts()) : ?>
+                <div class="-mx-4 overflow-x-auto px-4 pb-4 sm:mx-0 sm:px-0" aria-label="<1?php esc_attr_e('Hot topics', 'estatepartners'); ?>">
                     <div class="flex min-w-max gap-3">
-                        <?php while ($hot_topics->have_posts()) : $hot_topics->the_post(); ?>
-                            <a href="<?php the_permalink(); ?>" class="group relative block h-28 w-36 shrink-0 overflow-hidden rounded-xl bg-[#302F5A] shadow-sm sm:h-32 sm:w-40">
-                                <?php if (has_post_thumbnail()) : ?>
-                                    <?php the_post_thumbnail('medium', array('class' => 'h-full w-full object-cover transition-transform duration-300 group-hover:scale-105')); ?>
-                                <?php endif; ?>
+                        <1?php while ($hot_topics->have_posts()) : $hot_topics->the_post(); ?>
+                            <a href="<1?php the_permalink(); ?>" class="group relative block h-28 w-36 shrink-0 overflow-hidden rounded-xl bg-[#302F5A] shadow-sm sm:h-32 sm:w-40">
+                                <1?php if (has_post_thumbnail()) : ?>
+                                    <1?php the_post_thumbnail('medium', array('class' => 'h-full w-full object-cover transition-transform duration-300 group-hover:scale-105')); ?>
+                                <1?php endif; ?>
                                 <span class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></span>
                                 <span class="absolute inset-x-3 bottom-3 line-clamp-2 text-xs font-semibold leading-snug text-white">
-                                    <?php the_title(); ?>
+                                    <1?php the_title(); ?>
                                 </span>
                             </a>
-                        <?php endwhile; ?>
+                        <1?php endwhile; ?>
                     </div>
                 </div>
-                <?php wp_reset_postdata(); ?>
-            <?php else : ?>
-                <p class="py-8 text-sm text-[#6B6B6B]"><?php esc_html_e('New articles will appear here soon.', 'estatepartners'); ?></p>
-            <?php endif; ?>
+                <1?php wp_reset_postdata(); ?>
+            <1?php else : ?>
+                <p class="py-8 text-sm text-[#6B6B6B]"><1?php esc_html_e('New articles will appear here soon.', 'estatepartners'); ?></p>
+            <1?php endif; ?>
         </div>
     </section> -->
 
     <section id="city-guide" class="py-16 sm:pb-20">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="mb-6 border-b border-ink-line">
-                <h2 class="inline-block border-b-2 border-gold px-2 pb-3 font-prata text-xl text-[#302F5A]">Hot Topics</h2>
+                <h2 class="inline-block border-b-2 border-gold px-2 pb-3 font-semibold text-xl text-[#302F5A]">Hot Topics</h2>
             </div>
             <nav class="mb-8 flex flex-wrap gap-3" aria-label="<?php esc_attr_e('Filter blog posts by category', 'estatepartners'); ?>">
                 <a href="<?php echo esc_url(home_url('/blog/')); ?>"
-                    class="inline-flex items-center rounded-full border px-4 py-2 text-sm font-medium transition-colors <?php echo ! $category_id ? 'border-[#302F5A] bg-[#302F5A] text-white' : 'border-ink-line bg-white text-[#302F5A] hover:border-gold hover:bg-gold hover:text-white'; ?>"
+                    class="inline-flex h-32 min-w-32 items-end rounded-xl border bg-[#302F5A] bg-cover bg-center px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:border-gold hover:shadow-md <?php echo ! $category_id ? 'border-gold ring-2 ring-gold/40' : 'border-ink-line'; ?>"
+                    <?php if ($all_posts_background) : ?>style="background-image: linear-gradient(rgba(19,19,19,.5), rgba(19,19,19,.72)), url('<?php echo esc_url($category_backgrounds['all']); ?>');"<?php endif; ?>
                     <?php echo ! $category_id ? 'aria-current="page"' : ''; ?>>
                     <?php esc_html_e('All Posts', 'estatepartners'); ?>
                 </a>
                 <?php foreach ($categories as $category) : ?>
-                    <a href="<?php echo esc_url(get_category_link($category->term_id)); ?>"
-                        class="inline-flex items-center rounded-full border px-4 py-2 text-sm font-medium transition-colors <?php echo $category_id === (int) $category->term_id ? 'border-[#302F5A] bg-[#302F5A] text-white' : 'border-ink-line bg-white text-[#302F5A] hover:border-gold hover:bg-gold hover:text-white'; ?>"
-                        <?php echo $category_id === (int) $category->term_id ? 'aria-current="page"' : ''; ?>>
-                        <?php echo esc_html($category->name); ?>
-                    </a>
-                <?php endforeach; ?>
+    <a href="<?php echo esc_url(get_category_link($category->term_id)); ?>"
+       class="inline-flex h-32 min-w-32 items-end rounded-xl border bg-[#302F5A] bg-cover bg-center px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:border-gold hover:shadow-md <?php echo $category_id === (int) $category->term_id ? 'border-gold ring-2 ring-gold/40' : 'border-ink-line'; ?>"
+
+       <?php if (!empty($category_backgrounds[$category->slug])) : ?>
+           style="background-image: linear-gradient(rgba(19,19,19,.5), rgba(19,19,19,.72)), url('<?php echo esc_url($category_backgrounds[$category->slug]); ?>');"
+       <?php endif; ?>
+
+       <?php echo $category_id === (int) $category->term_id ? 'aria-current="page"' : ''; ?>>
+
+        <?php echo esc_html($category->name); ?>
+    </a>
+<?php endforeach; ?>
             </nav>
 
             <div class="mb-6 border-b border-ink-line">
-                <h2 class="inline-block border-b-2 border-gold px-2 pb-3 font-prata text-xl text-[#302F5A]">
+                <h2 class="inline-block border-b-2 border-gold px-2 pb-3 font-semibold text-xl text-[#302F5A]">
                     <?php
                     if (is_category()) {
                         single_cat_title();

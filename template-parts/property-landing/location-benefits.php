@@ -1,6 +1,6 @@
     <section class="text-center">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
-            <h2 class="reveal font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight text-center">Location Benefits</h2>
+            <h2 class="reveal font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight text-center">Location Benefits</h2>
             <p class="reveal mt-3 text-center text-sm text-[#444444]">Infinium Altitude is strategically situated on
                 Sathy Road, Ganapathy, one of Coimbatore's established residential corridors. Its proximity to major IT
                 parks, educational institutions, and healthcare facilities makes it an ideal choice for both homeowners

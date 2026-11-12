@@ -6,7 +6,7 @@
             <div class="flex gap-5 flex-col">
                 <div class="container mx-auto mb-6">
                     <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">infinium altitude for</p>
-                    <h2 class="font-prata text-3xl text-[#302F5A] sm:text-4xl leading-tight"> Who Is Infinium Altitude
+                    <h2 class="font-prata text-3xl text-[#302F5A] xl:text-4xl leading-tight"> Who Is Infinium Altitude
                         For?</h2>
                 </div>
                 <div class="w-full rounded-2xl shadow-lg flex gap-6 items-center p-4">
@@ -16,7 +16,7 @@
                     <div class="space-y-2">
                         <h3 class="font-semibold text-gold text-lg">Looking for a Ready Home?</h3>
                         <p class="text-[#4D5461]">Move into a thoughtfully designed home
-                            with premium specifications and modern amenities.</p>
+with premium specifications and modern amenities.</p>
                     </div>
                 </div>
 
@@ -26,8 +26,8 @@
 
                     <div class="space-y-2">
                         <h3 class="font-semibold text-gold text-lg">Looking to Invest?</h3>
-                        <p class="text-[#4D5461]">Explore locations and projects with potential for
-                            long-term value.</p>
+                        <p class="text-[#4D5461]">Own an apartment in one of Ganapathy's most
+sought-after, well-connected residential corridors.</p>
                     </div>
                 </div>
 
@@ -37,8 +37,8 @@
 
                     <div class="space-y-2">
                         <h3 class="font-semibold text-gold text-lg">Planning for Your Family?</h3>
-                        <p class="text-[#4D5461]">Find plots and properties that can become your future
-                            home or investment.</p>
+                        <p class="text-[#4D5461]">Choose a configuration — from 2 BHK to 4 BHK — that
+fits your family's needs today and tomorrow.</p>
                     </div>
                 </div>
             </div>

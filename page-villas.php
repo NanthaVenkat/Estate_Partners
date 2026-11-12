@@ -19,7 +19,7 @@ get_header();
 $td   = 'vnktheme-textdomain';
 $container = 'container mx-auto px-4 sm:px-6 lg:px-8';
 $section   = 'py-16 sm:py-20 lg:py-24';
-$h2        = 'font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight';
+$h2        = 'font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight';
 $address = 'Villankurichi Rd, B.R. Puram Industrial Estate, Coimbatore, Tamil Nadu 641014';
 
 $why = array(
@@ -80,7 +80,7 @@ VILLA',         'text' => 'Pay the booking amount and complete the required book
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-14 lg:py-20 grid lg:grid-cols-[1.2fr_0.8fr] gap-10 items-center">
             <div class="text-white">
                 <p class="font-prata text-3xl tracking-[0.3em] uppercase"><img src="http://localhost/estate_partners/wp-content/uploads/2026/11/infinium-central-16-logo.png" alt="" class="h-14"></p>
-                <h1 class="font-prata text-3xl sm:text-4xl lg:text-5xl leading-tight mt-5">Ultra-Luxury 4 BHK Villas
+                <h1 class="font-prata text-3xl xl:text-4xl lg:text-5xl leading-tight mt-5">Ultra-Luxury 4 BHK Villas
                     in Ramanathapuram, Coimbatore</h1>
                 <p class="mt-4 text-sm sm:text-base tracking-wide text-white/90">RERA APPROVED | 100% VAASTU COMPLIANT</p>
                 <dl class="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-4">
@@ -154,8 +154,8 @@ VILLA',         'text' => 'Pay the booking amount and complete the required book
     <section id="overview" class="py-16 sm:py-20 scroll-mt-28">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto">
-                <h2 class="font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight">Infinium Central 16 - Project Overview</h2>
-                <p class="mt-4 max-w-4xl mx-auto text-[#302F5A]-muted leading-relaxed">A rare address in the heart of the city. Only 16 Mediterranean-inspired villas, built on the site of Coimbatore's historic Central Studios.</p>
+                <h2 class="font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight">Infinium Central 16 - Project Overview</h2>
+                <p class="mt-4 max-w-4xl mx-auto text-[#302F5A] leading-relaxed">A rare address in the heart of the city. Only 16 Mediterranean-inspired villas, built on the site of Coimbatore's historic Central Studios.</p>
             </div>
             <div class="mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5 text-base text-[#6B6B6B] text-center">
                 <div class="bg-brand-cream border border-gold/30 rounded-2xl p-5">
@@ -208,9 +208,9 @@ VILLA',         'text' => 'Pay the booking amount and complete the required book
                 </div> -->
             </div>
 
-            <div class="reveal order-1 lg:order-2 sm:text-lg text-[#444444]">
+            <div class="reveal order-1 lg:order-2 text-[#444444] sm:text-lg">
                 <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">ultra - luxury living</p>
-                <h2 class="font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight">Where Heritage Meets Ultra-Luxury Living</h2>
+                <h2 class="font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight">Where Heritage Meets Ultra-Luxury Living</h2>
                 <p class="mt-5 leading-relaxed">Infinium Central 16 by Infinium Developers stands on the site of Coimbatore's historic Central Studios — once one of the busiest film production houses of the Kollywood era, and now home to just 16 privileged families.</p>
                 <p class="mt-4 leading-relaxed">Spread across 1.42 acres, each Mediterranean-inspired villa sits on 7.4 to 9.4 cents with 3,600 to 4,300 sq.ft of built-up space, designed around indoor-outdoor living, bigger spaces, and natural light suited to Coimbatore's climate. With 55% open space and greenery, 100% Vaastu-compliant planning, and RERA registration, Infinium Central 16 offers a combination of scarcity, heritage, and central location that's hard to find elsewhere in the city's villa market.</p> <!-- <ul class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm font-medium">
                     <li class="flex items-center gap-3 bg-brand-cream border border-ink-line rounded-xl px-4 py-3"><i class="fa-solid fa-circle-check text-gold"></i> Detailed project info</li>
@@ -392,7 +392,7 @@ VILLA',         'text' => 'Pay the booking amount and complete the required book
             <div class="flex gap-5 flex-col">
                 <div class="container mx-auto mb-6">
                     <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">Who Is It For</p>
-                    <h2 class="font-prata text-3xl text-[#302F5A] sm:text-4xl leading-tight">Who Is Infinium Central 16 For?</h2>
+                    <h2 class="font-prata text-3xl text-[#302F5A] xl:text-4xl leading-tight">Who Is Infinium Central 16 For?</h2>
                 </div>
                 <div class="w-full rounded-2xl shadow-lg flex gap-6 items-center p-4">
                     <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/lp-icon-3.svg" alt="Looking for Exclusivity?" class="w-16">
@@ -616,11 +616,11 @@ VILLA',         'text' => 'Pay the booking amount and complete the required book
                 </div>
 
                 <div role="tabpanel" id="villa-1-1" aria-labelledby="tab-villa-1-1" class="relative mt-5 bg-[#faf6f1] p-3 sm:p-6 rounded-sm">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/2bhk.png" alt="Villa 1 floor plan, 2537 sq.ft" class="mx-auto w-full max-w-4xl h-auto" loading="lazy" />
+                    <img src="https://www.coimbatoredevelopers.com/wp-content/uploads/2026/02/Villa-1.2.webp" alt="Villa 1 floor plan, 2537 sq.ft" class="mx-auto w-full max-w-4xl h-auto" loading="lazy" />
                 </div>
 
                 <div role="tabpanel" id="villa-1-2" aria-labelledby="tab-villa-1-2" hidden class="relative mt-5 bg-[#faf6f1] p-3 sm:p-6 rounded-sm">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/2bhk.png" alt="Villa 1 floor plan, 3764 sq.ft" class="mx-auto w-full max-w-4xl h-auto" loading="lazy" />
+                    <img src="https://www.coimbatoredevelopers.com/wp-content/uploads/2026/02/Villa-1.1.webp" alt="Villa 1 floor plan, 3764 sq.ft" class="mx-auto w-full max-w-4xl h-auto" loading="lazy" />
                 </div>
             </div>
 
@@ -632,11 +632,11 @@ VILLA',         'text' => 'Pay the booking amount and complete the required book
                 </div>
 
                 <div role="tabpanel" id="villa-2-1" aria-labelledby="tab-villa-2-1" class="relative mt-5 bg-[#faf6f1] p-3 sm:p-6 rounded-sm">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/2bhk.png" alt="Villa 2 floor plan, 2964 sq.ft" class="mx-auto w-full max-w-4xl h-auto" loading="lazy" />
+                    <img src="https://www.coimbatoredevelopers.com/wp-content/uploads/2026/02/Villa-2.1.webp" alt="Villa 2 floor plan, 2964 sq.ft" class="mx-auto w-full max-w-4xl h-auto" loading="lazy" />
                 </div>
 
                 <div role="tabpanel" id="villa-2-2" aria-labelledby="tab-villa-2-2" hidden class="relative mt-5 bg-[#faf6f1] p-3 sm:p-6 rounded-sm">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/2bhk.png" alt="Villa 2 floor plan, 3850 sq.ft" class="mx-auto w-full max-w-4xl h-auto" loading="lazy" />
+                    <img src="https://www.coimbatoredevelopers.com/wp-content/uploads/2026/02/Villa-2.3.webp" alt="Villa 2 floor plan, 3850 sq.ft" class="mx-auto w-full max-w-4xl h-auto" loading="lazy" />
                 </div>
             </div>
 
@@ -646,28 +646,18 @@ VILLA',         'text' => 'Pay the booking amount and complete the required book
                     <button type="button" role="tab" id="tab-villa-3-1" aria-controls="villa-3-1" aria-selected="true" class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2537 sq.ft ( 3.5 BHK )</button>
                     <button type="button" role="tab" id="tab-villa-3-2" aria-controls="villa-3-2" aria-selected="false" class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3764 sq.ft ( 3.5 BHK )</button>
                     <button type="button" role="tab" id="tab-villa-3-3" aria-controls="villa-3-3" aria-selected="false" class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2964 sq.ft ( 3.5 BHK )</button>
-                    <button type="button" role="tab" id="tab-villa-3-4" aria-controls="villa-3-4" aria-selected="false" class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3850 sq.ft ( 3.5 BHK )</button>
-                    <button type="button" role="tab" id="tab-villa-3-5" aria-controls="villa-3-5" aria-selected="false" class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3961 sq.ft ( 3.5 BHK )</button>
                 </div>
 
                 <div role="tabpanel" id="villa-3-1" aria-labelledby="tab-villa-3-1" class="relative mt-5 bg-[#faf6f1] p-3 sm:p-6 rounded-sm">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/2bhk.png" alt="Villa 3 floor plan, 2537 sq.ft" class="mx-auto w-full max-w-4xl h-auto" loading="lazy" />
+                    <img src="https://www.coimbatoredevelopers.com/wp-content/uploads/2026/02/Villa-3.2.webp" alt="Villa 3 floor plan, 2537 sq.ft" class="mx-auto w-full max-w-4xl h-auto" loading="lazy" />
                 </div>
 
                 <div role="tabpanel" id="villa-3-2" aria-labelledby="tab-villa-3-2" hidden class="relative mt-5 bg-[#faf6f1] p-3 sm:p-6 rounded-sm">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/2bhk.png" alt="Villa 3 floor plan, 3764 sq.ft" class="mx-auto w-full max-w-4xl h-auto" loading="lazy" />
+                    <img src="https://www.coimbatoredevelopers.com/wp-content/uploads/2026/02/Villa-3.1.webp" alt="Villa 3 floor plan, 3764 sq.ft" class="mx-auto w-full max-w-4xl h-auto" loading="lazy" />
                 </div>
 
                 <div role="tabpanel" id="villa-3-3" aria-labelledby="tab-villa-3-3" hidden class="relative mt-5 bg-[#faf6f1] p-3 sm:p-6 rounded-sm">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/2bhk.png" alt="Villa 3 floor plan, 2964 sq.ft" class="mx-auto w-full max-w-4xl h-auto" loading="lazy" />
-                </div>
-
-                <div role="tabpanel" id="villa-3-4" aria-labelledby="tab-villa-3-4" hidden class="relative mt-5 bg-[#faf6f1] p-3 sm:p-6 rounded-sm">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/2bhk.png" alt="Villa 3 floor plan, 3850 sq.ft" class="mx-auto w-full max-w-4xl h-auto" loading="lazy" />
-                </div>
-
-                <div role="tabpanel" id="villa-3-5" aria-labelledby="tab-villa-3-5" hidden class="relative mt-5 bg-[#faf6f1] p-3 sm:p-6 rounded-sm">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/2bhk.png" alt="Villa 3 floor plan, 3961 sq.ft" class="mx-auto w-full max-w-4xl h-auto" loading="lazy" />
+                    <img src="https://www.coimbatoredevelopers.com/wp-content/uploads/2026/02/Villa-3.3.webp" alt="Villa 3 floor plan, 2964 sq.ft" class="mx-auto w-full max-w-4xl h-auto" loading="lazy" />
                 </div>
             </div>
 
@@ -679,11 +669,11 @@ VILLA',         'text' => 'Pay the booking amount and complete the required book
                 </div>
 
                 <div role="tabpanel" id="villa-4-1" aria-labelledby="tab-villa-4-1" class="relative mt-5 bg-[#faf6f1] p-3 sm:p-6 rounded-sm">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/2bhk.png" alt="Villa 4 floor plan, 3850 sq.ft" class="mx-auto w-full max-w-4xl h-auto" loading="lazy" />
+                    <img src="https://www.coimbatoredevelopers.com/wp-content/uploads/2026/02/Villa-4.2.webp" alt="Villa 4 floor plan, 3850 sq.ft" class="mx-auto w-full max-w-4xl h-auto" loading="lazy" />
                 </div>
 
                 <div role="tabpanel" id="villa-4-2" aria-labelledby="tab-villa-4-2" hidden class="relative mt-5 bg-[#faf6f1] p-3 sm:p-6 rounded-sm">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/2bhk.png" alt="Villa 4 floor plan, 3961 sq.ft" class="mx-auto w-full max-w-4xl h-auto" loading="lazy" />
+                    <img src="https://www.coimbatoredevelopers.com/wp-content/uploads/2026/02/Villa-4.1.webp" alt="Villa 4 floor plan, 3961 sq.ft" class="mx-auto w-full max-w-4xl h-auto" loading="lazy" />
                 </div>
             </div>
 
@@ -695,11 +685,11 @@ VILLA',         'text' => 'Pay the booking amount and complete the required book
                 </div>
 
                 <div role="tabpanel" id="villa-5-1" aria-labelledby="tab-villa-5-1" class="relative mt-5 bg-[#faf6f1] p-3 sm:p-6 rounded-sm">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/2bhk.png" alt="Villa 5 floor plan, 3961 sq.ft" class="mx-auto w-full max-w-4xl h-auto" loading="lazy" />
+                    <img src="https://www.coimbatoredevelopers.com/wp-content/uploads/2026/02/Villa-5.2.webp" alt="Villa 5 floor plan, 3961 sq.ft" class="mx-auto w-full max-w-4xl h-auto" loading="lazy" />
                 </div>
 
                 <div role="tabpanel" id="villa-5-2" aria-labelledby="tab-villa-5-2" hidden class="relative mt-5 bg-[#faf6f1] p-3 sm:p-6 rounded-sm">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/2bhk.png" alt="Villa 5 floor plan, 2537 sq.ft" class="mx-auto w-full max-w-4xl h-auto" loading="lazy" />
+                    <img src="https://www.coimbatoredevelopers.com/wp-content/uploads/2026/02/Villa-5.1.webp" alt="Villa 5 floor plan, 2537 sq.ft" class="mx-auto w-full max-w-4xl h-auto" loading="lazy" />
                 </div>
             </div>
         </div>
@@ -1159,14 +1149,14 @@ VILLA',         'text' => 'Pay the booking amount and complete the required book
     <section id="about" class="py-16 sm:py-20 lg:py-24 scroll-mt-24">
         <div class="container mx-auto text-center mb-6">
             <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">LATEST VILLA PRICE</p>
-            <h2 class="font-prata text-3xl text-[#302F5A] sm:text-4xl leading-tight">Get the Latest Infinium Central 16 Price</h2>
-            <!-- <p class="mt-4 max-w-4xl mx-auto text-[#444444] leading-relaxed">Buying property is a major decision. You don't have to figure it out alone. Tell us what you are looking for — your preferred location,
+            <h2 class="font-prata text-3xl text-[#302F5A] xl:text-4xl leading-tight">Get the Latest Infinium Central 16 Price</h2>
+            <!-- <p class="mt-4 max-w-4xl mx-auto text-[#444444] leading-relaxed text-sm xl:text-base">Buying property is a major decision. You don't have to figure it out alone. Tell us what you are looking for — your preferred location,
                 property type, budget and purpose — and our team can help you shortlist suitable projects in Coimbatore.</p> -->
         </div>
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
             <div class="grid grid-cols-2 bg-[#FCF7F3] p-5 sm:p-8 rounded-2xl border border-[#B3814E80] gap-6">
-                <h2 class="text-gold font-prata text-xl font-semibold text-center col-span-2">Plot prices can vary based on:</h2>
+                <h2 class="text-gold font-prata text-xl lg:text-2xl font-semibold text-center col-span-2">Plot prices can vary based on:</h2>
 
                 <div class="rounded-2xl border border-[#B3814E80] bg-white flex text-center flex-col gap-4 items-center text-[#302F5A] p-4">
                     <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-4.svg" alt="" class="w-14 h-14">
@@ -1200,39 +1190,37 @@ VILLA',         'text' => 'Pay the booking amount and complete the required book
     </section>
 
     <!-- ======================= TESTIMONIALS ======================= -->
-    <section id="testimonials" class="py-16 sm:py-20 lg:py-24 bg-[#302F5A] scroll-mt-24">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-[30%_70%]">
-            <div class="text-white max-w-4xl mx-auto mb-12 reveal">
-                <p class="ont-bold uppercase tracking-[0.18em] text-sm mb-3">What Our Customers Say</p>
-                <h2 class="font-prata text-3xl sm:text-4xl leading-tight">Real experiences from people who trusted Estate Partners.</h2>
-                <!-- <p class="mt-4 text-[#302F5A]-muted">Real experiences from people who trusted Estate Partners.</p> -->
+    <?php get_template_part('template-parts/template-testimonials'); ?>
+
+    <!-- ============ Video SECTION START ============ -->
+    <section id="testimonial-videos" class="bg-brand-cream py-12 sm:py-16">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="text-center">
+                <p class="text-gold font-semibold uppercase tracking-wide text-xs">Testimonial Videos</p>
+                <h2 class="font-prata text-2xl sm:text-3xl lg:text-4xl text-[#302F5A] mt-2">Trusted By Families Across Coimbatore</h2>
             </div>
 
-            <div class="swiper testimonials-swiper reveal w-full h-max">
-                <div class="swiper-wrapper pb-14">
-                    <figure class="swiper-slide bg-white rounded-2xl border border-ink-line p-7 sm:p-8 shadow-sm flex flex-col">
-                        <div class="text-gold text-6xl text-gold/50 mb-4"><i class="fa-solid fa-quote-left"></i></div>
-                        <blockquote class="text-[#302F5A]-soft leading-relaxed flex-1">We were looking for a villa for a couple of months when we came across Infinium Central 16. The location, spacious design, and modern amenities felt perfect for us. It was also within our budget. The entire buying and registration process was smooth and hassle-free.</blockquote>
-                        <figcaption class="mt-6 flex items-center gap-4">
-                            <img src="<?php echo esc_url($img_uri . '/17_ellipse_15.png'); ?>" alt="Vigneshwaran" class="w-12 h-12 rounded-full object-cover" loading="lazy" />
-                            <span><span class="block font-semibold">Kavi Priya</span><span class="block text-xs text-[#302F5A]-muted">Coimbatore</span></span>
-                        </figcaption>
-                    </figure>
-                    <figure class="swiper-slide bg-white rounded-2xl border border-ink-line p-7 sm:p-8 shadow-sm flex flex-col">
-                        <div class="text-gold text-6xl text-gold/50 mb-4"><i class="fa-solid fa-quote-left"></i></div>
-                        <blockquote class="text-[#302F5A]-soft leading-relaxed flex-1">I came across Infinium Central 16 while looking for a villa in a prime location. I would say they are the best in what they offer. We got the best deal for our villa, and the team ensured proper documentation before handover. I am glad I chose Infinium Central 16 for my future home.</blockquote>
-                        <figcaption class="mt-6 flex items-center gap-4">
-                            <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/avatar.webp" alt="Kavi Priya" class="w-12 h-12 rounded-full object-cover" loading="lazy" />
-                            <span><span class="block font-semibold">Vigneshwaran</span><span class="block text-xs text-[#302F5A]-muted">Coimbatore</span></span>
-                        </figcaption>
-                    </figure>
+            <div class="swiper testimonials-video-swiper mt-8 sm:mt-10">
+                <div class="swiper-wrapper">
+
+                    <!-- Slide 1: put the YouTube video ID (the part after ?v=) in data-video-id and in the thumbnail URL.
+             To use your own thumbnail, change the <img src> to any image. -->
+                    <div class="swiper-slide rounded-2xl overflow-hidden">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Fdfytk0EofE?si=qzg9-KnIaoiFL231" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+
+                    <!-- Slide 2: put the YouTube video ID (the part after ?v=) in data-video-id and in the thumbnail URL.
+             To use your own thumbnail, change the <img src> to any image. -->
+                    <div class="swiper-slide rounded-2xl overflow-hidden">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/vrYe80LRfzY?si=u8U1sKWo26O3p61f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+
                 </div>
-                <div class="swiper-pagination"></div>
-                <div class="flex gap-6">
-                    <div class="swiper-button-prev !relative !left-0 !mt-0 hidden md:flex"></div>
-                    <div class="swiper-button-next !relative !right-0 !mt-0 hidden md:flex"></div>
-                </div>
+                <!-- Dots (static, sits under the slides) -->
+                <div class="video-pagination mt-8 flex justify-center gap-2"></div>
             </div>
+
         </div>
     </section>
 
@@ -1263,9 +1251,9 @@ VILLA',         'text' => 'Pay the booking amount and complete the required book
     <section id="about" class="py-16 sm:py-20 lg:py-24 scroll-mt-24">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
-            <div class="reveal sm:text-lg text-[#444444]">
+            <div class="reveal text-base text-[#444444]">
                 <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">assistance</p>
-                <h2 class="font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight">NRI Assistance</h2>
+                <h2 class="font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight">NRI Assistance</h2>
                 <p class="mt-5 leading-relaxed">For NRIs looking to invest back home, Adissia offers a seamless and structured land buying experience. From remote assistance to verified legal documentation and guided processes, every detail is handled with care.</p>
                 <p class="mt-4 leading-relaxed">This ensures your investment in Coimbatore is secure, transparent,
                     and easy to manage, no matter where you are.</p>
@@ -1521,126 +1509,15 @@ VILLA',         'text' => 'Pay the booking amount and complete the required book
         </div>
     </section>
 
-    <!-- ======================= Calculator ======================= -->
-    <section id="insights" class="pt-16 sm:pt-20 lg:pt-24 scroll-mt-24">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-
-            <div class="max-w-2xl mb-6 mx-auto">
-                <h2 class="font-prata text-[#302F5A] text-center text-3xl sm:text-4xl leading-tight">Helpful Tools</h2>
-            </div>
-
-            <!-- Swiper -->
-            <div class="swiper tools-swiper">
-                <div class="swiper-wrapper">
-
-                    <!-- Slide 1 -->
-                    <div class="swiper-slide">
-                        <div class="flex rounded-lg gap-4 border border-gold/70 bg-gold/20 p-4 h-full">
-                            <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/calculator-2-scaled.png" alt="" class="w-24 h-24 object-cover rounded-lg shrink-0">
-                            <div class="space-y-2">
-                                <h2 class="text-gold font-semibold text-xl">EMI Calculator</h2>
-                                <p class="text-[#4D5461] text-base">EMI starts at ₹ 11.27 K</p>
-                                <a href="http://localhost/estate_partners/home-lone-calculator/" class="text-white font-semibold text-sm rounded-lg px-6 py-3 bg-[#302F5A] inline-block">
-                                    Calculate now <i class="fa-solid fa-arrow-right ml-2"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Slide 2 -->
-                    <div class="swiper-slide">
-                        <div class="flex rounded-lg gap-4 border border-gold/70 bg-gold/20 p-4 h-full">
-                            <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/calculator-1.png" alt="" class="w-24 h-24 object-cover rounded-lg shrink-0">
-                            <div class="space-y-2">
-                                <h2 class="text-gold font-semibold text-xl">Stamp Duty Calculator</h2>
-                                <p class="text-[#4D5461] text-base">Find your home loan limit</p>
-                                <a href="http://localhost/estate_partners/stamp-duty-calculator/" class="text-white font-semibold text-sm rounded-lg px-6 py-3 bg-[#302F5A] inline-block">
-                                    Calculate now <i class="fa-solid fa-arrow-right ml-2"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Slide 3 -->
-                    <div class="swiper-slide">
-                        <div class="flex rounded-lg gap-4 border border-gold/70 bg-gold/20 p-4 h-full">
-                            <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/calculator-3.png" alt="" class="w-24 h-24 object-cover rounded-lg shrink-0">
-                            <div class="space-y-2">
-                                <h2 class="text-gold font-semibold text-xl">Price Calculator</h2>
-                                <p class="text-[#4D5461] text-base">Check the price of your property</p>
-                                <a href="http://localhost/estate_partners/plot-price-calculator/" class="text-white font-semibold text-sm rounded-lg px-6 py-3 bg-[#302F5A] inline-block">
-                                    Calculate now <i class="fa-solid fa-arrow-right ml-2"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Slide 4 -->
-                    <div class="swiper-slide">
-                        <div class="flex rounded-lg gap-4 border border-gold/70 bg-gold/20 p-4 h-full">
-                            <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/calculator-4.png" alt="" class="w-24 h-24 object-cover rounded-lg shrink-0">
-                            <div class="space-y-2">
-                                <h2 class="text-gold font-semibold text-xl">Tax Benefit Calculator</h2>
-                                <p class="text-[#4D5461] text-base">Check the price of your property</p>
-                                <a href="http://localhost/estate_partners/home-loan-tax-calculator/" class="text-white font-semibold text-sm rounded-lg px-6 py-3 bg-[#302F5A] inline-block">
-                                    Calculate now <i class="fa-solid fa-arrow-right ml-2"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <!-- Navigation arrows (optional) -->
-                <div class="swiper-button-prev tools-prev"></div>
-                <div class="swiper-button-next tools-next"></div>
-
-                <!-- Pagination (optional) -->
-                <div class="swiper-pagination tools-pagination mt-6"></div>
-            </div>
-        </div>
-    </section>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            if (window.Swiper) {
-                new Swiper('.tools-swiper', {
-                    slidesPerView: 1,
-                    spaceBetween: 20,
-                    loop: false,
-                    pagination: {
-                        el: '.tools-pagination',
-                        clickable: true,
-                    },
-                    navigation: {
-                        nextEl: '.tools-next',
-                        prevEl: '.tools-prev',
-                    },
-                    breakpoints: {
-                        0: { // sm
-                            slidesPerView: 1,
-                            spaceBetween: 20,
-                        },
-                        640: { // sm
-                            slidesPerView: 2,
-                            spaceBetween: 20,
-                        },
-                        1440: { // lg
-                            slidesPerView: 3,
-                            spaceBetween: 24,
-                        }
-                    }
-                });
-            }
-        });
-    </script>
+    <!-- Calculator Section -->
+    <?php get_template_part('template-parts/calculators'); ?>
 
     <section id="about" class="py-16 sm:py-20 lg:py-24 scroll-mt-24">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 ">
 
             <div class="reveal text-center mb-6 sm:text-lg text-[#444444]">
                 <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">finanace</p>
-                <h2 class="font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight">Supported By</h2>
+                <h2 class="font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight">Supported By</h2>
             </div>
 
             <div class="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-6 gap-6">

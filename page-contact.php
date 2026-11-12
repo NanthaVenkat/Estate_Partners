@@ -86,7 +86,7 @@ $field = 'w-full bg-transparent border-0 border-b border-[#cfcfcf] focus:border-
                         </li>
                     </ul>
 
-                    <div class="mt-10 lg:mt-auto pt-2">
+                    <div class="mt-10 pt-2">
                         <p class="text-sm font-semibold tracking-wide"><?php esc_html_e('Follow us on', 'vnktheme-textdomain'); ?></p>
                         <div class="mt-3 flex flex-wrap items-center gap-3">
                             <?php foreach ($socials as $social) : ?>

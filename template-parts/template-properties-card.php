@@ -46,7 +46,7 @@ $is_target_template = (
         </div>
     <?php endif; ?>
 
-    <div class="relative h-52 overflow-hidden rounded-t-2xl">
+    <div class="relative overflow-hidden rounded-t-2xl <?php echo $is_target_template ? 'h-68' : 'h-52' ?>">
         <?php if ($image) : ?>
             <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($name); ?>" class="w-full h-full object-cover" loading="lazy" />
         <?php endif; ?>

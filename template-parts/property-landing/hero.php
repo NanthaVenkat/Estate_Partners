@@ -11,24 +11,24 @@
                 <p class="font-prata text-3xl tracking-[0.3em] uppercase"><img
                         src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-11.png" alt=""
                         class="h-14"></p>
-                <h1 class="font-prata text-3xl sm:text-4xl lg:text-5xl leading-tight mt-5">Premium 2, 3, 3.5 &amp; 4 BHK
+                <h1 class="font-prata text-3xl xl:text-4xl lg:text-5xl leading-tight mt-5">Premium 2, 3, 3.5 &amp; 4 BHK
                     Apartments in Ganapathy, Coimbatore</h1>
                 <p class="mt-4 text-sm sm:text-base tracking-wide text-white/90">DTCP &amp; RERA APPROVED | 100% VAASTU
                     COMPLIANT</p>
-                <dl class="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-4">
-                    <div class="border-r-2 border-white px-2 text-center">
+                <dl class="mt-8 flex flex-wrap sm:grid-cols-4 gap-4">
+                    <div class="border-r-2 border-white px-4 text-center">
                         <dt class="font-prata text-3xl sm:text-4xl">4.13</dt>
                         <dd class="text-xs text-white/80">Acres</dd>
                     </div>
-                    <div class="border-r-2 border-white px-2 text-center">
+                    <div class="border-r-2 border-white px-4 text-center">
                         <dt class="font-prata text-3xl sm:text-4xl">232</dt>
                         <dd class="text-xs text-white/80">Units</dd>
                     </div>
-                    <div class="border-r-2 border-white px-2 text-center">
+                    <div class="border-r-2 border-white px-4 text-center">
                         <dt class="font-prata text-3xl sm:text-4xl">2 Towers</dt>
                         <dd class="text-xs text-white/80">Premium Plots</dd>
                     </div>
-                    <div class="px-2 text-center">
+                    <div class="px-4 text-center">
                         <dt class="font-prata text-3xl sm:text-4xl">₹1.01 Cr</dt>
                         <dd class="text-xs text-white/80">Onwards</dd>
                     </div>

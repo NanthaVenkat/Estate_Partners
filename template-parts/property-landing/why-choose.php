@@ -2,7 +2,7 @@
     <section class="bg-brand-cream py-16 sm:py-20 lg:py-24">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <p class="text-gold font-bold uppercase tracking-[0.18em] text-center text-sm mb-3">Why Us</p>
-            <h2 class="reveal font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight text-center">Why Infinium Altitude</h2>
+            <h2 class="reveal font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight text-center">Why Infinium Altitude</h2>
             <p class="reveal mt-3 text-center text-sm text-[#444444]">Well-planned plots in prime locations, giving you
                 the perfect foundation to build your dream home and a <b>brighter future</b></p>
 

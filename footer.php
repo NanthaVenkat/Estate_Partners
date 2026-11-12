@@ -25,13 +25,15 @@ $socials = array(
     array('label' => 'LinkedIn',  'icon' => 'fa-linkedin-in',  'url' => 'https://www.linkedin.com/in/estate-partners-9950a1448/'),
     array('label' => 'Facebook',  'icon' => 'fa-facebook-f',   'url' => '#'),
 );
+
+get_template_part('template-parts/property-landing/floating-whatsapp');
 ?>
 
 <!-- ======================= CTA STRIP ======================= -->
 <section class="bg-gold">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
-        <h2 class="text-white text-2xl sm:text-3xl lg:text-4xl leading-tight">Let’s help you find a space that truly feels home</h2>
-        <a href="tel:+917092958830" class="inline-flex items-center gap-3 bg-[#302F5A] hover:bg-ink text-white font-semibold text-xl sm:text-2xl px-7 py-4 rounded-lg transition-colors shrink-0">
+        <h2 class="text-white text-2xl sm:text-3xl xl:text-4xl leading-tight">Let’s help you find a space that truly feels home</h2>
+        <a href="tel:+917092958830" class="inline-flex items-center gap-3 bg-[#302F5A] hover:bg-ink text-white font-semibold text-xl px-7 py-4 rounded-lg transition-colors shrink-0">
             <i class="fa-solid fa-phone text-lg" aria-hidden="true"></i> +91 70929 58830
         </a>
     </div>
@@ -46,37 +48,36 @@ $socials = array(
             <span class="inline-block brightness-0 invert rounded-xl px-4 py-2.5">
                 <img src="<?php echo esc_url($img_uri . '/logo.png'); ?>" alt="<?php echo esc_attr(get_bloginfo('name')); ?> logo" class="h-10 w-auto object-contain" />
             </span>
-            <p class="mt-5 text-sm text-white/65 leading-relaxed">At Estate Partners, every home represents more than just apartments—it embodies your dreams, your family’s future, and a lifetime of memories. With thoughtfully designed layouts, modern amenities, and secure surroundings, we ensure your home is a place where life truly thrives.</p>
+            <p class="mt-5 text-sm leading-relaxed">At Estate Partners, every home represents more than just apartments—it embodies your dreams, your family’s future, and a lifetime of memories. With thoughtfully designed layouts, modern amenities, and secure surroundings, we ensure your home is a place where life truly thrives.</p>
         </div>
 
         <!-- Quick links -->
         <nav aria-label="Quick links">
             <p class="text-xl mb-5">Quick Links</p>
-            <ul class="space-y-3 text-sm text-white/70">
+            <ul class="space-y-3 text-sm">
                 <li><a href="<?php echo esc_url($home . '#home'); ?>" class="footer-link">Home</a></li>
                 <li><a href="<?php echo esc_url($home . '#about'); ?>" class="footer-link">About Us</a></li>
-                <li><a href="<?php echo esc_url($home . '#projects'); ?>" class="footer-link">Projects</a></li>
+                <li><a href="<?php echo esc_url($home . '#projects'); ?>" class="footer-link">Contact Us </a></li>
                 <li><a href="<?php echo esc_url($home . '#insights'); ?>" class="footer-link">Blog</a></li>
-                <li><a href="<?php echo esc_url($home . '#enquire'); ?>" class="footer-link">Enquire Now</a></li>
-                <li><a href="<?php echo esc_url($home . '#contact'); ?>" class="footer-link">Contact Us</a></li>
+                <li><a href="<?php echo esc_url($home . '#enquire'); ?>" class="footer-link">NRI Guide</a></li>
+                <li><a href="<?php echo esc_url($home . '#enquire'); ?>" class="footer-link">New Buyers guide</a></li>
+                <li><a href="<?php echo esc_url($home . '#enquire'); ?>" class="footer-link">Privacy Policy</a></li>
+                <li><a href="<?php echo esc_url($home . '#contact'); ?>" class="footer-link">Term & Conditions</a></li>
             </ul>
         </nav>
 
         <!-- Projects -->
         <nav aria-label="Explore projects">
-            <p class="text-xl mb-5">Explore</p>
-            <ul class="space-y-3 text-sm text-white/70">
+            <p class="text-xl mb-5">Projects</p>
+            <ul class="space-y-3 text-sm">
                 <li><a href="<?php echo esc_url($home . '#types'); ?>" class="footer-link">Apartments</a></li>
                 <li><a href="<?php echo esc_url($home . '#types'); ?>" class="footer-link">Villas</a></li>
-                <li><a href="<?php echo esc_url($home . '#types'); ?>" class="footer-link">Residential Plots</a></li>
-                <li><a href="<?php echo esc_url($home . '#status'); ?>" class="footer-link">Ongoing Projects</a></li>
-                <li><a href="<?php echo esc_url($home . '#status'); ?>" class="footer-link">Upcoming Projects</a></li>
-                <li><a href="<?php echo esc_url($home . '#locations'); ?>" class="footer-link">Locations</a></li>
+                <li><a href="<?php echo esc_url($home . '#types'); ?>" class="footer-link">Plots</a></li>
             </ul>
         </nav>
 
         <!-- Contact -->
-        <div class="mt-3 lg:mt-auto pt-2">
+        <div class="pt-2">
             <p class="text-sm font-semibold tracking-wide"><?php esc_html_e('Follow us on', 'vnktheme-textdomain'); ?></p>
             <div class="mt-3 flex flex-wrap items-center gap-3">
                 <?php foreach ($socials as $social) : ?>

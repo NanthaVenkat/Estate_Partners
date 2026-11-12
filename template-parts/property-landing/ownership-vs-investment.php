@@ -2,7 +2,7 @@
 
         <p class="text-gold font-bold uppercase tracking-[0.18em] text-center text-sm mb-3">apartment Ownership vs
             Investment</p>
-        <h2 class="reveal font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight text-center">Move In or Invest — Either Way, You're Covered</h2>
+        <h2 class="reveal font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight text-center">Move In or Invest — Either Way, You're Covered</h2>
         <p class="reveal mt-3 text-center text-sm text-[#444444]">Create the home you’ve always dreamed of or make a
             smart investment for a brighter future. Find the perfect space that grows with your goals.</p>
 
