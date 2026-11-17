@@ -20,7 +20,7 @@
 
         <div role="tabpanel" id="villa-1-1" aria-labelledby="tab-villa-1-1" class="relative mt-5 bg-[#faf6f1] p-3 sm:p-6 rounded-sm">
             <a href="#compare" class="absolute top-6 right-6 sm:top-10 sm:right-10 bg-gold hover:bg-[#8f6535] text-white text-xs font-semibold px-5 py-2 rounded transition-colors">Compare</a>
-            <img src="assets/images/plans/villa-1-2537.jpg" alt="Villa 1 floor plan, 2537 sq.ft" class="mx-auto w-full max-w-4xl h-auto" loading="lazy" />
+            <img src="https://www.coimbatoredevelopers.com/wp-content/uploads/2026/02/Villa-1.2.webp" alt="Villa 1 floor plan, 2537 sq.ft" class="mx-auto w-full max-w-4xl h-auto" loading="lazy" />
         </div>
 
         <div role="tabpanel" id="villa-1-2" aria-labelledby="tab-villa-1-2" hidden class="relative mt-5 bg-[#faf6f1] p-3 sm:p-6 rounded-sm">

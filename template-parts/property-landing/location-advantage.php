@@ -4,7 +4,7 @@
 
                 <!-- Image: stretches to the height of the content column -->
                 <div class="rounded-3xl overflow-hidden min-h-[320px] lg:min-h-0">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-167.png"
+                    <img src="https://estatepartners.in/wp-content/uploads/2026/10/Rectangle-167.png"
                         alt="Infinium Altitude tower" class="w-full h-full object-cover" loading="lazy" />
                 </div>
 
@@ -20,7 +20,7 @@
                the "9" and the style="width:90%". -->
                         <li>
                             <span class="w-12 h-12"><img
-                                    src="http://localhost/estate_partners/wp-content/uploads/2026/11/connectivity-1.svg"
+                                    src="https://estatepartners.in/wp-content/uploads/2026/11/connectivity-1.svg"
                                     alt=""></span>
                             <h3 class="mt-3 font-semibold text-[#302F5A]">Connectivity</h3>
                             <p class="mt-3 text-[#302F5A]"><span class="text-2xl font-bold">9</span><span
@@ -35,7 +35,7 @@
 
                         <li>
                             <span class="w-12 h-12"><img
-                                    src="http://localhost/estate_partners/wp-content/uploads/2026/11/connectivity-6.svg"
+                                    src="https://estatepartners.in/wp-content/uploads/2026/11/connectivity-6.svg"
                                     alt=""></span>
                             <h3 class="mt-3 font-semibold text-[#302F5A]">Education</h3>
                             <p class="mt-3 text-[#302F5A]"><span class="text-2xl font-bold">9</span><span
@@ -50,7 +50,7 @@
 
                         <li>
                             <span class="w-12 h-12"><img
-                                    src="http://localhost/estate_partners/wp-content/uploads/2026/11/connectivity-3.svg"
+                                    src="https://estatepartners.in/wp-content/uploads/2026/11/connectivity-3.svg"
                                     alt=""></span>
                             <h3 class="mt-3 font-semibold text-[#302F5A]">Healthcare</h3>
                             <p class="mt-3 text-[#302F5A]"><span class="text-2xl font-bold">8</span><span
@@ -64,7 +64,7 @@
 
                         <li>
                             <span class="w-12 h-12"><img
-                                    src="http://localhost/estate_partners/wp-content/uploads/2026/11/connectivity-5.svg"
+                                    src="https://estatepartners.in/wp-content/uploads/2026/11/connectivity-5.svg"
                                     alt=""></span>
                             <h3 class="mt-3 font-semibold text-[#302F5A]">Employment</h3>
                             <p class="mt-3 text-[#302F5A]"><span class="text-2xl font-bold">9</span><span
@@ -78,7 +78,7 @@
 
                         <li>
                             <span class="w-12 h-12"><img
-                                    src="http://localhost/estate_partners/wp-content/uploads/2026/11/connectivity-4.svg"
+                                    src="https://estatepartners.in/wp-content/uploads/2026/11/connectivity-4.svg"
                                     alt=""></span>
                             <h3 class="mt-3 font-semibold text-[#302F5A]">Shopping</h3>
                             <p class="mt-3 text-[#302F5A]"><span class="text-2xl font-bold">8</span><span
@@ -93,7 +93,7 @@
 
                         <li>
                             <span class="w-12 h-12"><img
-                                    src="http://localhost/estate_partners/wp-content/uploads/2026/11/connectivity-2.svg"
+                                    src="https://estatepartners.in/wp-content/uploads/2026/11/connectivity-2.svg"
                                     alt=""></span>
                             <h3 class="mt-3 font-semibold text-[#302F5A]">Airport Access</h3>
                             <p class="mt-3 text-[#302F5A]"><span class="text-2xl font-bold">9</span><span

@@ -30,7 +30,7 @@ $socials = array(
     array('label' => 'Instagram', 'icon' => 'fa-instagram',    'url' => 'https://www.instagram.com/estatepartners_/'),
     array('label' => 'YouTube',   'icon' => 'fa-youtube',      'url' => 'https://www.youtube.com/@Estate_partners'),
     array('label' => 'LinkedIn',  'icon' => 'fa-linkedin-in',  'url' => 'https://www.linkedin.com/in/estate-partners-9950a1448/'),
-    array('label' => 'Facebook',  'icon' => 'fa-facebook-f',   'url' => '#'),
+    array('label' => 'Facebook',  'icon' => 'fa-facebook-f',   'url' => 'https://www.facebook.com/people/Estate-partners/61595836153932/'),
 );
 
 $field = 'w-full bg-transparent border-0 border-b border-[#cfcfcf] focus:border-gold outline-none focus:outline-none focus:ring-0 py-4 text-base text-[#444444] placeholder:text-[#8a8a8a] transition-colors';
@@ -40,7 +40,7 @@ $field = 'w-full bg-transparent border-0 border-b border-[#cfcfcf] focus:border-
 
     <!-- ======================= HERO ======================= -->
     <section class="relative isolate overflow-hidden">
-        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/contact-page.png" alt="" class="absolute inset-0 w-full h-full object-cover -z-20" />
+        <img src="https://estatepartners.in/wp-content/uploads/2026/10/contact-page.png" alt="" class="absolute inset-0 w-full h-full object-cover -z-20" />
         <div class="absolute inset-0 bg-black/50 -z-10"></div>
 
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-40 sm:pt-28 sm:pb-52 lg:pt-32 lg:pb-64 text-center">
@@ -86,7 +86,7 @@ $field = 'w-full bg-transparent border-0 border-b border-[#cfcfcf] focus:border-
                         </li>
                     </ul>
 
-                    <div class="mt-10 lg:mt-auto pt-2">
+                    <div class="mt-10 pt-2">
                         <p class="text-sm font-semibold tracking-wide"><?php esc_html_e('Follow us on', 'vnktheme-textdomain'); ?></p>
                         <div class="mt-3 flex flex-wrap items-center gap-3">
                             <?php foreach ($socials as $social) : ?>

@@ -9,7 +9,7 @@ $testimonialHeading = get_field('testimonials_heading');
             <h2 class="font-prata text-3xl sm:text-4xl leading-tight"><?php echo $testimonialHeading; ?></h2>
         </div>
 
-        <div class="swiper testimonials-swiper reveal w-full h-max">
+        <div class="swiper testimonials-swiper reveal w-full">
             <div class="swiper-wrapper">
 
                 <?php if (have_rows('testimonials')) : ?>
@@ -23,29 +23,33 @@ $testimonialHeading = get_field('testimonials_heading');
                         $reviewer_details = get_sub_field('reviewer_details');
                         ?>
 
-                        <figure class="swiper-slide bg-white rounded-2xl border border-ink-line p-7 sm:p-8 shadow-sm flex flex-col">
+                        <figure class="swiper-slide !flex flex-col bg-white rounded-2xl border border-ink-line p-7 sm:p-8 shadow-sm flex flex-col">
                             <div class="text-gold text-6xl text-gold/50 mb-4">
                                 <i class="fa-solid fa-quote-left"></i>
                             </div>
-                            <blockquote class="text-[#302F5A]-soft leading-relaxed flex-1">
+                            <blockquote class="text-[#302F5A]-soft leading-relaxed flex-1 mb-4">
                                 <?php echo esc_html($review_content); ?>
                             </blockquote>
-                            <figcaption class="mt-6 flex items-center gap-4 border-t border-[#D4D4D4] pt-6">
+                            <figcaption class="mt-auto flex items-center gap-4 border-t border-[#D4D4D4] pt-6">
                                 <?php if ($profile_picture) : ?>
                                     <img src="<?php echo esc_url($profile_picture['url']); ?>"
                                         alt="<?php echo esc_attr($reviewer_name); ?>"
                                         class="w-12 h-12 rounded-full object-cover"
                                         loading="lazy" />
                                 <?php else: ?>
-                                <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/avatar.webp"
+                                <img src="https://estatepartners.in/wp-content/uploads/2026/11/avatar.webp"
                                         alt="<?php echo esc_attr($reviewer_name); ?>"
                                         class="w-12 h-12 rounded-full object-cover"
                                         loading="lazy" />
                                 <?php endif; ?>
-                                <span>
-                                    <span class="block font-semibold"><?php echo esc_html($reviewer_name); ?></span>
-                                    <span class="block text-xs text-[#302F5A]-muted"><?php echo esc_html($reviewer_details); ?></span>
-                                </span>
+                                <div class="flex justify-between items-center w-full">
+                                    <span>
+                                        <span class="block font-semibold"><?php echo esc_html($reviewer_name); ?></span>
+                                        <span class="block text-xs text-[#302F5A]"><?php echo esc_html($reviewer_details); ?></span>
+                                    </span>
+
+                                    <img src="https://estatepartners.in/wp-content/uploads/2026/11/review-5.svg" alt="h-4">
+                                </div>
                             </figcaption>
                         </figure>
 

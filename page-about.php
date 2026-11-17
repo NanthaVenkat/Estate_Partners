@@ -32,10 +32,12 @@ $btn_gold  = 'inline-flex items-center gap-2 bg-gold hover:bg-gold-dark text-whi
  * ------------------------------------------------------------------ */
 
 $hero_stats = array(
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-1.svg',        'num' => '2 +',      'label' => 'Years of Experience'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-29.svg',        'num' => '100 +',    'label' => 'Happy Customers'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-28.svg',   'num' => '20 +',    'label' => 'Properties Listed'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-27.svg', 'num' => '₹50 Cr+', 'label' => 'In Transactions Facilitated'),
+    array('icon' => 'https://estatepartners.in/wp-content/uploads/2026/10/about-icons-1.svg',        'num' => '2 +',      'label' => 'Years of Experience'),
+    array('icon' => 'https://estatepartners.in/wp-content/uploads/2026/10/about-icons-29.svg',        'num' => '100 +',    'label' => 'Happy Customers'),
+    array('icon' => 'https://estatepartners.in/wp-content/uploads/2026/10/about-icons-28.svg',   'num' => '30 +',    'label' => 'Properties Listed'),
+    array('icon' => 'https://estatepartners.in/wp-content/uploads/2026/10/about-icons-27.svg', 'num' => '₹50 Cr+', 'label' => 'In Transactions Facilitated'),
+    array('icon' => 'http://estatepartners.in/wp-content/uploads/2026/11/RERAregistered.svg', 'num' => 'RERA Registered', 'label' => 'TN/Agent/0384/2026
+'),
 );
 
 $vmo = array(
@@ -57,60 +59,60 @@ $vmo = array(
 );
 
 $apart = array(
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-25.svg',      'title' => 'Strong Industry Expertise',      'text' => 'Years of hands-on experience navigating Coimbatore’s property market, developers, and approval pathways.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-24.svg', 'title' => 'Ideal Investment Opportunities', 'text' => 'Curated access to plots, villas, and apartments in locations with genuine long-term growth potential.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-22.svg',   'title' => 'Goal-Driven Commitment',         'text' => 'Every recommendation is guided by your specific budget, timeline, and property goals — not a generic pitch.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-23.svg',        'title' => 'Committed to Transparency',      'text' => 'Clear communication on pricing, approvals, and project status, with no hidden surprises along the way.'),
+    array('icon' => 'https://estatepartners.in/wp-content/uploads/2026/10/about-icons-25.svg',      'title' => 'Strong Industry Expertise',      'text' => 'Years of hands-on experience navigating Coimbatore’s property market, developers, and approval pathways.'),
+    array('icon' => 'https://estatepartners.in/wp-content/uploads/2026/10/about-icons-24.svg', 'title' => 'Ideal Investment Opportunities', 'text' => 'Curated access to plots, villas, and apartments in locations with genuine long-term growth potential.'),
+    array('icon' => 'https://estatepartners.in/wp-content/uploads/2026/10/about-icons-22.svg',   'title' => 'Goal-Driven Commitment',         'text' => 'Every recommendation is guided by your specific budget, timeline, and property goals — not a generic pitch.'),
+    array('icon' => 'https://estatepartners.in/wp-content/uploads/2026/10/about-icons-23.svg',        'title' => 'Committed to Transparency',      'text' => 'Clear communication on pricing, approvals, and project status, with no hidden surprises along the way.'),
 );
 
 $values = array(
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-21.svg',       'title' => 'Transparency',        'text' => 'We share clear, accurate information about every project: approvals, pricing, and documentation — so you always know exactly where things stand.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-18.svg',     'title' => 'Customer Centricity', 'text' => 'Every recommendation we make is built around your needs, budget, and goals — not a one-size-fits-all approach to property buying.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-1.svg',    'title' => 'Excellence',          'text' => 'We hold ourselves to high standards in how we verify projects, communicate with clients, and follow through on every commitment we make.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-19.svg', 'title' => 'Team Work',           'text' => 'Our consultants, legal advisors, and support staff work together closely, so you get consistent, well-coordinated guidance throughout your journey.'),
+    array('icon' => 'https://estatepartners.in/wp-content/uploads/2026/10/about-icons-21.svg',       'title' => 'Transparency',        'text' => 'We share clear, accurate information about every project: approvals, pricing, and documentation — so you always know exactly where things stand.'),
+    array('icon' => 'https://estatepartners.in/wp-content/uploads/2026/10/about-icons-18.svg',     'title' => 'Customer Centricity', 'text' => 'Every recommendation we make is built around your needs, budget, and goals — not a one-size-fits-all approach to property buying.'),
+    array('icon' => 'https://estatepartners.in/wp-content/uploads/2026/10/about-icons-1.svg',    'title' => 'Excellence',          'text' => 'We hold ourselves to high standards in how we verify projects, communicate with clients, and follow through on every commitment we make.'),
+    array('icon' => 'https://estatepartners.in/wp-content/uploads/2026/10/about-icons-19.svg', 'title' => 'Team Work',           'text' => 'Our consultants, legal advisors, and support staff work together closely, so you get consistent, well-coordinated guidance throughout your journey.'),
 );
 
 $journey = array(
     array('num' => '2 +',  'label' => 'Years in Business'),
-    array('num' => '20 +', 'label' => 'Projects Featured'),
+    array('num' => '30 +', 'label' => 'Projects Featured'),
     array('num' => '100%',  'label' => 'Client-Focused Service'),
 );
 
 $projects = array(
-    array('img' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/23_2_802.png',      'title' => 'Residential Plots',   'url' => $home . '#projects'),
-    array('img' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/26_2_802.png',     'title' => 'Premium Villas',      'url' => $home . '#projects'),
-    array('img' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/5_2_802.png', 'title' => 'Premium Apartments',  'url' => $home . '#projects'),
+    array('img' => 'https://estatepartners.in/wp-content/uploads/2026/11/projects-we-offer-1.png',      'title' => 'Residential Plots',   'url' => 'https://estatepartners.in/plots/'),
+    array('img' => 'https://estatepartners.in/wp-content/uploads/2026/11/projects-we-offer-1.jpg',     'title' => 'Premium Villas',      'url' => 'https://estatepartners.in/villas/'),
+    array('img' => 'https://estatepartners.in/wp-content/uploads/2026/11/projects-we-offer-2.png', 'title' => 'Premium Apartments',  'url' => 'https://estatepartners.in/apartments/'),
 );
 
 $why = array(
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-17.svg',  'title' => 'Customer First Transparency',      'text' => 'At Estate Partners, our clients are at the center of everything we do. We ensure complete transparency by presenting only verified properties with clear legal documentation, approved layouts, and accurate project details. This approach helps every homebuyer make decisions with confidence and peace of mind.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-16.svg',        'title' => 'Expertise That Delivers Real Value', 'text' => 'With strong knowledge of the Coimbatore real estate market, we guide you toward apartments, villas, and residential plots that match your requirements. Our expertise allows us to identify properties that offer not just quality living but also long-term appreciation and reliable investment potential.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/icon-1.svg', 'title' => 'Prime Locations For Smart Living', 'text' => 'We promote properties located in Coimbatore’s most promising and fast-developing areas. These locations offer excellent connectivity, access to schools, hospitals, IT hubs, and daily conveniences — ensuring both comfortable living and strong future growth.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-15.svg',     'title' => 'Quality Projects with Lasting Value', 'text' => 'We collaborate with reputed builders and developers to bring you premium apartments, luxury villas, and gated community plots that meet high standards of planning and execution. Each project is selected for its design quality, functionality, and long-term value — making it a secure and rewarding investment.'),
+    array('icon' => 'https://estatepartners.in/wp-content/uploads/2026/10/about-icons-17.svg',  'title' => 'Customer First Transparency',      'text' => 'At Estate Partners, our clients are at the center of everything we do. We ensure complete transparency by presenting only verified properties with clear legal documentation, approved layouts, and accurate project details. This approach helps every homebuyer make decisions with confidence and peace of mind.'),
+    array('icon' => 'https://estatepartners.in/wp-content/uploads/2026/10/about-icons-16.svg',        'title' => 'Expertise That Delivers Real Value', 'text' => 'With strong knowledge of the Coimbatore real estate market, we guide you toward apartments, villas, and residential plots that match your requirements. Our expertise allows us to identify properties that offer not just quality living but also long-term appreciation and reliable investment potential.'),
+    array('icon' => 'https://estatepartners.in/wp-content/uploads/2026/10/icon-1.svg', 'title' => 'Prime Locations For Smart Living', 'text' => 'We promote properties located in Coimbatore’s most promising and fast-developing areas. These locations offer excellent connectivity, access to schools, hospitals, IT hubs, and daily conveniences — ensuring both comfortable living and strong future growth.'),
+    array('icon' => 'https://estatepartners.in/wp-content/uploads/2026/10/about-icons-15.svg',     'title' => 'Quality Projects with Lasting Value', 'text' => 'We collaborate with reputed builders and developers to bring you premium apartments, luxury villas, and gated community plots that meet high standards of planning and execution. Each project is selected for its design quality, functionality, and long-term value — making it a secure and rewarding investment.'),
 );
 
 $steps = array(
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-13.svg',          'title' => 'Get to Know Your Requirements',      'text' => 'We begin by understanding your preferences, aspirations, budget, and expectations to make your property search easy.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-12.svg', 'title' => 'Present Relevant Opportunities',    'text' => 'Based on your requirements, we thoughtfully curate suitable projects and share the details that matter most to you.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-11.svg',             'title' => 'Arrange a Personalized Site Visit',  'text' => 'We coordinate a convenient visit, giving you the opportunity to experience the property, its surroundings, amenities, and possibilities firsthand.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-10.svg',           'title' => 'Be There for Your Questions',        'text' => 'We take the time to understand your thoughts, answer your queries, and coordinate with the relevant teams to provide the information you need.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-9.svg',    'title' => 'Make the Next Steps Simple',         'text' => 'When you are ready to proceed, we assist you with the booking process, documentation, and coordination with the project team.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-8.svg',    'title' => 'Support You Through Completion',     'text' => 'Our relationship continues beyond the booking, with ongoing assistance and coordination through registration, documentation, and handover.'),
+    array('icon' => 'https://estatepartners.in/wp-content/uploads/2026/10/about-icons-13.svg',          'title' => 'Get to Know Your Requirements',      'text' => 'We begin by understanding your preferences, aspirations, budget, and expectations to make your property search easy.'),
+    array('icon' => 'https://estatepartners.in/wp-content/uploads/2026/10/about-icons-12.svg', 'title' => 'Present Relevant Opportunities',    'text' => 'Based on your requirements, we thoughtfully curate suitable projects and share the details that matter most to you.'),
+    array('icon' => 'https://estatepartners.in/wp-content/uploads/2026/10/about-icons-11.svg',             'title' => 'Arrange a Personalized Site Visit',  'text' => 'We coordinate a convenient visit, giving you the opportunity to experience the property, its surroundings, amenities, and possibilities firsthand.'),
+    array('icon' => 'https://estatepartners.in/wp-content/uploads/2026/10/about-icons-10.svg',           'title' => 'Be There for Your Questions',        'text' => 'We take the time to understand your thoughts, answer your queries, and coordinate with the relevant teams to provide the information you need.'),
+    array('icon' => 'https://estatepartners.in/wp-content/uploads/2026/10/about-icons-9.svg',    'title' => 'Make the Next Steps Simple',         'text' => 'When you are ready to proceed, we assist you with the booking process, documentation, and coordination with the project team.'),
+    array('icon' => 'https://estatepartners.in/wp-content/uploads/2026/10/about-icons-8.svg',    'title' => 'Support You Through Completion',     'text' => 'Our relationship continues beyond the booking, with ongoing assistance and coordination through registration, documentation, and handover.'),
 );
 
 $verify = array(
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-7.svg', 'title' => '1. RERA & Approval Check',         'text' => 'We verify available RERA registration and relevant project approvals provided by the developer.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-6.svg',        'title' => '2. Developer & Project Details',   'text' => 'We review the developer’s information, specifications, location, configurations, pricing, and availability.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-5.svg',      'title' => '3. Documentation Review',          'text' => 'We request and review relevant project documents as the information shown to customers is properly supported.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-2.svg', 'title' => '4. Site Verification',           'text' => 'Where applicable, our team visits the site to check location, development status, surroundings, and progress.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-3.svg',  'title' => '5. Availability',                  'text' => 'We coordinate with the developer’s sales team to keep availability and pricing information as current as possible.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-4.svg',   'title' => '6. Information Updates',           'text' => 'Project information changes over time, so we work with our partners to keep pricing and status details updated.'),
+    array('icon' => 'https://estatepartners.in/wp-content/uploads/2026/10/about-icons-7.svg', 'title' => '1. RERA & Approval Check',         'text' => 'We verify available RERA registration and relevant project approvals provided by the developer.'),
+    array('icon' => 'https://estatepartners.in/wp-content/uploads/2026/10/about-icons-6.svg',        'title' => '2. Developer & Project Details',   'text' => 'We review the developer’s information, specifications, location, configurations, pricing, and availability.'),
+    array('icon' => 'https://estatepartners.in/wp-content/uploads/2026/10/about-icons-5.svg',      'title' => '3. Documentation Review',          'text' => 'We request and review relevant project documents as the information shown to customers is properly supported.'),
+    array('icon' => 'https://estatepartners.in/wp-content/uploads/2026/10/about-icons-2.svg', 'title' => '4. Site Verification',           'text' => 'Where applicable, our team visits the site to check location, development status, surroundings, and progress.'),
+    array('icon' => 'https://estatepartners.in/wp-content/uploads/2026/10/about-icons-3.svg',  'title' => '5. Availability',                  'text' => 'We coordinate with the developer’s sales team to keep availability and pricing information as current as possible.'),
+    array('icon' => 'https://estatepartners.in/wp-content/uploads/2026/10/about-icons-4.svg',   'title' => '6. Information Updates',           'text' => 'Project information changes over time, so we work with our partners to keep pricing and status details updated.'),
 );
 
 $faqs = array(
     array(
         'q' => 'Who is Estate Partners?',
-        'a' => 'Estate Partners is a Coimbatore-based real estate company specializing in premium residential developments. The company focuses on creating well-planned communities with strategic locations, robust infrastructure, and long-term value.'
+        'a' => 'Estate Partners is a real estate property discovery platform in Coimbatore that helps buyers find the right residential property without brokerage. We help customers explore and compare apartments, villas and residential plots across Coimbatore, providing property information, pricing details and personalised assistance to make informed property decisions.'
     ),
     array(
         'q' => 'What types of real estate projects does Estate Partners offer?',
@@ -125,8 +127,8 @@ $faqs = array(
         'a' => 'We check RERA registration and the relevant approvals for every project before it is listed, and we share these details with you on request.'
     ),
     array(
-        'q' => 'Does Estate Partners undertake community and social responsibility initiatives?',
-        'a' => 'Please contact our team to learn about our community initiatives and the programs we support.'
+        'q' => 'How can I contact Estate Partners?',
+        'a' => 'You can contact Estate Partners through our website enquiry form, call us directly at +91 70929 58830, or connect with us through WhatsApp. Our team will be happy to understand your requirements, share suitable property options and assist you with your property search.'
     ),
     array(
         'q' => 'Why should I choose Estate Partners for residential plots in Coimbatore?',
@@ -139,17 +141,22 @@ $faqs = array(
 
     <!-- ======================= HERO ======================= -->
     <section class="relative isolate overflow-hidden">
-        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/about-us-3.jpg" alt="" class="absolute inset-0 w-full h-full object-cover object-right -z-20" />
+        <img src="https://estatepartners.in/wp-content/uploads/2026/10/about-us-3.jpg" alt="" class="absolute inset-0 w-full h-full object-cover object-right -z-20" />
         <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/35 to-transparent -z-10"></div>
 
         <div class="<?php echo esc_attr($container); ?> pt-16 pb-28 sm:pt-24 sm:pb-36 lg:pt-28 lg:pb-44">
             <div class="reveal max-w-xl text-white">
-                <p class="text-gold-light font-bold uppercase tracking-[0.18em] text-sm mb-3"><?php esc_html_e('Estate Partners', $td); ?></p>
-                <h1 class="font-prata text-4xl sm:text-5xl lg:text-6xl leading-tight"><?php esc_html_e('A Better Way to Find the Right Property.', $td); ?></h1>
+                <p class="text-gold-light font-bold uppercase tracking-[0.18em] text-sm mb-3"><?php esc_html_e('Our story', $td); ?></p>
+                <h1 class="font-prata text-4xl sm:text-5xl lg:text-6xl leading-tight"><?php esc_html_e('Building Trust, One Home at a Time', $td); ?></h1>
                 <p class="mt-5 sm:text-lg leading-relaxed text-white/90"><?php esc_html_e('For over a decade, Estate Partners has helped families and investors find verified, well-located properties across Coimbatore.', $td); ?></p>
                 <div class="mt-8 flex flex-wrap gap-4">
-                    <a href="<?php echo esc_url($home . '#projects'); ?>" class="<?php echo esc_attr($btn_gold); ?>"><?php esc_html_e('Explore Our Properties', $td); ?> <i class="fa-solid fa-arrow-right text-sm"></i></a>
-                    <a href="<?php echo esc_url(home_url('/contact/')); ?>" class="inline-flex items-center gap-2 bg-[#302F5A] hover:bg-ink text-white font-semibold px-7 py-3.5 rounded-lg transition-colors"><?php esc_html_e('Talk to Our Experts', $td); ?> <i class="fa-solid fa-arrow-right text-sm"></i></a>
+                    <a href="https://estatepartners.in/all-projects/" class="<?php echo esc_attr($btn_gold); ?>"><?php esc_html_e('Explore Our Properties', $td); ?> <i class="fa-solid fa-arrow-right text-sm"></i></a>
+                    <button type="button" class="js-open-enquiry-modal inline-flex items-center gap-2 border border-white hover:bg-white hover:text-[#302F5A] text-white font-semibold px-7 py-3.5 rounded-lg transition-colors"><?php esc_html_e('Talk to Our Experts', $td); ?> <i class="fa-solid fa-arrow-right text-sm"></i></button>
+                    <!-- <button type="button"
+                        class="js-open-enquiry-modal hidden md:inline-flex items-center gap-2 bg-[#B3814E] text-white font-medium text-sm px-6 py-3 rounded-lg hover:bg-gold-dark transition-colors whitespace-nowrap">
+                        <i class="fa-regular fa-paper-plane text-sm" aria-hidden="true"></i>
+                        <span>Enquire Now</span>
+                    </button> -->
                 </div>
             </div>
         </div>
@@ -158,12 +165,12 @@ $faqs = array(
     <!-- Stats bar (overlaps hero) -->
     <section class="relative z-10 -mt-14 sm:-mt-16">
         <div class="<?php echo esc_attr($container); ?>">
-            <div class="reveal max-w-5xl mx-auto bg-white border border-ink-line shadow-xl rounded-2xl lg:rounded-full px-6 py-6 lg:py-7 grid grid-cols-2 lg:grid-cols-4 gap-y-6 lg:gap-0 lg:divide-x lg:divide-ink-line">
+            <div class="reveal mx-auto bg-white border border-ink-line shadow-xl rounded-2xl lg:rounded-full px-6 py-6 lg:py-7 grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-5 gap-6 lg:divide-x lg:divide-ink-line">
                 <?php foreach ($hero_stats as $stat) : ?>
                     <div class="flex items-center justify-center gap-3 lg:px-4">
                         <img src="<?php echo esc_attr($stat['icon']); ?>" alt="<?php echo esc_html($stat['label']); ?>" class="w-12 h-12">
                         <div>
-                            <p class="text-xl sm:text-2xl font-semibold text-[#302F5A] leading-none"><?php echo esc_html($stat['num']); ?></p>
+                            <p class="text-xl lg:text-2xl font-semibold text-[#302F5A] leading-none"><?php echo esc_html($stat['num']); ?></p>
                             <p class="mt-1 text-xs text-[#444444]"><?php echo esc_html($stat['label']); ?></p>
                         </div>
                     </div>
@@ -176,7 +183,7 @@ $faqs = array(
     <section class="<?php echo esc_attr($section); ?>">
         <div class="<?php echo esc_attr($container); ?> grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div class="reveal rounded-2xl overflow-hidden shadow-xl">
-                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/about-us-2.png" alt="<?php esc_attr_e('Estate Partners helping buyers make confident property decisions', $td); ?>" class="w-full h-[360px] sm:h-[460px] object-cover" loading="lazy" />
+                <img src="https://estatepartners.in/wp-content/uploads/2026/10/about-us-2.png" alt="<?php esc_attr_e('Estate Partners helping buyers make confident property decisions', $td); ?>" class="w-full h-[360px] sm:h-[460px] object-cover" loading="lazy" />
             </div>
             <div class="reveal <?php echo esc_attr($body); ?>">
                 <p class="<?php echo esc_attr($eyebrow); ?>"><?php esc_html_e('Who We Are', $td); ?></p>
@@ -188,7 +195,7 @@ $faqs = array(
     </section>
 
     <!-- ======================= VISION / MISSION / OBJECTIVE ======================= -->
-    <section class="bg-brand-cream <?php echo esc_attr($section); ?>">
+    <section class="bg-brand-cream <?php echo esc_attr($section); ?> xl:pb-0">
         <div class="<?php echo esc_attr($container); ?>">
 
             <!-- Desktop diagram -->
@@ -203,7 +210,7 @@ $faqs = array(
                     <path d="M150 100 C 300 320, 700 320, 850 100" stroke="#302F5A" stroke-width="1.5" stroke-dasharray="2 6" stroke-linecap="round" />
                 </svg> -->
 
-                <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/about-beam.svg" alt="" class="absolute left-0 -top-12 h-[360px] w-full">
+                <img src="https://estatepartners.in/wp-content/uploads/2026/11/about-beam.svg" alt="" class="absolute left-0 -top-12 h-[360px] w-full">
 
                 <!-- Nodes -->
                 <span class="absolute left-[30%] top-[35.8%] -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-full bg-[#302F5A] text-white inline-flex items-center justify-center text-2xl shadow-lg"><i class="fa-solid <?php echo esc_attr($vmo['vision']['icon']); ?>"></i></span>
@@ -252,7 +259,7 @@ $faqs = array(
     <section class="<?php echo esc_attr($section); ?>">
         <div class="<?php echo esc_attr($container); ?> grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div class="reveal rounded-2xl overflow-hidden shadow-xl">
-                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/about-us-1.png" alt="<?php esc_attr_e('Handing over the keys to a new home', $td); ?>" class="w-full h-[360px] sm:h-[520px] object-cover" loading="lazy" />
+                <img src="https://estatepartners.in/wp-content/uploads/2026/10/about-us-1.png" alt="<?php esc_attr_e('Handing over the keys to a new home', $td); ?>" class="w-full h-[360px] sm:h-[520px] object-cover" loading="lazy" />
             </div>
             <div class="reveal">
                 <p class="<?php echo esc_attr($eyebrow); ?>"><?php esc_html_e('Estate Partners', $td); ?></p>
@@ -292,7 +299,7 @@ $faqs = array(
 
     <!-- ======================= OUR JOURNEY SO FAR ======================= -->
     <section class="relative isolate overflow-hidden <?php echo esc_attr($section); ?>">
-        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/about-us-2.jpg" alt="" class="absolute inset-0 w-full h-full object-cover -z-20" loading="lazy" />
+        <img src="https://estatepartners.in/wp-content/uploads/2026/10/about-us-2.jpg" alt="" class="absolute inset-0 w-full h-full object-cover -z-20" loading="lazy" />
         <div class="absolute inset-0 bg-[#131318]/80 -z-10"></div>
         <div class="<?php echo esc_attr($container); ?> text-center text-white">
             <h2 class="reveal font-prata text-3xl sm:text-4xl leading-tight"><?php esc_html_e('Our Journey So Far', $td); ?></h2>
@@ -406,7 +413,7 @@ $faqs = array(
 
     <!-- ======================= FAQ ======================= -->
     <section class="relative isolate overflow-hidden bg-brand-cream">
-        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/about-us-1.jpg" alt="" class="absolute inset-0 w-full h-full object-cover -z-10" loading="lazy" />
+        <img src="https://estatepartners.in/wp-content/uploads/2026/10/about-us-1.jpg" alt="" class="absolute inset-0 w-full h-full object-cover -z-10" loading="lazy" />
 
         <div class="<?php echo esc_attr($container); ?> grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-6 items-end">
             <div class="reveal pt-16 sm:pt-20 lg:py-24">

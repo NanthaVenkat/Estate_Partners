@@ -48,6 +48,8 @@ get_template_part('template-parts/property-landing/styles');
     get_template_part('template-parts/property-landing/financing');
     get_template_part('template-parts/property-landing/contact-guidance');
     get_template_part('template-parts/property-landing/developer');
+    // <!-- Developer -->
+    get_template_part('template-parts/section-similar-projects', null, array('type' => 'apartment'));
     get_template_part('template-parts/property-landing/nearby-projects');
     get_template_part('template-parts/property-landing/calculators');
     get_template_part('template-parts/property-landing/faq');

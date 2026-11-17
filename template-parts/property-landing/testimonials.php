@@ -1,59 +1,29 @@
-    <!-- ======================= TESTIMONIALS ======================= -->
-    <section id="testimonials" class="py-16 sm:py-20 lg:py-24 bg-[#302F5A] scroll-mt-24">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-[30%_70%]">
-            <div class="text-white max-w-4xl mx-auto mb-12 reveal">
-                <p class="ont-bold uppercase tracking-[0.18em] text-sm mb-3">What Our Customers Say</p>
-                <h2 class="font-prata text-3xl sm:text-4xl leading-tight">Real experiences from people who trusted
-                    Estate Partners.</h2>
-                <!-- <p class="mt-4 text-[#302F5A]-muted">Real experiences from people who trusted Estate Partners.</p> -->
+        <!-- ======================= TESTIMONIALS ======================= -->
+    <?php get_template_part('template-parts/template-testimonials'); ?>
+
+    
+    <!-- ============ Video SECTION START ============ -->
+    <section id="testimonial-videos" class="bg-brand-cream py-12 sm:py-16">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="text-center">
+                <p class="text-gold font-semibold uppercase tracking-wide text-xs">Testimonial Videos</p>
+                <h2 class="font-prata text-2xl sm:text-3xl lg:text-4xl text-[#302F5A] mt-2">Trusted By Families Across Coimbatore</h2>
             </div>
 
-            <div class="swiper testimonials-swiper reveal w-full h-max">
-                <div class="swiper-wrapper pb-14">
-                    <figure
-                        class="swiper-slide bg-white rounded-2xl border border-ink-line p-7 sm:p-8 shadow-sm flex flex-col">
-                        <div class="text-gold text-6xl text-gold/50 mb-4"><i class="fa-solid fa-quote-left"></i></div>
-                        <blockquote class="text-[#302F5A]-soft leading-relaxed flex-1">The team understood exactly what
-                            we were looking for and helped us shortlist properties based on our budget and preferred
-                            location.</blockquote>
-                        <figcaption class="mt-6 flex items-center gap-4">
-                            <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/17_ellipse_15.png'); ?>" alt="Vigneshwaran"
-                                class="w-12 h-12 rounded-full object-cover" loading="lazy" />
-                            <span><span class="block font-semibold">Vigneshwaran</span><span
-                                    class="block text-xs text-[#302F5A]-muted">Home Buyer, Coimbatore</span></span>
-                        </figcaption>
-                    </figure>
-                    <figure
-                        class="swiper-slide bg-white rounded-2xl border border-ink-line p-7 sm:p-8 shadow-sm flex flex-col">
-                        <div class="text-gold text-6xl text-gold/50 mb-4"><i class="fa-solid fa-quote-left"></i></div>
-                        <blockquote class="text-[#302F5A]-soft leading-relaxed flex-1">The project information and
-                            site-visit support made the entire property search much easier.</blockquote>
-                        <figcaption class="mt-6 flex items-center gap-4">
-                            <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/18_ellipse_15.png'); ?>" alt="Kavi Priya"
-                                class="w-12 h-12 rounded-full object-cover" loading="lazy" />
-                            <span><span class="block font-semibold">Kavi Priya</span><span
-                                    class="block text-xs text-[#302F5A]-muted">Home Buyer, Coimbatore</span></span>
-                        </figcaption>
-                    </figure>
-                    <figure
-                        class="swiper-slide bg-white rounded-2xl border border-ink-line p-7 sm:p-8 shadow-sm flex flex-col">
-                        <div class="text-gold text-6xl text-gold/50 mb-4"><i class="fa-solid fa-quote-left"></i></div>
-                        <blockquote class="text-[#302F5A]-soft leading-relaxed flex-1">The team understood exactly what
-                            we were looking for and helped us shortlist properties based on our budget and preferred
-                            location.</blockquote>
-                        <figcaption class="mt-6 flex items-center gap-4">
-                            <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/17_ellipse_15.png'); ?>" alt="Vigneshwaran"
-                                class="w-12 h-12 rounded-full object-cover" loading="lazy" />
-                            <span><span class="block font-semibold">Vigneshwaran</span><span
-                                    class="block text-xs text-[#302F5A]-muted">Home Buyer, Coimbatore</span></span>
-                        </figcaption>
-                    </figure>
+            <div class="swiper testimonials-video-swiper mt-8 sm:mt-10">
+                <div class="swiper-wrapper">
+
+                    <!-- Slide 1: put the YouTube video ID (the part after ?v=) in data-video-id and in the thumbnail URL.
+             To use your own thumbnail, change the <img src> to any image. -->
+                    <div class="swiper-slide rounded-2xl overflow-hidden">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/KvUvscW755c?si=n9fmVxlU6tAmx4Bu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+
                 </div>
-                <div class="swiper-pagination"></div>
-                <div class="flex gap-6">
-                    <div class="swiper-button-prev !relative !left-0 !mt-0 hidden md:flex"></div>
-                    <div class="swiper-button-next !relative !right-0 !mt-0 hidden md:flex"></div>
-                </div>
+                <!-- Dots (static, sits under the slides) -->
+                <div class="video-pagination mt-8 flex justify-center gap-2"></div>
             </div>
+
         </div>
     </section>

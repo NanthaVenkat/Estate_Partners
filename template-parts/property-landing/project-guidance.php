@@ -10,42 +10,42 @@
                         For?</h2>
                 </div>
                 <div class="w-full rounded-2xl shadow-lg flex gap-6 items-center p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/lp-icon-3.svg"
+                    <img src="https://estatepartners.in/wp-content/uploads/2026/10/lp-icon-3.svg"
                         alt="Looking for a Ready Home?" class="w-16">
 
                     <div class="space-y-2">
                         <h3 class="font-semibold text-gold text-lg">Looking for a Ready Home?</h3>
                         <p class="text-[#4D5461]">Move into a thoughtfully designed home
-                            with premium specifications and modern amenities.</p>
+with premium specifications and modern amenities.</p>
                     </div>
                 </div>
 
                 <div class="w-full rounded-2xl shadow-lg flex gap-6 items-center p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/lp-icon-2.svg"
+                    <img src="https://estatepartners.in/wp-content/uploads/2026/10/lp-icon-2.svg"
                         alt="Looking to Invest?" class="w-16">
 
                     <div class="space-y-2">
                         <h3 class="font-semibold text-gold text-lg">Looking to Invest?</h3>
-                        <p class="text-[#4D5461]">Explore locations and projects with potential for
-                            long-term value.</p>
+                        <p class="text-[#4D5461]">Own an apartment in one of Ganapathy's most
+sought-after, well-connected residential corridors.</p>
                     </div>
                 </div>
 
                 <div class="w-full rounded-2xl shadow-lg flex gap-6 items-center p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/lp-icon-1.svg"
+                    <img src="https://estatepartners.in/wp-content/uploads/2026/10/lp-icon-1.svg"
                         alt="Planning for Your Family?" class="w-16">
 
                     <div class="space-y-2">
                         <h3 class="font-semibold text-gold text-lg">Planning for Your Family?</h3>
-                        <p class="text-[#4D5461]">Find plots and properties that can become your future
-                            home or investment.</p>
+                        <p class="text-[#4D5461]">Choose a configuration — from 2 BHK to 4 BHK — that
+fits your family's needs today and tomorrow.</p>
                     </div>
                 </div>
             </div>
 
             <div class="reveal relative">
                 <div class="rounded-2xl overflow-hidden">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-1.png"
+                    <img src="https://estatepartners.in/wp-content/uploads/2026/10/apartment-page-1.png"
                         alt="Property agreement signing with Estate Partners guidance"
                         class="w-full h-full min-h-[420px] object-cover" loading="lazy" />
                 </div>

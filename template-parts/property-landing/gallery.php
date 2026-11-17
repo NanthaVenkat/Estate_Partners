@@ -8,73 +8,73 @@
             <div class="swiper apartment-gallery-swiper mt-10" style="--swiper-theme-color:#b3814e;">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-158.png"
+                        <img src="https://estatepartners.in/wp-content/uploads/2026/10/Rectangle-158.png"
                             alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover"
                             loading="lazy" />
                     </div>
 
                     <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-159.png"
+                        <img src="https://estatepartners.in/wp-content/uploads/2026/10/Rectangle-159.png"
                             alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover"
                             loading="lazy" />
                     </div>
 
                     <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-161.png"
+                        <img src="https://estatepartners.in/wp-content/uploads/2026/10/Rectangle-161.png"
                             alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover"
                             loading="lazy" />
                     </div>
 
                     <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-162.png"
+                        <img src="https://estatepartners.in/wp-content/uploads/2026/10/Rectangle-162.png"
                             alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover"
                             loading="lazy" />
                     </div>
 
                     <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-163.png"
+                        <img src="https://estatepartners.in/wp-content/uploads/2026/10/Rectangle-163.png"
                             alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover"
                             loading="lazy" />
                     </div>
 
                     <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-164.png"
+                        <img src="https://estatepartners.in/wp-content/uploads/2026/10/Rectangle-164.png"
                             alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover"
                             loading="lazy" />
                     </div>
 
                     <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-165.png"
+                        <img src="https://estatepartners.in/wp-content/uploads/2026/10/Rectangle-165.png"
                             alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover"
                             loading="lazy" />
                     </div>
 
                     <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-166.png"
+                        <img src="https://estatepartners.in/wp-content/uploads/2026/10/Rectangle-166.png"
                             alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover"
                             loading="lazy" />
                     </div>
 
                     <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-167.png"
+                        <img src="https://estatepartners.in/wp-content/uploads/2026/10/Rectangle-167.png"
                             alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover"
                             loading="lazy" />
                     </div>
 
                     <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-168.png"
+                        <img src="https://estatepartners.in/wp-content/uploads/2026/10/Rectangle-168.png"
                             alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover"
                             loading="lazy" />
                     </div>
 
                     <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-169.png"
+                        <img src="https://estatepartners.in/wp-content/uploads/2026/10/Rectangle-169.png"
                             alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover"
                             loading="lazy" />
                     </div>
 
                     <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-170.png"
+                        <img src="https://estatepartners.in/wp-content/uploads/2026/10/Rectangle-170.png"
                             alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover"
                             loading="lazy" />
                     </div>
