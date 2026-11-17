@@ -303,3 +303,23 @@
     init();
   }
 })();
+
+if (document.querySelector('.similar-projects-swiper')) {
+  new Swiper('.similar-projects-swiper', {
+    slidesPerView: 1,
+    spaceBetween: 24,
+    navigation: {
+      prevEl: '.similar-projects-prev',
+      nextEl: '.similar-projects-next',
+    },
+    pagination: {
+      el: '.similar-projects-pagination',
+      clickable: true,
+    },
+    breakpoints: {
+      0: { slidesPerView: 1, spaceBetween: 32 },
+      664: { slidesPerView: 1.5, spaceBetween: 32 },
+      1440: { slidesPerView: 2.5, spaceBetween: 32 },
+    },
+  });
+}

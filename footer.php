@@ -23,7 +23,7 @@ $socials = array(
     array('label' => 'Instagram', 'icon' => 'fa-instagram',    'url' => 'https://www.instagram.com/estatepartners_/'),
     array('label' => 'YouTube',   'icon' => 'fa-youtube',      'url' => 'https://www.youtube.com/@Estate_partners'),
     array('label' => 'LinkedIn',  'icon' => 'fa-linkedin-in',  'url' => 'https://www.linkedin.com/in/estate-partners-9950a1448/'),
-    array('label' => 'Facebook',  'icon' => 'fa-facebook-f',   'url' => '#'),
+    array('label' => 'Facebook',  'icon' => 'fa-facebook-f',   'url' => 'https://www.facebook.com/people/Estate-partners/61595836153932/'),
 );
 
 get_template_part('template-parts/property-landing/floating-whatsapp');
@@ -55,6 +55,16 @@ get_template_part('template-parts/property-landing/floating-whatsapp');
         <nav aria-label="Quick links">
             <p class="text-xl mb-5">Quick Links</p>
             <ul class="space-y-3 text-sm">
+<<<<<<< HEAD
+                <li><a href="https://localhost/estate_partners/" class="footer-link">Home</a></li>
+                <li><a href="https://localhost/estate_partners/about-us/" class="footer-link">About Us</a></li>
+                <li><a href="https://localhost/estate_partners/contact-us/" class="footer-link">Contact Us </a></li>
+                <li><a href="https://localhost/estate_partners/blog/" class="footer-link">Blog</a></li>
+                <li><a href="<?php echo esc_url($home . '#enquire'); ?>" class="footer-link">NRI Guide</a></li>
+                <li><a href="<?php echo esc_url($home . '#enquire'); ?>" class="footer-link">New Buyers guide</a></li>
+                <li><a href="https://localhost/estate_partners/privacy-policy/" class="footer-link">Privacy Policy</a></li>
+                <li><a href="https://localhost/estate_partners/terms-and-conditions/" class="footer-link">Term & Conditions</a></li>
+=======
                 <li><a href="<?php echo esc_url($home . '#home'); ?>" class="footer-link">Home</a></li>
                 <li><a href="<?php echo esc_url($home . '#about'); ?>" class="footer-link">About Us</a></li>
                 <li><a href="<?php echo esc_url($home . '#projects'); ?>" class="footer-link">Contact Us </a></li>
@@ -63,6 +73,7 @@ get_template_part('template-parts/property-landing/floating-whatsapp');
                 <li><a href="<?php echo esc_url($home . '#enquire'); ?>" class="footer-link">New Buyers guide</a></li>
                 <li><a href="<?php echo esc_url($home . '#enquire'); ?>" class="footer-link">Privacy Policy</a></li>
                 <li><a href="<?php echo esc_url($home . '#contact'); ?>" class="footer-link">Term & Conditions</a></li>
+>>>>>>> 1495223e7c1c339aa3315d7392e91d6590662eb2
             </ul>
         </nav>
 
@@ -70,9 +81,16 @@ get_template_part('template-parts/property-landing/floating-whatsapp');
         <nav aria-label="Explore projects">
             <p class="text-xl mb-5">Projects</p>
             <ul class="space-y-3 text-sm">
+<<<<<<< HEAD
+                <li><a href="https://localhost/estate_partners/all-projects/" class="footer-link">All Projects</a></li>
+                <li><a href="https://localhost/estate_partners/apartments/" class="footer-link">Apartments</a></li>
+                <li><a href="https://localhost/estate_partners/villas/" class="footer-link">Villas</a></li>
+                <li><a href="https://localhost/estate_partners/plots/" class="footer-link">Plots</a></li>
+=======
                 <li><a href="<?php echo esc_url($home . '#types'); ?>" class="footer-link">Apartments</a></li>
                 <li><a href="<?php echo esc_url($home . '#types'); ?>" class="footer-link">Villas</a></li>
                 <li><a href="<?php echo esc_url($home . '#types'); ?>" class="footer-link">Plots</a></li>
+>>>>>>> 1495223e7c1c339aa3315d7392e91d6590662eb2
             </ul>
         </nav>
 

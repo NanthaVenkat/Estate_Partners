@@ -15,7 +15,7 @@ the Sathy Road corridor makes it a location worth serious consideration.
 
                 <!-- Woman (first on mobile, centre on desktop) -->
                 <div class="order-first lg:order-none lg:col-start-2 lg:row-start-1 flex justify-center self-end">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/apartment-page-8.png"
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/apartment-page-8.png"
                         alt="Smiling home buyer" class="max-w-[520px] h-auto object-contain block" loading="lazy" />
                 </div>
 

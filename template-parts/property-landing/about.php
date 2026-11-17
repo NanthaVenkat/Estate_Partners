@@ -4,7 +4,7 @@
             class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div class="reveal relative order-2 lg:order-1">
                 <div class="rounded-2xl overflow-hidden">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-14.png"
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-14.png"
                         alt="Property agreement signing with Estate Partners guidance"
                         class="w-full min-h-[420px] sm:min-h-[520px]" loading="lazy" />
                 </div>

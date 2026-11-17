@@ -13,33 +13,37 @@
             class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
             <div class="grid grid-cols-2 bg-[#FCF7F3] p-5 sm:p-8 rounded-2xl border border-[#B3814E80] gap-6">
+<<<<<<< HEAD
+                <h2 class="]text-gold font-prata text-xl lg:text-2xl font-semibold text-center col-span-2"> Apartment prices can vary
+=======
                 <h2 class="text-gold font-prata text-xl lg:text-2xl font-semibold text-center col-span-2"> Apartment prices can vary
+>>>>>>> 1495223e7c1c339aa3315d7392e91d6590662eb2
                     based on:</h2>
 
                 <div
                     class="rounded-2xl border border-[#B3814E80] bg-white flex text-center flex-col gap-4 items-center text-[#302F5A] p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-4.svg" alt=""
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-4.svg" alt=""
                         class="w-14 h-14">
                     <p>Floor level</p>
                 </div>
 
                 <div
                     class="rounded-2xl border border-[#B3814E80] bg-white flex text-center flex-col gap-4 items-center text-[#302F5A] p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-3.svg" alt=""
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-3.svg" alt=""
                         class="w-14 h-14">
                     <p>Floor level</p>
                 </div>
 
                 <div
                     class="rounded-2xl border border-[#B3814E80] bg-white flex text-center flex-col gap-4 items-center text-[#302F5A] p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-1.svg" alt=""
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-1.svg" alt=""
                         class="w-14 h-14">
                     <p>Floor level</p>
                 </div>
 
                 <div
                     class="rounded-2xl border border-[#B3814E80] bg-white flex text-center flex-col gap-4 items-center text-[#302F5A] p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-2.svg" alt=""
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-2.svg" alt=""
                         class="w-14 h-14">
                     <p>Floor level</p>
                 </div>
@@ -49,8 +53,8 @@
                 </div>
             </div>
 
-            <div class="reveal relative rounded-2xl overflow-hidden h-full min-h-[420px] bg-cover bg-center" style="background-image: url('http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-7.png');">
-                <!-- <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-7.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[420px] object-cover" loading="lazy" /> -->
+            <div class="reveal relative rounded-2xl overflow-hidden h-full min-h-[420px] bg-cover bg-center" style="background-image: url('https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-7.png');">
+                <!-- <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-7.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[420px] object-cover" loading="lazy" /> -->
             </div>
         </div>
     </section>

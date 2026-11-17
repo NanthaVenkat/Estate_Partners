@@ -5,7 +5,7 @@
 
             <div class="reveal relative">
                 <div class="rounded-3xl overflow-hidden">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-5.png"
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-5.png"
                         alt="Property agreement signing with Estate Partners guidance"
                         class="w-full h-full min-h-[420px] object-cover" loading="lazy" />
                 </div>
@@ -20,7 +20,7 @@
                 <div class="col-span-3">
                     <?php echo do_shortcode('[wpforms id="41"]'); ?>
                 </div>
-                <div class="col-span-3 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-4 text-base">
+                <div class="col-span-3 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 2xl:grid-cols-3 gap-4 text-base">
                     <a href="#site-visit"
                         class="p-2 xl:py-3 xl:px-4 border border-[#B3814E] rounded-md flex items-center gap-3">
                         <i class="fa-solid fa-phone text-xl xl:text-2xl text-[#302F5A] border p-3 rounded-full"></i>

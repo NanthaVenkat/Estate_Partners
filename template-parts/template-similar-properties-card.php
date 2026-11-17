@@ -28,9 +28,15 @@ if ($terms && !is_wp_error($terms)) {
 }
 ?>
 
+<<<<<<< HEAD
+<article class="project-pannel relative bg-gold/10 rounded-2xl border border-gold/50 transition-colors grid lg:grid-cols-[40%_60%] overflow-hidden" data-target="<?php echo esc_attr($target_class); ?>">
+
+    <div class="relative overflow-hidden h-52 lg:h-full">
+=======
 <article class="project-pannel relative bg-gold/10 rounded-2xl border border-gold/50 transition-colors grid grid-cols-[40%_60%]" data-target="<?php echo esc_attr($target_class); ?>">
 
     <div class="relative overflow-hidden rounded-t-2xl h-52">
+>>>>>>> 1495223e7c1c339aa3315d7392e91d6590662eb2
         <?php if ($image) : ?>
             <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($name); ?>" class="w-full h-full object-cover" loading="lazy" />
         <?php endif; ?>
@@ -55,7 +61,11 @@ if ($terms && !is_wp_error($terms)) {
         <ul class="mt-4 grid grid-cols-2 gap-4 text-xs font-medium text-[#302F5A]">
             <?php if ($total_size) : ?>
                 <li class="flex items-center gap-2">
+<<<<<<< HEAD
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/areas-1.svg" alt="">
+=======
                     <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-1.svg" alt="">
+>>>>>>> 1495223e7c1c339aa3315d7392e91d6590662eb2
                     <div>
                         <h6 class="font-semibold"><?php echo esc_html($total_size_title); ?></h6>
                         <p class="text-[#404042]"><?php echo esc_html($total_size); ?></p>
@@ -64,7 +74,11 @@ if ($terms && !is_wp_error($terms)) {
 
                 <?php if ($area_acres) : ?>
                     <li class="flex items-center gap-2">
+<<<<<<< HEAD
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/areas-4.svg" alt="">
+=======
                         <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-4.svg" alt="">
+>>>>>>> 1495223e7c1c339aa3315d7392e91d6590662eb2
                         <div>
                             <h6 class="font-semibold"><?php echo esc_html($area_acres_title); ?></h6>
                             <p class="text-[#404042]"><?php echo esc_html($area_acres); ?></p>
@@ -74,7 +88,11 @@ if ($terms && !is_wp_error($terms)) {
 
                 <?php if ($total_units) : ?>
                     <li class="flex items-center gap-2">
+<<<<<<< HEAD
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/areas-3.svg" alt="">
+=======
                         <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-3.svg" alt="">
+>>>>>>> 1495223e7c1c339aa3315d7392e91d6590662eb2
                         <div>
                             <h6 class="font-semibold"><?php echo esc_html($total_units_title); ?></h6>
                             <p class="text-[#404042]"><?php echo esc_html($total_units); ?></p>
@@ -84,7 +102,11 @@ if ($terms && !is_wp_error($terms)) {
 
                 <?php if ($amenities) : ?>
                     <li class="flex items-center gap-2">
+<<<<<<< HEAD
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/areas-2.svg" alt="">
+=======
                         <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-2.svg" alt="">
+>>>>>>> 1495223e7c1c339aa3315d7392e91d6590662eb2
                         <div>
                             <h6 class="font-semibold"><?php echo esc_html($amenities_title); ?></h6>
                             <p class='text-[#404042]'><?php echo $amenities; ?></p>

@@ -20,7 +20,7 @@
 
             <div class="reveal relative">
                 <div class="rounded-2xl overflow-hidden">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-13.png"
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-13.png"
                         alt="Property agreement signing with Estate Partners guidance"
                         class="w-full min-h-[420px] sm:min-h-[520px]" loading="lazy" />
                 </div>

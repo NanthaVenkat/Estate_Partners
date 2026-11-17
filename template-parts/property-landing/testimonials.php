@@ -1,5 +1,9 @@
         <!-- ======================= TESTIMONIALS ======================= -->
     <?php get_template_part('template-parts/template-testimonials'); ?>
+<<<<<<< HEAD
+
+=======
+>>>>>>> 1495223e7c1c339aa3315d7392e91d6590662eb2
     
     <!-- ============ Video SECTION START ============ -->
     <section id="testimonial-videos" class="bg-brand-cream py-12 sm:py-16">

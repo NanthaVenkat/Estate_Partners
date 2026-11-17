@@ -23,26 +23,26 @@ $h2        = 'font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight';
 $address = 'Villankurichi Rd, B.R. Puram Industrial Estate, Coimbatore, Tamil Nadu 641014';
 
 $why = array(
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/LocalExpertise.svg',  'title' => 'Prime Location',      'text' => "Situated on Sathy Road, Ganapathy, one of Coimbatore's established and well-connected residential corridors."),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-6.svg',        'title' => 'Choose Your Layout', 'text' => 'Select from 2, 3, 3.5, or 4 BHK homes designed around different family needs.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-5.svg', 'title' => 'Planned Development', 'text' => 'Two thoughtfully designed towers with modern architecture and 50+ lifestyle amenities.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-2.svg',     'title' => 'Secure Community', 'text' => 'Gated community with 24×7 security and CCTV surveillance.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-7.svg',     'title' => 'Vaastu Compliant', 'text' => 'Homes planned with 100% Vaastu compliance.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/icon-1.svg',     'title' => 'Future-Ready Location', 'text' => 'Close to IT parks, educational institutions, hospitals, and Prozone Mall.'),
+    array('icon' => 'https://localhost/estate_partners/wp-content/uploads/2026/10/LocalExpertise.svg',  'title' => 'Prime Location',      'text' => "Situated on Sathy Road, Ganapathy, one of Coimbatore's established and well-connected residential corridors."),
+    array('icon' => 'https://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-6.svg',        'title' => 'Choose Your Layout', 'text' => 'Select from 2, 3, 3.5, or 4 BHK homes designed around different family needs.'),
+    array('icon' => 'https://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-5.svg', 'title' => 'Planned Development', 'text' => 'Two thoughtfully designed towers with modern architecture and 50+ lifestyle amenities.'),
+    array('icon' => 'https://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-2.svg',     'title' => 'Secure Community', 'text' => 'Gated community with 24×7 security and CCTV surveillance.'),
+    array('icon' => 'https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-7.svg',     'title' => 'Vaastu Compliant', 'text' => 'Homes planned with 100% Vaastu compliance.'),
+    array('icon' => 'https://localhost/estate_partners/wp-content/uploads/2026/10/icon-1.svg',     'title' => 'Future-Ready Location', 'text' => 'Close to IT parks, educational institutions, hospitals, and Prozone Mall.'),
 );
 
 
 $steps = array(
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-11.svg', 'title' => 'Explore Available Homes',      'text' => 'View floor plans and explore available units based on tower, configuration, and pricing.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-12.svg', 'title' => 'SHORTLIST
+    array('icon' => 'https://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-11.svg', 'title' => 'Explore Available Homes',      'text' => 'View floor plans and explore available units based on tower, configuration, and pricing.'),
+    array('icon' => 'https://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-12.svg', 'title' => 'SHORTLIST
 YOUR home',    'text' => 'Choose a unit that suits your budget, preferred configuration, and lifestyle needs.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-13.svg',             'title' => 'SITE VISIT &
+    array('icon' => 'https://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-13.svg',             'title' => 'SITE VISIT &
 INSPECTION',  'text' => 'Visit Infinium Altitude, view the sample unit, and clarify your questions with our team.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-11.svg',           'title' => 'VERIFY &
+    array('icon' => 'https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-11.svg',           'title' => 'VERIFY &
 CONFIRM',        'text' => 'Review project approvals, unit details, legal documentation, and payment terms before proceeding.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-8.svg',    'title' => 'BOOK YOUR
+    array('icon' => 'https://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-8.svg',    'title' => 'BOOK YOUR
 HOME',         'text' => ' Pay the booking amount and complete the required booking formalities to reserve your unit.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-9.svg',    'title' => 'REGISTRATION & OWNERSHIP',     'text' => 'Complete the sale agreement, balance payment, and registration process, and take ownership of your home.'),
+    array('icon' => 'https://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-9.svg',    'title' => 'REGISTRATION & OWNERSHIP',     'text' => 'Complete the sale agreement, balance payment, and registration process, and take ownership of your home.'),
 );
 ?>
 
@@ -74,13 +74,18 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
     <!-- ======================= HERO ======================= -->
     <section class="relative isolate">
         <div class="absolute inset-0 -z-10">
-            <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-1-scaled.jpg" alt="Infinium Altitude apartments in Ganapathy" class="w-full h-full object-cover" />
+            <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-1-scaled.jpg" alt="Infinium Altitude apartments in Ganapathy" class="w-full h-full object-cover" />
             <div class="absolute inset-0 bg-gradient-to-r from-[#131313]/80 via-[#131313]/50 to-[#131313]/20"></div>
         </div>
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-14 lg:py-20 grid lg:grid-cols-[1.2fr_0.8fr] gap-10 items-center">
             <div class="text-white">
+<<<<<<< HEAD
+                <p class="font-prata text-3xl tracking-[0.3em] uppercase"><img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-11.png" alt="" class="h-14"></p>
+                <h1 class="font-prata text-3xl sm:text-4xl lg:text-5xl leading-tight mt-5">Premium 2, 3, 3.5 &amp; 4 BHK Apartments in Ganapathy, Coimbatore</h1>
+=======
                 <p class="font-prata text-3xl tracking-[0.3em] uppercase"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-11.png" alt="" class="h-14"></p>
                 <h1 class="font-prata text-3xl xl:text-4xl lg:text-5xl leading-tight mt-5">Premium 2, 3, 3.5 &amp; 4 BHK Apartments in Ganapathy, Coimbatore</h1>
+>>>>>>> 1495223e7c1c339aa3315d7392e91d6590662eb2
                 <p class="mt-4 text-sm sm:text-base tracking-wide text-white/90">DTCP &amp; RERA APPROVED | 100% VAASTU COMPLIANT</p>
                 <dl class="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-4">
                     <div class="border-r-2 border-white px-2 text-center">
@@ -126,12 +131,12 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
     <!-- Feature strip -->
     <section class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 xl:-mt-14 py-12 xl:py-0">
         <ul class="bg-white rounded-xl xl:rounded-full shadow-lg border border-ink-line grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 p-5 text-center text-base">
-            <li class="flex flex-col items-center gap-2 border-[#19124B] border-r-1 px-3"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-28.svg" alt="" class="w-14 h-14">Clear Legal Documentation</li>
-            <li class="flex flex-col items-center gap-2 border-[#19124B] md:border-r-1 px-3"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-16.svg" alt="" class="w-14 h-14">Premium Apartments</li>
-            <li class="flex flex-col items-center gap-2 border-[#19124B] border-r-1 md:border-r-0 lg:border-r-1 px-3"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-15.svg" alt="" class="w-14 h-14">Coimbatore Corporation Approved</li>
-            <li class="flex flex-col items-center gap-2 border-[#19124B] border-r-0 md:border-r-1 px-3"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-14.svg" alt="" class="w-14 h-14">Gated Community</li>
-            <li class="flex flex-col items-center gap-2 border-[#19124B] border-r-1 px-3"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-13.svg" alt="" class="w-14 h-14">50+ Lifestyle Amenities</li>
-            <li class="flex flex-col items-center gap-2 border-[#19124B]"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-12.svg" alt="" class="w-14 h-14">Established Location</li>
+            <li class="flex flex-col items-center gap-2 border-[#19124B] border-r-1 px-3"><img src="https://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-28.svg" alt="" class="w-14 h-14">Clear Legal Documentation</li>
+            <li class="flex flex-col items-center gap-2 border-[#19124B] md:border-r-1 px-3"><img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-16.svg" alt="" class="w-14 h-14">Premium Apartments</li>
+            <li class="flex flex-col items-center gap-2 border-[#19124B] border-r-1 md:border-r-0 lg:border-r-1 px-3"><img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-15.svg" alt="" class="w-14 h-14">Coimbatore Corporation Approved</li>
+            <li class="flex flex-col items-center gap-2 border-[#19124B] border-r-0 md:border-r-1 px-3"><img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-14.svg" alt="" class="w-14 h-14">Gated Community</li>
+            <li class="flex flex-col items-center gap-2 border-[#19124B] border-r-1 px-3"><img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-13.svg" alt="" class="w-14 h-14">50+ Lifestyle Amenities</li>
+            <li class="flex flex-col items-center gap-2 border-[#19124B]"><img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-12.svg" alt="" class="w-14 h-14">Established Location</li>
         </ul>
     </section>
 
@@ -153,37 +158,41 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
     <section id="overview" class="py-16 sm:py-20 scroll-mt-28">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto">
+<<<<<<< HEAD
+                <h2 class="font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight">Infinium Altitude - Project Overview</h2>
+=======
                 <h2 class="font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight">Infinium Altitude - Project Overview</h2>
+>>>>>>> 1495223e7c1c339aa3315d7392e91d6590662eb2
                 <p class="mt-4 max-w-4xl mx-auto text-[#302F5A] leading-relaxed"> Elevated living designed for everyday comfort. Two thoughtfully planned towers offering 2, 3, 3.5 & 4 BHK homes in one of Coimbatore's fastest-growing residential corridors.</p>
             </div>
             <div class="mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5 text-base text-[#6B6B6B] text-center">
                 <div class="bg-brand-cream border border-gold/30 rounded-2xl p-5">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-12.svg" alt="" class="w-14 h-14 mx-auto mb-4">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-12.svg" alt="" class="w-14 h-14 mx-auto mb-4">
                     <h3 class="text-lg text-gold font-medium">Ganapathy</h3>
                     <p class="mt-2">Established residential corridor on Sathy Road</p>
                 </div>
                 <div class="bg-brand-cream border border-gold/30 rounded-2xl p-5">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-11.svg" alt="" class="w-14 h-14 mx-auto mb-4">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-11.svg" alt="" class="w-14 h-14 mx-auto mb-4">
                     <h3 class="text-lg text-gold font-medium">RERA + DTCP</h3>
                     <p class="mt-2">Approved residential development</p>
                 </div>
                 <div class="bg-brand-cream border border-gold/30 rounded-2xl p-5">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-10.svg" alt="" class="w-14 h-14 mx-auto mb-4">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-10.svg" alt="" class="w-14 h-14 mx-auto mb-4">
                     <h3 class="text-lg text-gold font-medium">4.13 Acres</h3>
                     <p class="mt-2">Thoughtfully planned residential development</p>
                 </div>
                 <div class="bg-brand-cream border border-gold/30 rounded-2xl p-5">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-16.svg" alt="" class="w-14 h-14 mx-auto mb-4">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-16.svg" alt="" class="w-14 h-14 mx-auto mb-4">
                     <h3 class="text-lg text-gold font-medium">232 Units</h3>
                     <p class="mt-2">Across two premium towers</p>
                 </div>
                 <div class="bg-brand-cream border border-gold/30 rounded-2xl p-5">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-9.svg" alt="" class="w-14 h-14 mx-auto mb-4">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-9.svg" alt="" class="w-14 h-14 mx-auto mb-4">
                     <h3 class="text-lg text-gold font-medium">2 - 4 BHK</h3>
                     <p class="mt-2">Flexible configurations for every family size</p>
                 </div>
                 <div class="bg-brand-cream border border-gold/30 rounded-2xl p-5">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-8.svg" alt="" class="w-14 h-14 mx-auto mb-4">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-8.svg" alt="" class="w-14 h-14 mx-auto mb-4">
                     <h3 class="text-lg text-gold font-medium">100% Vaastu</h3>
                     <p class="mt-2">Designed with Vaastu considerations</p>
                 </div>
@@ -196,7 +205,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div class="reveal relative order-2 lg:order-1">
                 <div class="rounded-2xl overflow-hidden">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-14.png" alt="Property agreement signing with Estate Partners guidance" class="w-full min-h-[420px] sm:min-h-[520px]" loading="lazy" />
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-14.png" alt="Property agreement signing with Estate Partners guidance" class="w-full min-h-[420px] sm:min-h-[520px]" loading="lazy" />
                 </div>
                 <!-- <div class="absolute -bottom-6 left-5 sm:left-8 bg-ink text-white rounded-2xl px-6 py-5 shadow-xl flex items-center gap-4">
                     <span class="w-12 h-12 rounded-full bg-gold inline-flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-headset"></i></span>
@@ -247,7 +256,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
 
                 <!-- Woman (first on mobile, centre on desktop) -->
                 <div class="order-first lg:order-none lg:col-start-2 lg:row-start-1 flex justify-center self-end">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/apartment-page-8.png" alt="Smiling home buyer" class="max-w-[520px] h-auto object-contain block" loading="lazy" />
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/apartment-page-8.png" alt="Smiling home buyer" class="max-w-[520px] h-auto object-contain block" loading="lazy" />
                 </div>
 
                 <!-- LEFT column: text right-aligned, gold bar on the right.
@@ -306,7 +315,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
 
                 <!-- Image: stretches to the height of the content column -->
                 <div class="rounded-3xl overflow-hidden min-h-[320px] lg:min-h-0">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-167.png" alt="Infinium Altitude tower" class="w-full h-full object-cover" loading="lazy" />
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-167.png" alt="Infinium Altitude tower" class="w-full h-full object-cover" loading="lazy" />
                 </div>
 
                 <!-- Content -->
@@ -319,7 +328,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
                         <!-- Repeat this <li> for each score. Change the number in two places:
                the "9" and the style="width:90%". -->
                         <li>
-                            <span class="w-12 h-12"><img src="http://localhost/estate_partners/wp-content/uploads/2026/11/connectivity-1.svg" alt=""></span>
+                            <span class="w-12 h-12"><img src="https://localhost/estate_partners/wp-content/uploads/2026/11/connectivity-1.svg" alt=""></span>
                             <h3 class="mt-3 font-semibold text-[#302F5A]">Connectivity</h3>
                             <p class="mt-3 text-[#302F5A]"><span class="text-2xl font-bold">9</span><span class="text-lg font-medium text-[#302F5A]/70">/10</span></p>
                             <div class="mt-2 h-1.5 rounded-full bg-gray-200 overflow-hidden" role="img" aria-label="9 out of 10">
@@ -329,7 +338,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
                         </li>
 
                         <li>
-                            <span class="w-12 h-12"><img src="http://localhost/estate_partners/wp-content/uploads/2026/11/connectivity-6.svg" alt=""></span>
+                            <span class="w-12 h-12"><img src="https://localhost/estate_partners/wp-content/uploads/2026/11/connectivity-6.svg" alt=""></span>
                             <h3 class="mt-3 font-semibold text-[#302F5A]">Education</h3>
                             <p class="mt-3 text-[#302F5A]"><span class="text-2xl font-bold">9</span><span class="text-lg font-medium text-[#302F5A]/70">/10</span></p>
                             <div class="mt-2 h-1.5 rounded-full bg-gray-200 overflow-hidden" role="img" aria-label="9 out of 10">
@@ -339,7 +348,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
                         </li>
 
                         <li>
-                            <span class="w-12 h-12"><img src="http://localhost/estate_partners/wp-content/uploads/2026/11/connectivity-3.svg" alt=""></span>
+                            <span class="w-12 h-12"><img src="https://localhost/estate_partners/wp-content/uploads/2026/11/connectivity-3.svg" alt=""></span>
                             <h3 class="mt-3 font-semibold text-[#302F5A]">Healthcare</h3>
                             <p class="mt-3 text-[#302F5A]"><span class="text-2xl font-bold">8</span><span class="text-lg font-medium text-[#302F5A]/70">/10</span></p>
                             <div class="mt-2 h-1.5 rounded-full bg-gray-200 overflow-hidden" role="img" aria-label="8 out of 10">
@@ -349,7 +358,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
                         </li>
 
                         <li>
-                            <span class="w-12 h-12"><img src="http://localhost/estate_partners/wp-content/uploads/2026/11/connectivity-5.svg" alt=""></span>
+                            <span class="w-12 h-12"><img src="https://localhost/estate_partners/wp-content/uploads/2026/11/connectivity-5.svg" alt=""></span>
                             <h3 class="mt-3 font-semibold text-[#302F5A]">Employment</h3>
                             <p class="mt-3 text-[#302F5A]"><span class="text-2xl font-bold">9</span><span class="text-lg font-medium text-[#302F5A]/70">/10</span></p>
                             <div class="mt-2 h-1.5 rounded-full bg-gray-200 overflow-hidden" role="img" aria-label="9 out of 10">
@@ -359,7 +368,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
                         </li>
 
                         <li>
-                            <span class="w-12 h-12"><img src="http://localhost/estate_partners/wp-content/uploads/2026/11/connectivity-4.svg" alt=""></span>
+                            <span class="w-12 h-12"><img src="https://localhost/estate_partners/wp-content/uploads/2026/11/connectivity-4.svg" alt=""></span>
                             <h3 class="mt-3 font-semibold text-[#302F5A]">Shopping</h3>
                             <p class="mt-3 text-[#302F5A]"><span class="text-2xl font-bold">8</span><span class="text-lg font-medium text-[#302F5A]/70">/10</span></p>
                             <div class="mt-2 h-1.5 rounded-full bg-gray-200 overflow-hidden" role="img" aria-label="8 out of 10">
@@ -369,7 +378,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
                         </li>
 
                         <li>
-                            <span class="w-12 h-12"><img src="http://localhost/estate_partners/wp-content/uploads/2026/11/connectivity-2.svg" alt=""></span>
+                            <span class="w-12 h-12"><img src="https://localhost/estate_partners/wp-content/uploads/2026/11/connectivity-2.svg" alt=""></span>
                             <h3 class="mt-3 font-semibold text-[#302F5A]">Airport Access</h3>
                             <p class="mt-3 text-[#302F5A]"><span class="text-2xl font-bold">9</span><span class="text-lg font-medium text-[#302F5A]/70">/10</span></p>
                             <div class="mt-2 h-1.5 rounded-full bg-gray-200 overflow-hidden" role="img" aria-label="9 out of 10">
@@ -396,7 +405,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
                     <h2 class="font-prata text-3xl text-[#302F5A] xl:text-4xl leading-tight"> Who Is Infinium Altitude For?</h2>
                 </div>
                 <div class="w-full rounded-2xl shadow-lg flex gap-6 items-center p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/lp-icon-3.svg" alt="Looking for a Ready Home?" class="w-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/lp-icon-3.svg" alt="Looking for a Ready Home?" class="w-16">
 
                     <div class="space-y-2">
                         <h3 class="font-semibold text-gold text-lg">Looking for a Ready Home?</h3>
@@ -406,7 +415,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
                 </div>
 
                 <div class="w-full rounded-2xl shadow-lg flex gap-6 items-center p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/lp-icon-2.svg" alt="Looking to Invest?" class="w-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/lp-icon-2.svg" alt="Looking to Invest?" class="w-16">
 
                     <div class="space-y-2">
                         <h3 class="font-semibold text-gold text-lg">Looking to Invest?</h3>
@@ -416,7 +425,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
                 </div>
 
                 <div class="w-full rounded-2xl shadow-lg flex gap-6 items-center p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/lp-icon-1.svg" alt="Planning for Your Family?" class="w-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/lp-icon-1.svg" alt="Planning for Your Family?" class="w-16">
 
                     <div class="space-y-2">
                         <h3 class="font-semibold text-gold text-lg">Planning for Your Family?</h3>
@@ -428,7 +437,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
 
             <div class="reveal relative">
                 <div class="rounded-2xl overflow-hidden">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-1.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[420px] object-cover" loading="lazy" />
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-1.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[420px] object-cover" loading="lazy" />
                 </div>
                 <!-- <div class="absolute -bottom-6 left-5 sm:left-8 bg-ink text-white rounded-2xl px-6 py-5 shadow-xl flex items-center gap-4">
                     <span class="w-12 h-12 rounded-full bg-gold inline-flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-headset"></i></span>
@@ -475,75 +484,75 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
             </div>
             <ul class="mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-5 text-[#6A6A6A] text-center text-lg font-medium">
                 <li class="rounded-2xl border-1 border-[#B3814E33] p-5 flex flex-col items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-1.svg" alt="" class="w-16 h-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-1.svg" alt="" class="w-16 h-16">
                     Swimming Pool
                 </li>
                 <li class="rounded-2xl border-1 border-[#B3814E33] p-5 flex flex-col items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-17.svg" alt="" class="w-16 h-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-17.svg" alt="" class="w-16 h-16">
                     Clubhouse with 50+ Amenities
                 </li>
                 <li class="rounded-2xl border-1 border-[#B3814E33] p-5 flex flex-col items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-16.svg" alt="" class="w-16 h-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-16.svg" alt="" class="w-16 h-16">
                     Mini Theatre
                 </li>
                 <li class="rounded-2xl border-1 border-[#B3814E33] p-5 flex flex-col items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-15.svg" alt="" class="w-16 h-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-15.svg" alt="" class="w-16 h-16">
                     Gym
                 </li>
                 <li class="rounded-2xl border-1 border-[#B3814E33] p-5 flex flex-col items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-14.svg" alt="" class="w-16 h-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-14.svg" alt="" class="w-16 h-16">
                     Party Hall
                 </li>
                 <li class="rounded-2xl border-1 border-[#B3814E33] p-5 flex flex-col items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-13.svg" alt="" class="w-16 h-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-13.svg" alt="" class="w-16 h-16">
                     24x7 CCTV surveillance
                 </li>
                 <li class="rounded-2xl border-1 border-[#B3814E33] p-5 flex flex-col items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-12.svg" alt="" class="w-16 h-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-12.svg" alt="" class="w-16 h-16">
                     Steam Room
                 </li>
                 <li class="rounded-2xl border-1 border-[#B3814E33] p-5 flex flex-col items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-11.svg" alt="" class="w-16 h-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-11.svg" alt="" class="w-16 h-16">
                     Sauna Room
                 </li>
                 <li class="rounded-2xl border-1 border-[#B3814E33] p-5 flex flex-col items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-10.svg" alt="" class="w-16 h-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-10.svg" alt="" class="w-16 h-16">
                     Library
                 </li>
                 <li class="rounded-2xl border-1 border-[#B3814E33] p-5 flex flex-col items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-9.svg" alt="" class="w-16 h-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-9.svg" alt="" class="w-16 h-16">
                     Amphitheater
                 </li>
                 <li class="rounded-2xl border-1 border-[#B3814E33] p-5 flex flex-col items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-8.svg" alt="" class="w-16 h-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-8.svg" alt="" class="w-16 h-16">
                     Meeting Room
                 </li>
                 <li class="rounded-2xl border-1 border-[#B3814E33] p-5 flex flex-col items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-7.svg" alt="" class="w-16 h-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-7.svg" alt="" class="w-16 h-16">
                     Visitors Lounge
                 </li>
                 <li class="rounded-2xl border-1 border-[#B3814E33] p-5 flex flex-col items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-2.svg" alt="" class="w-16 h-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-2.svg" alt="" class="w-16 h-16">
                     Kids Play Area
                 </li>
                 <li class="rounded-2xl border-1 border-[#B3814E33] p-5 flex flex-col items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-3.svg" alt="" class="w-16 h-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-3.svg" alt="" class="w-16 h-16">
                     Lawn Mound
                 </li>
                 <li class="rounded-2xl border-1 border-[#B3814E33] p-5 flex flex-col items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-1.svg" alt="" class="w-16 h-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-1.svg" alt="" class="w-16 h-16">
                     Stepped Reflective Pool
                 </li>
                 <li class="rounded-2xl border-1 border-[#B3814E33] p-5 flex flex-col items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-4.svg" alt="" class="w-16 h-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-4.svg" alt="" class="w-16 h-16">
                     Caretaker's Room
                 </li>
                 <li class="rounded-2xl border-1 border-[#B3814E33] p-5 flex flex-col items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-5.svg" alt="" class="w-16 h-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-5.svg" alt="" class="w-16 h-16">
                     Black Road Top
                 </li>
                 <li class="rounded-2xl border-1 border-[#B3814E33] p-5 flex flex-col items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-6.svg" alt="" class="w-16 h-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-6.svg" alt="" class="w-16 h-16">
                     Leisure
                 </li>
             </ul>
@@ -560,51 +569,51 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
             <div class="swiper apartment-gallery-swiper mt-10" style="--swiper-theme-color:#b3814e;">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-158.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-158.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
                     </div>
 
                     <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-159.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-159.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
                     </div>
 
                     <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-161.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-161.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
                     </div>
 
                     <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-162.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-162.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
                     </div>
 
                     <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-163.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-163.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
                     </div>
 
                     <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-164.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-164.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
                     </div>
 
                     <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-165.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-165.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
                     </div>
 
                     <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-166.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-166.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
                     </div>
 
                     <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-167.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-167.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
                     </div>
 
                     <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-168.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-168.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
                     </div>
 
                     <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-169.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-169.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
                     </div>
 
                     <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-170.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/Rectangle-170.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
                     </div>
                 </div>
                 <div class="swiper-pagination !static mt-8"></div>
@@ -616,7 +625,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
     <section id="about" class="py-16 sm:py-20  bg-[#FCF7F3] lg:py-24 scroll-mt-24">
         <div class="container mx-auto text-center">
             <h2 class="font-prata text-3xl sm:text-4xl text-[#302F5A] mt-2 mb-6">MASTER PLAN</h2>
-            <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/plans-2.png" alt="" class="mx-auto">
+            <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/plans-2.png" alt="" class="mx-auto">
         </div>
     </section>
 
@@ -1237,25 +1246,29 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
             <div class="grid grid-cols-2 bg-[#FCF7F3] p-5 rounded-2xl border border-[#B3814E80] gap-6">
+<<<<<<< HEAD
+                <h2 class="]text-gold font-prata text-xl lg:text-2xl font-semibold text-center col-span-2"> Apartment prices can vary based on:</h2>
+=======
                 <h2 class="text-gold font-prata text-xl lg:text-2xl font-semibold text-center col-span-2"> Apartment prices can vary based on:</h2>
+>>>>>>> 1495223e7c1c339aa3315d7392e91d6590662eb2
 
                 <div class="rounded-2xl border border-[#B3814E80] bg-white flex text-center flex-col gap-4 items-center text-[#302F5A] p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-4.svg" alt="" class="w-14 h-14">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-4.svg" alt="" class="w-14 h-14">
                     <p>Floor level</p>
                 </div>
 
                 <div class="rounded-2xl border border-[#B3814E80] bg-white flex text-center flex-col gap-4 items-center text-[#302F5A] p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-3.svg" alt="" class="w-14 h-14">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-3.svg" alt="" class="w-14 h-14">
                     <p>Floor level</p>
                 </div>
 
                 <div class="rounded-2xl border border-[#B3814E80] bg-white flex text-center flex-col gap-4 items-center text-[#302F5A] p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-1.svg" alt="" class="w-14 h-14">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-1.svg" alt="" class="w-14 h-14">
                     <p>Floor level</p>
                 </div>
 
                 <div class="rounded-2xl border border-[#B3814E80] bg-white flex text-center flex-col gap-4 items-center text-[#302F5A] p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-2.svg" alt="" class="w-14 h-14">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-2.svg" alt="" class="w-14 h-14">
                     <p>Floor level</p>
                 </div>
 
@@ -1266,7 +1279,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
 
             <div class="reveal relative">
                 <div class="rounded-2xl overflow-hidden">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-7.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[420px] object-cover" loading="lazy" />
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-7.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[420px] object-cover" loading="lazy" />
                 </div>
             </div>
         </div>
@@ -1295,7 +1308,11 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
                         <div class="text-gold text-6xl text-gold/50 mb-4"><i class="fa-solid fa-quote-left"></i></div>
                         <blockquote class="text-[#302F5A]-soft leading-relaxed flex-1">The project information and site-visit support made the entire property search much easier.</blockquote>
                         <figcaption class="mt-6 flex items-center gap-4">
+<<<<<<< HEAD
+                            <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/avatar.webp" alt="Kavi Priya" class="w-12 h-12 rounded-full object-cover" loading="lazy" />
+=======
                             <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/avatar.webp" alt="Kavi Priya" class="w-12 h-12 rounded-full object-cover" loading="lazy" />
+>>>>>>> 1495223e7c1c339aa3315d7392e91d6590662eb2
                             <span><span class="block font-semibold">Kavi Priya</span><span class="block text-xs text-[#302F5A]">Home Buyer, Coimbatore</span></span>
                         </figcaption>
                     </figure>
@@ -1336,7 +1353,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
 
             <div class="reveal relative">
                 <div class="rounded-2xl overflow-hidden">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-13.png" alt="Property agreement signing with Estate Partners guidance" class="w-full min-h-[420px] sm:min-h-[520px]" loading="lazy" />
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-13.png" alt="Property agreement signing with Estate Partners guidance" class="w-full min-h-[420px] sm:min-h-[520px]" loading="lazy" />
                 </div>
                 <!-- <div class="absolute -bottom-6 left-5 sm:left-8 bg-ink text-white rounded-2xl px-6 py-5 shadow-xl flex items-center gap-4">
                     <span class="w-12 h-12 rounded-full bg-gold inline-flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-headset"></i></span>
@@ -1355,7 +1372,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
 
             <div class="reveal relative">
                 <div class="rounded-3xl overflow-hidden">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-5.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[420px] object-cover" loading="lazy" />
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-5.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[420px] object-cover" loading="lazy" />
                 </div>
             </div>
 
@@ -1391,7 +1408,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid md:grid-cols-[auto_1fr_1.3fr] gap-6 items-center pb-8 border-b border-ink-line">
                 <span class="w-20 h-20 rounded-full bg-white shadow inline-flex items-center justify-center overflow-hidden">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/image-254.png" alt="Infinium Realty" class="w-14" loading="lazy" />
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/image-254.png" alt="Infinium Realty" class="w-14" loading="lazy" />
                 </span>
                 <div>
                     <p class="text-gold font-semibold uppercase text-xs tracking-wide">Developer</p>
@@ -1428,12 +1445,12 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
             </div>
 
             <div class="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-6 gap-6">
-                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-6-scaled.png" alt="" class="h-16 mx-auto">
-                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-4-scaled.png" alt="" class="h-16 mx-auto">
-                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-3.png" alt="" class="h-16 mx-auto">
-                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-2.png" alt="" class="h-16 mx-auto">
-                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-9.png  " alt="" class="h-16 mx-auto">
-                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-12.png" alt="" class="h-16 mx-auto">
+                <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-6-scaled.png" alt="" class="h-16 mx-auto">
+                <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-4-scaled.png" alt="" class="h-16 mx-auto">
+                <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-3.png" alt="" class="h-16 mx-auto">
+                <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-2.png" alt="" class="h-16 mx-auto">
+                <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-9.png  " alt="" class="h-16 mx-auto">
+                <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-12.png" alt="" class="h-16 mx-auto">
             </div>
 
         </div>

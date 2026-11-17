@@ -76,7 +76,7 @@ $is_target_template = (
             <ul class="mt-4 grid grid-cols-2 gap-4 text-xs font-medium text-[#302F5A]">
                 <?php if ($total_size) : ?>
                     <li class="flex items-center gap-2">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-1.svg" alt="">
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/areas-1.svg" alt="">
                         <div>
                             <h6 class="font-semibold"><?php echo esc_html($total_size_title); ?></h6>
                             <p class="text-[#404042]"><?php echo esc_html($total_size); ?></p>
@@ -86,7 +86,7 @@ $is_target_template = (
 
                 <?php if ($area_acres) : ?>
                     <li class="flex items-center gap-2">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-4.svg" alt="">
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/areas-4.svg" alt="">
                         <div>
                             <h6 class="font-semibold"><?php echo esc_html($area_acres_title); ?></h6>
                             <p class="text-[#404042]"><?php echo esc_html($area_acres); ?></p>
@@ -96,7 +96,7 @@ $is_target_template = (
 
                 <?php if ($total_units) : ?>
                     <li class="flex items-center gap-2">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-3.svg" alt="">
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/areas-3.svg" alt="">
                         <div>
                             <h6 class="font-semibold"><?php echo esc_html($total_units_title); ?></h6>
                             <p class="text-[#404042]"><?php echo esc_html($total_units); ?></p>
@@ -106,7 +106,7 @@ $is_target_template = (
 
                 <?php if ($amenities) : ?>
                     <li class="flex items-center gap-2">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/areas-2.svg" alt="">
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/areas-2.svg" alt="">
                         <div>
                             <h6 class="font-semibold"><?php echo esc_html($amenities_title); ?></h6>
                             <p class='text-[#404042]'><?php echo $amenities; ?></p>

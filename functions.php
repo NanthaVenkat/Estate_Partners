@@ -289,3 +289,15 @@ function register_property_type_taxonomy() {
     ));
 }
 add_action('init', 'register_property_type_taxonomy');
+
+// Get count of projects in a property_type term (by slug)
+function ep_get_type_count($slug) {
+    $term = get_term_by('slug', $slug, 'property_type');
+    return ($term && !is_wp_error($term)) ? (int) $term->count : 0;
+}
+
+// Shortcode: [type_count slug="villas"]
+add_shortcode('type_count', function ($atts) {
+    $atts = shortcode_atts(array('slug' => ''), $atts);
+    return esc_html(ep_get_type_count($atts['slug']));
+});

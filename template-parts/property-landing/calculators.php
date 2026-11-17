@@ -9,18 +9,19 @@
                 <h2 class="font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight">Supported By</h2>
             </div>
 
-            <div class="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-6 gap-6">
-                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-6-scaled.png"
+            <!-- <div class="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-6 gap-6"> -->
+            <div class="flex flex-wrap justify-center gap-6">
+                <!-- <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-6-scaled.png" 
+                    alt="" class="h-16 mx-auto">-->
+                <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-4-scaled.png"
                     alt="" class="h-16 mx-auto">
-                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-4-scaled.png"
-                    alt="" class="h-16 mx-auto">
-                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-3.png" alt=""
+                <!--<img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-3.png" alt=""
+                     class="h-16 mx-auto">
+                <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-2.png" alt=""
+                    class="h-16 mx-auto"> -->
+                <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-9.png  " alt=""
                     class="h-16 mx-auto">
-                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-2.png" alt=""
-                    class="h-16 mx-auto">
-                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-9.png  " alt=""
-                    class="h-16 mx-auto">
-                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-12.png" alt=""
+                <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-12.png" alt=""
                     class="h-16 mx-auto">
             </div>
 

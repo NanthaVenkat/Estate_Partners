@@ -2,7 +2,7 @@
 
 /**
  * Template Name: Plots Landing Page
- * Apartment project landing page: Infinium Altitude, Ganapathy.
+ * Apartment project landing page: Aara Enclave, Ganapathy.
  *
  * Name / location / price / phone are pulled from the project's ACF fields when filled.
  * Images go in /assets/images/apartment/ (file names used below are placeholders).
@@ -23,26 +23,26 @@ $h2        = 'font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight';
 $address = 'Villankurichi Rd, B.R. Puram Industrial Estate, Coimbatore, Tamil Nadu 641014';
 
 $why = array(
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/LocalExpertise.svg',  'title' => 'Prime Location',      'text' => "Situated in Kalapatti, one of Coimbatore's established residential and commercial growth corridors."),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-6.svg',        'title' => 'Build Your Way', 'text' => "Choose your plot and create a home designed around your family's needs."),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-5.svg', 'title' => 'Planned Development', 'text' => 'Black-top roads, underground infrastructure and avenue plantation.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-2.svg',     'title' => 'Secure Community', 'text' => 'Compound wall, 24/7 security and CCTV surveillance.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-7.svg',     'title' => 'Vaastu Compliant', 'text' => 'Plots planned with 100% Vaastu compliance.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/icon-1.svg',     'title' => 'Future-Ready Location', 'text' => 'Close to IT parks, educational institutions, hospitals and the airport.'),
+    array('icon' => 'https://localhost/estate_partners/wp-content/uploads/2026/10/LocalExpertise.svg',  'title' => 'Prime Location',      'text' => "Situated in Kalapatti, one of Coimbatore's established residential and commercial growth corridors."),
+    array('icon' => 'https://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-6.svg',        'title' => 'Build Your Way', 'text' => "Choose your plot and create a home designed around your family's needs."),
+    array('icon' => 'https://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-5.svg', 'title' => 'Planned Development', 'text' => 'Black-top roads, underground infrastructure and avenue plantation.'),
+    array('icon' => 'https://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-2.svg',     'title' => 'Secure Community', 'text' => 'Compound wall, 24/7 security and CCTV surveillance.'),
+    array('icon' => 'https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-7.svg',     'title' => 'Vaastu Compliant', 'text' => 'Plots planned with 100% Vaastu compliance.'),
+    array('icon' => 'https://localhost/estate_partners/wp-content/uploads/2026/10/icon-1.svg',     'title' => 'Future-Ready Location', 'text' => 'Close to IT parks, educational institutions, hospitals and the airport.'),
 );
 
 
 $steps = array(
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-11.svg', 'title' => 'EXPLORE AVAILABLE PLOTS',      'text' => 'View the layout and explore available plots based on location, size, facing, and pricing. '),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-12.svg', 'title' => 'SHORTLIST
+    array('icon' => 'https://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-11.svg', 'title' => 'EXPLORE AVAILABLE PLOTS',      'text' => 'View the layout and explore available plots based on location, size, facing, and pricing. '),
+    array('icon' => 'https://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-12.svg', 'title' => 'SHORTLIST
 YOUR PLOT',    'text' => "Choose a plot that suits your budget, preferred size, and future home or investment plans."),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-13.svg',             'title' => 'SITE VISIT &
+    array('icon' => 'https://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-13.svg',             'title' => 'SITE VISIT &
 INSPECTION',  'text' => 'Visit Aara Enclave, see the plot in person, understand the surroundings, and clarify your questions with our team.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-11.svg',           'title' => 'VERIFY &
+    array('icon' => 'https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-11.svg',           'title' => 'VERIFY &
 CONFIRM',        'text' => 'Review the project approvals, plot details, legal documentation, and payment terms before proceeding.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-8.svg',    'title' => 'BOOK YOUR
+    array('icon' => 'https://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-8.svg',    'title' => 'BOOK YOUR
 PLOT',         'text' => 'Pay the booking amount and complete the required booking formalities to reserve your selected plot.'),
-    array('icon' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-9.svg',    'title' => 'REGISTRATION & OWNERSHIP',     'text' => 'Complete the sale agreement, balance payment, and registration process with support from our team, and take ownership of your plot.'),
+    array('icon' => 'https://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-9.svg',    'title' => 'REGISTRATION & OWNERSHIP',     'text' => 'Complete the sale agreement, balance payment, and registration process with support from our team, and take ownership of your plot.'),
 );
 ?>
 
@@ -74,13 +74,18 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
     <!-- ======================= HERO ======================= -->
     <section class="relative isolate">
         <div class="absolute inset-0 -z-10">
-            <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-1.png" alt="Infinium Altitude apartments in Ganapathy" class="w-full h-full object-cover" />
+            <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-1.png" alt="Aara enclave apartments in Ganapathy" class="w-full h-full object-cover" />
             <!-- <div class="absolute inset-0 bg-gradient-to-r from-[#131313]/80 via-[#131313]/50 to-[#131313]/20 opacity-5"></div> -->
         </div>
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-14 lg:py-20 grid lg:grid-cols-[1.2fr_0.8fr] gap-10 items-center">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-14 lg:py-20 grid xl:grid-cols-[1.2fr_0.8fr] gap-10 items-center">
             <div class="text-[#302F5A]">
+<<<<<<< HEAD
+                <p class="font-prata text-3xl tracking-[0.3em] uppercase"><img src="https://localhost/estate_partners/wp-content/uploads/2026/11/Aara_Enclave_Logo.png" alt="" class="h-14"></p>
+                <h1 class="font-prata text-3xl sm:text-4xl lg:text-5xl leading-tight mt-5">Premium Residential Plots
+=======
                 <p class="font-prata text-3xl tracking-[0.3em] uppercase"><img src="http://localhost/estate_partners/wp-content/uploads/2026/11/Aara_Enclave_Logo.png" alt="" class="h-14"></p>
                 <h1 class="font-prata text-3xl xl:text-4xl lg:text-5xl leading-tight mt-5">Premium Residential Plots
+>>>>>>> 1495223e7c1c339aa3315d7392e91d6590662eb2
                     <span class="text-gold">in Kalapatti, Coimbatore</span>
                 </h1>
                 <p class="mt-4 text-sm sm:text-base font-medium tracking-wide text-[#302F5A]">DTCP & RERA APPROVED | VAASTU COMPLAINT </p>
@@ -117,9 +122,9 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                 <?php echo do_shortcode('[wpforms id="41"]'); ?>
                 <p class="mt-4 text-xs text-center text-[#444444]">100% Secure | Expert Assistance | Quick Response</p>
                 <div class="mt-4 grid grid-cols-3 gap-2 text-xs">
-                    <a href="#site-visit" class="rounded-md py-2 px-2 bg-white shadow-2xl flex items-center gap-3"><i class="fa-regular fa-calendar-check bg-[#302F5A] rounded-full p-3 text-white"></i>Book Site Visit</a>
-                    <a href="#enquire-cta" class="rounded-md py-2 px-2 bg-white shadow-2xl flex items-center gap-3"><i class="fa-solid fa-download bg-[#302F5A] rounded-full p-3 text-white"></i>Download Brochure</a>
-                    <a href="https://wa.me/917092958830" class="rounded-md py-2 px-2 bg-white shadow-2xl flex items-center gap-3"><i class="fa-brands fa-whatsapp bg-[#302F5A] rounded-full p-3 text-white"></i>Whatsapp Us</a>
+                    <a href="#site-visit" class="rounded-md py-2 px-2 bg-white shadow-2xl flex items-center gap-3"><i class="fa-regular fa-calendar-check bg-[#302F5A] rounded-full p-2 text-white"></i>Book Site Visit</a>
+                    <a href="http://localhost/estate_partners/wp-content/uploads/2026/11/Aaraspaces-Brochure.pdf" class="rounded-md py-2 px-2 bg-white shadow-2xl flex items-center gap-3"><i class="fa-solid fa-download bg-[#302F5A] rounded-full p-2 text-white"></i>Download Brochure</a>
+                    <a href="https://wa.me/917092958830" class="rounded-md py-2 px-2 bg-white shadow-2xl flex items-center gap-3"><i class="fa-brands fa-whatsapp bg-[#302F5A] rounded-full p-2 text-white"></i>Whatsapp Us</a>
                 </div>
             </div>
         </div>
@@ -128,12 +133,21 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
     <!-- Feature strip -->
     <section class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 xl:-mt-14 py-12 xl:py-0">
         <ul class="bg-white rounded-xl xl:rounded-full shadow-lg border border-ink-line grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 p-5 text-center text-base">
+<<<<<<< HEAD
+            <li class="flex flex-col items-center gap-2 border-[#19124B] border-r-1 px-3"><img src="https://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-28.svg" alt="" class="w-14 h-14">Clear Legal Documentation</li>
+            <li class="flex flex-col items-center gap-2 border-[#19124B] md:border-r-1 px-3"><img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-16.svg" alt="" class="w-14 h-14">Premium Residential Plots</li>
+            <li class="flex flex-col items-center gap-2 border-[#19124B] border-r-1 md:border-r-0 lg:border-r-1 px-3"><img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-15.svg" alt="" class="w-14 h-14">Coimbatore Corporation</li>
+            <li class="flex flex-col items-center gap-2 border-[#19124B] border-r-0 md:border-r-1 px-3"><img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-14.svg" alt="" class="w-14 h-14">Gated Community</li>
+            <li class="flex flex-col items-center gap-2 border-[#19124B] border-r-1 px-3"><img src="https://localhost/estate_partners/wp-content/uploads/2026/11/ready-to-contruct.svg" alt="" class="w-14 h-14">Ready to Construct</li>
+            <li class="flex flex-col items-center gap-2 border-[#19124B]"><img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-12.svg" alt="" class="w-14 h-14">Established Location</li>
+=======
             <li class="flex flex-col items-center gap-2 border-[#19124B] border-r-1 px-3"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/about-icons-28.svg" alt="" class="w-14 h-14">Clear Legal Documentation</li>
             <li class="flex flex-col items-center gap-2 border-[#19124B] md:border-r-1 px-3"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-16.svg" alt="" class="w-14 h-14">Premium Residential Plots</li>
             <li class="flex flex-col items-center gap-2 border-[#19124B] border-r-1 md:border-r-0 lg:border-r-1 px-3"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-15.svg" alt="" class="w-14 h-14">Coimbatore Corporation</li>
             <li class="flex flex-col items-center gap-2 border-[#19124B] border-r-0 md:border-r-1 px-3"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-14.svg" alt="" class="w-14 h-14">Gated Community</li>
             <li class="flex flex-col items-center gap-2 border-[#19124B] border-r-1 px-3"><img src="http://localhost/estate_partners/wp-content/uploads/2026/11/ready-to-contruct.svg" alt="" class="w-14 h-14">Ready to Construct</li>
             <li class="flex flex-col items-center gap-2 border-[#19124B]"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-12.svg" alt="" class="w-14 h-14">Established Location</li>
+>>>>>>> 1495223e7c1c339aa3315d7392e91d6590662eb2
         </ul>
     </section>
 
@@ -142,7 +156,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 overflow-x-auto">
             <ul class="flex gap-2 py-3 text-sm font-medium whitespace-nowrap">
                 <li><a href="#overview" data-tab class="px-4 py-2 rounded-full border border-gold bg-gold text-white hover:border-gold">Project Overview</a></li>
-                <li><a href="#why" data-tab class="px-4 py-2 rounded-full border border-ink-line hover:border-gold">Why Infinium Altitude</a></li>
+                <li><a href="#why" data-tab class="px-4 py-2 rounded-full border border-ink-line hover:border-gold">Why Aara enclave</a></li>
                 <li><a href="#layout" data-tab class="px-4 py-2 rounded-full border border-ink-line hover:border-gold">Layout</a></li>
                 <li><a href="#amenities" data-tab class="px-4 py-2 rounded-full border border-ink-line hover:border-gold">Amenities</a></li>
                 <li><a href="#gallery" data-tab class="px-4 py-2 rounded-full border border-ink-line hover:border-gold">Gallery</a></li>
@@ -155,37 +169,41 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
     <section id="overview" class="py-16 sm:py-20 scroll-mt-28">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto">
+<<<<<<< HEAD
+                <h2 class="font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight">Aara Enclave - Project Overview</h2>
+=======
                 <h2 class="font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight">Aara Enclave - Project Overview</h2>
+>>>>>>> 1495223e7c1c339aa3315d7392e91d6590662eb2
                 <p class="mt-4 max-w-4xl mx-auto text-[#676767] leading-relaxed">Everything You Need to Start Building Right, Well-planned plots in prime locations, giving you the perfect foundation to build your dream home and a <b>brighter future</b></p>
             </div>
             <div class="mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5 text-base text-[#6B6B6B] text-center">
                 <div class="bg-brand-cream border border-gold/30 rounded-2xl p-5">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-12.svg" alt="" class="w-14 h-14 mx-auto mb-4">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-12.svg" alt="" class="w-14 h-14 mx-auto mb-4">
                     <h3 class="text-lg text-gold font-medium">Kalapatti</h3>
                     <p class="mt-2">Prime Coimbatore residential location</p>
                 </div>
                 <div class="bg-brand-cream border border-gold/30 rounded-2xl p-5">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-11.svg" alt="" class="w-14 h-14 mx-auto mb-4">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-11.svg" alt="" class="w-14 h-14 mx-auto mb-4">
                     <h3 class="text-lg text-gold font-medium">RERA + DTCP</h3>
                     <p class="mt-2">Approved residential development</p>
                 </div>
                 <div class="bg-brand-cream border border-gold/30 rounded-2xl p-5">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-10.svg" alt="" class="w-14 h-14 mx-auto mb-4">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-10.svg" alt="" class="w-14 h-14 mx-auto mb-4">
                     <h3 class="text-lg text-gold font-medium">5.26 Acres</h3>
                     <p class="mt-2">Thoughtfully planned residential development</p>
                 </div>
                 <div class="bg-brand-cream border border-gold/30 rounded-2xl p-5">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-16.svg" alt="" class="w-14 h-14 mx-auto mb-4">
-                    <h3 class="text-lg text-gold font-medium">56 Villas</h3>
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-16.svg" alt="" class="w-14 h-14 mx-auto mb-4">
+                    <h3 class="text-lg text-gold font-medium">56 Plots</h3>
                     <p class="mt-2">Limited premium residential plots</p>
                 </div>
                 <div class="bg-brand-cream border border-gold/30 rounded-2xl p-5">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-9.svg" alt="" class="w-14 h-14 mx-auto mb-4">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-9.svg" alt="" class="w-14 h-14 mx-auto mb-4">
                     <h3 class="text-lg text-gold font-medium">5 -6 Cents</h3>
                     <p class="mt-2">Flexible plot sizes for different requirements</p>
                 </div>
                 <div class="bg-brand-cream border border-gold/30 rounded-2xl p-5">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-8.svg" alt="" class="w-14 h-14 mx-auto mb-4">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-8.svg" alt="" class="w-14 h-14 mx-auto mb-4">
                     <h3 class="text-lg text-gold font-medium">100% Vaastu</h3>
                     <p class="mt-2">Designed with Vaastu considerations</p>
                 </div>
@@ -198,7 +216,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div class="reveal relative order-2 lg:order-1">
                 <div class="rounded-2xl overflow-hidden">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-6.png" alt="Property agreement signing with Estate Partners guidance" class="w-full min-h-[420px] sm:min-h-[520px]" loading="lazy" />
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-6.png" alt="Property agreement signing with Estate Partners guidance" class="w-full min-h-[420px] sm:min-h-[520px]" loading="lazy" />
                 </div>
                 <!-- <div class="absolute -bottom-6 left-5 sm:left-8 bg-ink text-white rounded-2xl px-6 py-5 shadow-xl flex items-center gap-4">
                     <span class="w-12 h-12 rounded-full bg-gold inline-flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-headset"></i></span>
@@ -211,8 +229,13 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
 
             <div class="reveal order-1 lg:order-2 text-[#444444] sm:text-lg">
                 <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">Your Dream Home</p>
+<<<<<<< HEAD
+                <h2 class="font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight">Begins with the Right Foundation</h2>
+                <p class="mt-5 leading-relaxed">Aara Enclave by Aara enclave offers premium residential plots in Kalapatti, Coimbatore, created for families looking to build a home in a well-connected and rapidly developing part of the city.</p>
+=======
                 <h2 class="font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight">Begins with the Right Foundation</h2>
                 <p class="mt-5 leading-relaxed">Aara Enclave by Aara Spaces offers premium residential plots in Kalapatti, Coimbatore, created for families looking to build a home in a well-connected and rapidly developing part of the city.</p>
+>>>>>>> 1495223e7c1c339aa3315d7392e91d6590662eb2
                 <p class="mt-4 leading-relaxed">Spread across 5.27 acres with 56 plots, the development offers plot options ranging from 3 to 6 cents, with 100% Vaastu-compliant planning and RERA & DTCP approvals.</p>
                 <p class="mt-4 leading-relaxed">With essential infrastructure, security features and access to major educational, healthcare, employment and transport destinations, Aara Enclave brings together the essentials for both homebuyers and long-term investors.</p>
                 <!-- <ul class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm font-medium">
@@ -249,7 +272,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
 
                 <!-- Woman (first on mobile, centre on desktop) -->
                 <div class="order-first lg:order-none lg:col-start-2 lg:row-start-1 flex justify-center self-end">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/apartment-page-8.png" alt="Smiling home buyer" class="max-w-[520px] h-auto object-contain block" loading="lazy" />
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/apartment-page-8.png" alt="Smiling home buyer" class="max-w-[520px] h-auto object-contain block" loading="lazy" />
                 </div>
 
                 <!-- LEFT column: text right-aligned, gold bar on the right.
@@ -313,7 +336,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
 
                 <!-- Image: stretches to the height of the content column -->
                 <div class="rounded-3xl overflow-hidden min-h-[320px] lg:min-h-0">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-16.png" alt="Infinium Altitude tower" class="w-full h-full object-cover" loading="lazy" />
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-16.png" alt="Aara enclave tower" class="w-full h-full object-cover" loading="lazy" />
                 </div>
 
                 <!-- Content -->
@@ -326,7 +349,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                         <!-- Repeat this <li> for each score. Change the number in two places:
                the "9" and the style="width:90%". -->
                         <li>
-                            <span class="w-12 h-12"><img src="http://localhost/estate_partners/wp-content/uploads/2026/11/connectivity-1.svg" alt=""></span>
+                            <span class="w-12 h-12"><img src="https://localhost/estate_partners/wp-content/uploads/2026/11/connectivity-1.svg" alt=""></span>
                             <h3 class="mt-3 font-semibold text-[#302F5A]">Connectivity</h3>
                             <p class="mt-3 text-[#302F5A]"><span class="text-2xl font-bold">9</span><span class="text-lg font-medium text-[#302F5A]/70">/10</span></p>
                             <div class="mt-2 h-1.5 rounded-full bg-gray-200 overflow-hidden" role="img" aria-label="9 out of 10">
@@ -336,7 +359,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                         </li>
 
                         <li>
-                            <span class="w-12 h-12"><img src="http://localhost/estate_partners/wp-content/uploads/2026/11/connectivity-6.svg" alt=""></span>
+                            <span class="w-12 h-12"><img src="https://localhost/estate_partners/wp-content/uploads/2026/11/connectivity-6.svg" alt=""></span>
                             <h3 class="mt-3 font-semibold text-[#302F5A]">Education</h3>
                             <p class="mt-3 text-[#302F5A]"><span class="text-2xl font-bold">9</span><span class="text-lg font-medium text-[#302F5A]/70">/10</span></p>
                             <div class="mt-2 h-1.5 rounded-full bg-gray-200 overflow-hidden" role="img" aria-label="9 out of 10">
@@ -346,7 +369,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                         </li>
 
                         <li>
-                            <span class="w-12 h-12"><img src="http://localhost/estate_partners/wp-content/uploads/2026/11/connectivity-3.svg" alt=""></span>
+                            <span class="w-12 h-12"><img src="https://localhost/estate_partners/wp-content/uploads/2026/11/connectivity-3.svg" alt=""></span>
                             <h3 class="mt-3 font-semibold text-[#302F5A]">Healthcare</h3>
                             <p class="mt-3 text-[#302F5A]"><span class="text-2xl font-bold">8</span><span class="text-lg font-medium text-[#302F5A]/70">/10</span></p>
                             <div class="mt-2 h-1.5 rounded-full bg-gray-200 overflow-hidden" role="img" aria-label="8 out of 10">
@@ -356,7 +379,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                         </li>
 
                         <li>
-                            <span class="w-12 h-12"><img src="http://localhost/estate_partners/wp-content/uploads/2026/11/connectivity-5.svg" alt=""></span>
+                            <span class="w-12 h-12"><img src="https://localhost/estate_partners/wp-content/uploads/2026/11/connectivity-5.svg" alt=""></span>
                             <h3 class="mt-3 font-semibold text-[#302F5A]">Employment</h3>
                             <p class="mt-3 text-[#302F5A]"><span class="text-2xl font-bold">9</span><span class="text-lg font-medium text-[#302F5A]/70">/10</span></p>
                             <div class="mt-2 h-1.5 rounded-full bg-gray-200 overflow-hidden" role="img" aria-label="9 out of 10">
@@ -366,7 +389,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                         </li>
 
                         <li>
-                            <span class="w-12 h-12"><img src="http://localhost/estate_partners/wp-content/uploads/2026/11/connectivity-4.svg" alt=""></span>
+                            <span class="w-12 h-12"><img src="https://localhost/estate_partners/wp-content/uploads/2026/11/connectivity-4.svg" alt=""></span>
                             <h3 class="mt-3 font-semibold text-[#302F5A]">Shopping</h3>
                             <p class="mt-3 text-[#302F5A]"><span class="text-2xl font-bold">8</span><span class="text-lg font-medium text-[#302F5A]/70">/10</span></p>
                             <div class="mt-2 h-1.5 rounded-full bg-gray-200 overflow-hidden" role="img" aria-label="8 out of 10">
@@ -376,7 +399,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                         </li>
 
                         <li>
-                            <span class="w-12 h-12"><img src="http://localhost/estate_partners/wp-content/uploads/2026/11/connectivity-2.svg" alt=""></span>
+                            <span class="w-12 h-12"><img src="https://localhost/estate_partners/wp-content/uploads/2026/11/connectivity-2.svg" alt=""></span>
                             <h3 class="mt-3 font-semibold text-[#302F5A]">Airport Access</h3>
                             <p class="mt-3 text-[#302F5A]"><span class="text-2xl font-bold">7</span><span class="text-lg font-medium text-[#302F5A]/70">/10</span></p>
                             <div class="mt-2 h-1.5 rounded-full bg-gray-200 overflow-hidden" role="img" aria-label="9 out of 10">
@@ -403,7 +426,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                     <h2 class="font-prata text-3xl text-[#302F5A] xl:text-4xl leading-tight">Who Is Aara Enclave For?</h2>
                 </div>
                 <div class="w-full rounded-2xl shadow-lg flex gap-6 items-center p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/lp-icon-3.svg" alt="Looking to Build?" class="w-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/lp-icon-3.svg" alt="Looking to Build?" class="w-16">
 
                     <div class="space-y-2">
                         <h3 class="font-semibold text-gold text-lg">Looking to Build?</h3>
@@ -413,7 +436,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                 </div>
 
                 <div class="w-full rounded-2xl shadow-lg flex gap-6 items-center p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/lp-icon-2.svg" alt="Looking to Invest?" class="w-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/lp-icon-2.svg" alt="Looking to Invest?" class="w-16">
 
                     <div class="space-y-2">
                         <h3 class="font-semibold text-gold text-lg">Looking to Invest?</h3>
@@ -423,7 +446,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                 </div>
 
                 <div class="w-full rounded-2xl shadow-lg flex gap-6 items-center p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/lp-icon-1.svg" alt="Planning for Your Family?" class="w-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/lp-icon-1.svg" alt="Planning for Your Family?" class="w-16">
 
                     <div class="space-y-2">
                         <h3 class="font-semibold text-gold text-lg">Planning for Your Family?</h3>
@@ -435,7 +458,11 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
 
             <div class="reveal relative">
                 <div class="rounded-2xl overflow-hidden">
+<<<<<<< HEAD
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-7.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[420px] object-cover" loading="lazy" />
+=======
                     <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-7.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[420px] object-cover" loading="lazy" />
+>>>>>>> 1495223e7c1c339aa3315d7392e91d6590662eb2
                 </div>
                 <!-- <div class="absolute -bottom-6 left-5 sm:left-8 bg-ink text-white rounded-2xl px-6 py-5 shadow-xl flex items-center gap-4">
                     <span class="w-12 h-12 rounded-full bg-gold inline-flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-headset"></i></span>
@@ -453,7 +480,11 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
     <section class="bg-brand-cream <?php echo esc_attr($section); ?>">
         <div class="<?php echo esc_attr($container); ?>">
             <p class="text-gold font-bold uppercase tracking-[0.18em] text-center text-sm mb-3">Why Us</p>
+<<<<<<< HEAD
+            <h2 class="reveal <?php echo esc_attr($h2); ?> text-center">Why Aara Enclave</h2>
+=======
             <h2 class="reveal <?php echo esc_attr($h2); ?> text-center">why Aara Enclave</h2>
+>>>>>>> 1495223e7c1c339aa3315d7392e91d6590662eb2
             <p class="reveal mt-3 text-center text-sm text-[#444444]">Well-planned plots in prime locations, giving you the perfect foundation to build your dream home and a <b>brighter future</b></p>
 
             <div class="mt-10 sm:mt-12 !py-2" style="--swiper-theme-color:#b3814e;">
@@ -482,52 +513,52 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
             </div>
             <ul class="mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-5 text-[#6A6A6A] text-center text-lg font-medium">
                 <li class="rounded-2xl border-1 border-[#B3814E33] p-5 flex flex-col items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-6.svg" alt="" class="w-16 h-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-6.svg" alt="" class="w-16 h-16">
                     Solar Street Light
                 </li>
                 <li class="rounded-2xl border-1 border-[#B3814E33] p-5 flex flex-col items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-5.svg" alt="" class="w-16 h-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-5.svg" alt="" class="w-16 h-16">
                     Corporation water
                 </li>
                 <li class="rounded-2xl border-1 border-[#B3814E33] p-5 flex flex-col items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-4.svg" alt="" class="w-16 h-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-4.svg" alt="" class="w-16 h-16">
                     Underground
                     drainage provision
                 </li>
                 <li class="rounded-2xl border-1 border-[#B3814E33] p-5 flex flex-col items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-3.svg" alt="" class="w-16 h-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-3.svg" alt="" class="w-16 h-16">
                     Compound Wall
                 </li>
                 <li class="rounded-2xl border-1 border-[#B3814E33] p-5 flex flex-col items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-2.svg" alt="" class="w-16 h-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-2.svg" alt="" class="w-16 h-16">
                     24/7 security
                 </li>
                 <li class="rounded-2xl border-1 border-[#B3814E33] p-5 flex flex-col items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-13.svg" alt="" class="w-16 h-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-13.svg" alt="" class="w-16 h-16">
                     24X7 CCTV surveillance
                 </li>
                 <li class="rounded-2xl border-1 border-[#B3814E33] p-5 flex flex-col items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-14.svg" alt="" class="w-16 h-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-14.svg" alt="" class="w-16 h-16">
                     three grand arch entrance
                 </li>
                 <li class="rounded-2xl border-1 border-[#B3814E33] p-5 flex flex-col items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-1.svg" alt="" class="w-16 h-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-1.svg" alt="" class="w-16 h-16">
                     Perfect Legal Documents
                 </li>
                 <li class="rounded-2xl border-1 border-[#B3814E33] p-5 flex flex-col items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-5.svg" alt="" class="w-16 h-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/icons-ss-5.svg" alt="" class="w-16 h-16">
                     Black road top
                 </li>
                 <li class="rounded-2xl border-1 border-[#B3814E33] p-5 flex flex-col items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-7.svg" alt="" class="w-16 h-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-7.svg" alt="" class="w-16 h-16">
                     Underground Electrical cabling provision
                 </li>
                 <li class="rounded-2xl border-1 border-[#B3814E33] p-5 flex flex-col items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-9.svg" alt="" class="w-16 h-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-9.svg" alt="" class="w-16 h-16">
                     industrial transformers
                 </li>
                 <li class="rounded-2xl border-1 border-[#B3814E33] p-5 flex flex-col items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-8.svg" alt="" class="w-16 h-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-8.svg" alt="" class="w-16 h-16">
                     Avenue Plantation
                 </li>
             </ul>
@@ -538,54 +569,54 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
     <section id="gallery" class="py-16 sm:py-20 scroll-mt-28">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
-                <p class="text-gold font-semibold uppercase tracking-wide text-sm">INFINIUM ALTITUDE</p>
+                <p class="text-gold font-semibold uppercase tracking-wide text-sm">Aara Enclave</p>
                 <h2 class="font-prata text-3xl sm:text-4xl text-[#302F5A] mt-2">From Our Gallery</h2>
             </div>
             <div class="swiper apartment-gallery-swiper mt-10" style="--swiper-theme-color:#b3814e;">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-8.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-8.png" alt="Aara enclave gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
                     </div>
 
                     <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-9.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-9.png" alt="Aara enclave gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
                     </div>
 
                     <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-10.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-10.png" alt="Aara enclave gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
                     </div>
                     <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-11.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
-                    </div>
-
-                    <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-12.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-11.png" alt="Aara enclave gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
                     </div>
 
                     <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-13.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
-                    </div>
-                    <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-14.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-12.png" alt="Aara enclave gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
                     </div>
 
                     <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-15.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-13.png" alt="Aara enclave gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide !h-auto">
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-14.png" alt="Aara enclave gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
                     </div>
 
                     <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-16.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
-                    </div>
-                    <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-17.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-15.png" alt="Aara enclave gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
                     </div>
 
                     <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-18.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-16.png" alt="Aara enclave gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
+                    </div>
+                    <div class="swiper-slide !h-auto">
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-17.png" alt="Aara enclave gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
                     </div>
 
                     <div class="swiper-slide !h-auto">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-19.png" alt="Infinium Altitude gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-18.png" alt="Aara enclave gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
+                    </div>
+
+                    <div class="swiper-slide !h-auto">
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-19.png" alt="Aara enclave gallery image" class="rounded-2xl w-full aspect-[4/2] object-cover" loading="lazy" />
                     </div>
                 </div>
                 <div class="swiper-pagination !static mt-8"></div>
@@ -647,7 +678,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
     <!-- Price tables -->
     <section class="py-16 sm:py-20">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="mt-10 grid gap-8">
+            <div class="mx-auto max-w-5xl mt-10 grid gap-8">
 
                 <div class="text-center">
                     <h2 class="font-prata text-3xl sm:text-4xl text-[#302F5A] mt-2 mb-6">Pricing</h2>
@@ -713,112 +744,112 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
     </section>
 
     <section class="<?php echo esc_attr($section); ?> bg-[#FCF7F3]">
+        <div class="<?php echo esc_attr($container); ?>">
+            <p class="text-gold font-bold uppercase tracking-[0.18em] text-center text-sm mb-3">HOME VS INVESTMENT</p>
+            <h2 class="reveal <?php echo esc_attr($h2); ?> text-center">Build Your Dream Home or Invest for Tomorrow</h2>
+            <p class="reveal mt-3 text-center text-sm text-[#444444]">Create the home you’ve always dreamed of or make a smart investment for a brighter future. Find the perfect space that grows with your goals.</p>
 
-        <p class="text-gold font-bold uppercase tracking-[0.18em] text-center text-sm mb-3">HOME VS INVESTMENT</p>
-        <h2 class="reveal <?php echo esc_attr($h2); ?> text-center">Build Your Dream Home or Invest for Tomorrow</h2>
-        <p class="reveal mt-3 text-center text-sm text-[#444444]">Create the home you’ve always dreamed of or make a smart investment for a brighter future. Find the perfect space that grows with your goals.</p>
+            <!-- Cards Container -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto text-left mt-6">
 
-        <!-- Cards Container -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto text-left mt-6">
-
-            <!-- Card 1: Ready to Move (Navy Header) -->
-            <div class="bg-[#302F5A] p-4 sm:p-5 rounded-2xl shadow-sm flex flex-col">
-                <!-- Header -->
-                <div class="flex items-center space-x-3.5 mb-4 px-2 pt-1">
-                    <div class="w-10 h-10 rounded-full bg-white flex items-center justify-center shrink-0 shadow-sm">
-                        <i class="fa-solid fa-house text-[#302F5A] text-base"></i>
+                <!-- Card 1: Ready to Move (Navy Header) -->
+                <div class="bg-[#302F5A] p-4 sm:p-5 rounded-2xl shadow-sm flex flex-col">
+                    <!-- Header -->
+                    <div class="flex items-center space-x-3.5 mb-4 px-2 pt-1">
+                        <div class="w-10 h-10 rounded-full bg-white flex items-center justify-center shrink-0 shadow-sm">
+                            <i class="fa-solid fa-house text-[#302F5A] text-base"></i>
+                        </div>
+                        <h3 class="text-white font-bold text-base sm:text-lg tracking-wider uppercase">
+                            BUILD YOUR HOME
+                        </h3>
                     </div>
-                    <h3 class="text-white font-bold text-base sm:text-lg tracking-wider uppercase">
-                        BUILD YOUR HOME
-                    </h3>
+
+                    <!-- Inner White Card Content -->
+                    <div class="bg-white rounded-xl overflow-hidden divide-y divide-gold border border-gold flex-1">
+                        <!-- Item 1 -->
+                        <div class="flex items-start space-x-3.5 p-4 sm:p-4.5">
+                            <i class="fa-solid fa-circle-check text-gold text-base mt-0.5 shrink-0"></i>
+                            <span class="text-xs sm:text-sm text-gray-700 font-medium leading-snug">
+                                Choose your preferred plot
+                            </span>
+                        </div>
+
+                        <!-- Item 2 -->
+                        <div class="flex items-start space-x-3.5 p-4 sm:p-4.5">
+                            <i class="fa-solid fa-circle-check text-gold text-base mt-0.5 shrink-0"></i>
+                            <span class="text-xs sm:text-sm text-gray-700 font-medium leading-snug">
+                                Design your own home
+                            </span>
+                        </div>
+
+                        <!-- Item 3 -->
+                        <div class="flex items-start space-x-3.5 p-4 sm:p-4.5">
+                            <i class="fa-solid fa-circle-check text-gold text-base mt-0.5 shrink-0"></i>
+                            <span class="text-xs sm:text-sm text-gray-700 font-medium leading-snug">
+                                Plan spaces around your family
+                            </span>
+                        </div>
+
+                        <!-- Item 4 -->
+                        <div class="flex items-start space-x-3.5 p-4 sm:p-4.5">
+                            <i class="fa-solid fa-circle-check text-gold text-base mt-0.5 shrink-0"></i>
+                            <span class="text-xs sm:text-sm text-gray-700 font-medium leading-snug">
+                                Create a long-term family asset
+                            </span>
+                        </div>
+                    </div>
                 </div>
 
-                <!-- Inner White Card Content -->
-                <div class="bg-white rounded-xl overflow-hidden divide-y divide-gold border border-gold flex-1">
-                    <!-- Item 1 -->
-                    <div class="flex items-start space-x-3.5 p-4 sm:p-4.5">
-                        <i class="fa-solid fa-circle-check text-gold text-base mt-0.5 shrink-0"></i>
-                        <span class="text-xs sm:text-sm text-gray-700 font-medium leading-snug">
-                            Choose your preferred plot
-                        </span>
+                <!-- Card 2: Invest For The Future (Gold Header) -->
+                <div class="bg-gold p-4 sm:p-5 rounded-2xl shadow-sm flex flex-col">
+                    <!-- Header -->
+                    <div class="flex items-center space-x-3.5 mb-4 px-2 pt-1">
+                        <div class="w-10 h-10 rounded-full bg-white flex items-center justify-center shrink-0 shadow-sm">
+                            <i class="fa-solid fa-hand-holding-dollar text-gold text-base"></i>
+                        </div>
+                        <h3 class="text-white font-bold text-base sm:text-lg tracking-wider uppercase">
+                            INVEST FOR FUTURE
+                        </h3>
                     </div>
 
-                    <!-- Item 2 -->
-                    <div class="flex items-start space-x-3.5 p-4 sm:p-4.5">
-                        <i class="fa-solid fa-circle-check text-gold text-base mt-0.5 shrink-0"></i>
-                        <span class="text-xs sm:text-sm text-gray-700 font-medium leading-snug">
-                            Design your own home
-                        </span>
-                    </div>
+                    <!-- Inner White Card Content -->
+                    <div class="bg-white rounded-xl overflow-hidden divide-y divide-gold border border-gold flex-1">
+                        <!-- Item 1 -->
+                        <div class="flex items-start space-x-3.5 p-4 sm:p-4.5">
+                            <i class="fa-solid fa-circle-check text-gold text-base mt-0.5 shrink-0"></i>
+                            <span class="text-xs sm:text-sm text-gray-700 font-medium leading-snug">
+                                Own land in a growing location
+                            </span>
+                        </div>
 
-                    <!-- Item 3 -->
-                    <div class="flex items-start space-x-3.5 p-4 sm:p-4.5">
-                        <i class="fa-solid fa-circle-check text-gold text-base mt-0.5 shrink-0"></i>
-                        <span class="text-xs sm:text-sm text-gray-700 font-medium leading-snug">
-                            Plan spaces around your family
-                        </span>
-                    </div>
+                        <!-- Item 2 -->
+                        <div class="flex items-start space-x-3.5 p-4 sm:p-4.5">
+                            <i class="fa-solid fa-circle-check text-gold text-base mt-0.5 shrink-0"></i>
+                            <span class="text-xs sm:text-sm text-gray-700 font-medium leading-snug">
+                                Flexible holding period
+                            </span>
+                        </div>
 
-                    <!-- Item 4 -->
-                    <div class="flex items-start space-x-3.5 p-4 sm:p-4.5">
-                        <i class="fa-solid fa-circle-check text-gold text-base mt-0.5 shrink-0"></i>
-                        <span class="text-xs sm:text-sm text-gray-700 font-medium leading-snug">
-                            Create a long-term family asset
-                        </span>
+                        <!-- Item 3 -->
+                        <div class="flex items-start space-x-3.5 p-4 sm:p-4.5">
+                            <i class="fa-solid fa-circle-check text-gold text-base mt-0.5 shrink-0"></i>
+                            <span class="text-xs sm:text-sm text-gray-700 font-medium leading-snug">
+                                Potential long-term appreciation
+                            </span>
+                        </div>
+
+                        <!-- Item 4 -->
+                        <div class="flex items-start space-x-3.5 p-4 sm:p-4.5">
+                            <i class="fa-solid fa-circle-check text-gold text-base mt-0.5 shrink-0"></i>
+                            <span class="text-xs sm:text-sm text-gray-700 font-medium leading-snug">
+                                Resale potential subject to market conditions
+                            </span>
+                        </div>
                     </div>
                 </div>
+
             </div>
-
-            <!-- Card 2: Invest For The Future (Gold Header) -->
-            <div class="bg-gold p-4 sm:p-5 rounded-2xl shadow-sm flex flex-col">
-                <!-- Header -->
-                <div class="flex items-center space-x-3.5 mb-4 px-2 pt-1">
-                    <div class="w-10 h-10 rounded-full bg-white flex items-center justify-center shrink-0 shadow-sm">
-                        <i class="fa-solid fa-hand-holding-dollar text-gold text-base"></i>
-                    </div>
-                    <h3 class="text-white font-bold text-base sm:text-lg tracking-wider uppercase">
-                        INVEST FOR FUTURE
-                    </h3>
-                </div>
-
-                <!-- Inner White Card Content -->
-                <div class="bg-white rounded-xl overflow-hidden divide-y divide-gold border border-gold flex-1">
-                    <!-- Item 1 -->
-                    <div class="flex items-start space-x-3.5 p-4 sm:p-4.5">
-                        <i class="fa-solid fa-circle-check text-gold text-base mt-0.5 shrink-0"></i>
-                        <span class="text-xs sm:text-sm text-gray-700 font-medium leading-snug">
-                            Own land in a growing location
-                        </span>
-                    </div>
-
-                    <!-- Item 2 -->
-                    <div class="flex items-start space-x-3.5 p-4 sm:p-4.5">
-                        <i class="fa-solid fa-circle-check text-gold text-base mt-0.5 shrink-0"></i>
-                        <span class="text-xs sm:text-sm text-gray-700 font-medium leading-snug">
-                            Flexible holding period
-                        </span>
-                    </div>
-
-                    <!-- Item 3 -->
-                    <div class="flex items-start space-x-3.5 p-4 sm:p-4.5">
-                        <i class="fa-solid fa-circle-check text-gold text-base mt-0.5 shrink-0"></i>
-                        <span class="text-xs sm:text-sm text-gray-700 font-medium leading-snug">
-                            Potential long-term appreciation
-                        </span>
-                    </div>
-
-                    <!-- Item 4 -->
-                    <div class="flex items-start space-x-3.5 p-4 sm:p-4.5">
-                        <i class="fa-solid fa-circle-check text-gold text-base mt-0.5 shrink-0"></i>
-                        <span class="text-xs sm:text-sm text-gray-700 font-medium leading-snug">
-                            Resale potential subject to market conditions
-                        </span>
-                    </div>
-                </div>
-            </div>
-
         </div>
-
     </section>
 
     <!-- ======================= LAYOUT / FLOOR PLANS ======================= -->
@@ -859,9 +890,15 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
     <!-- ======================= Need Guidence ======================= -->
     <section id="about" class="py-16 sm:py-20 lg:py-24 scroll-mt-24">
         <div class="container mx-auto text-center mb-6">
+<<<<<<< HEAD
+            <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">LATEST PLOT PRICE</p>
+            <h2 class="font-prata text-3xl text-[#302F5A] sm:text-4xl leading-tight">Get the Latest Aara Enclave Price</h2>
+            <!-- <p class="mt-4 max-w-4xl mx-auto text-[#444444] leading-relaxed">Buying property is a major decision. You don't have to figure it out alone. Tell us what you are looking for — your preferred location,
+=======
             <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">LATEST VILLA PRICE</p>
             <h2 class="font-prata text-3xl text-[#302F5A] xl:text-4xl leading-tight">Get the Latest Aara Enclave Price</h2>
             <!-- <p class="mt-4 max-w-4xl mx-auto text-[#444444] leading-relaxed text-sm xl:text-base">Buying property is a major decision. You don't have to figure it out alone. Tell us what you are looking for — your preferred location,
+>>>>>>> 1495223e7c1c339aa3315d7392e91d6590662eb2
                 property type, budget and purpose — and our team can help you shortlist suitable projects in Coimbatore.</p> -->
         </div>
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
@@ -870,32 +907,32 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                 <h2 class="text-gold font-prata text-xl lg:text-2xl font-semibold text-center col-span-2 md:col-span-3">Plot prices can vary based on:</h2>
 
                 <div class="rounded-2xl border border-[#B3814E80] bg-white flex text-center flex-col gap-4 items-center text-[#302F5A] p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-4.svg" alt="" class="w-14 h-14">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-4.svg" alt="" class="w-14 h-14">
                     <p>Plot size</p>
                 </div>
 
                 <div class="rounded-2xl border border-[#B3814E80] bg-white flex text-center flex-col gap-4 items-center text-[#302F5A] p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-3.svg" alt="" class="w-14 h-14">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-3.svg" alt="" class="w-14 h-14">
                     <p>Facing</p>
                 </div>
 
                 <div class="rounded-2xl border border-[#B3814E80] bg-white flex text-center flex-col gap-4 items-center text-[#302F5A] p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-1.svg" alt="" class="w-14 h-14">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-1.svg" alt="" class="w-14 h-14">
                     <p>Location within layout</p>
                 </div>
 
                 <div class="rounded-2xl border border-[#B3814E80] bg-white flex text-center flex-col gap-4 items-center text-[#302F5A] p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/aataspace-icon-1.svg" alt="" class="w-14 h-14">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/aataspace-icon-1.svg" alt="" class="w-14 h-14">
                     <p>Road width</p>
                 </div>
 
                 <div class="rounded-2xl border border-[#B3814E80] bg-white flex text-center flex-col gap-4 items-center text-[#302F5A] p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/aataspace-icon-2.svg" alt="" class="w-14 h-14">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/aataspace-icon-2.svg" alt="" class="w-14 h-14">
                     <p>Corner status</p>
                 </div>
 
                 <div class="rounded-2xl border border-[#B3814E80] bg-white flex text-center flex-col gap-4 items-center text-[#302F5A] p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-2.svg" alt="" class="w-14 h-14">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-2.svg" alt="" class="w-14 h-14">
                     <p>Current offers</p>
                 </div>
 
@@ -904,8 +941,8 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                 </div>
             </div>
 
-            <div class="reveal relative rounded-2xl overflow-hidden h-full min-h-[420px] bg-cover bg-center" style="background-image: url('http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-7.png');">
-                <!-- <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-7.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[420px] object-cover" loading="lazy" /> -->
+            <div class="reveal relative rounded-2xl overflow-hidden h-full min-h-[420px] bg-cover bg-center" style="background-image: url('https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-7.png');">
+                <!-- <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-7.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[420px] object-cover" loading="lazy" /> -->
             </div>
         </div>
     </section>
@@ -916,7 +953,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
     <!-- Site Visit -->
     <section id="about" class="pt-16 sm:pt-20 lg:pt-24 scroll-mt-24">
         <div class="container relative mx-auto rounded-2xl overflow-hidden p-12 bg-cover bg-center"
-            style="background-image: url('http://localhost/estate_partners/wp-content/uploads/2026/11/aaraspace.png');">
+            style="background-image: url('https://localhost/estate_partners/wp-content/uploads/2026/11/aaraspace.png');">
             <!-- <div class="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent"></div> -->
 
             <div class="relative grid lg:grid-cols-2 gap-6 z-10">
@@ -926,7 +963,11 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                 </div>
 
                 <div id="enquire" class="bg-white rounded-xl shadow-xl p-6 sm:p-8 scroll-mt-28 max-w-lg lg:ml-auto">
+<<<<<<< HEAD
+                    <p id="site-visit" class="font-bold text-gold uppercase tracking-[0.18em] text-sm mb-3 text-center">SCHEDULE A</p>
+=======
                     <p class="font-bold text-gold uppercase tracking-[0.18em] text-sm mb-3 text-center">SCHEDULE A</p>
+>>>>>>> 1495223e7c1c339aa3315d7392e91d6590662eb2
                     <h2 class="font-prata text-2xl text-[#302F5A] text-center">Free Site Visit to Aara Enclave</h2>
                     <?php echo do_shortcode('[wpforms id="300"]'); ?>
                     <p class="flex items-center gap-6 p-4 rounded-xl border border-[#B3814E80] bg-[#FCF7F3] text-[#404042]"><i class="fa-solid fa-taxi text-gold text-3xl"></i> Free cab assistance available — subject to availability.</p>
@@ -956,7 +997,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
 
             <div class="reveal relative">
                 <div class="rounded-2xl overflow-hidden">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-5.png" alt="Property agreement signing with Estate Partners guidance" class="w-full min-h-[420px] sm:min-h-[520px]" loading="lazy" />
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/aara-enclave-5.png" alt="Property agreement signing with Estate Partners guidance" class="w-full min-h-[420px] sm:min-h-[520px]" loading="lazy" />
                 </div>
                 <!-- <div class="absolute -bottom-6 left-5 sm:left-8 bg-ink text-white rounded-2xl px-6 py-5 shadow-xl flex items-center gap-4">
                     <span class="w-12 h-12 rounded-full bg-gold inline-flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-headset"></i></span>
@@ -974,24 +1015,33 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
             <div class="reveal relative h-full">
+<<<<<<< HEAD
+                <div class="reveal relative rounded-2xl overflow-hidden h-full min-h-[420px] bg-cover bg-center" style="background-image: url('https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-5.png');">
+                    <!-- <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-5.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[420px] object-cover" loading="lazy" /> -->
+=======
                 <div class="reveal relative rounded-2xl overflow-hidden h-full min-h-[420px] bg-cover bg-center" style="background-image: url('http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-5.png');">
                     <!-- <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-5.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[420px] object-cover" loading="lazy" /> -->
+>>>>>>> 1495223e7c1c339aa3315d7392e91d6590662eb2
                 </div>
             </div>
 
             <div class="grid lg:grid-cols-3 bg-[#FCF7F3] p-6 sm:p-12 rounded-3xl border border-[#B3814E80] gap-6">
+<<<<<<< HEAD
+                <h2 class="text-gold font-prata text-xl lg:text-3xl font-semibold text-center col-span-3">Ready to Find Your Plots?</h2>
+=======
                 <h2 class="text-gold font-prata text-xl lg:text-3xl font-semibold text-center col-span-3">Ready to Find Your Villa?</h2>
+>>>>>>> 1495223e7c1c339aa3315d7392e91d6590662eb2
                 <p class="max-w-4xl mx-auto text-[#444444] leading-relaxed col-span-3">Get the Latest Price, Availability & Project Details</p>
 
                 <div class="col-span-3">
                     <?php echo do_shortcode('[wpforms id="41"]'); ?>
                 </div>
-                <div class="col-span-3 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-4 text-base">
+                <div class="col-span-3 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 2xl:grid-cols-3 gap-4 text-base">
                     <a href="#site-visit" class="p-2 xl:py-3 xl:px-4 border border-[#B3814E] rounded-md flex items-center gap-3">
                         <i class="fa-solid fa-phone text-xl xl:text-2xl text-[#302F5A] border p-3 rounded-full"></i>
                         Get Free Consultation
                     </a>
-                    <a href="#enquire-cta" class="p-2 xl:py-3 xl:px-4 border border-[#B3814E] rounded-md flex items-center gap-3">
+                    <a href="http://localhost/estate_partners/wp-content/uploads/2026/11/Aaraspaces-Brochure.pdf" class="p-2 xl:py-3 xl:px-4 border border-[#B3814E] rounded-md flex items-center gap-3">
                         <i class="fa-brands fa-whatsapp text-xl xl:text-2xl text-[#302F5A] border p-3 rounded-full"></i>
                         WhatsApp
                     </a>
@@ -1011,6 +1061,15 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid md:grid-cols-[auto_1fr_1.3fr] gap-6 items-center pb-8 border-b border-ink-line">
                 <span class="w-20 h-20 rounded-full bg-white shadow inline-flex items-center justify-center overflow-hidden">
+<<<<<<< HEAD
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/Aara_Enclave_Logo.png" alt="Aara enclave" class="w-14" loading="lazy" />
+                </span>
+                <div>
+                    <p class="text-gold font-semibold uppercase text-xs tracking-wide mb-3">Developer</p>
+                    <h2 class="font-prata text-3xl text-[#302F5A]">Aara Enclave</h2>
+                </div>
+                <p class="text-sm leading-relaxed">Aara enclave focuses on developing residential and commercial properties in Coimbatore, with projects designed around location, planning and long-term usability.</p>
+=======
                     <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/Aara_Enclave_Logo.png" alt="Aara Spaces" class="w-14" loading="lazy" />
                 </span>
                 <div>
@@ -1018,6 +1077,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                     <h2 class="font-prata text-3xl text-[#302F5A]">Aara Spaces</h2>
                 </div>
                 <p class="text-xs leading-relaxed">Aara Spaces focuses on developing residential and commercial properties in Coimbatore, with projects designed around location, planning and long-term usability.</p>
+>>>>>>> 1495223e7c1c339aa3315d7392e91d6590662eb2
             </div>
 
             <div class="grid sm:grid-cols-2 xl:grid-cols-3 gap-12 lg:gap-18 mt-12">
@@ -1026,6 +1086,13 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                 $properties = new WP_Query(array(
                     'post_type' => 'project',
                     'posts_per_page' => 3,
+                    'tax_query'      => array(
+                        array(
+                            'taxonomy' => 'property_type',
+                            'field'    => 'slug',
+                            'terms'    => 'plots',
+                        ),
+                    ),
                 ));
 
                 if ($properties->have_posts()) :
@@ -1040,6 +1107,9 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
     </section>
 
     <!-- Developer -->
+<<<<<<< HEAD
+    <?php get_template_part('template-parts/section-similar-projects', null, array('type' => 'plots')); ?>
+=======
     <section class="bg-white py-16 sm:py-20">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
@@ -1064,6 +1134,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
             </div>
         </div>
     </section>
+>>>>>>> 1495223e7c1c339aa3315d7392e91d6590662eb2
 
     <!-- ============ SECTION START (pure HTML, no script needed) ============ -->
     <section id="nearby-projects" class="bg-[#302F5A] py-12 sm:py-16">
@@ -1236,13 +1307,14 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                 <h2 class="font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight">Supported By</h2>
             </div>
 
-            <div class="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-6 gap-6">
-                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-6-scaled.png" alt="" class="h-16 mx-auto">
-                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-4-scaled.png" alt="" class="h-16 mx-auto">
-                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-3.png" alt="" class="h-16 mx-auto">
-                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-2.png" alt="" class="h-16 mx-auto">
-                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-9.png  " alt="" class="h-16 mx-auto">
-                <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-12.png" alt="" class="h-16 mx-auto">
+            <!-- <div class="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-6 gap-6"> -->
+            <div class="flex flex-wrap justify-center gap-6">
+                <!-- <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-6-scaled.png" alt="" class="h-16 mx-auto"> -->
+                <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-4-scaled.png" alt="" class="h-16 mx-auto">
+                <!-- <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-3.png" alt="" class="h-16 mx-auto">
+                <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-2.png" alt="" class="h-16 mx-auto"> -->
+                <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-9.png  " alt="" class="h-16 mx-auto">
+                <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-12.png" alt="" class="h-16 mx-auto">
             </div>
 
         </div>
@@ -1255,38 +1327,66 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
             <div class="mt-8 divide-y divide-gold/30 border-b border-gold/30">
                 <details class="py-4" open>
                     <summary class="cursor-pointer list-none flex items-center justify-between gap-4 text-sm sm:text-base font-medium text-[#222]">
-                        <span>1. What's included in the listed apartment price: is it the final cost?</span>
+                        <span>1. Where can I find land for sale in Kalapatti, Coimbatore?</span>
                         <span class="text-gold shrink-0"><i class="fa-solid fa-plus faq-plus"></i><i class="fa-solid fa-minus faq-minus hidden"></i></span>
                     </summary>
-                    <p class="mt-3 text-sm pl-5">The listed price is typically the base sale price. Additional costs like GST, registration, stamp duty, parking charges and club/amenity fees are usually separate.</p>
+                    <p class="mt-3 text-sm pl-5">If you're looking for land for sale in Kalapatti, Coimbatore, Aara Enclave is a premium residential layout located behind NGP College, just 10 minutes from Coimbatore International Airport. Spread across 5.27 acres with 56 well-planned plots, it is one of the trusted destinations for buyers seeking plots in Kalapatti with excellent connectivity and future growth potential.</p>
                 </details>
                 <details class="py-4">
                     <summary class="cursor-pointer list-none flex items-center justify-between gap-4 text-sm sm:text-base font-medium text-[#222]">
-                        <span>2. What's the difference between carpet area and built-up area?</span>
+                        <span>2. Is Aara Enclave DTCP and RERA approved?</span>
                         <span class="text-gold shrink-0"><i class="fa-solid fa-plus faq-plus"></i><i class="fa-solid fa-minus faq-minus hidden"></i></span>
                     </summary>
-                    <p class="mt-3 text-sm pl-5">Carpet area is the usable floor area inside the walls of the apartment. Built-up area adds the thickness of the walls and balconies, and super built-up adds your share of common areas.</p>
+                    <p class="mt-3 text-sm pl-5">Yes. Aara Enclave is a DTCP and RERA-approved residential project offering DTCP approved plots in Kalapatti, Coimbatore. The development spans 5.27 acres and features 100% Vaastu-compliant plots with clear legal titles, making it a secure choice for homebuyers and investors.</p>
                 </details>
                 <details class="py-4">
                     <summary class="cursor-pointer list-none flex items-center justify-between gap-4 text-sm sm:text-base font-medium text-[#222]">
-                        <span>3. Are these apartments ready-to-move or under construction?</span>
+                        <span>3. What amenities are available at Aara Enclave?</span>
                         <span class="text-gold shrink-0"><i class="fa-solid fa-plus faq-plus"></i><i class="fa-solid fa-minus faq-minus hidden"></i></span>
                     </summary>
-                    <p class="mt-3 text-sm pl-5">Please contact our team for the latest construction status and handover timeline of each tower.</p>
+                    <p class="mt-3 text-sm pl-5">Aara Enclave offers premium amenities, including solar street lights, corporation water, underground drainage, a compound wall, 24×7 security, CCTV surveillance, grand arch entrances, 33-ft black-top roads, underground electrical cabling, avenue plantation, a children's playground, and a turf area. These features make it one of the preferred gated community plots in Coimbatore for families and investors.</p>
                 </details>
                 <details class="py-4">
                     <summary class="cursor-pointer list-none flex items-center justify-between gap-4 text-sm sm:text-base font-medium text-[#222]">
-                        <span>4. Can I filter apartments by BHK configuration and budget?</span>
+                        <span>4. Is Aara Enclave close to IT parks in Coimbatore?</span>
                         <span class="text-gold shrink-0"><i class="fa-solid fa-plus faq-plus"></i><i class="fa-solid fa-minus faq-minus hidden"></i></span>
                     </summary>
-                    <p class="mt-3 text-sm pl-5">Yes. Our team can shortlist 2, 3, 3.5 and 4 BHK options that match your budget and preferred tower.</p>
+                    <p class="mt-3 text-sm pl-5">Yes. Aara Enclave enjoys excellent connectivity to major IT hubs. Global Tech Park is just 3 km away, while TIDEL Park and KCT Tech Park are 5.2 km away. SVB Tech Park is 4.8 km away, and ELCOT IT Park is only 5.6 km from the project, making these plots in Kalapatti an ideal choice for IT professionals.</p>
                 </details>
                 <details class="py-4">
                     <summary class="cursor-pointer list-none flex items-center justify-between gap-4 text-sm sm:text-base font-medium text-[#222]">
-                        <span>5. Is home loan financing available for these apartment projects?</span>
+                        <span>5. How far is Aara Enclave from Coimbatore International Airport?</span>
                         <span class="text-gold shrink-0"><i class="fa-solid fa-plus faq-plus"></i><i class="fa-solid fa-minus faq-minus hidden"></i></span>
                     </summary>
-                    <p class="mt-3 text-sm pl-5">Yes. The project is supported by leading banks and housing finance companies. Our team can help with eligibility and documentation.</p>
+                    <p class="mt-3 text-sm pl-5">Aara Enclave is located just 5.5 km from Coimbatore International Airport, Sitra, which is approximately a 10-minute drive. This prime location makes it one of the most convenient options for land for sale in Kalapatti, Coimbatore.</p>
+                </details>
+                <details class="py-4">
+                    <summary class="cursor-pointer list-none flex items-center justify-between gap-4 text-sm sm:text-base font-medium text-[#222]">
+                        <span>6. Is Kalapatti a good area to buy residential land in Coimbatore?</span>
+                        <span class="text-gold shrink-0"><i class="fa-solid fa-plus faq-plus"></i><i class="fa-solid fa-minus faq-minus hidden"></i></span>
+                    </summary>
+                    <p class="mt-3 text-sm pl-5">Yes. Kalapatti is one of Coimbatore's fastest-growing residential and investment destinations. Its proximity to IT parks, educational institutions like NGP College, hospitals, and Coimbatore International Airport has increased demand for land for sale in Kalapatti, Coimbatore. Buyers looking for plots in Kalapatti benefit from strong appreciation potential and excellent infrastructure.</p>
+                </details>
+                <details class="py-4">
+                    <summary class="cursor-pointer list-none flex items-center justify-between gap-4 text-sm sm:text-base font-medium text-[#222]">
+                        <span>7. What are the best DTCP approved plots in Kalapatti, Coimbatore?</span>
+                        <span class="text-gold shrink-0"><i class="fa-solid fa-plus faq-plus"></i><i class="fa-solid fa-minus faq-minus hidden"></i></span>
+                    </summary>
+                    <p class="mt-3 text-sm pl-5">Aara Enclave is one of the leading DTCP approved plots in Kalapatti, Coimbatore. The project is also RERA-approved and offers clear legal titles, a thoughtfully planned 5.27-acre layout, 33-ft roads, 24×7 security, premium infrastructure, and excellent connectivity to Coimbatore Airport and major IT corridors. It is also recognized as one of the best gated community plots in Coimbatore.</p>
+                </details>
+                <details class="py-4">
+                    <summary class="cursor-pointer list-none flex items-center justify-between gap-4 text-sm sm:text-base font-medium text-[#222]">
+                        <span>8. Can NRIs buy land at Aara Enclave?</span>
+                        <span class="text-gold shrink-0"><i class="fa-solid fa-plus faq-plus"></i><i class="fa-solid fa-minus faq-minus hidden"></i></span>
+                    </summary>
+                    <p class="mt-3 text-sm pl-5">Yes. NRIs can confidently invest in land for sale in Kalapatti, Coimbatore at Aara Enclave. Our team provides complete documentation assistance, power of attorney guidance, and remote transaction support, making the buying process smooth and hassle-free.</p>
+                </details>
+                <details class="py-4">
+                    <summary class="cursor-pointer list-none flex items-center justify-between gap-4 text-sm sm:text-base font-medium text-[#222]">
+                        <span>9. Is a bank loan available for plots at Aara Enclave?</span>
+                        <span class="text-gold shrink-0"><i class="fa-solid fa-plus faq-plus"></i><i class="fa-solid fa-minus faq-minus hidden"></i></span>
+                    </summary>
+                    <p class="mt-3 text-sm pl-5">Yes. Since Aara Enclave offers DTCP approved plots in Kalapatti, Coimbatore with clear legal documentation, leading banks and financial institutions can provide plot loans, subject to the buyer's eligibility and the lender's approval.</p>
                 </details>
             </div>
         </div>

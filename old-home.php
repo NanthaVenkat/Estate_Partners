@@ -11,7 +11,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
 
                 <!-- Slide 1 -->
                 <div class="swiper-slide relative">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/2_home_i_2.png" alt="Premium villa exterior in Coimbatore" class="absolute inset-0 w-full h-full object-cover" />
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/2_home_i_2.png" alt="Premium villa exterior in Coimbatore" class="absolute inset-0 w-full h-full object-cover" />
                     <div class="hero-overlay absolute inset-0"></div>
                     <div class="container relative h-full mx-auto px-4 sm:px-6 lg:px-8 flex items-center">
                         <div class="max-w-6xl text-white">
@@ -88,7 +88,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div class="reveal relative order-2 lg:order-1">
                 <div class="rounded-2xl overflow-hidden shadow-xl">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/4_image_259.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-[420px] sm:h-[520px] object-cover" loading="lazy" />
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/4_image_259.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-[420px] sm:h-[520px] object-cover" loading="lazy" />
                 </div>
                 <!-- <div class="absolute -bottom-6 left-5 sm:left-8 bg-ink text-white rounded-2xl px-6 py-5 shadow-xl flex items-center gap-4">
                     <span class="w-12 h-12 rounded-full bg-gold inline-flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-headset"></i></span>
@@ -125,38 +125,38 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                 <h2 class="font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight">Why Choose Estate Partners?</h2>
                 <div class="grid sm:grid-cols-2 rounded-2xl overflow-hidden bg-white mt-6">
                     <div class="space-y-4 p-5 order-1">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/LocalExpertise.svg" alt="Local Expertise" class="w-16 h-16">
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/LocalExpertise.svg" alt="Local Expertise" class="w-16 h-16">
                         <h4 class="font-semibold text-[#302F5A] text-lg">Local Expertise</h4>
                         <p class="text-[#6B6B6B]">Focused on the Coimbatore market, with insights into neighbourhoods, connectivity, development and property opportunities.</p>
                     </div>
 
                     <div class="space-y-4 p-5 text-white bg-gold order-2">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/CuratedProjects.svg" alt="Curated Projects" class="w-16 h-16">
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/CuratedProjects.svg" alt="Curated Projects" class="w-16 h-16">
                         <h4 class="font-semibold text-lg">Curated Projects</h4>
                         <p class="">Only 16 villas across 1.42 acres — a rare, small-scale development, not a mass housing project.
                         </p>
                     </div>
 
                     <div class="space-y-4 p-5 text-white bg-gold order-4 sm:order-3">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/ClearProjectInformation.svg" alt="Clear Project Information" class="w-16 h-16">
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/ClearProjectInformation.svg" alt="Clear Project Information" class="w-16 h-16">
                         <h4 class="font-semibold text-lg">Clear Project Information</h4>
                         <p class="">Get important details about location, configurations, pricing, amenities, approvals and project status in one place.</p>
                     </div>
 
                     <div class="space-y-4 p-5 order-3 sm:order-4">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/CompareBeforeYouDecide.svg" alt="Compare Before You Decide" class="w-16 h-16">
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/CompareBeforeYouDecide.svg" alt="Compare Before You Decide" class="w-16 h-16">
                         <h4 class="font-semibold text-[#302F5A] text-lg">Compare Before You Decide</h4>
                         <p class="text-[#6B6B6B]">Shortlist and compare projects based on your budget, requirements, location and investment goals.</p>
                     </div>
 
                     <div class="space-y-4 p-5 order-5">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/PersonalisedGuidance.svg" alt="Personalised Guidance" class="w-16 h-16">
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/PersonalisedGuidance.svg" alt="Personalised Guidance" class="w-16 h-16">
                         <h4 class="font-semibold text-[#302F5A] text-lg">Personalised Guidance</h4>
                         <p class="text-[#6B6B6B]">Not sure what to buy? Our property advisors can help you identify options that match your needs.</p>
                     </div>
 
                     <div class="space-y-4 p-5 text-white bg-gold order-6">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/EndtoEndSupport.svg" alt="End-to-End Support" class="w-16 h-16">
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/EndtoEndSupport.svg" alt="End-to-End Support" class="w-16 h-16">
                         <h4 class="font-semibold text-lg">End-to-End Support</h4>
                         <p class="">From your first enquiry and site visit to booking and the next steps, our team stays available to assist you.</p>
                     </div>
@@ -230,10 +230,10 @@ $img_uri = get_template_directory_uri() . '/assets/images';
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-8">
                 <div class="reveal group bg-white rounded-2xl overflow-hidden border border-[#B3814E50] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all">
                     <div class="overflow-hidden h-[420px]">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/28_rectangle_10323.png" alt="Apartment residences" class="w-full h-full object-cover" loading="lazy" />
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/28_rectangle_10323.png" alt="Apartment residences" class="w-full h-full object-cover" loading="lazy" />
                     </div>
                     <div class="p-7">
-                        <div class="w-14 h-14 inline-flex items-center justify-center text-xl mb-4"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/ZeroBrokerage.svg" alt=""></div>
+                        <div class="w-14 h-14 inline-flex items-center justify-center text-xl mb-4"><img src="https://localhost/estate_partners/wp-content/uploads/2026/10/ZeroBrokerage.svg" alt=""></div>
                         <h3 class="text-2xl font-semibold text-[#302F5A]">Zero Brokerage</h3>
                         <p class="mt-3 text-sm text-[#6B6B6B] leading-relaxed">100% Service, 0% Brokerage</p>
                     </div>
@@ -241,10 +241,10 @@ $img_uri = get_template_directory_uri() . '/assets/images';
 
                 <div class="reveal group bg-white rounded-2xl overflow-hidden border border-[#B3814E50] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all">
                     <div class="overflow-hidden h-[420px]">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/29_rectangle_10323.png" alt="Independent villa" class="w-full h-full object-cover" loading="lazy" />
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/29_rectangle_10323.png" alt="Independent villa" class="w-full h-full object-cover" loading="lazy" />
                     </div>
                     <div class="p-7">
-                        <div class="w-14 h-14 inline-flex items-center justify-center text-xl mb-4"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/LowestpriceGuaranteed.svg" alt=""></div>
+                        <div class="w-14 h-14 inline-flex items-center justify-center text-xl mb-4"><img src="https://localhost/estate_partners/wp-content/uploads/2026/10/LowestpriceGuaranteed.svg" alt=""></div>
                         <h3 class="text-2xl font-semibold text-[#302F5A]">Lowest price Guaranteed</h3>
                         <p class="mt-3 text-sm text-[#6B6B6B] leading-relaxed">Highly unlikely, but if you find a lower price anywhere, tell us and we will match it</p>
                     </div>
@@ -252,10 +252,10 @@ $img_uri = get_template_directory_uri() . '/assets/images';
 
                 <div class="reveal group bg-white rounded-2xl overflow-hidden border border-[#B3814E50] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all">
                     <div class="overflow-hidden h-[420px]">
-                        <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/30_rectangle_10323.png" alt="Map showing residential plot locations" class="w-full h-full object-cover" loading="lazy" />
+                        <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/30_rectangle_10323.png" alt="Map showing residential plot locations" class="w-full h-full object-cover" loading="lazy" />
                     </div>
                     <div class="p-7">
-                        <div class="w-14 h-14 inline-flex items-center justify-center text-xl mb-4"><img src="http://localhost/estate_partners/wp-content/uploads/2026/10/FullServiceSupport.svg" alt=""></div>
+                        <div class="w-14 h-14 inline-flex items-center justify-center text-xl mb-4"><img src="https://localhost/estate_partners/wp-content/uploads/2026/10/FullServiceSupport.svg" alt=""></div>
                         <h3 class="text-2xl font-semibold text-[#302F5A]">Full Service Support</h3>
                         <p class="mt-3 text-sm text-[#6B6B6B] leading-relaxed">Our sales personnel are accountable for every step</p>
                     </div>
@@ -270,79 +270,83 @@ $img_uri = get_template_directory_uri() . '/assets/images';
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12 reveal">
                 <p class="text-gold font-bold uppercase tracking-[0.18em] text-sm mb-3">Explore Properties by Location</p>
+<<<<<<< HEAD
+                <h2 class="font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight">Find the right property in the right neighbourhood</h2>
+=======
                 <h2 class="font-prata text-[#302F5A] text-3xl xl:text-4xl leading-tight">Find the right property in the right neighbourhood</h2>
+>>>>>>> 1495223e7c1c339aa3315d7392e91d6590662eb2
                 <p class="mt-4 max-w-4xl mx-auto text-[#302F5A] leading-relaxed">Explore residential projects across some of Coimbatore's most sought-after and fast-developing locations.</p>
             </div>
 
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 sm:gap-10 text-gold text-lg">
                 <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
                     <span class="font-medium">Kalapatti</span>
                     <i class="fa-solid fa-arrow-right ml-auto"></i>
                 </a>
 
                 <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
                     <span class="font-medium">Vellalore</span>
                     <i class="fa-solid fa-arrow-right ml-auto"></i>
                 </a>
 
                 <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
                     <span class="font-medium">Thudiyalur</span>
                     <i class="fa-solid fa-arrow-right ml-auto"></i>
                 </a>
 
                 <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
                     <span class="font-medium">Idikarai</span>
                     <i class="fa-solid fa-arrow-right ml-auto"></i>
                 </a>
 
                 <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
                     <span class="font-medium">Sulur</span>
                     <i class="fa-solid fa-arrow-right ml-auto"></i>
                 </a>
 
                 <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
                     <span class="font-medium">Ganapathy</span>
                     <i class="fa-solid fa-arrow-right ml-auto"></i>
                 </a>
 
                 <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
                     <span class="font-medium">Ramanathapuram</span>
                     <i class="fa-solid fa-arrow-right ml-auto"></i>
                 </a>
 
                 <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
                     <span class="font-medium">Vedapatti</span>
                     <i class="fa-solid fa-arrow-right ml-auto"></i>
                 </a>
 
                 <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
                     <span class="font-medium">Vadavalli</span>
                     <i class="fa-solid fa-arrow-right ml-auto"></i>
                 </a>
 
                 <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
                     <span class="font-medium">Saravanampatti</span>
                     <i class="fa-solid fa-arrow-right ml-auto"></i>
                 </a>
 
                 <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
                     <span class="font-medium">Hopes</span>
                     <i class="fa-solid fa-arrow-right ml-auto"></i>
                 </a>
 
                 <a href="" class="border border-[#9D520E25] p-4 rounded-2xl bg-[#FCF7F3] flex items-center gap-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/Location_icon.svg" alt="" class="w-10 h-10">
                     <span class="font-medium">Perur</span>
                     <i class="fa-solid fa-arrow-right ml-auto"></i>
                 </a>
@@ -364,7 +368,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
 
                     <div class="swiper-slide project-card group bg-white rounded-2xl overflow-hidden border border-ink-line shadow-sm hover:shadow-xl transition-shadow h-auto">
                         <div class="relative overflow-hidden h-60">
-                            <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/5_2_802.png" alt="Infinium Onelife apartment residences" class="w-full h-full object-cover" loading="lazy" />
+                            <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/5_2_802.png" alt="Infinium Onelife apartment residences" class="w-full h-full object-cover" loading="lazy" />
                             <span class="absolute top-4 right-4 bg-white border border-[#B3814E50] text-[#302F5A] text-xs font-semibold px-3 py-1.5 rounded-full">4 Apartments</span>
                         </div>
                         <div class="p-6">
@@ -460,7 +464,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div class="flex gap-5 flex-col">
                 <div class="w-full rounded-2xl shadow-lg flex gap-6 items-center p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/need-guidence-2.svg" alt="Looking for a Home?" class="w-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/need-guidence-2.svg" alt="Looking for a Home?" class="w-16">
 
                     <div class="space-y-2">
                         <h3 class="font-semibold text-gold text-lg">Looking for a Home?</h3>
@@ -469,7 +473,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                 </div>
 
                 <div class="w-full rounded-2xl shadow-lg flex gap-6 items-center p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/need-guidence-1.svg" alt="Looking to Invest?" class="w-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/need-guidence-1.svg" alt="Looking to Invest?" class="w-16">
 
                     <div class="space-y-2">
                         <h3 class="font-semibold text-gold text-lg">Looking to Invest?</h3>
@@ -479,7 +483,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                 </div>
 
                 <div class="w-full rounded-2xl shadow-lg flex gap-6 items-center p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/need-guidence-4.svg" alt="Planning for the Future?" class="w-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/need-guidence-4.svg" alt="Planning for the Future?" class="w-16">
 
                     <div class="space-y-2">
                         <h3 class="font-semibold text-gold text-lg">Planning for the Future?</h3>
@@ -489,7 +493,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                 </div>
 
                 <div class="w-full rounded-2xl shadow-lg flex gap-6 items-center p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/need-guidence-3.svg" alt="NRI Buyer?" class="w-16">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/need-guidence-3.svg" alt="NRI Buyer?" class="w-16">
 
                     <div class="space-y-2">
                         <h3 class="font-semibold text-gold text-lg">NRI Buyer?</h3>
@@ -503,7 +507,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
 
             <div class="reveal relative">
                 <div class="rounded-2xl overflow-hidden">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/4_image_259.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[420px] object-cover" loading="lazy" />
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/4_image_259.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[420px] object-cover" loading="lazy" />
                 </div>
                 <!-- <div class="absolute -bottom-6 left-5 sm:left-8 bg-ink text-white rounded-2xl px-6 py-5 shadow-xl flex items-center gap-4">
                     <span class="w-12 h-12 rounded-full bg-gold inline-flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-headset"></i></span>
@@ -560,7 +564,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
             <div class="rounded-2xl p-5 border flex items-center ga-6 justify-center">
                 <div class="flex items-center gap-5">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/GUIDANCE.svg" alt="">
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/GUIDANCE.svg" alt="">
 
                     <div class="text-[#3A391B]">
                         <p>GUIDANCE</p>

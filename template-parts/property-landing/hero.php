@@ -1,15 +1,15 @@
     <!-- ======================= HERO ======================= -->
     <section class="relative isolate">
         <div class="absolute inset-0 -z-10">
-            <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-1-scaled.jpg"
+            <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-1-scaled.jpg"
                 alt="Infinium Altitude apartments in Ganapathy" class="w-full h-full object-cover" />
             <div class="absolute inset-0 bg-gradient-to-r from-[#131313]/80 via-[#131313]/50 to-[#131313]/20"></div>
         </div>
         <div
-            class="container mx-auto px-4 sm:px-6 lg:px-8 py-14 lg:py-20 grid lg:grid-cols-[1.2fr_0.8fr] gap-10 items-center">
+            class="container mx-auto px-4 sm:px-6 lg:px-8 py-14 lg:py-20 grid xl:grid-cols-[1.2fr_0.8fr] gap-10 items-center">
             <div class="text-white">
                 <p class="font-prata text-3xl tracking-[0.3em] uppercase"><img
-                        src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-11.png" alt=""
+                        src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-11.png" alt=""
                         class="h-14"></p>
                 <h1 class="font-prata text-3xl xl:text-4xl lg:text-5xl leading-tight mt-5">Premium 2, 3, 3.5 &amp; 4 BHK
                     Apartments in Ganapathy, Coimbatore</h1>
@@ -48,14 +48,14 @@
                 <p class="mt-4 text-xs text-center text-[#444444]">100% Secure | Expert Assistance | Quick Response</p>
                 <div class="mt-4 grid grid-cols-3 gap-2 text-xs">
                     <a href="#site-visit" class="rounded-md py-2 px-2 bg-white shadow-2xl flex items-center gap-3"><i
-                            class="fa-regular fa-calendar-check bg-[#302F5A] rounded-full p-3 text-white"></i>Book Site
+                            class="fa-regular fa-calendar-check bg-[#302F5A] rounded-full p-2 text-white"></i>Book Site
                         Visit</a>
-                    <a href="#enquire-cta" class="rounded-md py-2 px-2 bg-white shadow-2xl flex items-center gap-3"><i
-                            class="fa-solid fa-download bg-[#302F5A] rounded-full p-3 text-white"></i>Download
+                    <a href="http://localhost/estate_partners/wp-content/uploads/2026/11/Infinium-Altitude-EP.pdf" class="rounded-md py-2 px-2 bg-white shadow-2xl flex items-center gap-3"><i
+                            class="fa-solid fa-download bg-[#302F5A] rounded-full p-2 text-white"></i>Download
                         Brochure</a>
                     <a href="https://wa.me/917092958830"
                         class="rounded-md py-2 px-2 bg-white shadow-2xl flex items-center gap-3"><i
-                            class="fa-brands fa-whatsapp bg-[#302F5A] rounded-full p-3 text-white"></i>Whatsapp Us</a>
+                            class="fa-brands fa-whatsapp bg-[#302F5A] rounded-full p-2 text-white"></i>Whatsapp Us</a>
                 </div>
             </div>
         </div>

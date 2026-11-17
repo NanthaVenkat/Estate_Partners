@@ -69,8 +69,19 @@ $hot_topics = new WP_Query(
 
 // Custom background images for blog category filters
 $category_backgrounds = array(
+<<<<<<< HEAD
+    'all'          => 'https://localhost/estate_partners/wp-content/uploads/2026/11/all-blogs.png',
+    'uncategorized' => 'https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-5.png',
+    'apartments-villas' => 'http://localhost/estate_partners/wp-content/uploads/2026/11/blog_category-1.jpg',
+    'gated-community-living' => 'http://localhost/estate_partners/wp-content/uploads/2026/11/blog_category-4.png',
+    'city-locality-guides' => 'http://localhost/estate_partners/wp-content/uploads/2026/11/blog_category-5.png',
+    'plots-land-investment' => 'http://localhost/estate_partners/wp-content/uploads/2026/11/blog_category-3.png',
+    'property-price-insights' => 'http://localhost/estate_partners/wp-content/uploads/2026/11/blog_category-2.png',
+    'real-estate-market-trends' => 'http://localhost/estate_partners/wp-content/uploads/2026/11/blog_category-1.png',
+=======
     'all'          => 'http://localhost/estate_partners/wp-content/uploads/2026/11/all-blogs.png',
     'uncategorized' => 'http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-5.png',
+>>>>>>> 1495223e7c1c339aa3315d7392e91d6590662eb2
 );
 
 $article_args = array(
@@ -120,8 +131,54 @@ $articles = new WP_Query($article_args);
         </div>
     </section> -->
 
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+    new Swiper('.categoryNav', {
+        slidesPerView: 'auto',
+        spaceBetween: 12,
+        watchOverflow: true,
+        navigation: {
+            nextEl: '.categoryNav .swiper-button-next',
+            prevEl: '.categoryNav .swiper-button-prev',
+        },
+    });
+});
+    </script>
+
     <section id="city-guide" class="py-16 sm:pb-20">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+<<<<<<< HEAD
+            <?php if ($articles->have_posts()) : ?>
+                <div class="mb-6 border-b border-ink-line">
+                    <h2 class="inline-block border-b-2 border-gold px-2 pb-3 font-semibold text-xl text-[#302F5A]">Hot Topics</h2>
+                </div>
+                <nav class="swiper categoryNav mb-8 flex flex-wrap gap-3" aria-label="<?php esc_attr_e('Filter blog posts by category', 'estatepartners'); ?>">
+                    <div class="swiper-wrapper">
+                        <a href="<?php echo esc_url(home_url('/blog/')); ?>"
+                            class="swiper-slide inline-flex !h-32 !w-max items-end rounded-xl border bg-[#302F5A] bg-cover bg-center px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:border-gold hover:shadow-md <?php echo ! $category_id ? 'border-gold ring-2 ring-gold/40' : 'border-ink-line'; ?>"
+                            <?php if ($all_posts_background) : ?>style="background-image: linear-gradient(#00000000, #000000), url('<?php echo esc_url($category_backgrounds['all']); ?>');" <?php endif; ?>
+                            <?php echo ! $category_id ? 'aria-current="page"' : ''; ?>>
+                            <?php esc_html_e('All Posts', 'estatepartners'); ?>
+                        </a>
+                        <?php foreach ($categories as $category) : ?>
+                            <a href="<?php echo esc_url(get_category_link($category->term_id)); ?>"
+                                class="swiper-slide inline-flex !h-32 !w-max items-end rounded-xl border bg-[#302F5A] bg-cover bg-center px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:border-gold hover:shadow-md <?php echo $category_id === (int) $category->term_id ? 'border-gold ring-2 ring-gold/40' : 'border-ink-line'; ?>"
+
+                                <?php if (!empty($category_backgrounds[$category->slug])) : ?>
+                                style="background-image: linear-gradient(#00000000, #000000), url('<?php echo esc_url($category_backgrounds[$category->slug]); ?>');"
+                                <?php endif; ?>
+
+                                <?php echo $category_id === (int) $category->term_id ? 'aria-current="page"' : ''; ?>>
+
+                                <?php echo esc_html($category->name); ?>
+                            </a>
+                        <?php endforeach; ?>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </nav>
+            <?php endif; ?>
+=======
             <div class="mb-6 border-b border-ink-line">
                 <h2 class="inline-block border-b-2 border-gold px-2 pb-3 font-semibold text-xl text-[#302F5A]">Hot Topics</h2>
             </div>
@@ -158,8 +215,21 @@ $articles = new WP_Query($article_args);
                     ?>
                 </h2>
             </div>
+>>>>>>> 1495223e7c1c339aa3315d7392e91d6590662eb2
 
             <?php if ($articles->have_posts()) : ?>
+                <div class="mb-6 border-b border-ink-line">
+                    <h2 class="inline-block border-b-2 border-gold px-2 pb-3 font-semibold text-xl text-[#302F5A]">
+                        <?php
+                        if (is_category()) {
+                            single_cat_title();
+                        } else {
+                            esc_html_e('City Guide', 'estatepartners');
+                        }
+                        ?>
+                    </h2>
+                </div>
+
                 <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
                     <?php while ($articles->have_posts()) : $articles->the_post(); ?>
                         <?php
@@ -170,7 +240,7 @@ $articles = new WP_Query($article_args);
                         <article <?php post_class('overflow-hidden rounded-xl border border-[#B3814E40] bg-[#FCF7F3] shadow-sm transition-shadow hover:shadow-md'); ?>>
                             <a href="<?php the_permalink(); ?>" class="group block overflow-hidden bg-[#302F5A]">
                                 <?php if (has_post_thumbnail()) : ?>
-                                    <?php the_post_thumbnail('large', array('class' => 'aspect-[4/3] w-full object-cover transition-transform duration-300 group-hover:scale-105')); ?>
+                                    <?php the_post_thumbnail('large', array('class' => 'w-full object-cover transition-transform duration-300 group-hover:scale-105')); ?>
                                 <?php else : ?>
                                     <div class="flex aspect-[4/3] items-center justify-center text-white/80" aria-hidden="true">
                                         <i class="fa-solid fa-city text-4xl"></i>

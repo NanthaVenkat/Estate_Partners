@@ -14,8 +14,13 @@ $img_uri = get_template_directory_uri() . '/assets/images';
 $home    = home_url('/');
 
 // Media-library URLs (swap to $img_uri . '/logo.svg' etc. if you move the files into the theme).
+<<<<<<< HEAD
+$logo_url   = 'https://localhost/estate_partners/wp-content/uploads/2026/11/logo.svg';
+$modal_img  = 'https://localhost/estate_partners/wp-content/uploads/2026/10/enquery-banner.png';
+=======
 $logo_url   = 'http://localhost/estate_partners/wp-content/uploads/2026/11/logo.svg';
 $modal_img  = 'http://localhost/estate_partners/wp-content/uploads/2026/10/enquery-banner.png';
+>>>>>>> 1495223e7c1c339aa3315d7392e91d6590662eb2
 $phone_show = '+91 70929 58830';
 $phone_tel  = 'tel:+917092958830';
 
@@ -63,6 +68,24 @@ $blog_url     = $blog_page_id ? get_permalink($blog_page_id) : $home . 'blog/';
 <head>
     <meta charset="<?php bloginfo('charset'); ?>" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- tracking codes -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-5BXSTLZB"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    </script>
+
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "zcx3bke88d");
+    </script>
+    <!-- End of tracking codes -->
+
     <style type="text/tailwindcss">
         @theme {
             --font-prata: 'Prata', serif;
@@ -257,6 +280,34 @@ $blog_url     = $blog_page_id ? get_permalink($blog_page_id) : $home . 'blog/';
             <i class="fa-solid fa-share"></i>
         </button>
 
+<<<<<<< HEAD
+        <?php
+        // Full URL of each brochure (copy it from Media Library → file → "Copy URL")
+        $brochures = array(
+            'page-apartments.php' => 'http://localhost/estate_partners/wp-content/uploads/2026/11/Infinium-Altitude-EP.pdf',
+            'page-villas.php'     => 'http://localhost/estate_partners/wp-content/uploads/2026/11/Infinium-Central-16-EP.pdf',
+            'page-plots.php'      => 'http://localhost/estate_partners/wp-content/uploads/2026/11/Aaraspaces-Brochure.pdf',
+        );
+
+        $brochure_url = '';
+        foreach ($brochures as $template => $url) {
+            if (is_page_template($template)) {
+                $brochure_url = $url;
+                break;
+            }
+        }
+        ?>
+
+        <?php if ($brochure_url) : ?>
+            <a href="<?php echo esc_url($brochure_url); ?>" download
+                aria-label="<?php esc_attr_e('Download brochure', 'vnktheme-textdomain'); ?>"
+                class="p-3 rounded-l-lg bg-white shadow-lg hover:bg-gold hover:text-white transition-all">
+                <i class="fa-solid fa-download" aria-hidden="true"></i>
+            </a>
+        <?php endif; ?>
+
+=======
+>>>>>>> 1495223e7c1c339aa3315d7392e91d6590662eb2
         <!-- Call Button -->
         <a href="tel:+917092958830" class="p-3 rounded-l-lg bg-white shadow-lg hover:bg-gold hover:text-white transition-all" aria-label="Call us">
             <i class="fa-solid fa-phone"></i>
@@ -349,6 +400,10 @@ $blog_url     = $blog_page_id ? get_permalink($blog_page_id) : $home . 'blog/';
 
                         <div id="mobile-projects-submenu" class="mobile-submenu pl-4">
                             <div>
+<<<<<<< HEAD
+                                <a href="https://localhost/estate_partners/all-projects/" class="block py-3 text-sm hover:text-gold transition-colors <?php echo $item['active'] ? 'text-gold font-semibold' : 'text-ink-soft'; ?>">All projects</a>
+=======
+>>>>>>> 1495223e7c1c339aa3315d7392e91d6590662eb2
                                 <?php foreach ($project_links as $item) : ?>
                                     <a href="<?php echo esc_url($item['url']); ?>"
                                         class="block py-3 text-sm hover:text-gold transition-colors <?php echo $item['active'] ? 'text-gold font-semibold' : 'text-ink-soft'; ?>">
@@ -422,6 +477,10 @@ $blog_url     = $blog_page_id ? get_permalink($blog_page_id) : $home . 'blog/';
                             <!-- pt-1 is a hover bridge so the menu doesn't close while the mouse crosses the gap -->
                             <div class="pt-1">
                                 <div class="bg-white rounded-lg shadow-xl border border-ink-line py-2">
+<<<<<<< HEAD
+                                    <a href="https://localhost/estate_partners/all-projects/" class="block px-5 py-3 text-sm hover:bg-gold-pale hover:text-gold transition-colors <?php echo $item['active'] ? 'text-gold font-semibold' : 'text-ink'; ?>">All projects</a>
+=======
+>>>>>>> 1495223e7c1c339aa3315d7392e91d6590662eb2
                                     <?php foreach ($project_links as $item) : ?>
                                         <a href="<?php echo esc_url($item['url']); ?>"
                                             class="block px-5 py-3 text-sm hover:bg-gold-pale hover:text-gold transition-colors <?php echo $item['active'] ? 'text-gold font-semibold' : 'text-ink'; ?>"

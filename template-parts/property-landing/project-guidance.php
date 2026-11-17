@@ -10,7 +10,7 @@
                         For?</h2>
                 </div>
                 <div class="w-full rounded-2xl shadow-lg flex gap-6 items-center p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/lp-icon-3.svg"
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/lp-icon-3.svg"
                         alt="Looking for a Ready Home?" class="w-16">
 
                     <div class="space-y-2">
@@ -21,7 +21,7 @@ with premium specifications and modern amenities.</p>
                 </div>
 
                 <div class="w-full rounded-2xl shadow-lg flex gap-6 items-center p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/lp-icon-2.svg"
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/lp-icon-2.svg"
                         alt="Looking to Invest?" class="w-16">
 
                     <div class="space-y-2">
@@ -32,7 +32,7 @@ sought-after, well-connected residential corridors.</p>
                 </div>
 
                 <div class="w-full rounded-2xl shadow-lg flex gap-6 items-center p-4">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/lp-icon-1.svg"
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/lp-icon-1.svg"
                         alt="Planning for Your Family?" class="w-16">
 
                     <div class="space-y-2">
@@ -45,7 +45,7 @@ fits your family's needs today and tomorrow.</p>
 
             <div class="reveal relative">
                 <div class="rounded-2xl overflow-hidden">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-1.png"
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/apartment-page-1.png"
                         alt="Property agreement signing with Estate Partners guidance"
                         class="w-full h-full min-h-[420px] object-cover" loading="lazy" />
                 </div>

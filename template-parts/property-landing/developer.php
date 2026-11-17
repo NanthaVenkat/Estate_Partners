@@ -4,7 +4,7 @@
             <div class="grid md:grid-cols-[auto_1fr_1.3fr] gap-6 items-center pb-8 border-b border-ink-line">
                 <span
                     class="w-20 h-20 rounded-full bg-white shadow inline-flex items-center justify-center overflow-hidden">
-                    <img src="http://localhost/estate_partners/wp-content/uploads/2026/10/image-254.png"
+                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/10/image-254.png"
                         alt="Infinium Realty" class="w-14" loading="lazy" />
                 </span>
                 <div>
@@ -24,6 +24,13 @@
                 $properties = new WP_Query(array(
                     'post_type' => 'project',
                     'posts_per_page' => 3,
+                    'tax_query'      => array(
+        array(
+            'taxonomy' => 'property_type',
+            'field'    => 'slug',
+            'terms'    => 'apartment',
+        ),
+    ),
                 ));
 
                 if ($properties->have_posts()):

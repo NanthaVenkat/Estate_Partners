@@ -37,7 +37,7 @@ $testimonialHeading = get_field('testimonials_heading');
                                         class="w-12 h-12 rounded-full object-cover"
                                         loading="lazy" />
                                 <?php else: ?>
-                                <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/avatar.webp"
+                                <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/avatar.webp"
                                         alt="<?php echo esc_attr($reviewer_name); ?>"
                                         class="w-12 h-12 rounded-full object-cover"
                                         loading="lazy" />
@@ -48,7 +48,11 @@ $testimonialHeading = get_field('testimonials_heading');
                                         <span class="block text-xs text-[#302F5A]"><?php echo esc_html($reviewer_details); ?></span>
                                     </span>
 
+<<<<<<< HEAD
+                                    <img src="https://localhost/estate_partners/wp-content/uploads/2026/11/review-5.svg" alt="h-4">
+=======
                                     <img src="http://localhost/estate_partners/wp-content/uploads/2026/11/review-5.svg" alt="h-4">
+>>>>>>> 1495223e7c1c339aa3315d7392e91d6590662eb2
                                 </div>
                             </figcaption>
                         </figure>
