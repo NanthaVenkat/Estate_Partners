@@ -6,6 +6,52 @@ Version: 1.3
 Text Domain: estatepartners
 */
 
+html {
+  font-size: 16px;
+}
+
+@media (max-width: 1599px) {
+  html {
+    font-size: max(12px, calc(100vw / 100));
+  }
+}
+
+:root {
+  --text-xs: min(0.75rem, calc(0.7125rem + max(0.0375vw, 0.45px)));
+  --text-sm: min(0.875rem, calc(0.8375rem + max(0.0375vw, 0.45px)));
+  --text-base: min(1rem, calc(0.9625rem + max(0.0375vw, 0.45px)));
+  --text-lg: min(1.125rem, calc(1.0875rem + max(0.0375vw, 0.45px)));
+  --text-xl: min(1.25rem, calc(1.2125rem + max(0.0375vw, 0.45px)));
+  --text-2xl: min(1.5rem, calc(1.4625rem + max(0.0375vw, 0.45px)));
+  --text-3xl: min(1.875rem, calc(1.8375rem + max(0.0375vw, 0.45px)));
+  --text-4xl: min(2.25rem, calc(2.2125rem + max(0.0375vw, 0.45px)));
+  --text-5xl: min(3rem, calc(2.9625rem + max(0.0375vw, 0.45px)));
+  --text-6xl: min(3.75rem, calc(3.7125rem + max(0.0375vw, 0.45px)));
+  --text-7xl: min(4.5rem, calc(4.4625rem + max(0.0375vw, 0.45px)));
+  --text-8xl: min(6rem, calc(5.9625rem + max(0.0375vw, 0.45px)));
+  --text-9xl: min(8rem, calc(7.9625rem + max(0.0375vw, 0.45px)));
+}
+
+.border-2 {
+  border-width: 0.125rem;
+}
+
+.border-t-2 {
+  border-top-width: 0.125rem;
+}
+
+.border-r-2 {
+  border-right-width: 0.125rem;
+}
+
+.border-b-2 {
+  border-bottom-width: 0.125rem;
+}
+
+.border-l-2 {
+  border-left-width: 0.125rem;
+}
+
 .hero-overlay {
   background: linear-gradient(
     90deg,
@@ -30,7 +76,7 @@ Text Domain: estatepartners
   right: 0;
   bottom: -0.5rem;
   left: 0;
-  height: 2px;
+  height: 0.125rem;
   background: #b3814e;
   content: "";
   transform: scaleX(0);
@@ -66,16 +112,16 @@ Text Domain: estatepartners
 
 /* ---------- Hero Swiper ---------- */
 .hero-swiper .swiper-pagination-bullet {
-  width: 10px;
-  height: 10px;
+  width: 0.625rem;
+  height: 0.625rem;
   background: rgba(255, 255, 255, 0.5);
   opacity: 1;
   transition: all 0.3s ease;
 }
 
 .hero-swiper .swiper-pagination-bullet-active {
-  width: 32px;
-  border-radius: 9999px;
+  width: 2rem;
+  border-radius: 624.9375rem;
   background: #b3814e;
 }
 
@@ -100,9 +146,9 @@ Text Domain: estatepartners
 
 .swiper-button-next,
 .swiper-button-prev {
-  width: 48px;
-  height: 48px;
-  border-radius: 9999px;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 624.9375rem;
   background: #ffffff;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
   color: #131313;
@@ -111,7 +157,7 @@ Text Domain: estatepartners
 
 .swiper-button-next::after,
 .swiper-button-prev::after {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
 }
 
@@ -124,8 +170,8 @@ Text Domain: estatepartners
 .swiper-pagination-bullet,
 .insights-swiper .swiper-pagination-bullet,
 .projects-swiper .swiper-pagination-bullet {
-  width: 9px;
-  height: 9px;
+  width: 0.5625rem;
+  height: 0.5625rem;
   background: #d8c6a8;
   opacity: 1;
   transition: all 0.3s ease;
@@ -134,8 +180,8 @@ Text Domain: estatepartners
 .swiper-pagination-bullet-active,
 .insights-swiper .swiper-pagination-bullet-active,
 .projects-swiper .swiper-pagination-bullet-active {
-  width: 30px;
-  border-radius: 9999px;
+  width: 1.875rem;
+  border-radius: 624.9375rem;
   background: #b3814e;
 }
 
@@ -175,7 +221,7 @@ Text Domain: estatepartners
   background: #302f5a;
   color: #ffffff;
   border-color: #302f5a;
-  transform: translateY(-2px);
+  transform: translateY(-0.125rem);
 }
 
 /* ---------- Header ---------- */
@@ -199,7 +245,7 @@ Text Domain: estatepartners
 button[type="submit"].wpforms-submit {
   width: 100%;
   background-color: #302f5a !important;
-  border-radius: 8px;
+  border-radius: 0.5rem;
 }
 
 /* FAQ plus / minus icons: show only one at a time (plain CSS, independent of Tailwind variants) */
@@ -240,4 +286,45 @@ details[open] > summary .faq-minus {
 
 .js-open-enquiry-modal {
   cursor: pointer;
+}
+
+.pagination {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+    padding: 0;
+}
+
+.pagination .page-numbers {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 40px;
+    height: 40px;
+    padding: 0 12px;
+    border-radius: 8px;
+    color: #302F5A;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s;
+    gap: 8px;
+}
+
+.page-numbers a {
+    border: 1px solid #e7e2d8;
+}
+
+.pagination .page-numbers:hover {
+    border-color: #B3814E;
+    color: #B3814E;
+}
+
+.pagination .page-numbers.current {
+    background: #B3814E;
+    border-color: #B3814E;
+    color: white;
+}
+
+.pagination .page-numbers.dots {
+    border: none;
 }

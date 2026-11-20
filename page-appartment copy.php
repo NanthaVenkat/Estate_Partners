@@ -50,7 +50,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
     /* Smooth accordion animation transitions */
     .accordion-content {
         transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.25s ease-in-out;
-        max-height: 2000px;
+        max-height: 125rem;
         opacity: 1;
         overflow: hidden;
     }
@@ -196,7 +196,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div class="reveal relative order-2 lg:order-1">
                 <div class="rounded-2xl overflow-hidden">
-                    <img src="https://estatepartners.in/wp-content/uploads/2026/10/apartment-page-14.png" alt="Property agreement signing with Estate Partners guidance" class="w-full min-h-[420px] sm:min-h-[520px]" loading="lazy" />
+                    <img src="https://estatepartners.in/wp-content/uploads/2026/10/apartment-page-14.png" alt="Property agreement signing with Estate Partners guidance" class="w-full min-h-[26.25rem] sm:min-h-[32.5rem]" loading="lazy" />
                 </div>
                 <!-- <div class="absolute -bottom-6 left-5 sm:left-8 bg-ink text-white rounded-2xl px-6 py-5 shadow-xl flex items-center gap-4">
                     <span class="w-12 h-12 rounded-full bg-gold inline-flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-headset"></i></span>
@@ -247,7 +247,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
 
                 <!-- Woman (first on mobile, centre on desktop) -->
                 <div class="order-first lg:order-none lg:col-start-2 lg:row-start-1 flex justify-center self-end">
-                    <img src="https://estatepartners.in/wp-content/uploads/2026/11/apartment-page-8.png" alt="Smiling home buyer" class="max-w-[520px] h-auto object-contain block" loading="lazy" />
+                    <img src="https://estatepartners.in/wp-content/uploads/2026/11/apartment-page-8.png" alt="Smiling home buyer" class="max-w-[32.5rem] h-auto object-contain block" loading="lazy" />
                 </div>
 
                 <!-- LEFT column: text right-aligned, gold bar on the right.
@@ -305,7 +305,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
             <div class="grid lg:grid-cols-[0.8fr_1.2fr] gap-8 lg:gap-12 items-stretch">
 
                 <!-- Image: stretches to the height of the content column -->
-                <div class="rounded-3xl overflow-hidden min-h-[320px] lg:min-h-0">
+                <div class="rounded-3xl overflow-hidden min-h-[20rem] lg:min-h-0">
                     <img src="https://estatepartners.in/wp-content/uploads/2026/10/Rectangle-167.png" alt="Infinium Altitude tower" class="w-full h-full object-cover" loading="lazy" />
                 </div>
 
@@ -428,7 +428,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
 
             <div class="reveal relative">
                 <div class="rounded-2xl overflow-hidden">
-                    <img src="https://estatepartners.in/wp-content/uploads/2026/10/apartment-page-1.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[420px] object-cover" loading="lazy" />
+                    <img src="https://estatepartners.in/wp-content/uploads/2026/10/apartment-page-1.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[26.25rem] object-cover" loading="lazy" />
                 </div>
                 <!-- <div class="absolute -bottom-6 left-5 sm:left-8 bg-ink text-white rounded-2xl px-6 py-5 shadow-xl flex items-center gap-4">
                     <span class="w-12 h-12 rounded-full bg-gold inline-flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-headset"></i></span>
@@ -636,8 +636,8 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
         <div role="tabpanel" id="villa-1" aria-labelledby="tab-villa-1" hidden>
             <!-- LEVEL 2: sizes for Villa 1 -->
             <div role="tablist" data-tabs aria-label="Villa 1 sizes" class="mt-6 flex overflow-x-auto border-b border-gray-300 [scrollbar-width:none]">
-                <button type="button" role="tab" id="tab-villa-1-1" aria-controls="villa-1-1" aria-selected="true" class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2537 sq.ft ( 3.5 BHK )</button>
-                <button type="button" role="tab" id="tab-villa-1-2" aria-controls="villa-1-2" aria-selected="false" class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3764 sq.ft ( 3.5 BHK )</button>
+                <button type="button" role="tab" id="tab-villa-1-1" aria-controls="villa-1-1" aria-selected="true" class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2537 sq.ft ( 3.5 BHK )</button>
+                <button type="button" role="tab" id="tab-villa-1-2" aria-controls="villa-1-2" aria-selected="false" class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3764 sq.ft ( 3.5 BHK )</button>
             </div>
 
             <div role="tabpanel" id="villa-1-1" aria-labelledby="tab-villa-1-1" class="relative mt-5 bg-[#faf6f1] p-3 sm:p-6 rounded-sm">
@@ -654,8 +654,8 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
         <div role="tabpanel" id="villa-2" aria-labelledby="tab-villa-2" hidden>
             <!-- LEVEL 2: sizes for Villa 2 -->
             <div role="tablist" data-tabs aria-label="Villa 2 sizes" class="mt-6 flex overflow-x-auto border-b border-gray-300 [scrollbar-width:none]">
-                <button type="button" role="tab" id="tab-villa-2-1" aria-controls="villa-2-1" aria-selected="true" class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2964 sq.ft ( 3.5 BHK )</button>
-                <button type="button" role="tab" id="tab-villa-2-2" aria-controls="villa-2-2" aria-selected="false" class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3850 sq.ft ( 3.5 BHK )</button>
+                <button type="button" role="tab" id="tab-villa-2-1" aria-controls="villa-2-1" aria-selected="true" class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2964 sq.ft ( 3.5 BHK )</button>
+                <button type="button" role="tab" id="tab-villa-2-2" aria-controls="villa-2-2" aria-selected="false" class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3850 sq.ft ( 3.5 BHK )</button>
             </div>
 
             <div role="tabpanel" id="villa-2-1" aria-labelledby="tab-villa-2-1" class="relative mt-5 bg-[#faf6f1] p-3 sm:p-6 rounded-sm">
@@ -672,11 +672,11 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
         <div role="tabpanel" id="villa-3" aria-labelledby="tab-villa-3">
             <!-- LEVEL 2: sizes for Villa 3 -->
             <div role="tablist" data-tabs aria-label="Villa 3 sizes" class="mt-6 flex overflow-x-auto border-b border-gray-300 [scrollbar-width:none]">
-                <button type="button" role="tab" id="tab-villa-3-1" aria-controls="villa-3-1" aria-selected="true" class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2537 sq.ft ( 3.5 BHK )</button>
-                <button type="button" role="tab" id="tab-villa-3-2" aria-controls="villa-3-2" aria-selected="false" class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3764 sq.ft ( 3.5 BHK )</button>
-                <button type="button" role="tab" id="tab-villa-3-3" aria-controls="villa-3-3" aria-selected="false" class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2964 sq.ft ( 3.5 BHK )</button>
-                <button type="button" role="tab" id="tab-villa-3-4" aria-controls="villa-3-4" aria-selected="false" class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3850 sq.ft ( 3.5 BHK )</button>
-                <button type="button" role="tab" id="tab-villa-3-5" aria-controls="villa-3-5" aria-selected="false" class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3961 sq.ft ( 3.5 BHK )</button>
+                <button type="button" role="tab" id="tab-villa-3-1" aria-controls="villa-3-1" aria-selected="true" class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2537 sq.ft ( 3.5 BHK )</button>
+                <button type="button" role="tab" id="tab-villa-3-2" aria-controls="villa-3-2" aria-selected="false" class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3764 sq.ft ( 3.5 BHK )</button>
+                <button type="button" role="tab" id="tab-villa-3-3" aria-controls="villa-3-3" aria-selected="false" class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2964 sq.ft ( 3.5 BHK )</button>
+                <button type="button" role="tab" id="tab-villa-3-4" aria-controls="villa-3-4" aria-selected="false" class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3850 sq.ft ( 3.5 BHK )</button>
+                <button type="button" role="tab" id="tab-villa-3-5" aria-controls="villa-3-5" aria-selected="false" class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3961 sq.ft ( 3.5 BHK )</button>
             </div>
 
             <div role="tabpanel" id="villa-3-1" aria-labelledby="tab-villa-3-1" class="relative mt-5 bg-[#faf6f1] p-3 sm:p-6 rounded-sm">
@@ -708,8 +708,8 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
         <div role="tabpanel" id="villa-4" aria-labelledby="tab-villa-4" hidden>
             <!-- LEVEL 2: sizes for Villa 4 -->
             <div role="tablist" data-tabs aria-label="Villa 4 sizes" class="mt-6 flex overflow-x-auto border-b border-gray-300 [scrollbar-width:none]">
-                <button type="button" role="tab" id="tab-villa-4-1" aria-controls="villa-4-1" aria-selected="true" class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3850 sq.ft ( 3.5 BHK )</button>
-                <button type="button" role="tab" id="tab-villa-4-2" aria-controls="villa-4-2" aria-selected="false" class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3961 sq.ft ( 3.5 BHK )</button>
+                <button type="button" role="tab" id="tab-villa-4-1" aria-controls="villa-4-1" aria-selected="true" class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3850 sq.ft ( 3.5 BHK )</button>
+                <button type="button" role="tab" id="tab-villa-4-2" aria-controls="villa-4-2" aria-selected="false" class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3961 sq.ft ( 3.5 BHK )</button>
             </div>
 
             <div role="tabpanel" id="villa-4-1" aria-labelledby="tab-villa-4-1" class="relative mt-5 bg-[#faf6f1] p-3 sm:p-6 rounded-sm">
@@ -726,8 +726,8 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
         <div role="tabpanel" id="villa-5" aria-labelledby="tab-villa-5" hidden>
             <!-- LEVEL 2: sizes for Villa 5 -->
             <div role="tablist" data-tabs aria-label="Villa 5 sizes" class="mt-6 flex overflow-x-auto border-b border-gray-300 [scrollbar-width:none]">
-                <button type="button" role="tab" id="tab-villa-5-1" aria-controls="villa-5-1" aria-selected="true" class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3961 sq.ft ( 3.5 BHK )</button>
-                <button type="button" role="tab" id="tab-villa-5-2" aria-controls="villa-5-2" aria-selected="false" class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2537 sq.ft ( 3.5 BHK )</button>
+                <button type="button" role="tab" id="tab-villa-5-1" aria-controls="villa-5-1" aria-selected="true" class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3961 sq.ft ( 3.5 BHK )</button>
+                <button type="button" role="tab" id="tab-villa-5-2" aria-controls="villa-5-2" aria-selected="false" class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2537 sq.ft ( 3.5 BHK )</button>
             </div>
 
             <div role="tabpanel" id="villa-5-1" aria-labelledby="tab-villa-5-1" class="relative mt-5 bg-[#faf6f1] p-3 sm:p-6 rounded-sm">
@@ -1047,7 +1047,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
         <iframe
             title="<?php esc_attr_e('Estate Partners location map', 'vnktheme-textdomain'); ?>"
             src="<?php echo esc_url('https://maps.google.com/maps?q=' . rawurlencode($address) . '&t=&z=16&ie=UTF8&iwloc=&output=embed'); ?>"
-            class="block w-full h-[320px] sm:h-[420px] lg:h-[520px] border-0 mt-6"
+            class="block w-full h-[20rem] sm:h-[26.25rem] lg:h-[32.5rem] border-0 mt-6"
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
             allowfullscreen></iframe>
@@ -1266,7 +1266,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
 
             <div class="reveal relative">
                 <div class="rounded-2xl overflow-hidden">
-                    <img src="https://estatepartners.in/wp-content/uploads/2026/10/apartment-page-7.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[420px] object-cover" loading="lazy" />
+                    <img src="https://estatepartners.in/wp-content/uploads/2026/10/apartment-page-7.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[26.25rem] object-cover" loading="lazy" />
                 </div>
             </div>
         </div>
@@ -1336,7 +1336,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
 
             <div class="reveal relative">
                 <div class="rounded-2xl overflow-hidden">
-                    <img src="https://estatepartners.in/wp-content/uploads/2026/10/apartment-page-13.png" alt="Property agreement signing with Estate Partners guidance" class="w-full min-h-[420px] sm:min-h-[520px]" loading="lazy" />
+                    <img src="https://estatepartners.in/wp-content/uploads/2026/10/apartment-page-13.png" alt="Property agreement signing with Estate Partners guidance" class="w-full min-h-[26.25rem] sm:min-h-[32.5rem]" loading="lazy" />
                 </div>
                 <!-- <div class="absolute -bottom-6 left-5 sm:left-8 bg-ink text-white rounded-2xl px-6 py-5 shadow-xl flex items-center gap-4">
                     <span class="w-12 h-12 rounded-full bg-gold inline-flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-headset"></i></span>
@@ -1355,7 +1355,7 @@ HOME',         'text' => ' Pay the booking amount and complete the required boo
 
             <div class="reveal relative">
                 <div class="rounded-3xl overflow-hidden">
-                    <img src="https://estatepartners.in/wp-content/uploads/2026/10/apartment-page-5.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[420px] object-cover" loading="lazy" />
+                    <img src="https://estatepartners.in/wp-content/uploads/2026/10/apartment-page-5.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[26.25rem] object-cover" loading="lazy" />
                 </div>
             </div>
 

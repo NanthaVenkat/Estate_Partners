@@ -6,7 +6,7 @@
                 <div class="rounded-2xl overflow-hidden">
                     <img src="https://estatepartners.in/wp-content/uploads/2026/10/apartment-page-14.png"
                         alt="Property agreement signing with Estate Partners guidance"
-                        class="w-full min-h-[420px] sm:min-h-[520px]" loading="lazy" />
+                        class="w-full min-h-[26.25rem] sm:min-h-[32.5rem]" loading="lazy" />
                 </div>
                 <!-- <div class="absolute -bottom-6 left-5 sm:left-8 bg-ink text-white rounded-2xl px-6 py-5 shadow-xl flex items-center gap-4">
                     <span class="w-12 h-12 rounded-full bg-gold inline-flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-headset"></i></span>

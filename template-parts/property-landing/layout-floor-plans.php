@@ -14,8 +14,8 @@
     <div role="tabpanel" id="villa-1" aria-labelledby="tab-villa-1" hidden>
         <!-- LEVEL 2: sizes for Villa 1 -->
         <div role="tablist" data-tabs aria-label="Villa 1 sizes" class="mt-6 flex overflow-x-auto border-b border-gray-300 [scrollbar-width:none]">
-            <button type="button" role="tab" id="tab-villa-1-1" aria-controls="villa-1-1" aria-selected="true" class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2537 sq.ft ( 3.5 BHK )</button>
-            <button type="button" role="tab" id="tab-villa-1-2" aria-controls="villa-1-2" aria-selected="false" class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3764 sq.ft ( 3.5 BHK )</button>
+            <button type="button" role="tab" id="tab-villa-1-1" aria-controls="villa-1-1" aria-selected="true" class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2537 sq.ft ( 3.5 BHK )</button>
+            <button type="button" role="tab" id="tab-villa-1-2" aria-controls="villa-1-2" aria-selected="false" class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3764 sq.ft ( 3.5 BHK )</button>
         </div>
 
         <div role="tabpanel" id="villa-1-1" aria-labelledby="tab-villa-1-1" class="relative mt-5 bg-[#faf6f1] p-3 sm:p-6 rounded-sm">
@@ -32,8 +32,8 @@
     <div role="tabpanel" id="villa-2" aria-labelledby="tab-villa-2" hidden>
         <!-- LEVEL 2: sizes for Villa 2 -->
         <div role="tablist" data-tabs aria-label="Villa 2 sizes" class="mt-6 flex overflow-x-auto border-b border-gray-300 [scrollbar-width:none]">
-            <button type="button" role="tab" id="tab-villa-2-1" aria-controls="villa-2-1" aria-selected="true" class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2964 sq.ft ( 3.5 BHK )</button>
-            <button type="button" role="tab" id="tab-villa-2-2" aria-controls="villa-2-2" aria-selected="false" class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3850 sq.ft ( 3.5 BHK )</button>
+            <button type="button" role="tab" id="tab-villa-2-1" aria-controls="villa-2-1" aria-selected="true" class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2964 sq.ft ( 3.5 BHK )</button>
+            <button type="button" role="tab" id="tab-villa-2-2" aria-controls="villa-2-2" aria-selected="false" class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3850 sq.ft ( 3.5 BHK )</button>
         </div>
 
         <div role="tabpanel" id="villa-2-1" aria-labelledby="tab-villa-2-1" class="relative mt-5 bg-[#faf6f1] p-3 sm:p-6 rounded-sm">
@@ -50,11 +50,11 @@
     <div role="tabpanel" id="villa-3" aria-labelledby="tab-villa-3">
         <!-- LEVEL 2: sizes for Villa 3 -->
         <div role="tablist" data-tabs aria-label="Villa 3 sizes" class="mt-6 flex overflow-x-auto border-b border-gray-300 [scrollbar-width:none]">
-            <button type="button" role="tab" id="tab-villa-3-1" aria-controls="villa-3-1" aria-selected="true" class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2537 sq.ft ( 3.5 BHK )</button>
-            <button type="button" role="tab" id="tab-villa-3-2" aria-controls="villa-3-2" aria-selected="false" class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3764 sq.ft ( 3.5 BHK )</button>
-            <button type="button" role="tab" id="tab-villa-3-3" aria-controls="villa-3-3" aria-selected="false" class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2964 sq.ft ( 3.5 BHK )</button>
-            <button type="button" role="tab" id="tab-villa-3-4" aria-controls="villa-3-4" aria-selected="false" class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3850 sq.ft ( 3.5 BHK )</button>
-            <button type="button" role="tab" id="tab-villa-3-5" aria-controls="villa-3-5" aria-selected="false" class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3961 sq.ft ( 3.5 BHK )</button>
+            <button type="button" role="tab" id="tab-villa-3-1" aria-controls="villa-3-1" aria-selected="true" class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2537 sq.ft ( 3.5 BHK )</button>
+            <button type="button" role="tab" id="tab-villa-3-2" aria-controls="villa-3-2" aria-selected="false" class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3764 sq.ft ( 3.5 BHK )</button>
+            <button type="button" role="tab" id="tab-villa-3-3" aria-controls="villa-3-3" aria-selected="false" class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2964 sq.ft ( 3.5 BHK )</button>
+            <button type="button" role="tab" id="tab-villa-3-4" aria-controls="villa-3-4" aria-selected="false" class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3850 sq.ft ( 3.5 BHK )</button>
+            <button type="button" role="tab" id="tab-villa-3-5" aria-controls="villa-3-5" aria-selected="false" class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3961 sq.ft ( 3.5 BHK )</button>
         </div>
 
         <div role="tabpanel" id="villa-3-1" aria-labelledby="tab-villa-3-1" class="relative mt-5 bg-[#faf6f1] p-3 sm:p-6 rounded-sm">
@@ -86,8 +86,8 @@
     <div role="tabpanel" id="villa-4" aria-labelledby="tab-villa-4" hidden>
         <!-- LEVEL 2: sizes for Villa 4 -->
         <div role="tablist" data-tabs aria-label="Villa 4 sizes" class="mt-6 flex overflow-x-auto border-b border-gray-300 [scrollbar-width:none]">
-            <button type="button" role="tab" id="tab-villa-4-1" aria-controls="villa-4-1" aria-selected="true" class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3850 sq.ft ( 3.5 BHK )</button>
-            <button type="button" role="tab" id="tab-villa-4-2" aria-controls="villa-4-2" aria-selected="false" class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3961 sq.ft ( 3.5 BHK )</button>
+            <button type="button" role="tab" id="tab-villa-4-1" aria-controls="villa-4-1" aria-selected="true" class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3850 sq.ft ( 3.5 BHK )</button>
+            <button type="button" role="tab" id="tab-villa-4-2" aria-controls="villa-4-2" aria-selected="false" class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3961 sq.ft ( 3.5 BHK )</button>
         </div>
 
         <div role="tabpanel" id="villa-4-1" aria-labelledby="tab-villa-4-1" class="relative mt-5 bg-[#faf6f1] p-3 sm:p-6 rounded-sm">
@@ -104,8 +104,8 @@
     <div role="tabpanel" id="villa-5" aria-labelledby="tab-villa-5" hidden>
         <!-- LEVEL 2: sizes for Villa 5 -->
         <div role="tablist" data-tabs aria-label="Villa 5 sizes" class="mt-6 flex overflow-x-auto border-b border-gray-300 [scrollbar-width:none]">
-            <button type="button" role="tab" id="tab-villa-5-1" aria-controls="villa-5-1" aria-selected="true" class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3961 sq.ft ( 3.5 BHK )</button>
-            <button type="button" role="tab" id="tab-villa-5-2" aria-controls="villa-5-2" aria-selected="false" class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2537 sq.ft ( 3.5 BHK )</button>
+            <button type="button" role="tab" id="tab-villa-5-1" aria-controls="villa-5-1" aria-selected="true" class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3961 sq.ft ( 3.5 BHK )</button>
+            <button type="button" role="tab" id="tab-villa-5-2" aria-controls="villa-5-2" aria-selected="false" class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2537 sq.ft ( 3.5 BHK )</button>
         </div>
 
         <div role="tabpanel" id="villa-5-1" aria-labelledby="tab-villa-5-1" class="relative mt-5 bg-[#faf6f1] p-3 sm:p-6 rounded-sm">

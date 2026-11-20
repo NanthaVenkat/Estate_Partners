@@ -17,13 +17,13 @@ $home    = home_url('/');
 
 // Social media
 $socials = array(
-    array('label' => 'Threads',   'icon' => 'fa-threads',      'url' => 'https://www.threads.com/@estatepartners_'),
-    array('label' => 'Pinterest', 'icon' => 'fa-pinterest-p',  'url' => 'https://in.pinterest.com/estate_partners/'),
-    array('label' => 'X',         'icon' => 'fa-x-twitter',    'url' => 'https://x.com/EstatePartners_'),
     array('label' => 'Instagram', 'icon' => 'fa-instagram',    'url' => 'https://www.instagram.com/estatepartners_/'),
-    array('label' => 'YouTube',   'icon' => 'fa-youtube',      'url' => 'https://www.youtube.com/@Estate_partners'),
-    array('label' => 'LinkedIn',  'icon' => 'fa-linkedin-in',  'url' => 'https://www.linkedin.com/in/estate-partners-9950a1448/'),
     array('label' => 'Facebook',  'icon' => 'fa-facebook-f',   'url' => 'https://www.facebook.com/people/Estate-partners/61595836153932/'),
+    array('label' => 'X',         'icon' => 'fa-x-twitter',    'url' => 'https://x.com/EstatePartners_'),
+    array('label' => 'LinkedIn',  'icon' => 'fa-linkedin-in',  'url' => 'https://www.linkedin.com/in/estate-partners-9950a1448/'),
+    array('label' => 'Threads',   'icon' => 'fa-threads',      'url' => 'https://www.threads.com/@estatepartners_'),
+    array('label' => 'YouTube',   'icon' => 'fa-youtube',      'url' => 'https://www.youtube.com/@Estate_partners'),
+    array('label' => 'Pinterest', 'icon' => 'fa-pinterest-p',  'url' => 'https://in.pinterest.com/estate_partners/'),
 );
 
 get_template_part('template-parts/property-landing/floating-whatsapp');

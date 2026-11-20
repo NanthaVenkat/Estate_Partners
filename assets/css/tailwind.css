@@ -162,10 +162,10 @@
     font-weight: bolder;
   }
   :where(select:is([multiple], [size])) optgroup option {
-    padding-inline-start: 20px;
+    padding-inline-start: 1.25rem;
   }
   ::file-selector-button {
-    margin-inline-end: 4px;
+    margin-inline-end: 0.25rem;
   }
   ::placeholder {
     opacity: 1;
@@ -224,13 +224,13 @@
     position: sticky;
   }
   .inset-0 {
-    inset: 0px;
+    inset: 0;
   }
   .-top-1 {
     top: calc(var(--spacing) * -1);
   }
   .top-0 {
-    top: 0px;
+    top: 0;
   }
   .top-4 {
     top: calc(var(--spacing) * 4);
@@ -391,11 +391,11 @@
   .h-\[78vh\] {
     height: 78vh;
   }
-  .h-\[380px\] {
-    height: 380px;
+  .h-\[23.75rem\] {
+    height: 23.75rem;
   }
-  .h-\[420px\] {
-    height: 420px;
+  .h-\[26.25rem\] {
+    height: 26.25rem;
   }
   .h-auto {
     height: auto;
@@ -403,14 +403,14 @@
   .h-full {
     height: 100%;
   }
-  .max-h-\[860px\] {
-    max-height: 860px;
+  .max-h-\[53.75rem\] {
+    max-height: 53.75rem;
   }
-  .min-h-\[420px\] {
-    min-height: 420px;
+  .min-h-\[26.25rem\] {
+    min-height: 26.25rem;
   }
-  .min-h-\[540px\] {
-    min-height: 540px;
+  .min-h-\[33.75rem\] {
+    min-height: 33.75rem;
   }
   .w-5 {
     width: calc(var(--spacing) * 5);
@@ -555,7 +555,7 @@
   }
   .border-2 {
     border-style: var(--tw-border-style);
-    border-width: 2px;
+    border-width: 0.125rem;
   }
   .border-t {
     border-top-style: var(--tw-border-style);
@@ -800,11 +800,11 @@
     font-size: var(--text-xs);
     line-height: var(--tw-leading, var(--text-xs--line-height));
   }
-  .text-\[11px\] {
-    font-size: 11px;
+  .text-\[0.6875rem\] {
+    font-size: 0.6875rem;
   }
-  .text-\[15px\] {
-    font-size: 15px;
+  .text-\[0.9375rem\] {
+    font-size: 0.9375rem;
   }
   .leading-\[1\.12\] {
     --tw-leading: 1.12;
@@ -1069,11 +1069,11 @@
     .sm\:h-12 {
       height: calc(var(--spacing) * 12);
     }
-    .sm\:h-\[480px\] {
-      height: 480px;
+    .sm\:h-\[30rem\] {
+      height: 30rem;
     }
-    .sm\:h-\[520px\] {
-      height: 520px;
+    .sm\:h-\[32.5rem\] {
+      height: 32.5rem;
     }
     .sm\:grid-cols-2 {
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1421,7 +1421,7 @@
       --tw-inset-ring-color: initial;
       --tw-inset-ring-shadow: 0 0 #0000;
       --tw-ring-inset: initial;
-      --tw-ring-offset-width: 0px;
+      --tw-ring-offset-width: 0;
       --tw-ring-offset-color: #fff;
       --tw-ring-offset-shadow: 0 0 #0000;
       --tw-backdrop-blur: initial;

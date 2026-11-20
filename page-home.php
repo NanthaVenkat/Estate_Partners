@@ -16,7 +16,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
 <main id="home">
     <!-- ======================= HERO ======================= -->
     <section class="relative" aria-label="Hero">
-        <div class="swiper hero-swiper h-[78vh] min-h-[540px] max-h-[860px]">
+        <div class="swiper hero-swiper h-[78vh] min-h-[33.75rem] max-h-[53.75rem]">
             <div class="swiper-wrapper">
 
                 <!-- Slide 1 -->
@@ -42,9 +42,6 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                             ?>
 
                             <div class="mt-8 w-full max-w-3xl">
-                                <form role="search" method="get" action="<?php echo esc_url(home_url('/')); ?>">
-                                    <input type="hidden" name="post_type" value="project" />
-
                                     <!-- Tabs -->
                                     <!-- <div class="flex" role="radiogroup" aria-label="<1?php esc_attr_e('Property type', $td); ?>">
                                         <1?php $i = 0;
@@ -53,10 +50,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                                                 <input type="radio" name="property_type" id="search-type-<1?php echo esc_attr($slug); ?>"
                                                     value="<1?php echo esc_attr($slug); ?>" class="peer sr-only" <1?php checked(0 === $i); ?> />
                                                 <label for="search-type-<1?php echo esc_attr($slug); ?>"
-                                                    class="block cursor-pointer rounded-t-lg border-b-2 border-transparent bg-[#302F5A] px-5 py-3 text-sm font-semibold text-white transition-colors
-                        sm:px-8 hover:bg-[#3d3b70]
-                        peer-checked:border-[#302F5A] peer-checked:bg-white peer-checked:text-[#302F5A]
-                        peer-focus-visible:ring-2 peer-focus-visible:ring-gold">
+                                                    class="block cursor-pointer rounded-t-lg border-b-2 border-transparent bg-[#302F5A] px-5 py-3 text-sm font-semibold text-white transition-colors sm:px-8 hover:bg-[#3d3b70] peer-checked:border-[#302F5A] peer-checked:bg-white peer-checked:text-[#302F5A] peer-focus-visible:ring-2 peer-focus-visible:ring-gold">
                                                     <1?php echo esc_html($label); ?>
                                                 </label>
                                             </div>
@@ -64,41 +58,480 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                                         endforeach; ?>
                                     </div> -->
 
-                                    <!-- Search bar -->
-                                    <div class="flex flex-col gap-3 rounded-xl bg-white p-3 shadow-lg sm:flex-row sm:items-center sm:p-4">
+                                    <?php
+                                    /* =====================================================================
+ * PART 1 - functions.php  (WordPress core only: no plugins, no external API)
+ * ===================================================================== */
 
-                                        <!-- Location (fixed to Coimbatore) -->
-                                        <div class="flex items-center px-2 sm:px-4 sm:pr-6 sm:border-r sm:border-ink-line">
-                                            <span class="font-semibold text-[#444444]"><?php esc_html_e('Coimbatore', $td); ?></span>
+                                    // ---- Settings: edit these to match your site -------------------------
+                                    const EP_SEARCH_TAX        = 'property_type';                       // plots / apartments / villas taxonomy
+                                    const EP_SEARCH_META_KEYS  = array('project_location', 'project_developer'); // ACF/meta keys to search (use your real field names)
+                                    const EP_SEARCH_EXTRA_TAXES = array();                              // e.g. array('property_location') if you have a location taxonomy
+                                    const EP_LOCATION_META     = 'project_location';                    // meta key shown under each suggestion
+
+                                    /**
+                                     * Understands a natural query like "land on coimbatore" or "villa in kalapatti".
+                                     * Returns the property type it detected (taxonomy slug) and the keywords that are left.
+                                     */
+                                    function ep_parse_search($raw)
+                                    {
+                                        $raw   = mb_strtolower(wp_strip_all_tags((string) $raw));
+                                        $words = preg_split('/[^\p{L}\p{N}]+/u', $raw, -1, PREG_SPLIT_NO_EMPTY);
+
+                                        // word the visitor types => property_type slug
+                                        $type_words = array(
+                                            'land' => 'plots',
+                                            'lands' => 'plots',
+                                            'plot' => 'plots',
+                                            'plots' => 'plots',
+                                            'site' => 'plots',
+                                            'sites' => 'plots',
+                                            'layout' => 'plots',
+                                            'layouts' => 'plots',
+                                            'flat' => 'apartments',
+                                            'flats' => 'apartments',
+                                            'apartment' => 'apartments',
+                                            'apartments' => 'apartments',
+                                            'apt' => 'apartments',
+                                            'villa' => 'villas',
+                                            'villas' => 'villas',
+                                            'house' => 'villas',
+                                            'houses' => 'villas',
+                                        );
+
+                                        // filler words ignored (Coimbatore is ignored because the whole site is Coimbatore)
+                                        $stop = array(
+                                            'on',
+                                            'in',
+                                            'at',
+                                            'for',
+                                            'near',
+                                            'the',
+                                            'a',
+                                            'an',
+                                            'of',
+                                            'to',
+                                            'with',
+                                            'and',
+                                            'from',
+                                            'coimbatore',
+                                            'cbe',
+                                            'kovai',
+                                            'buy',
+                                            'sale',
+                                            'sell',
+                                            'find',
+                                            'me',
+                                            'my',
+                                            'best',
+                                            'new',
+                                            'project',
+                                            'projects',
+                                            'property',
+                                            'properties',
+                                            'residential',
+                                        );
+
+                                        $type   = '';
+                                        $tokens = array();
+                                        foreach ($words as $w) {
+                                            if (isset($type_words[$w])) {
+                                                if (!$type) {
+                                                    $type = $type_words[$w];
+                                                }
+                                                continue;
+                                            }
+                                            if (in_array($w, $stop, true)) {
+                                                continue;
+                                            }
+                                            $tokens[] = $w;
+                                        }
+
+                                        return array('type' => $type, 'tokens' => array_values(array_unique($tokens)));
+                                    }
+
+                                    /**
+                                     * Main search page: apply the parsed type + keywords.
+                                     */
+                                    add_action('pre_get_posts', function ($q) {
+                                        if (is_admin() || !$q->is_main_query() || !$q->is_search() || $q->get('post_type') !== 'project') {
+                                            return;
+                                        }
+
+                                        $p    = ep_parse_search($q->get('s'));
+                                        $type = $p['type'];
+
+                                        // no type typed? fall back to the tab chosen in the form
+                                        if (!$type && !empty($_GET[EP_SEARCH_TAX])) {
+                                            $type = sanitize_key(wp_unslash($_GET[EP_SEARCH_TAX]));
+                                        }
+
+                                        if ($type) {
+                                            $tax   = (array) $q->get('tax_query');
+                                            $tax[] = array('taxonomy' => EP_SEARCH_TAX, 'field' => 'slug', 'terms' => $type);
+                                            $q->set('tax_query', $tax);
+                                            $q->set(EP_SEARCH_TAX, ''); // avoid applying the tab twice / overriding the typed type
+                                        }
+
+                                        $q->set('ep_smart', 1);
+                                        $q->set('ep_tokens', $p['tokens']);
+                                    });
+
+                                    /**
+                                     * Replaces WordPress' default search SQL: every keyword must match
+                                     * title OR content OR excerpt OR chosen meta fields OR chosen taxonomy terms.
+                                     * "kala" matches "Kalapatti" (partial words work).
+                                     */
+                                    add_filter('posts_search', function ($search, $q) {
+                                        if (!$q->get('ep_smart')) {
+                                            return $search;
+                                        }
+
+                                        $tokens = (array) $q->get('ep_tokens');
+                                        if (!$tokens) {
+                                            return ''; // only a type / filler words, e.g. "land on coimbatore": show all of that type
+                                        }
+
+                                        global $wpdb;
+                                        $parts = array();
+
+                                        foreach ($tokens as $t) {
+                                            $like  = '%' . $wpdb->esc_like($t) . '%';
+                                            $conds = array();
+
+                                            $conds[] = $wpdb->prepare(
+                                                "({$wpdb->posts}.post_title LIKE %s OR {$wpdb->posts}.post_excerpt LIKE %s OR {$wpdb->posts}.post_content LIKE %s)",
+                                                $like,
+                                                $like,
+                                                $like
+                                            );
+
+                                            if (EP_SEARCH_META_KEYS) {
+                                                $keys    = "'" . implode("','", array_map('esc_sql', EP_SEARCH_META_KEYS)) . "'";
+                                                $conds[] = $wpdb->prepare(
+                                                    "EXISTS (SELECT 1 FROM {$wpdb->postmeta} pm WHERE pm.post_id = {$wpdb->posts}.ID AND pm.meta_key IN ($keys) AND pm.meta_value LIKE %s)",
+                                                    $like
+                                                );
+                                            }
+
+                                            if (EP_SEARCH_EXTRA_TAXES) {
+                                                $taxes   = "'" . implode("','", array_map('esc_sql', EP_SEARCH_EXTRA_TAXES)) . "'";
+                                                $conds[] = $wpdb->prepare(
+                                                    "EXISTS (SELECT 1 FROM {$wpdb->term_relationships} tr
+                    INNER JOIN {$wpdb->term_taxonomy} tt ON tt.term_taxonomy_id = tr.term_taxonomy_id
+                    INNER JOIN {$wpdb->terms} te ON te.term_id = tt.term_id
+                    WHERE tr.object_id = {$wpdb->posts}.ID AND tt.taxonomy IN ($taxes) AND te.name LIKE %s)",
+                                                    $like
+                                                );
+                                            }
+
+                                            $parts[] = '(' . implode(' OR ', $conds) . ')';
+                                        }
+
+                                        return ' AND (' . implode(' AND ', $parts) . ') ';
+                                    }, 10, 2);
+
+                                    /**
+                                     * Live suggestions endpoint (JSON). Read-only, so it is open to visitors.
+                                     */
+                                    function ep_ajax_search_suggest()
+                                    {
+                                        $raw = isset($_GET['q']) ? sanitize_text_field(wp_unslash($_GET['q'])) : '';
+                                        if (mb_strlen($raw) < 2) {
+                                            wp_send_json_success(array('items' => array(), 'all_url' => ''));
+                                        }
+
+                                        $p    = ep_parse_search($raw);
+                                        // type typed in the query wins; otherwise use the tab currently selected in the form
+                                        $type = $p['type'] ? $p['type'] : (isset($_GET['type']) ? sanitize_key(wp_unslash($_GET['type'])) : '');
+                                        $args = array(
+                                            'post_type'           => 'project',
+                                            'post_status'         => 'publish',
+                                            'posts_per_page'      => 6,
+                                            's'                   => $raw,
+                                            'ep_smart'            => 1,
+                                            'ep_tokens'           => $p['tokens'],
+                                            'no_found_rows'       => true,
+                                            'ignore_sticky_posts' => true,
+                                        );
+                                        if ($type) {
+                                            $args['tax_query'] = array(array('taxonomy' => EP_SEARCH_TAX, 'field' => 'slug', 'terms' => $type));
+                                        }
+
+                                        $query = new WP_Query($args);
+                                        $items = array();
+                                        while ($query->have_posts()) {
+                                            $query->the_post();
+                                            $terms   = get_the_terms(get_the_ID(), EP_SEARCH_TAX);
+                                            $items[] = array(
+                                                'title'    => get_the_title(),
+                                                'url'      => get_permalink(),
+                                                'type'     => ($terms && !is_wp_error($terms)) ? $terms[0]->name : '',
+                                                'location' => (string) get_post_meta(get_the_ID(), EP_LOCATION_META, true),
+                                            );
+                                        }
+                                        wp_reset_postdata();
+
+                                        $all = array('s' => $raw, 'post_type' => 'project');
+                                        if ($type) {
+                                            $all[EP_SEARCH_TAX] = $type;
+                                        }
+
+                                        wp_send_json_success(array(
+                                            'items'   => $items,
+                                            'all_url' => add_query_arg($all, home_url('/')),
+                                        ));
+                                    }
+                                    add_action('wp_ajax_ep_search_suggest', 'ep_ajax_search_suggest');
+                                    add_action('wp_ajax_nopriv_ep_search_suggest', 'ep_ajax_search_suggest');
+                                    ?>
+
+
+                                    <?php
+                                    /* =====================================================================
+ * PART 2 - template changes (only the marked lines differ from yours)
+ * ===================================================================== */
+                                    ?>
+                                    <?php
+                                    // Location chips under the search bar, per tab. Keys must match your property_type slugs.
+                                    $tab_locations = array(
+                                        'plots'      => array('Kalapatti', 'Vellalore', 'Thudiyalur', 'Sulur', 'Idikarai'),
+                                        'apartments' => array('Ganapathy', 'Saravanampatti', 'Vadavalli', 'Peelamedu', 'RS Puram'),
+                                        'villas'     => array('Kalapatti', 'Kannampalayam', 'Ramanathapuram', 'Saravanampatti'),
+                                    );
+                                    $tab_keys  = array_keys($search_tabs);          // $search_tabs is your existing array
+                                    $first_tab = $tab_keys ? $tab_keys[0] : '';
+                                    ?>
+                                    <!-- 1) <form> gets data attributes -->
+                                    <form role="search" method="get" action="<?php echo esc_url(home_url('/')); ?>"
+                                        data-suggest-url="<?php echo esc_url(admin_url('admin-ajax.php')); ?>"
+                                        data-locations="<?php echo esc_attr(wp_json_encode($tab_locations)); ?>">
+                                        <input type="hidden" name="post_type" value="project" />
+
+                                        <!-- Tabs -->
+                                        <div class="flex" role="radiogroup" aria-label="<?php esc_attr_e('Property type', $td); ?>">
+                                            <?php $i = 0;
+                                            foreach ($search_tabs as $slug => $label) : ?>
+                                                <div class="relative">
+                                                    <input type="radio" name="property_type" id="search-type-<?php echo esc_attr($slug); ?>"
+                                                        value="<?php echo esc_attr($slug); ?>" class="peer sr-only" <?php checked(0 === $i); ?> />
+                                                    <label for="search-type-<?php echo esc_attr($slug); ?>"
+                                                        class="block cursor-pointer rounded-t-lg border-b-2 border-transparent bg-[#302F5A] px-5 py-3 text-sm font-semibold text-white transition-colors sm:px-8 hover:bg-[#3d3b70] peer-checked:border-[#302F5A] peer-checked:bg-white peer-checked:text-[#302F5A] peer-focus-visible:ring-2 peer-focus-visible:ring-gold">
+                                                        <?php echo esc_html($label); ?>
+                                                    </label>
+                                                </div>
+                                            <?php $i++;
+                                            endforeach; ?>
                                         </div>
 
-                                        <!-- Input -->
-                                        <div class="flex min-w-0 flex-1 items-center gap-3 rounded-lg border border-ink-line px-4 sm:border-0 sm:px-2">
-                                            <i class="fa-solid fa-magnifying-glass text-sm text-[#6B6B6B]" aria-hidden="true"></i>
-                                            <label for="home-search" class="sr-only"><?php esc_html_e('Search by project or location', $td); ?></label>
-                                            <input id="home-search" type="search" name="s" value="<?php echo esc_attr(get_search_query()); ?>"
-                                                placeholder="<?php esc_attr_e('Search by "project"', $td); ?>"
-                                                class="w-full min-w-0 bg-transparent py-3 text-sm text-[#302F5A] placeholder:text-[#6B6B6B] focus:outline-none" />
-                                        </div>
+                                        <!-- 2) Search bar wrapper: added "relative" -->
+                                        <div class="relative flex flex-col gap-3 rounded-xl bg-white p-3 shadow-lg sm:flex-row sm:items-center sm:p-4">
 
-                                        <button type="submit"
-                                            class="inline-flex items-center justify-center rounded-lg bg-[#302F5A] px-8 py-3 font-semibold text-white transition-colors hover:bg-gold">
-                                            <?php esc_html_e('Search', $td); ?>
-                                        </button>
+                                            <!-- Location block stays the same -->
+
+                                            <div class="flex min-w-0 flex-1 items-center gap-3 rounded-lg border border-ink-line px-4 sm:border-0 sm:px-2">
+                                                <i class="fa-solid fa-magnifying-glass text-sm text-[#6B6B6B]" aria-hidden="true"></i>
+                                                <label for="home-search" class="sr-only"><?php esc_html_e('Search by project or location', $td); ?></label>
+                                                <!-- 3) input: added autocomplete / role / aria attributes -->
+                                                <input id="home-search" type="search" name="s" value="<?php echo esc_attr(get_search_query()); ?>"
+                                                    autocomplete="off" role="combobox" aria-expanded="false" aria-controls="search-suggest" aria-autocomplete="list"
+                                                    placeholder="<?php esc_attr_e('Try "land in Kalapatti" or a project name', $td); ?>"
+                                                    class="w-full min-w-0 bg-transparent py-3 text-sm text-[#302F5A] placeholder:text-[#6B6B6B] focus:outline-none" />
+                                            </div>
+
+                                            <button type="submit" class="inline-flex items-center justify-center rounded-lg bg-[#302F5A] px-8 py-3 font-semibold text-white transition-colors hover:bg-gold">
+                                                <?php esc_html_e('Search', $td); ?>
+                                            </button>
+
+                                            <!-- 4) Suggestions dropdown (new) -->
+                                            <div id="search-suggest" role="listbox" hidden
+                                                class="absolute left-0 right-0 top-full z-50 mt-2 overflow-hidden rounded-xl bg-white text-left shadow-xl ring-1 ring-black/5"></div>
+                                        </div>
+                                    </form>
+
+                                    <!-- 5) Trending searches: REPLACES your old static block. Chips change with the selected tab. -->
+                                    <!-- <div id="search-trending" class="mt-5 flex flex-wrap items-center gap-3" data-home="<;?php echo esc_url(home_url('/')); ?>">
+                                        <span class="text-sm font-semibold text-white"><;?php esc_html_e('Trending Searches:', $td); ?></span>
+                                        <span id="search-chips" class="contents">
+                                            <;?php foreach (($tab_locations[$first_tab] ?? array()) as $term) : ?>
+                                                <a href="<;?php echo esc_url(add_query_arg(array('s' => $term, 'post_type' => 'project', 'property_type' => $first_tab), home_url('/'))); ?>"
+                                                    class="inline-flex items-center gap-2 rounded-full bg-white px-5 py-2 text-sm font-medium text-[#302F5A] transition-colors hover:bg-gold hover:text-white">
+                                                    <;?php echo esc_html($term); ?>
+                                                    <i class="fa-solid fa-arrow-up-right-from-square text-[0.625rem]" aria-hidden="true"></i>
+                                                </a>
+                                            <;?php endforeach; ?>
+                                        </span>
+                                    </div> -->
+
+                                    <!-- 6) Script (new) - put it after the form / before </body> -->
+                                    <script>
+                                        document.addEventListener('DOMContentLoaded', function() {
+                                            var input = document.getElementById('home-search');
+                                            var box = document.getElementById('search-suggest');
+                                            if (!input || !box) return;
+
+                                            var form = input.form;
+                                            var url = form.dataset.suggestUrl;
+                                            var timer = null;
+                                            var ctrl = null;
+                                            var active = -1;
+
+                                            function el(tag, cls, text) {
+                                                var n = document.createElement(tag);
+                                                if (cls) n.className = cls;
+                                                if (text) n.textContent = text;
+                                                return n;
+                                            }
+
+                                            function close() {
+                                                box.hidden = true;
+                                                box.innerHTML = '';
+                                                active = -1;
+                                                input.setAttribute('aria-expanded', 'false');
+                                            }
+
+                                            function render(data) {
+                                                box.innerHTML = '';
+                                                var links = 0;
+
+                                                data.items.forEach(function(it) {
+                                                    var a = el('a', 'sg-item flex items-center justify-between gap-3 px-4 py-3 hover:bg-[#FCF7F3] text-[#302F5A]');
+                                                    a.href = it.url;
+                                                    a.setAttribute('role', 'option');
+                                                    var left = el('span', 'min-w-0');
+                                                    left.appendChild(el('span', 'block truncate text-sm font-semibold', it.title));
+                                                    if (it.location) left.appendChild(el('span', 'block truncate text-xs text-[#6B6B6B]', it.location));
+                                                    a.appendChild(left);
+                                                    if (it.type) a.appendChild(el('span', 'shrink-0 rounded-full bg-[#FCF7F3] px-3 py-1 text-xs font-medium', it.type));
+                                                    box.appendChild(a);
+                                                    links++;
+                                                });
+
+                                                if (!data.items.length) {
+                                                    box.appendChild(el('p', 'px-4 py-3 text-sm text-[#6B6B6B]', 'No matching projects. Try fewer words.'));
+                                                }
+
+                                                if (data.all_url) {
+                                                    var all = el('a', 'sg-item block border-t border-black/5 px-4 py-3 text-sm font-semibold text-gold hover:bg-[#FCF7F3]', 'See all results for "' + input.value.trim() + '"');
+                                                    all.href = data.all_url;
+                                                    box.appendChild(all);
+                                                }
+
+                                                box.hidden = false;
+                                                active = -1;
+                                                input.setAttribute('aria-expanded', 'true');
+                                            }
+
+                                            function fetchSuggestions() {
+                                                var q = input.value.trim();
+                                                if (q.length < 2) {
+                                                    close();
+                                                    return;
+                                                }
+
+                                                if (ctrl) ctrl.abort();
+                                                ctrl = new AbortController();
+
+                                                fetch(url + '?action=ep_search_suggest&type=' + encodeURIComponent(currentType()) + '&q=' + encodeURIComponent(q), {
+                                                        signal: ctrl.signal,
+                                                        credentials: 'same-origin'
+                                                    })
+                                                    .then(function(r) {
+                                                        return r.json();
+                                                    })
+                                                    .then(function(res) {
+                                                        if (res && res.success) render(res.data);
+                                                    })
+                                                    .catch(function(e) {
+                                                        if (e.name !== 'AbortError') close();
+                                                    });
+                                            }
+
+                                            input.addEventListener('input', function() {
+                                                clearTimeout(timer);
+                                                timer = setTimeout(fetchSuggestions, 250); // debounce
+                                            });
+
+                                            input.addEventListener('keydown', function(e) {
+                                                var items = box.querySelectorAll('.sg-item');
+                                                if (box.hidden || !items.length) return;
+
+                                                if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+                                                    e.preventDefault();
+                                                    active = e.key === 'ArrowDown' ? (active + 1) % items.length : (active - 1 + items.length) % items.length;
+                                                    items.forEach(function(n, i) {
+                                                        n.classList.toggle('bg-[#FCF7F3]', i === active);
+                                                    });
+                                                    items[active].scrollIntoView({
+                                                        block: 'nearest'
+                                                    });
+                                                } else if (e.key === 'Enter' && active > -1) {
+                                                    e.preventDefault();
+                                                    window.location.href = items[active].href;
+                                                } else if (e.key === 'Escape') {
+                                                    close();
+                                                }
+                                            });
+
+                                            // ---- Tabs: selected type drives the suggestions and the location chips ----
+                                            var trend = document.getElementById('search-trending');
+                                            var chips = document.getElementById('search-chips');
+                                            var locs = {};
+                                            try {
+                                                locs = JSON.parse(form.dataset.locations || '{}');
+                                            } catch (e) {}
+
+                                            function currentType() {
+                                                var r = form.querySelector('input[name="property_type"]:checked');
+                                                return r ? r.value : '';
+                                            }
+
+                                            function renderChips() {
+                                                if (!trend || !chips) return;
+                                                var type = currentType();
+                                                chips.innerHTML = '';
+                                                (locs[type] || []).forEach(function(term) {
+                                                    var u = new URL(trend.dataset.home, window.location.origin);
+                                                    u.searchParams.set('s', term);
+                                                    u.searchParams.set('post_type', 'project');
+                                                    u.searchParams.set('property_type', type);
+
+                                                    var a = el('a', 'inline-flex items-center gap-2 rounded-full bg-white px-5 py-2 text-sm font-medium text-[#302F5A] transition-colors hover:bg-gold hover:text-white', term + ' ');
+                                                    a.href = u.toString();
+                                                    var i = el('i', 'fa-solid fa-arrow-up-right-from-square text-[0.625rem]');
+                                                    i.setAttribute('aria-hidden', 'true');
+                                                    a.appendChild(i);
+                                                    chips.appendChild(a);
+                                                });
+                                            }
+
+                                            form.addEventListener('change', function(e) {
+                                                if (e.target && e.target.name === 'property_type') {
+                                                    renderChips();
+                                                    if (input.value.trim().length >= 2) fetchSuggestions();
+                                                }
+                                            });
+                                            renderChips();
+
+                                            document.addEventListener('click', function(e) {
+                                                if (!form.contains(e.target)) close();
+                                            });
+                                        });
+                                    </script>
+
+                                    <!-- Trending searches -->
+                                    <div id="search-trending" class="mt-5 flex flex-wrap items-center gap-3" data-home="<?php echo esc_url(home_url('/')); ?>">
+                                        <span class="text-sm font-semibold text-white"><?php esc_html_e('Trending Searches:', $td); ?></span>
+                                        <span id="search-chips" class="contents">
+                                            <?php foreach (($tab_locations[$first_tab] ?? array()) as $term) : ?>
+                                                <a href="<?php echo esc_url(add_query_arg(array('s' => $term, 'post_type' => 'project', 'property_type' => $first_tab), home_url('/'))); ?>"
+                                                    class="inline-flex items-center gap-2 rounded-full bg-white px-5 py-2 text-sm font-medium text-[#302F5A] transition-colors hover:bg-gold hover:text-white">
+                                                    <?php echo esc_html($term); ?>
+                                                    <i class="fa-solid fa-arrow-up-right-from-square text-[0.625rem]" aria-hidden="true"></i>
+                                                </a>
+                                            <?php endforeach; ?>
+                                        </span>
                                     </div>
-                                </form>
-
-                                <!-- Trending searches -->
-                                <!-- <div class="mt-5 flex flex-wrap items-center gap-3">
-                                    <span class="text-sm font-semibold text-white"><1?php esc_html_e('Trending Searches:', $td); ?></span>
-                                    <1?php foreach ($trending as $term) : ?>
-                                        <a href="<1?php echo esc_url(add_query_arg(array('s' => $term, 'post_type' => 'project'), home_url('/'))); ?>"
-                                            class="inline-flex items-center gap-2 rounded-full bg-white px-5 py-2 text-sm font-medium text-[#302F5A] transition-colors hover:bg-gold hover:text-white">
-                                            <1?php echo esc_html($term); ?>
-                                            <i class="fa-solid fa-arrow-up-right-from-square text-[10px]" aria-hidden="true"></i>
-                                        </a>
-                                    <1?php endforeach; ?>
-                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -171,7 +604,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div class="reveal relative order-2 lg:order-1">
                 <div class="rounded-2xl overflow-hidden shadow-xl">
-                    <img src="https://estatepartners.in/wp-content/uploads/2026/10/4_image_259.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-[420px] sm:h-[520px] object-cover" loading="lazy" />
+                    <img src="https://estatepartners.in/wp-content/uploads/2026/10/4_image_259.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-[26.25rem] sm:h-[32.5rem] object-cover" loading="lazy" />
                 </div>
                 <!-- <div class="absolute -bottom-6 left-5 sm:left-8 bg-ink text-white rounded-2xl px-6 py-5 shadow-xl flex items-center gap-4">
                     <span class="w-12 h-12 rounded-full bg-gold inline-flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-headset"></i></span>
@@ -278,7 +711,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-8">
                 <div class="reveal group bg-white rounded-2xl overflow-hidden border border-[#B3814E50] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all">
-                    <div class="overflow-hidden h-[420px]">
+                    <div class="overflow-hidden h-[26.25rem]">
                         <img src="https://estatepartners.in/wp-content/uploads/2026/10/28_rectangle_10323.png" alt="Apartment residences" class="w-full h-full object-cover" loading="lazy" />
                     </div>
                     <div class="p-7">
@@ -289,7 +722,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                 </div>
 
                 <div class="reveal group bg-white rounded-2xl overflow-hidden border border-[#B3814E50] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all">
-                    <div class="overflow-hidden h-[420px]">
+                    <div class="overflow-hidden h-[26.25rem]">
                         <img src="https://estatepartners.in/wp-content/uploads/2026/10/29_rectangle_10323.png" alt="Independent villa" class="w-full h-full object-cover" loading="lazy" />
                     </div>
                     <div class="p-7">
@@ -300,7 +733,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                 </div>
 
                 <div class="reveal group bg-white rounded-2xl overflow-hidden border border-[#B3814E50] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all">
-                    <div class="overflow-hidden h-[420px]">
+                    <div class="overflow-hidden h-[26.25rem]">
                         <img src="https://estatepartners.in/wp-content/uploads/2026/10/30_rectangle_10323.png" alt="Map showing residential plot locations" class="w-full h-full object-cover" loading="lazy" />
                     </div>
                     <div class="p-7">
@@ -553,8 +986,8 @@ $img_uri = get_template_directory_uri() . '/assets/images';
             </div>
 
             <!-- <div class="reveal relative"> -->
-            <div class="rounded-2xl overflow-hidden h-full min-h-[420px] bg-cover bg-center" style="background-image: url('https://estatepartners.in/wp-content/uploads/2026/11/guidence.png');">
-                <!-- <img src="https://estatepartners.in/wp-content/uploads/2026/11/guidence.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[420px] object-cover" loading="lazy" /> -->
+            <div class="rounded-2xl overflow-hidden h-full min-h-[26.25rem] bg-cover bg-center" style="background-image: url('https://estatepartners.in/wp-content/uploads/2026/11/guidence.png');">
+                <!-- <img src="https://estatepartners.in/wp-content/uploads/2026/11/guidence.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[26.25rem] object-cover" loading="lazy" /> -->
             </div>
             <!-- <div class="absolute -bottom-6 left-5 sm:left-8 bg-ink text-white rounded-2xl px-6 py-5 shadow-xl flex items-center gap-4">
                     <span class="w-12 h-12 rounded-full bg-gold inline-flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-headset"></i></span>
@@ -568,6 +1001,12 @@ $img_uri = get_template_directory_uri() . '/assets/images';
         </div>
     </section>
 
+    <?php
+    /* =====================================================================
+ * PART 2 - the section in your home page template
+ * ===================================================================== */
+    $init_paged = max(1, get_query_var('paged'), get_query_var('page'));
+    ?>
     <!-- ======================= STATUS / TIMELINE ======================= -->
     <section id="status" class="py-16 sm:py-20 lg:py-24 bg-[#FCF7F3] scroll-mt-24">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
@@ -579,32 +1018,114 @@ $img_uri = get_template_directory_uri() . '/assets/images';
             </div>
 
             <div class="project-tab-wrr flex flex-wrap justify-center gap-3 reveal" role="tablist" aria-label="Project category">
-                <button type="button" class="project-tab active border border-white/30 rounded-full px-8 py-2 text-sm font-semibold tracking-wider" data-target="panel-all" role="tab" aria-selected="true">All Projects</button>
-                <button type="button" class="project-tab border border-gold/30 bg-white rounded-full px-8 py-2 text-sm font-semibold tracking-wider" data-target="apartment" role="tab" aria-selected="false">Apartments</button>
-                <button type="button" class="project-tab border border-gold/30 bg-white rounded-full px-8 py-2 text-sm font-semibold tracking-wider" data-target="villas" role="tab" aria-selected="false">Villas</button>
-                <button type="button" class="project-tab border border-gold/30 bg-white rounded-full px-8 py-2 text-sm font-semibold tracking-wider" data-target="plots" role="tab" aria-selected="false">Plots</button>
+                <button type="button" class="project-tab active border border-white/30 rounded-full px-8 py-2 text-sm font-semibold tracking-wider" data-target="panel-all" data-type="all" role="tab" aria-selected="true">All Projects</button>
+                <button type="button" class="project-tab border border-gold/30 bg-white rounded-full px-8 py-2 text-sm font-semibold tracking-wider" data-target="apartment" data-type="apartment" role="tab" aria-selected="false">Apartments</button>
+                <button type="button" class="project-tab border border-gold/30 bg-white rounded-full px-8 py-2 text-sm font-semibold tracking-wider" data-target="villas" data-type="villas" role="tab" aria-selected="false">Villas</button>
+                <button type="button" class="project-tab border border-gold/30 bg-white rounded-full px-8 py-2 text-sm font-semibold tracking-wider" data-target="plots" data-type="plots" role="tab" aria-selected="false">Plots</button>
             </div>
 
-            <!-- Ongoing -->
-            <div class="project-pannel-wrr grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                <!-- Project post type -->
-                <?php
-                $properties = new WP_Query(array(
-                    'post_type' => 'project',
-                    'posts_per_page' => -1,
-                ));
-
-                if ($properties->have_posts()):
-                    while ($properties->have_posts()): $properties->the_post();
-                        get_template_part('template-parts/template-properties-card');
-                    endwhile;
-                    wp_reset_postdata();
-                endif;
-                ?>
+            <!-- Cards + pagination are (re)rendered inside this wrapper -->
+            <div id="projects-ajax" class="transition-opacity duration-200"
+                data-type="all"
+                data-ajax-url="<?php echo esc_url(admin_url('admin-ajax.php')); ?>"
+                data-nonce="<?php echo esc_attr(wp_create_nonce('ep_projects_nonce')); ?>">
+                <?php ep_render_projects($init_paged, 'all'); ?>
             </div>
-
         </div>
     </section>
+
+    <script>
+        (function() {
+            var box = document.getElementById('projects-ajax');
+            if (!box) return;
+
+            var tabs = document.querySelectorAll('#status .project-tab');
+            var busy = false;
+            var current = {
+                type: box.dataset.type || 'all',
+                page: 1
+            };
+
+            function load(type, page, keepScroll) {
+                if (busy) return;
+                busy = true;
+                box.style.opacity = '0.4';
+                box.style.pointerEvents = 'none';
+
+                var body = new URLSearchParams();
+                body.append('action', 'ep_load_projects');
+                body.append('nonce', box.dataset.nonce);
+                body.append('type', type);
+                body.append('paged', page);
+
+                fetch(box.dataset.ajaxUrl, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
+                        },
+                        body: body.toString(),
+                        credentials: 'same-origin'
+                    })
+                    .then(function(r) {
+                        return r.json();
+                    })
+                    .then(function(res) {
+                        if (!res || !res.success) throw new Error('Request failed');
+                        box.innerHTML = res.data.html;
+                        current = {
+                            type: type,
+                            page: page
+                        };
+                        box.dataset.type = type;
+
+                        // Only scroll if the top of the grid is above the viewport; no jump to page top.
+                        if (keepScroll) {
+                            var top = box.getBoundingClientRect().top;
+                            if (top < 0) {
+                                var header = 96; // match scroll-mt-24
+                                window.scrollTo({
+                                    top: window.pageYOffset + top - header,
+                                    behavior: 'smooth'
+                                });
+                            }
+                        }
+                    })
+                    .catch(function() {
+                        box.insertAdjacentHTML('beforeend', '<p class="text-center text-red-600 mt-6">Could not load projects. Please try again.</p>');
+                    })
+                    .finally(function() {
+                        box.style.opacity = '1';
+                        box.style.pointerEvents = '';
+                        busy = false;
+                    });
+            }
+
+            // Category tabs
+            tabs.forEach(function(tab) {
+                tab.addEventListener('click', function() {
+                    // Compare against our own state, not the 'active' class: another script may already have toggled it.
+                    if ((tab.dataset.type || 'all') === current.type) return;
+                    tabs.forEach(function(t) {
+                        var on = t === tab;
+                        t.classList.toggle('active', on);
+                        t.setAttribute('aria-selected', on ? 'true' : 'false');
+                    });
+                    load(tab.dataset.type || 'all', 1, false);
+                });
+            });
+
+            // Pagination links (event delegation, because the HTML is replaced on every load)
+            box.addEventListener('click', function(e) {
+                var a = e.target.closest('.pagination a.page-numbers');
+                if (!a) return;
+                e.preventDefault();
+
+                var m = a.getAttribute('href').match(/[?&]page=(\d+)/);
+                var page = m ? parseInt(m[1], 10) : (a.classList.contains('prev') ? current.page - 1 : current.page + 1);
+                load(current.type, Math.max(1, page), true);
+            });
+        })();
+    </script>
 
     <!-- ======================= GUIDENCE ======================= -->
     <?php
@@ -713,7 +1234,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
     $blog_query = new WP_Query($args);
     ?>
     <section id="blog" class="py-24 bg-brand-cream px-6">
-        <div class="max-w-[1200px] mx-auto">
+        <div class="max-w-[75rem] mx-auto">
 
             <!-- Header -->
             <div class="reveal text-center mb-6">
@@ -772,8 +1293,8 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                             <!-- Content details -->
                             <div class="p-6 flex flex-col gap-3">
 
-                                <div class="flex items-center justify-between gap-3 text-[11px] text-[#4D5461]">
-                                    <div class="mb-3 flex items-center gap-2 text-[10px] font-medium uppercase tracking-wide text-[#6B6B6B]">
+                                <div class="flex items-center justify-between gap-3 text-[0.6875rem] text-[#4D5461]">
+                                    <div class="mb-3 flex items-center gap-2 text-[0.625rem] font-medium uppercase tracking-wide text-[#6B6B6B]">
                                         <i class="fa-solid fa-user text-gold"></i>
                                         By: <span><?php the_author(); ?></span>
                                     </div>

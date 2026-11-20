@@ -44,12 +44,16 @@ get_header();
                         <article <?php post_class('overflow-hidden rounded-xl border border-[#B3814E40] bg-[#FCF7F3] shadow-sm transition-shadow hover:shadow-md'); ?>>
                             <?php if (has_post_thumbnail()) : ?>
                                 <a href="<?php the_permalink(); ?>" class="block overflow-hidden bg-[#302F5A]">
-                                    <?php the_post_thumbnail('large', array('class' => 'aspect-[4/3] w-full object-cover')); ?>
+                                    <?php the_post_thumbnail('large', array('class' => 'w-full object-cover')); ?>
                                 </a>
                             <?php endif; ?>
                             <div class="p-5">
                                 <p class="mb-2 text-xs font-semibold uppercase tracking-wide text-gold">
-                                    <?php echo esc_html('page' === get_post_type() ? __('Page', 'estatepartners') : __('Article', 'estatepartners')); ?>
+                                    <?php
+                                    $post_type = get_post_type();
+                                    $result_type = 'page' === $post_type ? __('Page', 'estatepartners') : ('project' === $post_type ? __('Project', 'estatepartners') : __('Article', 'estatepartners'));
+                                    echo esc_html($result_type);
+                                    ?>
                                 </p>
                                 <h2 class="font-prata text-xl leading-snug text-[#302F5A]">
                                     <a href="<?php the_permalink(); ?>" class="hover:text-gold"><?php the_title(); ?></a>

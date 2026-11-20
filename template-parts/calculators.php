@@ -12,7 +12,7 @@
         <!-- Slide 1 -->
         <div class="swiper-slide !h-auto">
           <div class="flex items-center gap-4 h-full rounded-lg border border-gold/50 bg-gold/10 p-4">
-            <img src="https://estatepartners.in/wp-content/uploads/2026/10/calculator-2-scaled.png" alt="" class="w-full h-full max-w-[120px] object-cover rounded-lg shrink-0">
+            <img src="https://estatepartners.in/wp-content/uploads/2026/10/calculator-2-scaled.png" alt="" class="w-full h-full max-w-[7.5rem] object-cover rounded-lg shrink-0">
             <div class="flex flex-col flex-1 min-w-0 self-stretch">
               <h3 class="text-gold font-semibold text-lg sm:text-xl leading-snug">EMI Calculator</h3>
               <p class="text-[#4D5461] text-sm sm:text-base mt-1">EMI starts at ₹ 11.27 K</p>
@@ -28,7 +28,7 @@
         <!-- Slide 2 -->
         <div class="swiper-slide !h-auto">
           <div class="flex items-center gap-4 h-full rounded-lg border border-gold/50 bg-gold/10 p-4">
-            <img src="https://estatepartners.in/wp-content/uploads/2026/10/calculator-1.png" alt="" class="w-full h-full max-w-[120px] object-cover rounded-lg shrink-0">
+            <img src="https://estatepartners.in/wp-content/uploads/2026/10/calculator-1.png" alt="" class="w-full h-full max-w-[7.5rem] object-cover rounded-lg shrink-0">
             <div class="flex flex-col flex-1 min-w-0 self-stretch">
               <h3 class="text-gold font-semibold text-lg sm:text-xl leading-snug">Stamp Duty Calculator</h3>
               <p class="text-[#4D5461] text-sm sm:text-base mt-1">Find your stamp duty &amp; registration fees</p>
@@ -44,7 +44,7 @@
         <!-- Slide 3 -->
         <div class="swiper-slide !h-auto">
           <div class="flex items-center gap-4 h-full rounded-lg border border-gold/50 bg-gold/10 p-4">
-            <img src="https://estatepartners.in/wp-content/uploads/2026/10/calculator-3.png" alt="" class="w-full h-full max-w-[120px] object-cover rounded-lg shrink-0">
+            <img src="https://estatepartners.in/wp-content/uploads/2026/10/calculator-3.png" alt="" class="w-full h-full max-w-[7.5rem] object-cover rounded-lg shrink-0">
             <div class="flex flex-col flex-1 min-w-0 self-stretch">
               <h3 class="text-gold font-semibold text-lg sm:text-xl leading-snug">Price Calculator</h3>
               <p class="text-[#4D5461] text-sm sm:text-base mt-1">Check the price of your property</p>
@@ -60,7 +60,7 @@
         <!-- Slide 4 -->
         <div class="swiper-slide !h-auto">
           <div class="flex items-center gap-4 h-full rounded-lg border border-gold/50 bg-gold/10 p-4">
-            <img src="https://estatepartners.in/wp-content/uploads/2026/10/calculator-4.png" alt="" class="w-full h-full max-w-[120px] object-cover rounded-lg shrink-0">
+            <img src="https://estatepartners.in/wp-content/uploads/2026/10/calculator-4.png" alt="" class="w-full h-full max-w-[7.5rem] object-cover rounded-lg shrink-0">
             <div class="flex flex-col flex-1 min-w-0 self-stretch">
               <h3 class="text-gold font-semibold text-lg sm:text-xl leading-snug">Tax Benefit Calculator</h3>
               <p class="text-[#4D5461] text-sm sm:text-base mt-1">Estimate your home loan tax savings</p>

@@ -26,7 +26,7 @@
                                     <span class="block text-sm text-[#131313] mt-0.5">in Ganapathy, Coimbatore</span>
                                 </span>
                                 <span
-                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[10px] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
+                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[0.625rem] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
                                         class="fa-solid fa-arrow-right"></i></span>
                             </a>
                         </li>
@@ -38,7 +38,7 @@
                                     <span class="block text-sm text-[#131313] mt-0.5">in Ganapathy, Coimbatore</span>
                                 </span>
                                 <span
-                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[10px] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
+                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[0.625rem] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
                                         class="fa-solid fa-arrow-right"></i></span>
                             </a>
                         </li>
@@ -50,7 +50,7 @@
                                     <span class="block text-sm text-[#131313] mt-0.5">in Ganapathy, Coimbatore</span>
                                 </span>
                                 <span
-                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[10px] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
+                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[0.625rem] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
                                         class="fa-solid fa-arrow-right"></i></span>
                             </a>
                         </li>
@@ -74,7 +74,7 @@
                                     <span class="block text-sm text-[#131313] mt-0.5">in Vadavalli, Coimbatore</span>
                                 </span>
                                 <span
-                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[10px] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
+                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[0.625rem] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
                                         class="fa-solid fa-arrow-right"></i></span>
                             </a>
                         </li>
@@ -86,7 +86,7 @@
                                     <span class="block text-sm text-[#131313] mt-0.5">in Vadavalli, Coimbatore</span>
                                 </span>
                                 <span
-                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[10px] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
+                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[0.625rem] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
                                         class="fa-solid fa-arrow-right"></i></span>
                             </a>
                         </li>
@@ -98,7 +98,7 @@
                                     <span class="block text-sm text-[#131313] mt-0.5">in Vadavalli, Coimbatore</span>
                                 </span>
                                 <span
-                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[10px] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
+                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[0.625rem] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
                                         class="fa-solid fa-arrow-right"></i></span>
                             </a>
                         </li>
@@ -122,7 +122,7 @@
                                     <span class="block text-sm text-[#131313] mt-0.5">in Thudiyalur, Coimbatore</span>
                                 </span>
                                 <span
-                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[10px] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
+                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[0.625rem] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
                                         class="fa-solid fa-arrow-right"></i></span>
                             </a>
                         </li>
@@ -134,7 +134,7 @@
                                     <span class="block text-sm text-[#131313] mt-0.5">in Thudiyalur, Coimbatore</span>
                                 </span>
                                 <span
-                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[10px] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
+                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[0.625rem] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
                                         class="fa-solid fa-arrow-right"></i></span>
                             </a>
                         </li>
@@ -146,7 +146,7 @@
                                     <span class="block text-sm text-[#131313] mt-0.5">in Thudiyalur, Coimbatore</span>
                                 </span>
                                 <span
-                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[10px] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
+                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[0.625rem] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
                                         class="fa-solid fa-arrow-right"></i></span>
                             </a>
                         </li>

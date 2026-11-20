@@ -106,39 +106,39 @@ $value_input = 'w-24 bg-transparent border-0 border-b border-[#9a9a9a] text-righ
         -webkit-appearance: none;
         appearance: none;
         width: 100%;
-        height: 3px;
-        margin: 14px 0;
-        border-radius: 9999px;
+        height: 0.1875rem;
+        margin: 0.875rem 0;
+        border-radius: 624.9375rem;
         outline: none;
         cursor: pointer;
         background: linear-gradient(to right, #b3814e 0, #b3814e var(--pct, 0%), #e3d2bb var(--pct, 0%), #e3d2bb 100%);
     }
 
     .emi-range::-webkit-slider-runnable-track {
-        height: 3px;
+        height: 0.1875rem;
         background: transparent;
     }
 
     .emi-range::-webkit-slider-thumb {
         -webkit-appearance: none;
-        width: 16px;
-        height: 16px;
-        margin-top: -6.5px;
-        border-radius: 9999px;
+        width: 1rem;
+        height: 1rem;
+        margin-top: -0.40625rem;
+        border-radius: 624.9375rem;
         background: #302F5A;
         border: 0;
         box-shadow: 0 0 0 3px rgba(48, 47, 90, .15);
     }
 
     .emi-range::-moz-range-track {
-        height: 3px;
+        height: 0.1875rem;
         background: transparent;
     }
 
     .emi-range::-moz-range-thumb {
-        width: 16px;
-        height: 16px;
-        border-radius: 9999px;
+        width: 1rem;
+        height: 1rem;
+        border-radius: 624.9375rem;
         background: #302F5A;
         border: 0;
         box-shadow: 0 0 0 3px rgba(48, 47, 90, .15);
@@ -160,7 +160,7 @@ $value_input = 'w-24 bg-transparent border-0 border-b border-[#9a9a9a] text-righ
     <section class="pt-10 sm:pt-12">
         <div class="<?php echo esc_attr($container); ?>">
             <h1 class="font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight"><?php echo esc_html(get_the_title() ? get_the_title() : __('Home Loan EMI Calculator', $td)); ?></h1>
-            <span class="mt-3 block h-[3px] w-14 rounded bg-gold"></span>
+            <span class="mt-3 block h-[0.1875rem] w-14 rounded bg-gold"></span>
         </div>
     </section>
 
@@ -224,7 +224,7 @@ $value_input = 'w-24 bg-transparent border-0 border-b border-[#9a9a9a] text-righ
                 <div class="text-center">
                     <h2 class="text-xl font-medium text-[#302F5A]"><?php esc_html_e('Payment Breakdown', $td); ?></h2>
 
-                    <svg id="emi-chart" class="mx-auto mt-5 w-full max-w-[260px]" viewBox="0 0 210 110" role="img" aria-label="Principal versus interest" fill="none">
+                    <svg id="emi-chart" class="mx-auto mt-5 w-full max-w-[16.25rem]" viewBox="0 0 210 110" role="img" aria-label="Principal versus interest" fill="none">
                         <path id="emi-arc-principal" d="M20 105 A85 85 0 0 1 190 105" pathLength="100" stroke="#b3814e" stroke-width="40" stroke-dasharray="50 50" />
                         <path id="emi-arc-interest" d="M20 105 A85 85 0 0 1 190 105" pathLength="100" stroke="#302F5A" stroke-width="40" stroke-dasharray="50 50" stroke-dashoffset="-50" />
                     </svg>
@@ -269,7 +269,7 @@ $value_input = 'w-24 bg-transparent border-0 border-b border-[#9a9a9a] text-righ
             <!-- How it works -->
             <div>
                 <h2 class="<?php echo esc_attr($h2); ?>"><?php esc_html_e('How Does a Home Loan EMI Calculator Work?', $td); ?></h2>
-                <span class="mt-3 block h-[3px] w-14 rounded bg-gold"></span>
+                <span class="mt-3 block h-[0.1875rem] w-14 rounded bg-gold"></span>
 
                 <p class="mt-6 <?php echo esc_attr($p); ?>"><?php esc_html_e('A home loan EMI is the amount you repay to the lender every month towards your principal and interest.', $td); ?></p>
                 <p class="mt-3 <?php echo esc_attr($p); ?>"><?php esc_html_e('Your EMI is primarily determined by three factors:', $td); ?></p>
@@ -293,7 +293,7 @@ $value_input = 'w-24 bg-transparent border-0 border-b border-[#9a9a9a] text-righ
             <!-- Tenure -->
             <div>
                 <h2 class="<?php echo esc_attr($h2); ?>"><?php esc_html_e('How Loan Tenure Affects Your Home Loan', $td); ?></h2>
-                <span class="mt-3 block h-[3px] w-14 rounded bg-gold"></span>
+                <span class="mt-3 block h-[0.1875rem] w-14 rounded bg-gold"></span>
 
                 <h3 class="mt-6 <?php echo esc_attr($h3); ?>"><?php esc_html_e('Choose the Right Loan Tenure', $td); ?></h3>
                 <p class="mt-2 <?php echo esc_attr($p); ?>"><?php esc_html_e('Your loan tenure can significantly change both your monthly EMI and the total interest you pay.', $td); ?></p>
@@ -318,7 +318,7 @@ $value_input = 'w-24 bg-transparent border-0 border-b border-[#9a9a9a] text-righ
             <!-- Factors -->
             <div>
                 <h2 class="<?php echo esc_attr($h2); ?>"><?php esc_html_e('What Factors Affect Your Home Loan EMI?', $td); ?></h2>
-                <span class="mt-3 block h-[3px] w-14 rounded bg-gold"></span>
+                <span class="mt-3 block h-[0.1875rem] w-14 rounded bg-gold"></span>
 
                 <h3 class="mt-6 <?php echo esc_attr($h3); ?>"><?php esc_html_e('Factors That Affect Your Home Loan EMI', $td); ?></h3>
                 <p class="mt-2 <?php echo esc_attr($p); ?>"><?php esc_html_e('Your monthly EMI can change based on:', $td); ?></p>
@@ -336,7 +336,7 @@ $value_input = 'w-24 bg-transparent border-0 border-b border-[#9a9a9a] text-righ
             <!-- Tips -->
             <div>
                 <h2 class="<?php echo esc_attr($h2); ?>"><?php esc_html_e('Tips to Manage Your EMI', $td); ?></h2>
-                <span class="mt-3 block h-[3px] w-14 rounded bg-gold"></span>
+                <span class="mt-3 block h-[0.1875rem] w-14 rounded bg-gold"></span>
 
                 <h3 class="mt-6 <?php echo esc_attr($h3); ?>"><?php esc_html_e('Ways to Reduce Your Home Loan EMI', $td); ?></h3>
                 <ul class="mt-2 <?php echo esc_attr($ul); ?>">
@@ -596,7 +596,7 @@ $value_input = 'w-24 bg-transparent border-0 border-b border-[#9a9a9a] text-righ
                     '</button>' +
                     '<div class="emi-year-panel px-3 pb-3 sm:px-5 sm:pb-5' + (open ? '' : ' hidden') + '">' +
                     '<div class="overflow-x-auto rounded-md border border-ink-line">' +
-                    '<table class="w-full min-w-[640px] text-sm text-left">' +
+                    '<table class="w-full min-w-[40rem] text-sm text-left">' +
                     '<thead class="bg-[#302F5A] text-white"><tr>' +
                     '<th class="px-6 py-4 font-semibold border-r border-white/20">Months</th>' +
                     '<th class="px-6 py-4 font-semibold border-r border-white/20">Principal</th>' +

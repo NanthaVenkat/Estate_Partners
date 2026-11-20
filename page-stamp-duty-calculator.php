@@ -96,41 +96,41 @@ $schema = array(
         -webkit-appearance: none;
         appearance: none;
         width: 100%;
-        height: 4px;
-        margin: 12px 0;
-        border-radius: 9999px;
+        height: 0.25rem;
+        margin: 0.75rem 0;
+        border-radius: 624.9375rem;
         outline: none;
         cursor: pointer;
         background: linear-gradient(to right, #b3814e 0, #b3814e var(--pct, 0%), rgba(255, 255, 255, .35) var(--pct, 0%), rgba(255, 255, 255, .35) 100%);
     }
 
     .sd-range::-webkit-slider-runnable-track {
-        height: 4px;
+        height: 0.25rem;
         background: transparent;
     }
 
     .sd-range::-webkit-slider-thumb {
         -webkit-appearance: none;
-        width: 22px;
-        height: 22px;
-        margin-top: -9px;
-        border-radius: 9999px;
+        width: 1.375rem;
+        height: 1.375rem;
+        margin-top: -0.5625rem;
+        border-radius: 624.9375rem;
         background: #fff;
-        border: 5px solid #b3814e;
+        border: 0.3125rem solid #b3814e;
         box-shadow: 0 0 0 3px rgba(179, 129, 78, .25);
     }
 
     .sd-range::-moz-range-track {
-        height: 4px;
+        height: 0.25rem;
         background: transparent;
     }
 
     .sd-range::-moz-range-thumb {
-        width: 12px;
-        height: 12px;
-        border-radius: 9999px;
+        width: 0.75rem;
+        height: 0.75rem;
+        border-radius: 624.9375rem;
         background: #fff;
-        border: 5px solid #b3814e;
+        border: 0.3125rem solid #b3814e;
         box-shadow: 0 0 0 3px rgba(179, 129, 78, .25);
     }
 
@@ -149,7 +149,7 @@ $schema = array(
     <section class="pt-10 sm:pt-12">
         <div class="<?php echo esc_attr($container); ?>">
             <h1 class="font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight"><?php echo esc_html(get_the_title() ? get_the_title() : __('Stamp Duty Calculator', $td)); ?></h1>
-            <span class="mt-3 block h-[3px] w-14 rounded bg-gold"></span>
+            <span class="mt-3 block h-[0.1875rem] w-14 rounded bg-gold"></span>
         </div>
     </section>
 
@@ -245,7 +245,7 @@ $schema = array(
             <!-- Intro + steps -->
             <div>
                 <h2 class="<?php echo esc_attr($h2); ?>"><?php esc_html_e('Stamp Duty Calculator', $td); ?></h2>
-                <span class="mt-3 block h-[3px] w-14 rounded bg-gold"></span>
+                <span class="mt-3 block h-[0.1875rem] w-14 rounded bg-gold"></span>
 
                 <p class="mt-6 <?php echo esc_attr($p); ?>"><?php esc_html_e('Estimate the stamp duty and registration charges payable when purchasing a plot, apartment, or villa in Tamil Nadu. Enter your property value above to get an indicative breakdown of government charges.', $td); ?></p>
 
@@ -265,7 +265,7 @@ $schema = array(
             <!-- Charges in Tamil Nadu -->
             <div>
                 <h2 class="<?php echo esc_attr($h2); ?>"><?php esc_html_e('Stamp Duty & Registration Charges in Tamil Nadu', $td); ?></h2>
-                <span class="mt-3 block h-[3px] w-14 rounded bg-gold"></span>
+                <span class="mt-3 block h-[0.1875rem] w-14 rounded bg-gold"></span>
 
                 <p class="mt-6 <?php echo esc_attr($p); ?>"><?php esc_html_e('When you purchase a property in Tamil Nadu, stamp duty and registration charges apply in addition to the property price. Stamp duty is a tax levied under the Indian Stamp Act to legally validate the transaction, while the registration fee, charged under the Registration Act, 1908, is paid to record the transaction in government land records. These rates apply uniformly across the state, including Coimbatore, and are calculated on whichever is higher: the property’s guideline value or its agreement value.', $td); ?></p>
 
@@ -310,7 +310,7 @@ $schema = array(
             <!-- Guideline value -->
             <div>
                 <h2 class="<?php echo esc_attr($h2); ?>"><?php esc_html_e('Guideline Value & Property Value: What’s the Difference?', $td); ?></h2>
-                <span class="mt-3 block h-[3px] w-14 rounded bg-gold"></span>
+                <span class="mt-3 block h-[0.1875rem] w-14 rounded bg-gold"></span>
 
                 <p class="mt-6 <?php echo esc_attr($p); ?>"><?php echo wp_kses(__('Stamp duty in Tamil Nadu is calculated on the <strong class="text-[#302F5A]">higher of two values:</strong> the guideline value (the government’s notified minimum value for a location, also called guidance value) and the value stated in the sale agreement. This means that even if you negotiate a lower price, stamp duty is still computed on the guideline value if it exceeds the agreed price.', $td), array('strong' => array('class' => array()))); ?></p>
                 <p class="mt-3 <?php echo esc_attr($p); ?>"><strong class="text-[#302F5A]"><?php esc_html_e('Tip:', $td); ?></strong> <?php esc_html_e('Guideline values vary by locality and are revised periodically by the Tamil Nadu government. Check the applicable guideline value for your property’s specific location on TNREGINET before finalizing your budget — it may differ from the market price you’re quoted.', $td); ?></p>
@@ -319,7 +319,7 @@ $schema = array(
             <!-- Other costs -->
             <div>
                 <h2 class="<?php echo esc_attr($h2); ?>"><?php esc_html_e('Other Costs to Consider When Buying a Property', $td); ?></h2>
-                <span class="mt-3 block h-[3px] w-14 rounded bg-gold"></span>
+                <span class="mt-3 block h-[0.1875rem] w-14 rounded bg-gold"></span>
 
                 <p class="mt-6 <?php echo esc_attr($p); ?>"><?php esc_html_e('Stamp duty and registration charges are a significant part of your purchase cost, but not the only one. Depending on the property and transaction type, you should also budget for:', $td); ?></p>
                 <ul class="mt-3 list-disc pl-6 space-y-1 <?php echo esc_attr($p); ?>">
@@ -333,7 +333,7 @@ $schema = array(
             <!-- Before you register -->
             <div>
                 <h2 class="<?php echo esc_attr($h2); ?>"><?php esc_html_e('Before You Register Your Property', $td); ?></h2>
-                <span class="mt-3 block h-[3px] w-14 rounded bg-gold"></span>
+                <span class="mt-3 block h-[0.1875rem] w-14 rounded bg-gold"></span>
 
                 <p class="mt-6 <?php echo esc_attr($p); ?>"><?php esc_html_e('Use the Stamp Duty Calculator to estimate your registration expenses before finalizing a property purchase. Understanding these charges upfront helps you plan your total budget accurately.', $td); ?></p>
                 <a href="#stamp-calculator" class="mt-4 inline-flex items-center gap-2 font-semibold text-[#302F5A] hover:text-gold transition-colors"><?php esc_html_e('Calculate Your Stamp Duty & Registration Charges', $td); ?> <i class="fa-solid fa-arrow-right text-xs" aria-hidden="true"></i></a>

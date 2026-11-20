@@ -7,7 +7,7 @@
                 <div class="rounded-3xl overflow-hidden">
                     <img src="https://estatepartners.in/wp-content/uploads/2026/10/apartment-page-5.png"
                         alt="Property agreement signing with Estate Partners guidance"
-                        class="w-full h-full min-h-[420px] object-cover" loading="lazy" />
+                        class="w-full h-full min-h-[26.25rem] object-cover" loading="lazy" />
                 </div>
             </div>
 

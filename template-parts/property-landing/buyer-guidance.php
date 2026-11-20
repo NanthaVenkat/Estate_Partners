@@ -49,8 +49,8 @@
                 </div>
             </div>
 
-            <div class="reveal relative rounded-2xl overflow-hidden h-full min-h-[420px] bg-cover bg-center" style="background-image: url('https://estatepartners.in/wp-content/uploads/2026/10/apartment-page-7.png');">
-                <!-- <img src="https://estatepartners.in/wp-content/uploads/2026/10/apartment-page-7.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[420px] object-cover" loading="lazy" /> -->
+            <div class="reveal relative rounded-2xl overflow-hidden h-full min-h-[26.25rem] bg-cover bg-center" style="background-image: url('https://estatepartners.in/wp-content/uploads/2026/10/apartment-page-7.png');">
+                <!-- <img src="https://estatepartners.in/wp-content/uploads/2026/10/apartment-page-7.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[26.25rem] object-cover" loading="lazy" /> -->
             </div>
         </div>
     </section>

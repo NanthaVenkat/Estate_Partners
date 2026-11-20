@@ -16,10 +16,8 @@ get_header();
 <main id="primary" class="site-main bg-white">
     <?php while (have_posts()) : the_post(); ?>
         <article <?php post_class('py-10 sm:py-16'); ?>>
-            <div class="max-w-[1440px] mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-                <div class="grid items-start gap-10 lg:grid-cols-[minmax(0,1fr)_320px] lg:gap-12">
-                    <div class="min-w-0">
-                        <nav class="mb-8 text-sm text-[#6B6B6B]" aria-label="<?php esc_attr_e('Breadcrumb', 'estatepartners'); ?>">
+            <div class="max-w-[90rem] mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+                <nav class="mb-8 text-sm text-[#6B6B6B]" aria-label="<?php esc_attr_e('Breadcrumb', 'estatepartners'); ?>">
                             <a href="<?php echo esc_url(home_url('/')); ?>" class="hover:text-gold"><?php esc_html_e('Home', 'estatepartners'); ?></a>
                             <span class="mx-2" aria-hidden="true">/</span>
                             <?php
@@ -31,8 +29,7 @@ get_header();
                                 <span><?php esc_html_e('Blog', 'estatepartners'); ?></span>
                             <?php endif; ?>
                         </nav>
-
-                        <?php
+                <?php
                         $categories = get_the_category();
                         if ($categories) :
                         ?>
@@ -44,14 +41,16 @@ get_header();
                         <h1 class="font-prata text-3xl leading-tight text-[#302F5A] sm:text-4xl lg:text-5xl">
                             <?php the_title(); ?>
                         </h1>
-                        <div class="mt-5 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-[#6B6B6B]">
+                        <div class="mt-5 mb-5 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-[#6B6B6B]">
                             <span><?php the_author(); ?></span>
                             <time datetime="<?php echo esc_attr(get_the_date(DATE_W3C)); ?>"><?php echo esc_html(get_the_date()); ?></time>
                         </div>
+                <div class="grid items-start gap-10 lg:grid-cols-[minmax(0,1fr)_20rem] lg:gap-12">
+                    <div class="min-w-0">
 
                         <?php if (has_post_thumbnail()) : ?>
                             <figure class="mt-8 overflow-hidden rounded-2xl">
-                                <?php the_post_thumbnail('large', array('class' => 'h-auto max-h-[560px] w-full object-cover')); ?>
+                                <?php the_post_thumbnail('large', array('class' => 'h-auto max-h-[35rem] w-full object-cover')); ?>
                             </figure>
                         <?php endif; ?>
 
@@ -85,7 +84,7 @@ get_header();
                             .blog-content a {
                                 color: #b3814e;
                                 text-decoration: underline;
-                                text-underline-offset: 3px;
+                                text-underline-offset: 0.1875rem;
                             }
 
                             .blog-content ul,
@@ -102,7 +101,7 @@ get_header();
                             }
 
                             .blog-content blockquote {
-                                border-left: 3px solid #b3814e;
+                                border-left: 0.1875rem solid #b3814e;
                                 color: #302f5a;
                                 padding-left: 1rem;
                             }
@@ -133,10 +132,25 @@ get_header();
                         );
                         ?>
 
+                        <?php
+                        $back_url   = home_url('/blog/');
+                        $back_label = __('Back to Blog', 'estatepartners');
+
+                        if (! empty($categories) && $categories[0]->slug !== 'uncategorized') {
+                            $primary_cat = $categories[0];
+                            $cat_link    = get_category_link($primary_cat->term_id);
+
+                            if (! is_wp_error($cat_link)) {
+                                $back_url   = $cat_link;
+                                /* translators: %s: Category name */
+                                $back_label = sprintf(__('Back to %s', 'estatepartners'), $primary_cat->name);
+                            }
+                        }
+                        ?>
                         <div class="mt-10 border-t border-ink-line pt-6">
-                            <a href="https://estatepartners.in/blog/" class="inline-flex items-center gap-2 text-sm font-semibold text-gold hover:text-[#302F5A]">
+                            <a href="<?php echo esc_url($back_url); ?>" class="inline-flex items-center gap-2 text-sm font-semibold text-gold hover:text-[#302F5A]">
                                 <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
-                                <?php esc_html_e('Back to Blog', 'estatepartners'); ?>
+                                <?php echo esc_html($back_label); ?>
                             </a>
                         </div>
                     </div><!-- /left column -->
@@ -182,11 +196,11 @@ get_header();
                         <div class="rounded-2xl border border-gold/30 bg-[#FCF7F3] p-6 mt-6">
                             <h2 class="font-prata text-xl text-[#302F5A]"><?php esc_html_e('Our Projects', 'estatepartners'); ?></h2>
 
-                            <ul class="mt-5 space-y-5">
-                                <li><a href="https://estatepartners.in/all-projects/" class="group flex items-center gap-4">All Projects</a></li>
-                                <li><a href="https://estatepartners.in/apartments/" class="group flex items-center gap-4">Apartments</a></li>
-                                <li><a href="https://estatepartners.in/plots/" class="group flex items-center gap-4">Plots</a></li>
-                                <li><a href="https://estatepartners.in/villas/" class="group flex items-center gap-4">Villas</a></li>
+                            <ul class="mt-5 space-y-2">
+                                <li><a href="https://estatepartners.in/all-projects/" class="group flex items-center gap-4 font-semibold leading-snug text-[#302F5A] hover:text-gold">All Projects</a></li>
+                                <li><a href="https://estatepartners.in/apartments/" class="group flex items-center gap-4 font-semibold leading-snug text-[#302F5A] hover:text-gold">Apartments</a></li>
+                                <li><a href="https://estatepartners.in/plots/" class="group flex items-center gap-4 font-semibold leading-snug text-[#302F5A] hover:text-gold">Plots</a></li>
+                                <li><a href="https://estatepartners.in/villas/" class="group flex items-center gap-4 font-semibold leading-snug text-[#302F5A] hover:text-gold">Villas</a></li>
                             </ul>
                         </div>
 

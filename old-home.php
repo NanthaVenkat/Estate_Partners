@@ -6,7 +6,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
 <main id="home">
     <!-- ======================= HERO ======================= -->
     <section class="relative" aria-label="Hero">
-        <div class="swiper hero-swiper h-[78vh] min-h-[540px] max-h-[860px]">
+        <div class="swiper hero-swiper h-[78vh] min-h-[33.75rem] max-h-[53.75rem]">
             <div class="swiper-wrapper">
 
                 <!-- Slide 1 -->
@@ -88,7 +88,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div class="reveal relative order-2 lg:order-1">
                 <div class="rounded-2xl overflow-hidden shadow-xl">
-                    <img src="https://estatepartners.in/wp-content/uploads/2026/10/4_image_259.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-[420px] sm:h-[520px] object-cover" loading="lazy" />
+                    <img src="https://estatepartners.in/wp-content/uploads/2026/10/4_image_259.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-[26.25rem] sm:h-[32.5rem] object-cover" loading="lazy" />
                 </div>
                 <!-- <div class="absolute -bottom-6 left-5 sm:left-8 bg-ink text-white rounded-2xl px-6 py-5 shadow-xl flex items-center gap-4">
                     <span class="w-12 h-12 rounded-full bg-gold inline-flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-headset"></i></span>
@@ -229,7 +229,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-8">
                 <div class="reveal group bg-white rounded-2xl overflow-hidden border border-[#B3814E50] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all">
-                    <div class="overflow-hidden h-[420px]">
+                    <div class="overflow-hidden h-[26.25rem]">
                         <img src="https://estatepartners.in/wp-content/uploads/2026/10/28_rectangle_10323.png" alt="Apartment residences" class="w-full h-full object-cover" loading="lazy" />
                     </div>
                     <div class="p-7">
@@ -240,7 +240,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                 </div>
 
                 <div class="reveal group bg-white rounded-2xl overflow-hidden border border-[#B3814E50] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all">
-                    <div class="overflow-hidden h-[420px]">
+                    <div class="overflow-hidden h-[26.25rem]">
                         <img src="https://estatepartners.in/wp-content/uploads/2026/10/29_rectangle_10323.png" alt="Independent villa" class="w-full h-full object-cover" loading="lazy" />
                     </div>
                     <div class="p-7">
@@ -251,7 +251,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
                 </div>
 
                 <div class="reveal group bg-white rounded-2xl overflow-hidden border border-[#B3814E50] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all">
-                    <div class="overflow-hidden h-[420px]">
+                    <div class="overflow-hidden h-[26.25rem]">
                         <img src="https://estatepartners.in/wp-content/uploads/2026/10/30_rectangle_10323.png" alt="Map showing residential plot locations" class="w-full h-full object-cover" loading="lazy" />
                     </div>
                     <div class="p-7">
@@ -503,7 +503,7 @@ $img_uri = get_template_directory_uri() . '/assets/images';
 
             <div class="reveal relative">
                 <div class="rounded-2xl overflow-hidden">
-                    <img src="https://estatepartners.in/wp-content/uploads/2026/10/4_image_259.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[420px] object-cover" loading="lazy" />
+                    <img src="https://estatepartners.in/wp-content/uploads/2026/10/4_image_259.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[26.25rem] object-cover" loading="lazy" />
                 </div>
                 <!-- <div class="absolute -bottom-6 left-5 sm:left-8 bg-ink text-white rounded-2xl px-6 py-5 shadow-xl flex items-center gap-4">
                     <span class="w-12 h-12 rounded-full bg-gold inline-flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-headset"></i></span>

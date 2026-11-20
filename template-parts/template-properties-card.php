@@ -1,4 +1,9 @@
 <?php
+/**
+ * template-parts/template-properties-card.php
+ * Same design as before. The only change: <article> now carries data-* attributes the filter reads.
+ */
+
 // Get ACF fields
 $image       = get_field('property_image');
 $name        = get_field('property_name');
@@ -8,6 +13,7 @@ $price       = get_field('property_price');
 $number      = get_field('contact_number');
 $verified    = get_field('verified_button');
 $page_link   = get_field('property_page');
+$amenity_list = get_field('property_amenities'); // optional checkbox field (see acf-amenities-field.json)
 
 // Get subfields from group
 $total_units_title = !empty($details['units_title']) ? $details['units_title'] : 'Units';
@@ -33,15 +39,29 @@ $is_target_template = (
     is_page_template('page-villas.php') ||
     is_page_template('page-plots.php')
 );
+
+/* ---------- Filter data (read by project-filters.js) ---------- */
+$parsed     = ep_parse_price_text($price);
+$area       = ep_card_area($location);
+$cents      = ($target_class === 'plots' && !empty($details['size'])) ? ep_parse_cents($details['size']) : null;
+$amen_attr  = is_array($amenity_list) ? implode('|', array_map('wp_strip_all_tags', $amenity_list)) : '';
 ?>
 
-<article class="project-pannel relative bg-white rounded-2xl hover:border-gold/60 transition-colors shadow-lg" data-target="<?php echo esc_attr($target_class); ?>">
+<article class="project-pannel relative bg-white rounded-2xl hover:border-gold/60 transition-colors shadow-lg"
+    data-target="<?php echo esc_attr($target_class); ?>"
+    data-location="<?php echo esc_attr(sanitize_title($area)); ?>"
+    data-location-label="<?php echo esc_attr($area); ?>"
+    data-bhk="<?php echo esc_attr(implode(',', $parsed['bhk'])); ?>"
+    data-price="<?php echo esc_attr($parsed['price'] !== null ? $parsed['price'] : ''); ?>"
+    data-cents-min="<?php echo esc_attr($cents ? $cents['min'] : ''); ?>"
+    data-cents-max="<?php echo esc_attr($cents ? $cents['max'] : ''); ?>"
+    data-amenities="<?php echo esc_attr($amen_attr); ?>">
 
     <!-- Prime Location Badge -->
     <?php if ($is_target_template): ?>
         <div class="-left-4 absolute top-45 z-10">
             <p class="rounded-e-lg rounded-tl-lg py-2 px-4 bg-[#302F5A] text-white font-semibold">Prime location</p>
-            <div class="-top-0.5 left-0.5 relative w-0 h-0 border-l-[10px] border-l-transparent border-t-[10px] border-t-[#1B1B32] border-r-[10px] border-r-transparent -rotate-135">
+            <div class="-top-0.5 left-0.5 relative w-0 h-0 border-l-[0.625rem] border-l-transparent border-t-[0.625rem] border-t-[#1B1B32] border-r-[0.625rem] border-r-transparent -rotate-135">
             </div>
         </div>
     <?php endif; ?>

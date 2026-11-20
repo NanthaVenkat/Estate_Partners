@@ -204,19 +204,19 @@ $articles = new WP_Query($article_args);
                                 <?php endif; ?>
                             </a>
                             <div class="p-4">
-                                <div class="mb-3 flex items-center gap-2 text-[10px] font-medium uppercase tracking-wide text-[#6B6B6B]">
+                                <div class="mb-3 flex items-center gap-2 text-[0.625rem] font-medium uppercase tracking-wide text-[#6B6B6B]">
                                     <i class="fa-regular fa-user text-gold" aria-hidden="true"></i>
                                     <span><?php the_author(); ?></span>
                                     <span aria-hidden="true">·</span>
                                     <time datetime="<?php echo esc_attr(get_the_date(DATE_W3C)); ?>"><?php echo esc_html(get_the_date()); ?></time>
                                 </div>
-                                <p class="mb-2 text-[10px] font-semibold uppercase tracking-wide text-gold"><?php echo esc_html($category_name); ?></p>
+                                <p class="mb-2 text-[0.625rem] font-semibold uppercase tracking-wide text-gold"><?php echo esc_html($category_name); ?></p>
                                 <h3 class="font-prata text-sm leading-snug text-[#B3814E]">
                                     <a href="<?php the_permalink(); ?>" class="hover:text-[#302F5A]">
                                         <?php the_title(); ?>
                                     </a>
                                 </h3>
-                                <div class="mt-4 flex items-center justify-between gap-3 border-t border-[#B3814E30] pt-3 text-[10px] font-semibold uppercase tracking-wide text-gold">
+                                <div class="mt-4 flex items-center justify-between gap-3 border-t border-[#B3814E30] pt-3 text-[0.625rem] font-semibold uppercase tracking-wide text-gold">
                                     <time datetime="<?php echo esc_attr(get_the_date(DATE_W3C)); ?>"><?php echo esc_html(get_the_date('M j, Y')); ?></time>
                                     <a href="<?php the_permalink(); ?>" class="hover:text-[#302F5A]"><?php esc_html_e('Read more', 'estatepartners'); ?></a>
                                 </div>

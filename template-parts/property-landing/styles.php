@@ -2,7 +2,7 @@
     /* Smooth accordion animation transitions */
     .accordion-content {
         transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.25s ease-in-out;
-        max-height: 2000px;
+        max-height: 125rem;
         opacity: 1;
         overflow: hidden;
     }

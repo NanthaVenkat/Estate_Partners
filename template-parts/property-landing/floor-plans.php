@@ -48,19 +48,19 @@
                 <div role="tablist" data-tabs aria-label="2 BHK sizes"
                     class="mt-6 flex overflow-x-auto border-b border-gray-300 [scrollbar-width:none]">
                     <button type="button" role="tab" id="tab-bhk-2-1" aria-controls="bhk-2-1" aria-selected="true"
-                        class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2537
+                        class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2537
                         sq.ft ( 2 BHK )</button>
                     <button type="button" role="tab" id="tab-bhk-2-2" aria-controls="bhk-2-2" aria-selected="false"
-                        class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3764
+                        class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3764
                         sq.ft ( 2 BHK )</button>
                     <button type="button" role="tab" id="tab-bhk-2-3" aria-controls="bhk-2-3" aria-selected="false"
-                        class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2964
+                        class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2964
                         sq.ft ( 2 BHK )</button>
                     <button type="button" role="tab" id="tab-bhk-2-4" aria-controls="bhk-2-4" aria-selected="false"
-                        class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3850
+                        class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3850
                         sq.ft ( 2 BHK )</button>
                     <button type="button" role="tab" id="tab-bhk-2-5" aria-controls="bhk-2-5" aria-selected="false"
-                        class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3961
+                        class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3961
                         sq.ft ( 2 BHK )</button>
                 </div>
 
@@ -105,10 +105,10 @@
                 <div role="tablist" data-tabs aria-label="3 BHK sizes"
                     class="mt-6 flex overflow-x-auto border-b border-gray-300 [scrollbar-width:none]">
                     <button type="button" role="tab" id="tab-bhk-3-1" aria-controls="bhk-3-1" aria-selected="true"
-                        class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2137
+                        class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2137
                         sq.ft ( 3 BHK )</button>
                     <button type="button" role="tab" id="tab-bhk-3-2" aria-controls="bhk-3-2" aria-selected="false"
-                        class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2250
+                        class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2250
                         sq.ft ( 3 BHK )</button>
                 </div>
 
@@ -132,10 +132,10 @@
                 <div role="tablist" data-tabs aria-label="3.5 BHK sizes"
                     class="mt-6 flex overflow-x-auto border-b border-gray-300 [scrollbar-width:none]">
                     <button type="button" role="tab" id="tab-bhk-35-1" aria-controls="bhk-35-1" aria-selected="true"
-                        class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2537
+                        class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2537
                         sq.ft ( 3.5 BHK )</button>
                     <button type="button" role="tab" id="tab-bhk-35-2" aria-controls="bhk-35-2" aria-selected="false"
-                        class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2600
+                        class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">2600
                         sq.ft ( 3.5 BHK )</button>
                 </div>
 
@@ -159,7 +159,7 @@
                 <div role="tablist" data-tabs aria-label="4 BHK sizes"
                     class="mt-6 flex overflow-x-auto border-b border-gray-300 [scrollbar-width:none]">
                     <button type="button" role="tab" id="tab-bhk-4-1" aria-controls="bhk-4-1" aria-selected="true"
-                        class="flex-1 min-w-[170px] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3332
+                        class="flex-1 min-w-[10.625rem] px-3 py-3 text-xs text-[#444444] border-b-2 border-transparent -mb-px transition-colors aria-selected:border-gold aria-selected:text-[#302F5A] aria-selected:font-semibold">3332
                         sq.ft ( 4 BHK )</button>
                 </div>
 

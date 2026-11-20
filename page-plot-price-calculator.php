@@ -138,7 +138,7 @@ $field = 'w-full h-12 rounded-md bg-white text-[#444444] text-sm outline-none fo
     <section class="pt-10 sm:pt-12">
         <div class="<?php echo esc_attr($container); ?>">
             <h1 class="font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight"><?php echo esc_html(get_the_title() ? get_the_title() : __('Plot Price Calculator', $td)); ?></h1>
-            <span class="mt-3 block h-[3px] w-14 rounded bg-gold"></span>
+            <span class="mt-3 block h-[0.1875rem] w-14 rounded bg-gold"></span>
         </div>
     </section>
 
@@ -222,7 +222,7 @@ $field = 'w-full h-12 rounded-md bg-white text-[#444444] text-sm outline-none fo
             <!-- Area & measurement guide -->
             <div>
                 <h2 class="<?php echo esc_attr($h2); ?>"><?php esc_html_e('Plot Area & Measurement Guide', $td); ?></h2>
-                <span class="mt-3 block h-[3px] w-14 rounded bg-gold"></span>
+                <span class="mt-3 block h-[0.1875rem] w-14 rounded bg-gold"></span>
 
                 <h3 class="mt-6 <?php echo esc_attr($h3); ?>"><?php esc_html_e('Understand Your Plot Size', $td); ?></h3>
                 <p class="mt-2 <?php echo esc_attr($p); ?>"><?php echo wp_kses(__('Plot measurements are commonly expressed in <strong class="text-[#302F5A]">sq. ft., cents, sq. yards, sq. metres and acres.</strong> Use the calculator above to convert between units and understand the total area of your plot.', $td), array('strong' => array('class' => array()))); ?></p>
@@ -255,7 +255,7 @@ $field = 'w-full h-12 rounded-md bg-white text-[#444444] text-sm outline-none fo
             <!-- How to calculate plot price -->
             <div>
                 <h2 class="<?php echo esc_attr($h2); ?>"><?php esc_html_e('How to Calculate Plot Price', $td); ?></h2>
-                <span class="mt-3 block h-[3px] w-14 rounded bg-gold"></span>
+                <span class="mt-3 block h-[0.1875rem] w-14 rounded bg-gold"></span>
 
                 <h3 class="mt-6 <?php echo esc_attr($h3); ?>"><?php esc_html_e('Calculate the Total Cost of Your Plot', $td); ?></h3>
                 <p class="mt-2 <?php echo esc_attr($p); ?>"><?php echo wp_kses(__('The total plot price depends on the <strong class="text-[#302F5A]">plot area and price per unit.</strong>', $td), array('strong' => array('class' => array()))); ?></p>
@@ -277,13 +277,13 @@ $field = 'w-full h-12 rounded-md bg-white text-[#444444] text-sm outline-none fo
             <!-- Plot size guide -->
             <div>
                 <h2 class="<?php echo esc_attr($h2); ?>"><?php esc_html_e('Plot Size Guide', $td); ?></h2>
-                <span class="mt-3 block h-[3px] w-14 rounded bg-gold"></span>
+                <span class="mt-3 block h-[0.1875rem] w-14 rounded bg-gold"></span>
 
                 <h3 class="mt-6 <?php echo esc_attr($h3); ?>"><?php esc_html_e('What Can You Build on Different Plot Sizes?', $td); ?></h3>
 
                 <div class="mt-4 max-w-3xl overflow-hidden rounded-lg border border-ink-line">
                     <div class="overflow-x-auto">
-                        <table class="w-full min-w-[480px] text-sm text-center">
+                        <table class="w-full min-w-[30rem] text-sm text-center">
                             <thead class="bg-[#302F5A] text-white">
                                 <tr>
                                     <th scope="col" class="<?php echo esc_attr($th); ?>"><?php esc_html_e('Plot Size', $td); ?></th>
@@ -310,7 +310,7 @@ $field = 'w-full h-12 rounded-md bg-white text-[#444444] text-sm outline-none fo
             <!-- Buying cost -->
             <div>
                 <h2 class="<?php echo esc_attr($h2); ?>"><?php esc_html_e('Plot Buying Cost – What Should You Budget?', $td); ?></h2>
-                <span class="mt-3 block h-[3px] w-14 rounded bg-gold"></span>
+                <span class="mt-3 block h-[0.1875rem] w-14 rounded bg-gold"></span>
 
                 <h3 class="mt-6 <?php echo esc_attr($h3); ?>"><?php esc_html_e('More Than Just the Plot Price', $td); ?></h3>
                 <p class="mt-2 <?php echo esc_attr($p); ?>"><?php esc_html_e('When buying a residential plot, the total acquisition cost can include more than the quoted plot price. Depending on the project and transaction, buyers may need to consider:', $td); ?></p>

@@ -183,7 +183,7 @@ $faqs = array(
     <section class="<?php echo esc_attr($section); ?>">
         <div class="<?php echo esc_attr($container); ?> grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div class="reveal rounded-2xl overflow-hidden shadow-xl">
-                <img src="https://estatepartners.in/wp-content/uploads/2026/10/about-us-2.png" alt="<?php esc_attr_e('Estate Partners helping buyers make confident property decisions', $td); ?>" class="w-full h-[360px] sm:h-[460px] object-cover" loading="lazy" />
+                <img src="https://estatepartners.in/wp-content/uploads/2026/10/about-us-2.png" alt="<?php esc_attr_e('Estate Partners helping buyers make confident property decisions', $td); ?>" class="w-full h-[22.5rem] sm:h-[28.75rem] object-cover" loading="lazy" />
             </div>
             <div class="reveal <?php echo esc_attr($body); ?>">
                 <p class="<?php echo esc_attr($eyebrow); ?>"><?php esc_html_e('Who We Are', $td); ?></p>
@@ -210,7 +210,7 @@ $faqs = array(
                     <path d="M150 100 C 300 320, 700 320, 850 100" stroke="#302F5A" stroke-width="1.5" stroke-dasharray="2 6" stroke-linecap="round" />
                 </svg> -->
 
-                <img src="https://estatepartners.in/wp-content/uploads/2026/11/about-beam.svg" alt="" class="absolute left-0 -top-12 h-[360px] w-full">
+                <img src="https://estatepartners.in/wp-content/uploads/2026/11/about-beam.svg" alt="" class="absolute left-0 -top-12 h-[22.5rem] w-full">
 
                 <!-- Nodes -->
                 <span class="absolute left-[30%] top-[35.8%] -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-full bg-[#302F5A] text-white inline-flex items-center justify-center text-2xl shadow-lg"><i class="fa-solid <?php echo esc_attr($vmo['vision']['icon']); ?>"></i></span>
@@ -259,7 +259,7 @@ $faqs = array(
     <section class="<?php echo esc_attr($section); ?>">
         <div class="<?php echo esc_attr($container); ?> grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div class="reveal rounded-2xl overflow-hidden shadow-xl">
-                <img src="https://estatepartners.in/wp-content/uploads/2026/10/about-us-1.png" alt="<?php esc_attr_e('Handing over the keys to a new home', $td); ?>" class="w-full h-[360px] sm:h-[520px] object-cover" loading="lazy" />
+                <img src="https://estatepartners.in/wp-content/uploads/2026/10/about-us-1.png" alt="<?php esc_attr_e('Handing over the keys to a new home', $td); ?>" class="w-full h-[22.5rem] sm:h-[32.5rem] object-cover" loading="lazy" />
             </div>
             <div class="reveal">
                 <p class="<?php echo esc_attr($eyebrow); ?>"><?php esc_html_e('Estate Partners', $td); ?></p>
@@ -324,7 +324,7 @@ $faqs = array(
                 <div class="swiper-wrapper">
                     <?php foreach ($projects as $project) : ?>
                         <div class="swiper-slide !h-auto">
-                            <a href="<?php echo esc_url($project['url']); ?>" class="group relative block rounded-lg overflow-hidden h-[260px] sm:h-[300px]">
+                            <a href="<?php echo esc_url($project['url']); ?>" class="group relative block rounded-lg overflow-hidden h-[16.25rem] sm:h-[18.75rem]">
                                 <img src="<?php echo esc_url($project['img']); ?>" alt="<?php echo esc_attr($project['title']); ?>" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
                                 <span class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent"></span>
                                 <span class="absolute left-5 bottom-5 text-white font-semibold text-base sm:text-lg"><?php echo esc_html($project['title']); ?><i class="fa-solid fa-arrow-right text-sm ml-3"></i></span>
@@ -433,7 +433,7 @@ $faqs = array(
             </div>
 
             <div class="reveal hidden lg:flex justify-center items-end self-end">
-                <img src="<?php echo esc_url($a . 'faq-person.png'); ?>" alt="" class="max-h-[640px] w-auto object-contain object-bottom" loading="lazy" />
+                <img src="<?php echo esc_url($a . 'faq-person.png'); ?>" alt="" class="max-h-[40rem] w-auto object-contain object-bottom" loading="lazy" />
             </div>
         </div>
     </section>

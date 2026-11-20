@@ -50,7 +50,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
     /* Smooth accordion animation transitions */
     .accordion-content {
         transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.25s ease-in-out;
-        max-height: 2000px;
+        max-height: 125rem;
         opacity: 1;
         overflow: hidden;
     }
@@ -198,7 +198,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div class="reveal relative order-2 lg:order-1">
                 <div class="rounded-2xl overflow-hidden">
-                    <img src="https://estatepartners.in/wp-content/uploads/2026/11/aara-enclave-6.png" alt="Property agreement signing with Estate Partners guidance" class="w-full min-h-[420px] sm:min-h-[520px]" loading="lazy" />
+                    <img src="https://estatepartners.in/wp-content/uploads/2026/11/aara-enclave-6.png" alt="Property agreement signing with Estate Partners guidance" class="w-full min-h-[26.25rem] sm:min-h-[32.5rem]" loading="lazy" />
                 </div>
                 <!-- <div class="absolute -bottom-6 left-5 sm:left-8 bg-ink text-white rounded-2xl px-6 py-5 shadow-xl flex items-center gap-4">
                     <span class="w-12 h-12 rounded-full bg-gold inline-flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-headset"></i></span>
@@ -249,7 +249,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
 
                 <!-- Woman (first on mobile, centre on desktop) -->
                 <div class="order-first lg:order-none lg:col-start-2 lg:row-start-1 flex justify-center self-end">
-                    <img src="https://estatepartners.in/wp-content/uploads/2026/11/apartment-page-8.png" alt="Smiling home buyer" class="max-w-[520px] h-auto object-contain block" loading="lazy" />
+                    <img src="https://estatepartners.in/wp-content/uploads/2026/11/apartment-page-8.png" alt="Smiling home buyer" class="max-w-[32.5rem] h-auto object-contain block" loading="lazy" />
                 </div>
 
                 <!-- LEFT column: text right-aligned, gold bar on the right.
@@ -312,7 +312,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
             <div class="grid lg:grid-cols-[0.8fr_1.2fr] gap-8 lg:gap-12 items-stretch">
 
                 <!-- Image: stretches to the height of the content column -->
-                <div class="rounded-3xl overflow-hidden min-h-[320px] lg:min-h-0">
+                <div class="rounded-3xl overflow-hidden min-h-[20rem] lg:min-h-0">
                     <img src="https://estatepartners.in/wp-content/uploads/2026/11/aara-enclave-16.png" alt="Aara enclave tower" class="w-full h-full object-cover" loading="lazy" />
                 </div>
 
@@ -435,7 +435,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
 
             <div class="reveal relative">
                 <div class="rounded-2xl overflow-hidden">
-                    <img src="https://estatepartners.in/wp-content/uploads/2026/11/aara-enclave-7.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[420px] object-cover" loading="lazy" />
+                    <img src="https://estatepartners.in/wp-content/uploads/2026/11/aara-enclave-7.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[26.25rem] object-cover" loading="lazy" />
                 </div>
                 <!-- <div class="absolute -bottom-6 left-5 sm:left-8 bg-ink text-white rounded-2xl px-6 py-5 shadow-xl flex items-center gap-4">
                     <span class="w-12 h-12 rounded-full bg-gold inline-flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-headset"></i></span>
@@ -680,7 +680,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
             <p class="reveal mt-3 text-center text-sm text-[#444444]">Aara Enclave is strategically situated in Kalapatti, one of Coimbatore’s rapidly developing residential and commercial hubs. Its proximity to major IT parks, educational institutions, and healthcare facilities makes it an ideal choice for both homeowners and investors.</p>
         </div>
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d4644.755859975757!2d77.02221!3d11.063585!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTHCsDAzJzQ5LjQiTiA3N8KwMDEnMjkuMyJF!5e1!3m2!1sen!2sin!4v1794394948275!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" class="block w-full h-[320px] sm:h-[420px] lg:h-[520px] border-0 mt-6"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d4644.755859975757!2d77.02221!3d11.063585!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTHCsDAzJzQ5LjQiTiA3N8KwMDEnMjkuMyJF!5e1!3m2!1sen!2sin!4v1794394948275!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" class="block w-full h-[20rem] sm:h-[26.25rem] lg:h-[32.5rem] border-0 mt-6"></iframe>
     </section>
 
     <!-- ======================= PROCESS (Swiper) ======================= -->
@@ -904,8 +904,8 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                 </div>
             </div>
 
-            <div class="reveal relative rounded-2xl overflow-hidden h-full min-h-[420px] bg-cover bg-center" style="background-image: url('https://estatepartners.in/wp-content/uploads/2026/10/apartment-page-7.png');">
-                <!-- <img src="https://estatepartners.in/wp-content/uploads/2026/10/apartment-page-7.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[420px] object-cover" loading="lazy" /> -->
+            <div class="reveal relative rounded-2xl overflow-hidden h-full min-h-[26.25rem] bg-cover bg-center" style="background-image: url('https://estatepartners.in/wp-content/uploads/2026/10/apartment-page-7.png');">
+                <!-- <img src="https://estatepartners.in/wp-content/uploads/2026/10/apartment-page-7.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[26.25rem] object-cover" loading="lazy" /> -->
             </div>
         </div>
     </section>
@@ -956,7 +956,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
 
             <div class="reveal relative">
                 <div class="rounded-2xl overflow-hidden">
-                    <img src="https://estatepartners.in/wp-content/uploads/2026/11/aara-enclave-5.png" alt="Property agreement signing with Estate Partners guidance" class="w-full min-h-[420px] sm:min-h-[520px]" loading="lazy" />
+                    <img src="https://estatepartners.in/wp-content/uploads/2026/11/aara-enclave-5.png" alt="Property agreement signing with Estate Partners guidance" class="w-full min-h-[26.25rem] sm:min-h-[32.5rem]" loading="lazy" />
                 </div>
                 <!-- <div class="absolute -bottom-6 left-5 sm:left-8 bg-ink text-white rounded-2xl px-6 py-5 shadow-xl flex items-center gap-4">
                     <span class="w-12 h-12 rounded-full bg-gold inline-flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-headset"></i></span>
@@ -974,8 +974,8 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
             <div class="reveal relative h-full">
-                <div class="reveal relative rounded-2xl overflow-hidden h-full min-h-[420px] bg-cover bg-center" style="background-image: url('https://estatepartners.in/wp-content/uploads/2026/10/apartment-page-5.png');">
-                    <!-- <img src="https://estatepartners.in/wp-content/uploads/2026/10/apartment-page-5.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[420px] object-cover" loading="lazy" /> -->
+                <div class="reveal relative rounded-2xl overflow-hidden h-full min-h-[26.25rem] bg-cover bg-center" style="background-image: url('https://estatepartners.in/wp-content/uploads/2026/10/apartment-page-5.png');">
+                    <!-- <img src="https://estatepartners.in/wp-content/uploads/2026/10/apartment-page-5.png" alt="Property agreement signing with Estate Partners guidance" class="w-full h-full min-h-[26.25rem] object-cover" loading="lazy" /> -->
                 </div>
             </div>
 
@@ -1077,7 +1077,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                                     <span class="block text-sm text-[#131313] mt-0.5">in Ganapathy, Coimbatore</span>
                                 </span>
                                 <span
-                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[10px] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
+                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[0.625rem] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
                                         class="fa-solid fa-arrow-right"></i></span>
                             </a>
                         </li>
@@ -1089,7 +1089,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                                     <span class="block text-sm text-[#131313] mt-0.5">in Ganapathy, Coimbatore</span>
                                 </span>
                                 <span
-                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[10px] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
+                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[0.625rem] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
                                         class="fa-solid fa-arrow-right"></i></span>
                             </a>
                         </li>
@@ -1101,7 +1101,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                                     <span class="block text-sm text-[#131313] mt-0.5">in Ganapathy, Coimbatore</span>
                                 </span>
                                 <span
-                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[10px] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
+                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[0.625rem] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
                                         class="fa-solid fa-arrow-right"></i></span>
                             </a>
                         </li>
@@ -1125,7 +1125,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                                     <span class="block text-sm text-[#131313] mt-0.5">in Vadavalli, Coimbatore</span>
                                 </span>
                                 <span
-                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[10px] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
+                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[0.625rem] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
                                         class="fa-solid fa-arrow-right"></i></span>
                             </a>
                         </li>
@@ -1137,7 +1137,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                                     <span class="block text-sm text-[#131313] mt-0.5">in Vadavalli, Coimbatore</span>
                                 </span>
                                 <span
-                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[10px] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
+                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[0.625rem] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
                                         class="fa-solid fa-arrow-right"></i></span>
                             </a>
                         </li>
@@ -1149,7 +1149,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                                     <span class="block text-sm text-[#131313] mt-0.5">in Vadavalli, Coimbatore</span>
                                 </span>
                                 <span
-                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[10px] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
+                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[0.625rem] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
                                         class="fa-solid fa-arrow-right"></i></span>
                             </a>
                         </li>
@@ -1173,7 +1173,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                                     <span class="block text-sm text-[#131313] mt-0.5">in Thudiyalur, Coimbatore</span>
                                 </span>
                                 <span
-                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[10px] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
+                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[0.625rem] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
                                         class="fa-solid fa-arrow-right"></i></span>
                             </a>
                         </li>
@@ -1185,7 +1185,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                                     <span class="block text-sm text-[#131313] mt-0.5">in Thudiyalur, Coimbatore</span>
                                 </span>
                                 <span
-                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[10px] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
+                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[0.625rem] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
                                         class="fa-solid fa-arrow-right"></i></span>
                             </a>
                         </li>
@@ -1197,7 +1197,7 @@ PLOT',         'text' => 'Pay the booking amount and complete the required booki
                                     <span class="block text-sm text-[#131313] mt-0.5">in Thudiyalur, Coimbatore</span>
                                 </span>
                                 <span
-                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[10px] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
+                                    class="w-6 h-6 shrink-0 rounded-full bg-[#302F5A] text-white text-[0.625rem] inline-flex items-center justify-center group-hover:bg-gold transition-colors"><i
                                         class="fa-solid fa-arrow-right"></i></span>
                             </a>
                         </li>

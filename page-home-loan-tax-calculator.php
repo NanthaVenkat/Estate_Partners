@@ -131,7 +131,7 @@ $field = 'w-full h-12 rounded-md bg-white text-[#444444] text-sm pl-10 pr-5 outl
     <section class="pt-10 sm:pt-12">
         <div class="<?php echo esc_attr($container); ?>">
             <h1 class="font-prata text-[#302F5A] text-3xl sm:text-4xl leading-tight"><?php echo esc_html(get_the_title() ? get_the_title() : __('Home Loan Tax Benefit Calculator', $td)); ?></h1>
-            <span class="mt-3 block h-[3px] w-14 rounded bg-gold"></span>
+            <span class="mt-3 block h-[0.1875rem] w-14 rounded bg-gold"></span>
         </div>
     </section>
 
@@ -200,7 +200,7 @@ $field = 'w-full h-12 rounded-md bg-white text-[#444444] text-sm pl-10 pr-5 outl
             <!-- How it works -->
             <div>
                 <h2 class="<?php echo esc_attr($h2); ?>"><?php esc_html_e('How Home Loan Tax Benefits Work?', $td); ?></h2>
-                <span class="mt-3 block h-[3px] w-14 rounded bg-gold"></span>
+                <span class="mt-3 block h-[0.1875rem] w-14 rounded bg-gold"></span>
 
                 <p class="mt-6 <?php echo esc_attr($p); ?>"><?php esc_html_e('Two main deductions are relevant to most home loans:', $td); ?></p>
                 <ul class="mt-3 <?php echo esc_attr($ul); ?>">
@@ -216,7 +216,7 @@ $field = 'w-full h-12 rounded-md bg-white text-[#444444] text-sm pl-10 pr-5 outl
 
                 <div class="mt-6 overflow-hidden rounded-lg border border-ink-line">
                     <div class="overflow-x-auto">
-                        <table class="w-full min-w-[640px] text-sm text-center">
+                        <table class="w-full min-w-[40rem] text-sm text-center">
                             <thead class="bg-[#302F5A] text-white">
                                 <tr>
                                     <th scope="col" class="<?php echo esc_attr($th); ?>"><?php esc_html_e('Tax Benefit', $td); ?></th>
@@ -243,7 +243,7 @@ $field = 'w-full h-12 rounded-md bg-white text-[#444444] text-sm pl-10 pr-5 outl
             <!-- How the calculator estimates -->
             <div>
                 <h2 class="<?php echo esc_attr($h2); ?>"><?php esc_html_e('How This Calculator Estimates Your Tax', $td); ?></h2>
-                <span class="mt-3 block h-[3px] w-14 rounded bg-gold"></span>
+                <span class="mt-3 block h-[0.1875rem] w-14 rounded bg-gold"></span>
 
                 <p class="mt-6 <?php echo esc_attr($p); ?>"><?php esc_html_e('The calculator compares your income tax with and without the home-loan deductions, using old tax regime slab rates:', $td); ?></p>
 

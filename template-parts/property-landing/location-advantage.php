@@ -3,7 +3,7 @@
             <div class="grid lg:grid-cols-[0.8fr_1.2fr] gap-8 lg:gap-12 items-stretch">
 
                 <!-- Image: stretches to the height of the content column -->
-                <div class="rounded-3xl overflow-hidden min-h-[320px] lg:min-h-0">
+                <div class="rounded-3xl overflow-hidden min-h-[20rem] lg:min-h-0">
                     <img src="https://estatepartners.in/wp-content/uploads/2026/10/Rectangle-167.png"
                         alt="Infinium Altitude tower" class="w-full h-full object-cover" loading="lazy" />
                 </div>

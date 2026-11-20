@@ -112,22 +112,22 @@ $blog_url     = $blog_page_id ? get_permalink($blog_page_id) : $home . 'blog/';
 
         /* WordPress admin bar (only visible when logged in) */
         .admin-bar #site-header {
-            top: 32px;
+            top: 2rem;
         }
 
         .admin-bar #mobile-menu {
-            top: 32px;
-            height: calc(100dvh - 32px);
+            top: 2rem;
+            height: calc(100dvh - 2rem);
         }
 
         @media (max-width: 782px) {
             .admin-bar #site-header {
-                top: 46px;
+                top: 2.875rem;
             }
 
             .admin-bar #mobile-menu {
-                top: 46px;
-                height: calc(100dvh - 46px);
+                top: 2.875rem;
+                height: calc(100dvh - 2.875rem);
             }
         }
 
@@ -151,7 +151,7 @@ $blog_url     = $blog_page_id ? get_permalink($blog_page_id) : $home . 'blog/';
             top: 0;
             right: 0;
             width: 85%;
-            max-width: 400px;
+            max-width: 25rem;
             height: 100vh;
             height: 100dvh;
             background: #fff;
@@ -220,22 +220,22 @@ $blog_url     = $blog_page_id ? get_permalink($blog_page_id) : $home . 'blog/';
             transform: rotate(180deg);
         }
 
-        /* Hamburger -> X.  Bars are 2px tall with a 6px gap, so centres are 8px apart. */
+        /* Hamburger -> X. Bars are 0.125rem tall with a 0.375rem gap, so centres are 0.5rem apart. */
         #menu-btn {
-            gap: 6px;
+            gap: 0.375rem;
         }
 
         #menu-btn span {
             display: block;
-            width: 22px;
-            height: 2px;
+            width: 1.375rem;
+            height: 0.125rem;
             background: currentColor;
-            border-radius: 2px;
+            border-radius: 0.125rem;
             transition: transform .3s ease, opacity .2s ease;
         }
 
         #menu-btn.active span:nth-child(1) {
-            transform: translateY(8px) rotate(45deg);
+            transform: translateY(0.5rem) rotate(45deg);
         }
 
         #menu-btn.active span:nth-child(2) {
@@ -243,7 +243,7 @@ $blog_url     = $blog_page_id ? get_permalink($blog_page_id) : $home . 'blog/';
         }
 
         #menu-btn.active span:nth-child(3) {
-            transform: translateY(-8px) rotate(-45deg);
+            transform: translateY(-0.5rem) rotate(-45deg);
         }
 
         /* Enquiry modal animation */
@@ -439,11 +439,11 @@ $blog_url     = $blog_page_id ? get_permalink($blog_page_id) : $home . 'blog/';
                     aria-label="<?php echo esc_attr(get_bloginfo('name')); ?> home">
                     <img src="<?php echo esc_url($logo_url); ?>"
                         alt="<?php echo esc_attr(get_bloginfo('name')); ?> logo"
-                        class="h-10 sm:h-12 w-auto object-contain" />
+                        class="h-10 xl:h-12 w-auto object-contain" />
                 </a>
 
                 <!-- Desktop nav -->
-                <nav class="hidden lg:flex items-center gap-6 xl:gap-8 text-[15px] font-medium" aria-label="Primary">
+                <nav class="hidden lg:flex items-center gap-6 xl:gap-8 text-[0.9375rem] font-medium" aria-label="Primary">
                     <a href="<?php echo esc_url($home); ?>"
                         class="nav-link <?php echo is_front_page() ? 'active' : ''; ?> hover:text-gold transition-colors"
                         <?php echo is_front_page() ? 'aria-current="page"' : ''; ?>>Home</a>
@@ -458,7 +458,7 @@ $blog_url     = $blog_page_id ? get_permalink($blog_page_id) : $home . 'blog/';
                             class="nav-link inline-flex items-center gap-2 hover:text-gold transition-colors <?php echo $is_projects_section ? 'active' : ''; ?>"
                             aria-haspopup="true" aria-expanded="false" aria-controls="projects-dropdown">
                             Ongoing Projects
-                            <i class="fa-solid fa-chevron-down text-[10px] transition-transform group-data-[open=true]:rotate-180" aria-hidden="true"></i>
+                            <i class="fa-solid fa-chevron-down text-[0.625rem] transition-transform group-data-[open=true]:rotate-180" aria-hidden="true"></i>
                         </button>
 
                         <div id="projects-dropdown" data-dropdown-panel
@@ -534,7 +534,7 @@ $blog_url     = $blog_page_id ? get_permalink($blog_page_id) : $home . 'blog/';
                 </button>
 
                 <div id="modalCard"
-                    class="scale-95 opacity-0 bg-white rounded-2xl md:rounded-3xl shadow-2xl overflow-hidden grid grid-cols-1 md:grid-cols-2 md:min-h-[480px]">
+                    class="scale-95 opacity-0 bg-white rounded-2xl md:rounded-3xl shadow-2xl overflow-hidden grid grid-cols-1 md:grid-cols-2 md:min-h-[30rem]">
                     <div class="relative hidden md:block bg-gray-900 overflow-hidden">
                         <img src="<?php echo esc_url($modal_img); ?>"
                             alt="Real Estate Planning & Checklist" class="w-full h-full object-cover object-center"
